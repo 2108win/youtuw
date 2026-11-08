@@ -8,9 +8,9 @@
 | Rà soát bảo mật độc lập ([security-review.md](security-review.md)) + sửa các điểm chặn | ✅ Xong (xem bảng trong tệp đó) |
 | Chạy thử bản Store trong Chrome 156 (profile tạm, headless) | ✅ Không có lỗi JS (chi tiết bên dưới) |
 | ZIP + SHA-256 | ✅ Xem "Gói phát hành" |
-| Tải lên Developer Dashboard | ⏳ Chưa: phải làm tay (xem "Các bước gửi") |
-| Gửi duyệt (Submit for review) | ⏳ Chưa |
-| Được duyệt / công khai trên Store | ⏳ Chưa (chỉ coi là xong khi thấy trạng thái trên Dashboard) |
+| Tải lên Developer Dashboard | ✅ Item ID `dijncihikjgbogahcbllbpldalnfkdfg` (Dashboard cảnh báo duyệt kỹ vì `<all_urls>`; chọn gửi luôn) |
+| Gửi duyệt (Submit for review) | ✅ Theo người dùng báo ngày 08/11/2026 (chưa xem trực tiếp trạng thái trên Dashboard) |
+| Được duyệt / công khai trên Store | ⏳ Chưa. Ngày 08/11/2026, https://chromewebstore.google.com/detail/dijncihikjgbogahcbllbpldalnfkdfg chuyển sang `/detail/empty-title/…`, tức chưa có listing công khai |
 
 ## Các bước gửi (bạn tự làm trong Chrome)
 
