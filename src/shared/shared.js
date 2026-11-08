@@ -132,6 +132,7 @@
       ['path', { d: 'M7.5 10.5L12 15l4.5-4.5' }],
       ['path', { d: 'M4.5 19.5h15' }],
     ],
+    // #full-start
     video: [
       ['rect', { x: 2.5, y: 6, width: 13.5, height: 12, rx: 2 }],
       ['path', { d: 'M16 10.5l5.5-3.2v9.4L16 13.5' }],
@@ -141,6 +142,7 @@
       ['circle', { cx: 6.5, cy: 17.5, r: 2.5 }],
       ['circle', { cx: 17.5, cy: 15.3, r: 2.5 }],
     ],
+    // #full-end
     image: [
       ['rect', { x: 3, y: 4.5, width: 18, height: 15, rx: 2 }],
       ['circle', { cx: 8.5, cy: 9.5, r: 1.7 }],
@@ -193,12 +195,14 @@
       ['path', { d: 'M4 9.5h3.5L12 6v12l-4.5-3.5H4z' }],
       ['path', { d: 'M16 9.5l5 5M21 9.5l-5 5' }],
     ],
+    // #full-start
     stream: [
       ['path', { d: 'M5 12a7 7 0 0 1 14 0' }],
       ['path', { d: 'M8.5 12a3.5 3.5 0 0 1 7 0' }],
       ['circle', { cx: 12, cy: 15.5, r: 1.6 }],
       ['path', { d: 'M12 17.1V21' }],
     ],
+    // #full-end
   });
 
   const SVG_NS = 'http://www.w3.org/2000/svg';
@@ -220,6 +224,7 @@
     return svg;
   }
 
+  // #full-start
   // ---- Tải về: định dạng số liệu & mô tả tiến độ (dùng chung cho popup và trình phát) ----------
   const fmt = {
     bytes(n) {
@@ -238,7 +243,6 @@
     },
   };
 
-  // #full-start
   const STAGES = {
     Merger: 'Đang ghép hình và tiếng…',
     ExtractAudio: 'Đang chuyển định dạng âm thanh…',
@@ -330,6 +334,6 @@
   });
   // #full-end
   /* #store-start
-  globalThis.YTX_SHARED = Object.freeze({ DEFAULTS, LABELS, SHORTCUTS, ICONS, createIcon, fmt, pipInTab });
+  globalThis.YTX_SHARED = Object.freeze({ DEFAULTS, LABELS, SHORTCUTS, ICONS, createIcon, pipInTab });
   #store-end */
 })();

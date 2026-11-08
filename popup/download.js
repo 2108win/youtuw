@@ -58,15 +58,17 @@
     tab: null,
     pageUrl: '',
     pageTitle: '',
+    scan: null,
+    selected: new Set(),
+    // #full-start
     target: null,     // video đang chọn: { url, referer, title }
     entries: null,    // trang có nhiều video: danh sách từ bộ tải
     info: null,
     mode: 'video',
     hostOk: false,
-    scan: null,
     media: [],
-    selected: new Set(),
     jobs: new Map(),
+    // #full-end
   };
 
   // ---- Tiện ích ------------------------------------------------------------------------

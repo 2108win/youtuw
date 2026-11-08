@@ -13,8 +13,10 @@
     glowStrength: { toUi: (v) => Math.round(v * 100), fromUi: (v) => v / 100 },
     glowSize: { toUi: (v) => v, fromUi: (v) => v },
   };
-  // Bản Store không có ô dlCookies -> chỉ lấy các ô có trong popup.
-  const TOGGLES = ['glow', 'keepTransform', 'playerButtons', 'shortcuts', 'dlCookies', 'autoPip'].filter((id) => $(id));
+  const TOGGLES = ['glow', 'keepTransform', 'playerButtons', 'shortcuts', 'autoPip'];
+  // #full-start
+  TOGGLES.push('dlCookies');
+  // #full-end
 
   // ---- Dựng giao diện tĩnh ----------------------------------------------------
   for (const el of document.querySelectorAll('[data-icon]')) el.append(createIcon(el.dataset.icon));

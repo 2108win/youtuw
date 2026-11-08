@@ -28,8 +28,17 @@ if (!['store', 'full'].includes(edition)) {
 }
 const ZIP = flags.includes('--zip');
 
-// Chỉ đóng gói đúng các phần của extension (không có native-host, tài liệu, công cụ).
-const INCLUDE = ['manifest.json', 'icons', 'popup', 'src', 'LICENSE'];
+// Bản Store: chỉ các phần của extension. Bản đầy đủ: thêm bộ tải trên máy (không gồm các tệp riêng tư
+// config.json, host.bat, com.cinematools.downloader.json, host.log mà install.bat tự tạo) và tài liệu.
+const EXTENSION_FILES = ['manifest.json', 'icons', 'popup', 'src', 'LICENSE'];
+const INCLUDE = {
+  store: EXTENSION_FILES,
+  full: [
+    ...EXTENSION_FILES,
+    'native-host/host.py', 'native-host/install.py', 'native-host/install.bat', 'native-host/uninstall.bat',
+    'README.md', 'PRIVACY.md',
+  ],
+}[edition];
 
 // Bản Store: bỏ quyền chỉ dùng cho tải video / âm thanh.
 const STORE_DROP_PERMISSIONS = new Set(['nativeMessaging', 'cookies', 'webRequest']);

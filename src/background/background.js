@@ -22,6 +22,8 @@ const CONTAINERS = new Set(['mp4', 'webm', 'mkv']);
 const AUDIO_FORMATS = new Set(['mp3', 'm4a', 'opus']);
 // #full-end
 const IMAGE_FORMATS = new Set(['original', 'png', 'jpeg', 'webp']);
+// Đường dự phòng "lưu bản gốc" chỉ dành cho tệp ảnh (không để trang web cài .mp4 / .exe vào danh sách ảnh).
+const IMAGE_EXTS = new Set(['jpg', 'jfif', 'png', 'gif', 'webp', 'avif', 'bmp', 'svg', 'tif', 'tiff', 'ico', 'heic', 'jxl']);
 
 // ---- Tiện ích ------------------------------------------------------------------------
 /** Tên tệp an toàn cho chrome.downloads (không ký tự cấm, không tên dành riêng của Windows). */
@@ -430,11 +432,11 @@ async function downloadOneImage(item, format, quality, folder) {
   }
   // Không tự tải được (máy chủ chặn...): để trình duyệt tải bản gốc như bấm "Lưu ảnh".
   const fallback = candidates[candidates.length - 1];
-  if (format === 'original' && isHttpUrl(fallback)) {
-    const ext = extFromUrl(fallback);
-    const opts = { url: fallback, conflictAction: 'uniquify' };
-    if (ext) opts.filename = buildFilename(folder, item.name, ext);
-    await chrome.downloads.download(opts);
+  const ext = extFromUrl(fallback);
+  if (format === 'original' && isHttpUrl(fallback) && IMAGE_EXTS.has(ext)) {
+    await chrome.downloads.download({
+      url: fallback, filename: buildFilename(folder, item.name, ext), conflictAction: 'uniquify',
+    });
     return;
   }
   throw new Error((res && res.error) || 'Không tải được ảnh');
@@ -873,8 +875,19 @@ const HANDLERS = {
   'shot:done': ({ id }) => ({ ok: shots.delete(id) }),
 };
 
+// Content script (chạy trong trang web) chỉ được gọi vài lệnh; còn lại chỉ dành cho trang của extension
+// (popup, trang kết quả chụp màn hình).
+const CONTENT_SCRIPT_TYPES = new Set([
+  // #full-start
+  'dl:ping', 'dl:start', 'dl:cancel', 'dl:open', 'dl:reveal', 'img:download',
+  // #full-end
+]);
+const EXTENSION_ORIGIN = chrome.runtime.getURL('');
+
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   if (!msg || typeof msg.type !== 'string' || sender.id !== chrome.runtime.id) return undefined;
+  const fromExtensionPage = !sender.tab || (sender.url || '').startsWith(EXTENSION_ORIGIN);
+  if (!fromExtensionPage && !CONTENT_SCRIPT_TYPES.has(msg.type)) return undefined;
   const handler = HANDLERS[msg.type];
   if (!handler) return undefined;
   Promise.resolve()

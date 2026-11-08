@@ -12,12 +12,14 @@ không tải mã từ xa.
 | --- | --- | --- |
 | Cài đặt (độ tối, đèn nền, phím tắt…) | Ghi nhớ lựa chọn của bạn | `chrome.storage.local` trên máy, tới khi bạn gỡ extension hoặc bấm "Khôi phục cài đặt mặc định" |
 | Mức âm lượng từng tab | Giữ âm lượng khi trang tải lại | Bộ nhớ phiên của trình duyệt, xoá khi đóng tab / trình duyệt |
+| Tiêu đề, địa chỉ, biểu tượng của các tab đang phát âm thanh | Hiện danh sách trong thẻ Âm thanh để chỉnh âm lượng từng tab | Chỉ đọc khi bạn mở popup; không lưu |
 | Nội dung trang đang mở (trình phát YouTube, thẻ video/âm thanh, danh sách ảnh) | Xoay/lật/phóng to video, tắt đèn, cửa sổ nổi, chỉnh âm lượng, tìm ảnh để lưu | Chỉ đọc trong tab khi bạn dùng tính năng; không lưu lại |
 | Ảnh chụp màn hình, khung hình video | Hiện cho bạn xem và lưu | Trong bộ nhớ tới khi bạn đóng trang kết quả; tệp chỉ lưu khi bạn bấm Tải / Chụp |
 | Âm thanh của tab (chỉ khi bạn kéo âm lượng quá 100%) | Khuếch đại âm thanh ngay trên máy | Không ghi âm, không lưu; dừng khi bạn đặt lại âm lượng hoặc đóng tab |
 
 Khi bạn lưu ảnh từ một trang, trình duyệt tải ảnh **trực tiếp từ trang web chứa ảnh** (giống thao tác "Lưu ảnh"), rồi
-lưu vào thư mục Tải về của bạn. Extension không gửi địa chỉ trang hay ảnh tới bên nào khác.
+lưu vào thư mục Tải về của bạn. Lần tải đầu không kèm cookie; chỉ khi máy chủ yêu cầu đăng nhập mới thử lại kèm phiên
+đăng nhập sẵn có của trình duyệt với trang đó. Extension không gửi địa chỉ trang hay ảnh tới bên nào khác.
 
 ## Bản đầy đủ trên GitHub (cài thủ công)
 
@@ -44,6 +46,8 @@ sell** any user data. There is no server, no analytics, no advertising and no re
 - **Settings** (dimming level, ambient light, shortcuts…) are saved in `chrome.storage.local` on your device until you
   uninstall the extension or reset settings.
 - **Per-tab volume levels** are kept in the browser's session storage and cleared when the tab or browser closes.
+- **Titles, URLs and icons of tabs playing audio** are read only while the popup is open, to list them in the volume
+  mixer. They are not stored.
 - **Page content** (the YouTube player, `<video>`/`<audio>` elements, the list of images on a page) is read inside the
   tab only when you use a feature (rotate/zoom, lights off, Picture-in-Picture, volume, saving images). Nothing is stored.
 - **Screenshots and video frames** stay in memory until you close the result page; files are written to your Downloads
@@ -51,7 +55,9 @@ sell** any user data. There is no server, no analytics, no advertising and no re
 - **Tab audio** is captured only when you raise a tab's volume above 100%, is amplified locally, and is never recorded
   or stored.
 
-When you save images, the browser downloads them directly from the website that hosts them, like "Save image as".
+When you save images, the browser downloads them directly from the website that hosts them, like "Save image as". The
+first request is sent without cookies; it is retried with the browser's existing session for that site only if the
+server requires it.
 
 **Full edition (GitHub, manual install, not on the Chrome Web Store):** adds video download through yt-dlp running on
 your own computer. The page URL and, if you enable it, that site's login cookies are passed to the local helper via

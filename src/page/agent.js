@@ -1,17 +1,22 @@
 /*
  * Chạy trong trang web (popup chèn vào khi cần; trên YouTube có sẵn qua manifest):
- *  - scan():     liệt kê ảnh, tệp video, video nhúng trên trang; đoán địa chỉ ảnh lớn nhất.
+ *  - scan():     liệt kê ảnh trên trang; đoán địa chỉ ảnh lớn nhất.
  *  - snapshot(): chụp khung hình video đang phát ở độ phân giải gốc và lưu về máy.
  * Không phụ thuộc file khác; tạo phần tử bằng DOM API (không innerHTML).
  */
+// #full-start
+// Bản đầy đủ: scan() còn liệt kê tệp video, video nhúng, bài viết có video (cho bộ tải yt-dlp).
+// #full-end
 (() => {
   'use strict';
   const VERSION = 2; // tăng khi sửa: popup chèn bản mới đè bản cũ còn trong trang
   if (globalThis.__CT_AGENT && globalThis.__CT_AGENT.version >= VERSION) return;
 
   const IMG_EXT = /\.(jpe?g|jfif|png|gif|webp|avif|bmp|svg|tiff?|heic)$/i;
+  // #full-start
   const VID_EXT = /\.(mp4|webm|mov|m4v|mkv|ogv|flv|avi|3gp|m3u8|mpd|mp3|m4a|ogg|oga|wav|flac)$/i;
   const AUDIO_EXT = /\.(mp3|m4a|ogg|oga|wav|flac)$/i;
+  // #full-end
   const MAX_ELEMENTS = 25000;
   const MAX_BG = 6000;
   const MAX_IMAGES = 800;
@@ -305,8 +310,10 @@
   // ---- Quét trang ------------------------------------------------------------------------------
   function scan() {
     const images = new Map();
+    // #full-start
     const media = new Map();
     const embeds = new Map();
+    // #full-end
     let playable = null;
 
     function addImage(raw, info = {}) {
@@ -358,11 +365,6 @@
       if (e && !embeds.has(e.url)) embeds.set(e.url, e);
     }
     // #full-end
-    /* #store-start
-    // Bản Store: không liệt kê tệp / luồng / video nhúng để tải.
-    const addMedia = () => {};
-    const addEmbed = () => {};
-    #store-end */
 
     let bgChecked = 0;
     const elements = allElements();
@@ -381,13 +383,17 @@
       } else if (tag === 'SOURCE') {
         const parent = el.parentElement && el.parentElement.tagName;
         if (parent === 'PICTURE') addImage(bestFromSrcset(el.getAttribute('srcset') || el.getAttribute('data-srcset')), { kind: 'img' });
+        // #full-start
         else if (parent === 'VIDEO' || parent === 'AUDIO') addMedia(el.getAttribute('src') && el.src, { audio: parent === 'AUDIO' });
+        // #full-end
       } else if (tag === 'VIDEO' || tag === 'AUDIO') {
         if (tag === 'VIDEO' && el.poster) addImage(el.poster, { kind: 'poster', alt: 'Ảnh bìa video' });
+        // #full-start
         const src = el.currentSrc || (el.getAttribute('src') ? el.src : '');
         if (isHttp(src)) {
           addMedia(src, { w: el.videoWidth, h: el.videoHeight, duration: el.duration, audio: tag === 'AUDIO' });
         }
+        // #full-end
         if (tag === 'VIDEO' && el.videoWidth > 0) {
           const area = el.clientWidth * el.clientHeight + (el.paused ? 0 : 1e9);
           if (!playable || area > playable.area) playable = { area, w: el.videoWidth, h: el.videoHeight };
@@ -397,18 +403,24 @@
         if (typeof href === 'string' && isHttp(href)) {
           const path = pathOf(href);
           if (IMG_EXT.test(path)) addImage(href, { kind: 'link', alt: el.title || el.textContent });
+          // #full-start
           else if (VID_EXT.test(path)) addMedia(href, { source: 'link' });
+          // #full-end
         }
+      // #full-start
       } else if (tag === 'IFRAME' || tag === 'EMBED') {
         addEmbed(el.getAttribute('src') || el.getAttribute('data-src'));
+      // #full-end
       } else if (tag === 'META') {
         const key = (el.getAttribute('property') || el.getAttribute('name') || el.getAttribute('itemprop') || '').toLowerCase();
         if (/^(og:image(:secure_url|:url)?|twitter:image(:src)?|image|thumbnailurl)$/.test(key)) {
           addImage(el.content, { kind: 'meta', alt: 'Ảnh đại diện trang' });
+        // #full-start
         } else if (/^(og:video(:secure_url|:url)?|twitter:player:stream)$/.test(key) && isHttp(abs(el.content))) {
           const v = abs(el.content);
           if (VID_EXT.test(pathOf(v))) addMedia(v, { source: 'meta' });
           else addEmbed(v);
+        // #full-end
         }
       } else if (tag === 'LINK' && /(^|\s)image_src(\s|$)/i.test(el.rel)) {
         addImage(el.href, { kind: 'meta' });

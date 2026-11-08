@@ -452,6 +452,7 @@ html.ytx-cinema ytd-watch-flexy[theater] #player-full-bleed-container {
   transform: translate(-50%, 0);
 }
 
+/* #full-start */
 /* ---------- Bảng "Tải về" trong trình phát ---------- */
 .ytx-panel.ytx-dl-panel {
   width: 300px;
@@ -614,3 +615,4 @@ html.ytx-cinema ytd-watch-flexy[theater] #player-full-bleed-container {
   font-size: 11px;
   line-height: 1.4;
 }
+/* #full-end */

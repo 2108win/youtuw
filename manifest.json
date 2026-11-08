@@ -3,6 +3,7 @@
   "name": "Cinema Tools for YouTube",
   "short_name": "Cinema Tools",
   "version": "1.3.0",
+  "minimum_chrome_version": "116",
   "description": "Xoay, lật video YouTube, tắt đèn có đèn nền. Cửa sổ nổi cho video, chỉnh âm lượng từng tab, tải video / âm thanh / ảnh trên mọi trang.",
   "permissions": ["storage", "downloads", "nativeMessaging", "scripting", "offscreen", "webRequest", "cookies", "tabCapture", "activeTab"],
   "commands": {

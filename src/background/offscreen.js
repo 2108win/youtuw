@@ -13,6 +13,24 @@ const MIME_EXT = {
 const OUT_MIME = { png: 'image/png', jpeg: 'image/jpeg', webp: 'image/webp' };
 const OUT_EXT = { png: 'png', jpeg: 'jpg', webp: 'webp' };
 const REVOKE_AFTER = 3 * 60 * 1000;
+const MAX_BYTES = 50 * 1024 * 1024; // ảnh lớn hơn 50 MB: bỏ qua
+const IMAGE_EXTS = new Set(['jpg', 'jfif', 'png', 'gif', 'webp', 'avif', 'bmp', 'svg', 'tif', 'tiff', 'ico', 'heic', 'jxl']);
+
+/** Địa chỉ trong mạng nội bộ / máy này: không tự gửi yêu cầu tới (trang web có thể cài sẵn địa chỉ như vậy). */
+function isPrivateHost(url) {
+  let host;
+  try {
+    host = new URL(url).hostname.toLowerCase().replace(/^\[|\]$/g, '');
+  } catch (_) {
+    return true;
+  }
+  if (host === 'localhost' || host.endsWith('.localhost') || host.endsWith('.local') || host === '0.0.0.0') return true;
+  if (host === '::1' || /^f[cd][0-9a-f]{2}:/.test(host) || /^fe80:/.test(host)) return true;
+  const m = host.match(/^(\d+)\.(\d+)\.\d+\.\d+$/);
+  if (!m) return false;
+  const [a, b] = [+m[1], +m[2]];
+  return a === 10 || a === 127 || a === 0 || (a === 169 && b === 254) || (a === 172 && b >= 16 && b <= 31) || (a === 192 && b === 168);
+}
 
 function extFromUrl(url) {
   try {
@@ -39,9 +57,14 @@ async function sniff(blob) {
 }
 
 async function fetchImage(url) {
-  const res = await fetch(url, { credentials: 'include', referrerPolicy: 'no-referrer' });
+  if (/^https?:/i.test(url) && isPrivateHost(url)) throw new Error('Không tải ảnh từ địa chỉ mạng nội bộ');
+  // Lần đầu không gửi cookie; chỉ thử lại kèm phiên đăng nhập khi máy chủ đòi (401/403).
+  let res = await fetch(url, { credentials: 'omit', referrerPolicy: 'no-referrer' });
+  if (res.status === 401 || res.status === 403) res = await fetch(url, { credentials: 'include', referrerPolicy: 'no-referrer' });
   if (!res.ok) throw new Error(`Máy chủ trả lỗi ${res.status}`);
+  if (+(res.headers.get('content-length') || 0) > MAX_BYTES) throw new Error('Ảnh quá lớn (trên 50 MB)');
   let blob = await res.blob();
+  if (blob.size > MAX_BYTES) throw new Error('Ảnh quá lớn (trên 50 MB)');
   let type = (blob.type || '').toLowerCase();
   if (!type.startsWith('image/')) {
     type = await sniff(blob);
@@ -107,7 +130,7 @@ async function processImage({ candidates, format, quality, minW, minH }) {
       if (format === 'original' || !OUT_MIME[format]) {
         return {
           ok: true, url, blobUrl: publish(blob), width: dims && dims.w, height: dims && dims.h,
-          ext: MIME_EXT[blob.type] || extFromUrl(url) || 'jpg',
+          ext: MIME_EXT[blob.type] || (IMAGE_EXTS.has(extFromUrl(url)) ? extFromUrl(url) : 'jpg'),
         };
       }
       const out = await convert(dims.img, dims.w, dims.h, format, quality);
@@ -181,8 +204,9 @@ const VOLUME_HANDLERS = {
   },
 };
 
-chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) => {
-  if (!msg || typeof msg.type !== 'string') return undefined;
+chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
+  // Chỉ nhận lệnh từ service worker của chính extension (không từ trang web / content script).
+  if (!msg || typeof msg.type !== 'string' || sender.id !== chrome.runtime.id || sender.tab) return undefined;
   if (VOLUME_HANDLERS[msg.type]) {
     Promise.resolve()
       .then(() => VOLUME_HANDLERS[msg.type](msg))
