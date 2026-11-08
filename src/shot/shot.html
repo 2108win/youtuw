@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ảnh chụp trang</title>
+  <link rel="stylesheet" href="shot.css">
+</head>
+<body>
+  <header class="bar">
+    <img class="logo" src="/icons/icon32.png" alt="" width="24" height="24">
+    <div class="info">
+      <strong id="title">Đang ghép ảnh…</strong>
+      <small id="meta"></small>
+    </div>
+    <div class="actions">
+      <button type="button" class="primary" id="savePng" disabled>Tải PNG</button>
+      <button type="button" id="saveJpg" disabled>Tải JPG</button>
+      <button type="button" id="copy" disabled>Sao chép</button>
+    </div>
+  </header>
+  <p class="status" id="status" hidden></p>
+  <main id="view">
+    <div class="loading" id="loading"><span class="spinner"></span><span id="loadingText">Đang ghép ảnh…</span></div>
+  </main>
+  <script src="shot.js"></script>
+</body>
+</html>

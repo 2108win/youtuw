@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cinema Tools for YouTube</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="top">
+    <img class="logo" src="/icons/icon48.png" alt="" width="28" height="28">
+    <div class="brand">
+      <strong>Cinema Tools</strong>
+      <!-- #full-start -->
+      <span>cho YouTube</span>
+      <!-- #full-end -->
+      <!-- #store-start
+      <span>công cụ xem video</span>
+      #store-end -->
+    </div>
+    <button type="button" class="pip-btn" id="pipBtn" title="Đưa video đang phát ra cửa sổ nổi, nằm trên mọi ứng dụng (Alt+P)">
+      <span data-icon="pip"></span><span id="pipText">Cửa sổ nổi</span>
+    </button>
+    <button type="button" role="tab" class="gear" id="tab-settings" aria-controls="panel-settings" aria-selected="false" tabindex="-1" title="Cài đặt" aria-label="Cài đặt">
+      <span data-icon="gear"></span>
+    </button>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Các mục">
+    <button type="button" role="tab" id="tab-control" aria-controls="panel-control" aria-selected="true">Video</button>
+    <button type="button" role="tab" id="tab-audio" aria-controls="panel-audio" aria-selected="false" tabindex="-1">Âm thanh</button>
+    <!-- #full-start -->
+    <button type="button" role="tab" id="tab-download" aria-controls="panel-download" aria-selected="false" tabindex="-1">Tải về</button>
+    <!-- #full-end -->
+    <!-- #store-start
+    <button type="button" role="tab" id="tab-download" aria-controls="panel-download" aria-selected="false" tabindex="-1">Ảnh</button>
+    #store-end -->
+    <button type="button" role="tab" id="tab-tools" aria-controls="panel-tools" aria-selected="false" tabindex="-1">Tiện ích</button>
+  </nav>
+
+  <!-- ===== Thẻ Điều khiển ===== -->
+  <div class="panel" id="panel-control" role="tabpanel" aria-labelledby="tab-control">
+    <p class="notice" id="notice" hidden></p>
+
+    <div class="modes">
+      <button class="mode" id="lightsBtn" type="button" aria-pressed="false" disabled>
+        <span class="mode-icon" data-icon="lights"></span>
+        <strong id="lightsTitle">Tắt đèn</strong>
+        <small id="lightsSub">Trang tối, đèn nền</small>
+      </button>
+      <button class="mode" id="cinemaBtn" type="button" aria-pressed="false" disabled>
+        <span class="mode-icon" data-icon="cinema"></span>
+        <strong id="cinemaTitle">Rạp phim</strong>
+        <small id="cinemaSub">Tràn kín cửa sổ</small>
+      </button>
+    </div>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>Xoay &amp; lật video</h2>
+        <span class="state" id="transformState">0°</span>
+      </div>
+      <div class="grid" id="actions">
+        <button type="button" data-action="flipH" disabled><span data-icon="flipH"></span><span class="lbl"></span></button>
+        <button type="button" data-action="flipV" disabled><span data-icon="flipV"></span><span class="lbl"></span></button>
+        <button type="button" data-action="rotate180" disabled><span data-icon="rotate180"></span><span class="lbl"></span></button>
+        <button type="button" data-action="rotateLeft" disabled><span data-icon="rotateLeft"></span><span class="lbl"></span></button>
+        <button type="button" data-action="rotateRight" disabled><span data-icon="rotateRight"></span><span class="lbl"></span></button>
+        <button type="button" data-action="resetTransform" disabled><span data-icon="resetTransform"></span><span class="lbl"></span></button>
+      </div>
+    </section>
+
+    <section class="card" id="zoomCard">
+      <div class="card-head">
+        <h2>Phóng to &amp; cắt viền</h2>
+        <span class="state" id="zoomState">100%</span>
+      </div>
+      <div id="zoomActions">
+        <div class="zoom-row">
+          <button type="button" class="wide" data-action="autoCrop" data-crop="auto" title="Tự dò và cắt viền đen trong video" disabled><span data-icon="autoCrop"></span>Tự cắt viền</button>
+          <button type="button" class="wide" data-action="fillFrame" data-crop="fill" title="Phóng cho hình lấp kín khung trình phát" disabled><span data-icon="fillFrame"></span>Lấp đầy</button>
+          <button type="button" data-action="crop21x9" data-crop="21:9" title="Phim màn ảnh rộng 21:9" disabled>21:9</button>
+          <button type="button" data-action="crop4x3" data-crop="4:3" title="Video 4:3 đóng khung 16:9" disabled>4:3</button>
+        </div>
+        <div class="zoom-row">
+          <button type="button" data-action="zoomOut" title="Thu nhỏ" aria-label="Thu nhỏ" disabled><span data-icon="zoomOut"></span></button>
+          <button type="button" class="wide" data-action="resetZoom" disabled>Bỏ phóng to</button>
+          <button type="button" data-action="zoomIn" title="Phóng to" aria-label="Phóng to" disabled><span data-icon="zoomIn"></span></button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ===== Thẻ Âm thanh ===== -->
+  <div class="panel" id="panel-audio" role="tabpanel" aria-labelledby="tab-audio" hidden>
+    <section class="card">
+      <div class="card-head">
+        <h2>Âm lượng từng tab</h2>
+        <button type="button" class="link small" id="muteOthers" hidden title="Tắt tiếng mọi tab khác đang phát">Chỉ nghe tab này</button>
+      </div>
+      <ul class="mixer" id="mixer"></ul>
+      <p class="muted small" id="mixerEmpty" hidden>Chưa có tab nào đang phát âm thanh.</p>
+      <p class="setting-note">Kéo để chỉnh 0–100% cho mọi tab. Tab đang mở popup kéo được tới 600% (tăng âm). Bấm tên tab để chuyển tới tab đó.</p>
+    </section>
+  </div>
+
+  <!-- ===== Thẻ Tiện ích ===== -->
+  <div class="panel" id="panel-tools" role="tabpanel" aria-labelledby="tab-tools" hidden>
+    <section class="card">
+      <div class="card-head">
+        <h2>Chụp màn hình</h2>
+        <span class="hint">Alt+S: cả trang</span>
+      </div>
+      <div class="shot-grid" id="shotButtons">
+        <button type="button" class="shot-btn" data-shot="full">
+          <span data-icon="shotFull"></span><strong>Cả trang</strong><small>Tự cuộn và ghép</small>
+        </button>
+        <button type="button" class="shot-btn" data-shot="visible">
+          <span data-icon="shotVisible"></span><strong>Đang thấy</strong><small>Đúng màn hình</small>
+        </button>
+        <button type="button" class="shot-btn" data-shot="region">
+          <span data-icon="shotRegion"></span><strong>Chọn vùng</strong><small>Kéo chuột</small>
+        </button>
+      </div>
+      <p class="err" id="shotErr" hidden></p>
+      <p class="setting-note">Ảnh mở ở tab mới: xem, tải PNG / JPG hoặc sao chép để dán. Trong lúc chụp cả trang, đừng chuyển tab.</p>
+    </section>
+  </div>
+
+  <!-- ===== Thẻ Tải về ===== -->
+  <div class="panel" id="panel-download" role="tabpanel" aria-labelledby="tab-download" hidden>
+    <!-- #full-start -->
+    <section class="card" id="videoCard">
+      <div class="card-head">
+        <h2>Video &amp; âm thanh</h2>
+        <span class="hint" id="hostState"></span>
+      </div>
+
+      <div class="setup" id="hostSetup" hidden>
+        <strong id="setupTitle">Chưa cài bộ tải video</strong>
+        <p id="setupText">Tải video cần yt-dlp chạy trên máy (cài một lần, miễn phí):</p>
+        <ol>
+          <li>Thư mục extension → <b>native-host</b> → bấm đúp <b>install.bat</b>.</li>
+          <li>Chờ báo <b>Hoàn tất</b> rồi bấm <b>Kiểm tra lại</b>.</li>
+        </ol>
+        <div class="setup-id">
+          <span>ID: <code id="extId"></code></span>
+          <button type="button" class="link" id="copyId">Sao chép</button>
+        </div>
+        <button type="button" class="ghost" id="recheckHost">Kiểm tra lại</button>
+        <p class="muted small">Ảnh vẫn tải được mà không cần cài.</p>
+      </div>
+
+      <div id="videoArea">
+        <div id="vIdle">
+          <p class="muted" id="vIdleText">Tìm video trên trang bằng yt-dlp (YouTube, Facebook, TikTok, X… hơn 1000 trang).</p>
+          <button type="button" class="primary" id="vAnalyze"><span data-icon="video"></span>Tìm video trên trang này</button>
+        </div>
+        <div class="loading" id="vLoading" hidden><span class="spinner"></span><span id="vLoadingText">Đang phân tích video…</span></div>
+        <p class="err" id="vError" hidden></p>
+
+        <div id="vInfo" hidden>
+          <div class="vhead">
+            <img id="vThumb" alt="" referrerpolicy="no-referrer">
+            <div class="vmeta">
+              <strong id="vTitle"></strong>
+              <small id="vSub"></small>
+            </div>
+          </div>
+          <select id="vEntry" class="full" aria-label="Chọn video trên trang" hidden></select>
+          <div class="dl-row" id="vRow">
+            <select id="vQuality" aria-label="Chất lượng"></select>
+            <select id="vFormat" aria-label="Định dạng"></select>
+          </div>
+          <p class="warn" id="vHint" hidden></p>
+          <button type="button" class="primary" id="vDownload"><span data-icon="download"></span><span id="vDownloadText">Tải về</span></button>
+        </div>
+      </div>
+
+      <ul class="jobs" id="jobs"></ul>
+      <button type="button" class="link small" id="jobsClear" hidden>Xoá các mục đã xong</button>
+    </section>
+
+    <section class="card" id="streamsCard" hidden>
+      <div class="card-head">
+        <h2>Tệp &amp; luồng video</h2>
+        <span class="hint" id="streamsCount"></span>
+      </div>
+      <ul class="streams" id="streams"></ul>
+    </section>
+    <!-- #full-end -->
+
+    <section class="card" id="imagesCard">
+      <div class="card-head">
+        <h2>Ảnh trên trang</h2>
+        <span class="hint" id="imgCount"></span>
+      </div>
+      <div class="img-tools">
+        <select id="imgFormat" aria-label="Lưu ảnh dạng" title="Lưu ảnh dạng">
+          <option value="original">Gốc</option>
+          <option value="png">PNG</option>
+          <option value="jpeg">JPG</option>
+          <option value="webp">WebP</option>
+        </select>
+        <label class="chk" title="Hiện cả biểu tượng và ảnh nhỏ"><input type="checkbox" id="imgSmall">Ảnh nhỏ</label>
+        <span class="spacer"></span>
+        <!-- #full-start -->
+        <button type="button" class="tool" id="thumbBtn" title="Tải ảnh bìa video (bản lớn nhất)" hidden><span data-icon="image"></span>Ảnh bìa</button>
+        <!-- #full-end -->
+        <button type="button" class="tool" id="snapBtn" hidden><span data-icon="camera"></span><span id="snapText">Chụp</span></button>
+      </div>
+      <p class="muted" id="imgEmpty" hidden></p>
+      <div class="img-grid" id="imgGrid"></div>
+      <div class="img-actions">
+        <button type="button" class="ghost" id="imgAll" disabled>Chọn tất cả</button>
+        <button type="button" class="primary" id="imgDownload" disabled><span data-icon="download"></span><span id="imgDownloadText">Tải ảnh</span></button>
+      </div>
+      <p class="status-line" id="imgStatus" hidden></p>
+    </section>
+  </div>
+
+  <!-- ===== Thẻ Cài đặt ===== -->
+  <div class="panel" id="panel-settings" role="tabpanel" aria-labelledby="tab-settings" hidden>
+    <section class="card">
+      <div class="card-head"><h2>Tắt đèn &amp; đèn nền</h2></div>
+
+      <label class="field">
+        <span class="field-top"><span>Độ tối màn che</span><output for="dim" id="dimOut"></output></span>
+        <input type="range" id="dim" min="50" max="100" step="1">
+      </label>
+
+      <label class="toggle">
+        <span>Đèn nền phía sau video</span>
+        <input type="checkbox" id="glow" role="switch">
+      </label>
+
+      <div id="glowFields">
+        <label class="field">
+          <span class="field-top"><span>Độ sáng đèn nền</span><output id="glowStrengthOut"></output></span>
+          <input type="range" id="glowStrength" min="20" max="100" step="1">
+        </label>
+        <label class="field">
+          <span class="field-top"><span>Độ lan đèn nền</span><output id="glowSizeOut"></output></span>
+          <input type="range" id="glowSize" min="0" max="100" step="1">
+        </label>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-head"><h2>Tuỳ chọn</h2></div>
+      <label class="toggle">
+        <span>Giữ xoay, lật, phóng to khi chuyển video</span>
+        <input type="checkbox" id="keepTransform" role="switch">
+      </label>
+      <label class="toggle">
+        <span>Hiện nút trên trình phát</span>
+        <input type="checkbox" id="playerButtons" role="switch">
+      </label>
+      <label class="toggle">
+        <span>Phím tắt bàn phím</span>
+        <input type="checkbox" id="shortcuts" role="switch">
+      </label>
+      <label class="toggle">
+        <span>Tự mở cửa sổ nổi khi chuyển tab (YouTube)</span>
+        <input type="checkbox" id="autoPip" role="switch">
+      </label>
+    </section>
+
+    <section class="card" id="shortcutCard">
+      <div class="card-head">
+        <h2>Phím tắt</h2>
+        <span class="hint">Alt + Shift + phím</span>
+      </div>
+      <ul class="keys" id="shortcutList"></ul>
+      <p class="setting-note">Đang phóng to: kéo video bằng chuột để di chuyển khung hình. Đổi phím Alt+P ở chrome://extensions/shortcuts.</p>
+    </section>
+
+    <!-- #full-start -->
+    <section class="card">
+      <div class="card-head"><h2>Tải về</h2></div>
+      <label class="toggle">
+        <span>Dùng phiên đăng nhập của trình duyệt khi tải video</span>
+        <input type="checkbox" id="dlCookies" role="switch">
+      </label>
+      <p class="setting-note">Cần cho Facebook, Instagram, video riêng tư… Cookie chỉ gửi tới bộ tải trên máy bạn, không lưu ra ổ đĩa. Không áp dụng cho YouTube.</p>
+    </section>
+    <!-- #full-end -->
+
+    <footer class="foot">
+      <button type="button" class="link" id="resetSettings">Khôi phục cài đặt mặc định</button>
+      <span class="ver" id="version"></span>
+    </footer>
+  </div>
+
+  <script src="/src/shared/shared.js"></script>
+  <script src="popup.js"></script>
+  <script src="audio.js"></script>
+  <script src="download.js"></script>
+</body>
+</html>

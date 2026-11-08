@@ -1,0 +1,18 @@
+# Tự tạo khi chạy native-host\install.bat: chứa đường dẫn trên máy, ID extension và nhật ký tải (riêng tư)
+native-host/config.json
+native-host/host.bat
+native-host/com.cinematools.downloader.json
+native-host/host.log
+
+# Kết quả build (node tools/build.mjs)
+dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# Hệ điều hành / công cụ
+.DS_Store
+Thumbs.db
+.claude/
+*.pem
