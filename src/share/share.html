@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="share_title"></title>
+  <link rel="stylesheet" href="share.css">
+</head>
+<body>
+  <header class="bar">
+    <img class="logo" src="/icons/icon32.png" alt="" width="24" height="24">
+    <div class="info">
+      <strong data-i18n="share_title"></strong>
+      <small data-i18n="share_subtitle"></small>
+    </div>
+    <form class="urlform" id="form" novalidate>
+      <input type="text" id="url" inputmode="url" autocomplete="url" spellcheck="false" data-i18n-placeholder="share_url_placeholder" data-i18n-aria-label="share_url_aria">
+      <button type="submit" class="primary" id="go" data-i18n="share_check_btn"></button>
+    </form>
+  </header>
+
+  <main>
+    <div class="loading" id="loading" role="status" aria-live="polite" hidden><span class="spinner"></span><span id="loadingText" data-i18n="share_loading_page"></span></div>
+    <p class="status err" id="error" role="alert" hidden></p>
+    <div class="empty-state" id="empty" hidden>
+      <h1 data-i18n="share_empty_title"></h1>
+      <p data-i18n-rich="share_empty_body"></p>
+    </div>
+    <div id="report" hidden></div>
+  </main>
+
+  <script src="/src/shared/i18n.js"></script>
+  <script src="/src/shared/net.js"></script>
+  <script src="collect.js"></script>
+  <script src="checks.js"></script>
+  <script src="share.js"></script>
+</body>
+</html>

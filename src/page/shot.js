@@ -9,8 +9,9 @@
  */
 (() => {
   'use strict';
-  const VERSION = 1;
+  const VERSION = 2;
   if (globalThis.__CT_SHOT && globalThis.__CT_SHOT.version >= VERSION) return;
+  const { t } = globalThis.YTX_I18N; // service worker chèn src/shared/i18n.js cùng lúc, ngay trước file này
 
   const MAX_ELEMENTS = 30000;
   let saved = null; // trạng thái trước khi chụp
@@ -127,7 +128,7 @@
       box.append(size);
       const hint = document.createElement('div');
       hint.className = 'hint';
-      hint.textContent = 'Kéo chuột để chọn vùng cần chụp · Esc để huỷ';
+      hint.textContent = t('page_shot_select_hint');
       root.append(style, layer, box, hint);
       document.documentElement.append(host);
 

@@ -1,0 +1,2036 @@
+{
+  "locale_code": {
+    "message": "zh-TW"
+  },
+  "ext_name": {
+    "message": "適用於 YouTube 的 Cinema Tools"
+  },
+  "ext_desc": {
+    "message": "旋轉、翻轉 YouTube 影片，關燈觀賞並附氛圍光。子母畫面、各分頁獨立音量，下載影片、音訊和圖片。"
+  },
+  "ext_name_store": {
+    "message": "Cinema Tools – 影片觀看工具"
+  },
+  "ext_desc_store": {
+    "message": "旋轉、翻轉、縮放 YouTube 影片，關燈觀賞並附氛圍光。子母畫面、各分頁獨立音量、螢幕截圖、分享預覽。"
+  },
+  "cmd_toggle_pip": {
+    "message": "為目前分頁的影片開啟 / 關閉子母畫面"
+  },
+  "cmd_capture_page": {
+    "message": "擷取目前的整個網頁"
+  },
+  "act_flip_h": {
+    "message": "水平翻轉"
+  },
+  "act_flip_v": {
+    "message": "垂直翻轉"
+  },
+  "act_rotate_left": {
+    "message": "向左旋轉 90°"
+  },
+  "act_rotate_right": {
+    "message": "向右旋轉 90°"
+  },
+  "act_rotate_180": {
+    "message": "旋轉 180°"
+  },
+  "act_reset_transform": {
+    "message": "重設"
+  },
+  "act_toggle_lights": {
+    "message": "關燈 / 開燈"
+  },
+  "act_toggle_cinema": {
+    "message": "電影模式"
+  },
+  "act_auto_crop": {
+    "message": "自動裁切黑邊"
+  },
+  "act_fill_frame": {
+    "message": "填滿畫面"
+  },
+  "act_crop_21x9": {
+    "message": "裁切為 21:9"
+  },
+  "act_crop_4x3": {
+    "message": "裁切為 4:3"
+  },
+  "act_zoom_in": {
+    "message": "放大"
+  },
+  "act_zoom_out": {
+    "message": "縮小"
+  },
+  "act_reset_zoom": {
+    "message": "重設縮放"
+  },
+  "act_snapshot": {
+    "message": "擷取目前畫面"
+  },
+  "full_act_download_thumb": {
+    "message": "下載縮圖"
+  },
+  "act_toggle_pip": {
+    "message": "子母畫面"
+  },
+  "act_pip_no_video": {
+    "message": "這個網頁上找不到影片。"
+  },
+  "act_pip_unavailable": {
+    "message": "這個網頁無法使用子母畫面。"
+  },
+  "full_act_stage_merge": {
+    "message": "正在合併影片和音訊…"
+  },
+  "full_act_stage_extract_audio": {
+    "message": "正在轉換音訊…"
+  },
+  "full_act_stage_metadata": {
+    "message": "正在寫入檔案資訊…"
+  },
+  "full_act_stage_move_files": {
+    "message": "正在儲存檔案…"
+  },
+  "full_act_stage_convert": {
+    "message": "正在轉換格式…"
+  },
+  "full_act_stage_embed_thumb": {
+    "message": "正在嵌入縮圖…"
+  },
+  "full_act_stage_fixup": {
+    "message": "正在修復檔案…"
+  },
+  "full_act_stage_processing": {
+    "message": "處理中…"
+  },
+  "full_act_choice_audio": {
+    "message": "音訊 $1"
+  },
+  "full_act_quality_best": {
+    "message": "最佳"
+  },
+  "full_act_job_starting": {
+    "message": "正在取得影片資訊…"
+  },
+  "full_act_job_part_audio": {
+    "message": "音訊"
+  },
+  "full_act_job_part_video": {
+    "message": "影片 $1p"
+  },
+  "full_act_job_part_any": {
+    "message": "下載中"
+  },
+  "full_act_job_eta": {
+    "message": "剩餘 $1"
+  },
+  "full_act_job_done": {
+    "message": "已儲存"
+  },
+  "full_act_job_done_size": {
+    "message": "已儲存 · $1"
+  },
+  "full_act_job_cancelled": {
+    "message": "已取消"
+  },
+  "full_act_job_error": {
+    "message": "錯誤：$1"
+  },
+  "full_act_job_error_unknown": {
+    "message": "不明"
+  },
+  "full_popup_brand_sub": {
+    "message": "適用於 YouTube"
+  },
+  "popup_brand_sub_store": {
+    "message": "影片觀看工具"
+  },
+  "popup_pip_title": {
+    "message": "將播放中的影片彈出為子母畫面，顯示在所有應用程式上方（Alt+P）"
+  },
+  "popup_pip": {
+    "message": "子母畫面"
+  },
+  "popup_pip_no_video": {
+    "message": "沒有影片"
+  },
+  "popup_pip_failed": {
+    "message": "無法開啟"
+  },
+  "popup_settings": {
+    "message": "設定"
+  },
+  "popup_sections": {
+    "message": "功能區塊"
+  },
+  "popup_tab_video": {
+    "message": "影片"
+  },
+  "popup_tab_audio": {
+    "message": "音訊"
+  },
+  "full_popup_tab_download": {
+    "message": "下載"
+  },
+  "popup_tab_images": {
+    "message": "圖片"
+  },
+  "popup_tab_tools": {
+    "message": "工具"
+  },
+  "popup_lights_title": {
+    "message": "關燈"
+  },
+  "popup_lights_on_title": {
+    "message": "已關燈"
+  },
+  "popup_cinema_title": {
+    "message": "電影模式"
+  },
+  "popup_cinema_on_title": {
+    "message": "電影模式已開啟"
+  },
+  "popup_transform_heading": {
+    "message": "旋轉和翻轉"
+  },
+  "popup_state_flip_h": {
+    "message": "已水平翻轉"
+  },
+  "popup_state_flip_v": {
+    "message": "已垂直翻轉"
+  },
+  "popup_zoom_heading": {
+    "message": "縮放和裁切"
+  },
+  "popup_autocrop_title": {
+    "message": "偵測並裁切影片中的黑邊"
+  },
+  "popup_autocrop": {
+    "message": "自動裁切"
+  },
+  "popup_fill_title": {
+    "message": "放大畫面以填滿播放器"
+  },
+  "popup_fill": {
+    "message": "填滿"
+  },
+  "popup_crop21_title": {
+    "message": "21:9 寬螢幕電影"
+  },
+  "popup_crop43_title": {
+    "message": "嵌在 16:9 畫面中的 4:3 影片"
+  },
+  "popup_notice_no_tab": {
+    "message": "請開啟 YouTube 影片。剛安裝嗎？請重新載入 YouTube 分頁（F5）。"
+  },
+  "popup_notice_open_video": {
+    "message": "開啟 YouTube 影片後，即可旋轉、翻轉和關燈。"
+  },
+  "popup_audio_heading": {
+    "message": "各分頁音量"
+  },
+  "popup_mute_others_title": {
+    "message": "將其他所有正在播放的分頁設為靜音"
+  },
+  "popup_mute_others": {
+    "message": "僅此分頁"
+  },
+  "popup_mixer_empty": {
+    "message": "目前沒有分頁正在播放音訊。"
+  },
+  "popup_shot_heading": {
+    "message": "螢幕截圖"
+  },
+  "popup_shot_full": {
+    "message": "整個網頁"
+  },
+  "popup_shot_full_sub": {
+    "message": "自動捲動並拼接"
+  },
+  "popup_shot_visible": {
+    "message": "可見區域"
+  },
+  "popup_shot_visible_sub": {
+    "message": "目前螢幕內容"
+  },
+  "popup_shot_region": {
+    "message": "選取範圍"
+  },
+  "popup_shot_region_sub": {
+    "message": "拖曳選取"
+  },
+  "popup_shot_error": {
+    "message": "無法擷取這個網頁。"
+  },
+  "popup_share_heading": {
+    "message": "分享預覽"
+  },
+  "popup_share_btn": {
+    "message": "檢查這個網頁"
+  },
+  "popup_share_btn_sub": {
+    "message": "查看這個網頁的連結在社群平台和 Google 上的呈現效果：評分及修正建議"
+  },
+  "popup_share_http_only": {
+    "message": "只能檢查網頁（http / https）。"
+  },
+  "popup_share_incognito": {
+    "message": "無法在無痕式視窗中使用。"
+  },
+  "full_popup_video_heading": {
+    "message": "影片和音訊"
+  },
+  "full_popup_setup_title": {
+    "message": "未安裝影片下載工具"
+  },
+  "full_popup_setup_text": {
+    "message": "下載影片需要在這部電腦上安裝 yt-dlp（只需安裝一次，免費）："
+  },
+  "full_popup_setup_step1": {
+    "message": "擴充功能資料夾 → **native-host** → 按兩下 **install.bat**。"
+  },
+  "full_popup_setup_step2": {
+    "message": "等待出現 **Hoàn tất**（完成），然後按一下 **重新檢查**。"
+  },
+  "full_popup_copy": {
+    "message": "複製"
+  },
+  "full_popup_recheck": {
+    "message": "重新檢查"
+  },
+  "full_popup_v_idle": {
+    "message": "使用 yt-dlp 尋找網頁上的影片（YouTube、Facebook、TikTok、X… 超過 1000 個網站）。"
+  },
+  "full_popup_v_analyze": {
+    "message": "尋找這個網頁上的影片"
+  },
+  "full_popup_v_loading": {
+    "message": "正在分析影片…"
+  },
+  "full_popup_v_entry": {
+    "message": "選擇網頁上的影片"
+  },
+  "full_popup_v_quality": {
+    "message": "畫質"
+  },
+  "full_popup_v_format": {
+    "message": "格式"
+  },
+  "full_popup_v_download": {
+    "message": "下載"
+  },
+  "full_popup_jobs_clear": {
+    "message": "清除已完成項目"
+  },
+  "full_popup_streams_heading": {
+    "message": "檔案和影片串流"
+  },
+  "popup_img_heading": {
+    "message": "網頁上的圖片"
+  },
+  "popup_img_format": {
+    "message": "圖片儲存格式"
+  },
+  "popup_img_format_original": {
+    "message": "原始格式"
+  },
+  "popup_img_small_title": {
+    "message": "一併顯示圖示和小圖片"
+  },
+  "popup_img_small": {
+    "message": "小圖"
+  },
+  "full_popup_thumb_title": {
+    "message": "下載影片縮圖（最大尺寸）"
+  },
+  "full_popup_thumb": {
+    "message": "縮圖"
+  },
+  "popup_snap": {
+    "message": "截圖"
+  },
+  "popup_img_all": {
+    "message": "全選"
+  },
+  "popup_img_download": {
+    "message": "下載"
+  },
+  "popup_set_lights_heading": {
+    "message": "關燈和氛圍光"
+  },
+  "popup_set_dim": {
+    "message": "遮罩暗度"
+  },
+  "popup_set_glow": {
+    "message": "影片後方的氛圍光"
+  },
+  "popup_set_glow_strength": {
+    "message": "氛圍光亮度"
+  },
+  "popup_set_glow_size": {
+    "message": "氛圍光範圍"
+  },
+  "popup_set_options": {
+    "message": "選項"
+  },
+  "popup_set_keep_transform": {
+    "message": "切換影片時保留旋轉、翻轉和縮放"
+  },
+  "popup_set_player_buttons": {
+    "message": "在播放器上顯示按鈕"
+  },
+  "popup_set_shortcuts": {
+    "message": "鍵盤快速鍵"
+  },
+  "popup_set_auto_pip": {
+    "message": "切換分頁時自動開啟子母畫面（YouTube）"
+  },
+  "popup_keys_heading": {
+    "message": "快速鍵"
+  },
+  "popup_keys_hint": {
+    "message": "Alt + Shift + 按鍵"
+  },
+  "popup_keys_customize": {
+    "message": "變更快速鍵"
+  },
+  "popup_key_escape": {
+    "message": "結束電影模式 / 開燈"
+  },
+  "popup_key_pip": {
+    "message": "子母畫面（任何網站）"
+  },
+  "popup_key_capture": {
+    "message": "擷取整個網頁（任何網站）"
+  },
+  "full_popup_set_download_heading": {
+    "message": "下載"
+  },
+  "full_popup_set_cookies": {
+    "message": "下載影片時使用瀏覽器的登入狀態"
+  },
+  "full_popup_set_cookies_note": {
+    "message": "Facebook、Instagram、私人影片等需要此設定。Cookie 只會傳送給你電腦上的下載工具，絕不會儲存到磁碟。不適用於 YouTube。"
+  },
+  "popup_reset": {
+    "message": "還原預設設定"
+  },
+  "yt_toast_snapshot_saved": {
+    "message": "已擷取畫面 $1×$2"
+  },
+  "full_yt_dl_preset_best": {
+    "message": "最佳"
+  },
+  "full_yt_dl_preset_best_label": {
+    "message": "最佳影片 · MP4"
+  },
+  "full_yt_dl_preset_video_label": {
+    "message": "影片 $1 · MP4"
+  },
+  "full_yt_dl_preset_mp3_label": {
+    "message": "僅音訊 · MP3"
+  },
+  "full_yt_err_extension_updated": {
+    "message": "擴充功能剛剛更新了，請重新載入網頁（F5）。"
+  },
+  "full_yt_dl_panel_title": {
+    "message": "下載"
+  },
+  "full_yt_dl_panel_state": {
+    "message": "MP4 影片"
+  },
+  "full_yt_dl_thumb": {
+    "message": "縮圖"
+  },
+  "full_yt_dl_thumb_title": {
+    "message": "下載影片縮圖（最大尺寸）"
+  },
+  "full_yt_dl_snapshot": {
+    "message": "截圖"
+  },
+  "full_yt_dl_snapshot_title": {
+    "message": "擷取目前畫面（Alt+Shift+S）"
+  },
+  "full_yt_dl_host_missing": {
+    "message": "未安裝影片下載工具（yt-dlp）。按一下擴充功能圖示 → 下載，查看安裝步驟。圖片仍可下載。"
+  },
+  "full_yt_toast_watch_only": {
+    "message": "只能在影片頁面下載"
+  },
+  "full_yt_toast_download_start_failed": {
+    "message": "無法開始下載"
+  },
+  "full_yt_toast_download_started": {
+    "message": "已開始下載 · $1"
+  },
+  "full_yt_dl_cancel": {
+    "message": "取消下載"
+  },
+  "full_yt_dl_open_file": {
+    "message": "開啟檔案"
+  },
+  "full_yt_dl_show_in_folder": {
+    "message": "在資料夾中顯示"
+  },
+  "full_yt_toast_download_done": {
+    "message": "下載完成"
+  },
+  "full_yt_toast_download_failed": {
+    "message": "下載失敗"
+  },
+  "full_yt_toast_thumb_loading": {
+    "message": "正在下載縮圖…"
+  },
+  "full_yt_thumb_filename": {
+    "message": "$1 - 縮圖"
+  },
+  "full_yt_toast_thumb_saved": {
+    "message": "已儲存縮圖"
+  },
+  "full_yt_toast_thumb_failed_reason": {
+    "message": "無法下載縮圖：$1"
+  },
+  "full_yt_toast_thumb_failed": {
+    "message": "無法下載縮圖"
+  },
+  "yt_toast_pip_failed": {
+    "message": "無法開啟子母畫面"
+  },
+  "yt_toast_lights_off": {
+    "message": "已關燈 · 按 Esc 即可開燈"
+  },
+  "yt_toast_lights_on": {
+    "message": "已開燈"
+  },
+  "yt_toast_cinema_on": {
+    "message": "電影模式 · 按 Esc 即可結束"
+  },
+  "yt_toast_cinema_off": {
+    "message": "已結束電影模式"
+  },
+  "yt_toast_transform_reset": {
+    "message": "已重設影片"
+  },
+  "yt_toast_zoom_reset": {
+    "message": "已重設縮放"
+  },
+  "yt_toast_pan_hint": {
+    "message": "$1 · 拖曳影片即可平移畫面"
+  },
+  "yt_toast_watch_only": {
+    "message": "只能在影片頁面使用"
+  },
+  "full_yt_btn_download": {
+    "message": "下載"
+  },
+  "yt_btn_pip": {
+    "message": "子母畫面（Alt+Shift+P）"
+  },
+  "yt_btn_transform": {
+    "message": "旋轉/翻轉和縮放"
+  },
+  "yt_btn_lights_off": {
+    "message": "關燈（Alt+Shift+L）"
+  },
+  "yt_btn_cinema": {
+    "message": "電影模式（Alt+Shift+C）"
+  },
+  "yt_zoom_reset_title": {
+    "message": "重設縮放（回到 100%）"
+  },
+  "yt_transform_panel_title": {
+    "message": "旋轉/翻轉和縮放"
+  },
+  "yt_panel_zoom_crop": {
+    "message": "縮放和裁切"
+  },
+  "yt_btn_autocrop": {
+    "message": "自動裁切"
+  },
+  "yt_btn_autocrop_title": {
+    "message": "自動裁切黑邊（Alt+Shift+A）"
+  },
+  "yt_btn_fill": {
+    "message": "填滿"
+  },
+  "yt_btn_zoom_out_title": {
+    "message": "縮小（Alt+Shift+−）"
+  },
+  "yt_btn_zoom_in_title": {
+    "message": "放大（Alt+Shift++）"
+  },
+  "yt_btn_lights_on": {
+    "message": "開燈（Alt+Shift+L）"
+  },
+  "yt_btn_cinema_exit": {
+    "message": "結束電影模式（Esc）"
+  },
+  "yt_btn_pip_close": {
+    "message": "關閉子母畫面（Alt+Shift+P）"
+  },
+  "yt_panel_state_flip_hv": {
+    "message": "$1° · 已水平翻轉 · 已垂直翻轉"
+  },
+  "yt_panel_state_flip_h": {
+    "message": "$1° · 已水平翻轉"
+  },
+  "yt_panel_state_flip_v": {
+    "message": "$1° · 已垂直翻轉"
+  },
+  "yt_err_video_not_ready": {
+    "message": "影片尚未就緒，請稍後再試"
+  },
+  "yt_err_frame_unreadable": {
+    "message": "無法讀取這部影片的畫面"
+  },
+  "yt_err_scene_too_dark": {
+    "message": "畫面太暗，請在較亮的場景再試一次"
+  },
+  "yt_toast_no_bars": {
+    "message": "未偵測到黑邊 · 填滿畫面 $1%"
+  },
+  "yt_toast_bars_cropped": {
+    "message": "已裁切黑邊 · $1%"
+  },
+  "yt_toast_fill": {
+    "message": "填滿畫面 · $1%"
+  },
+  "yt_toast_crop_ratio": {
+    "message": "已裁切為 $1 · $2%"
+  },
+  "full_dl_hint_mp4": {
+    "message": "MP4 相容性最佳。1080p 以下優先使用 H.264，更高解析度則使用 VP9/AV1。"
+  },
+  "full_dl_hint_webm": {
+    "message": "WebM（VP9 + Opus）：畫質佳，檔案小。"
+  },
+  "full_dl_hint_mkv": {
+    "message": "MKV 保留可用的最佳編碼（通常為 AV1），適合封存。"
+  },
+  "full_dl_hint_mp3": {
+    "message": "MP3 相容性最佳（由原始音訊重新編碼）。"
+  },
+  "full_dl_hint_m4a": {
+    "message": "M4A（AAC）：通常直接使用原始音訊，無須重新編碼。"
+  },
+  "full_dl_hint_opus": {
+    "message": "Opus：YouTube 的原始音訊，檔案最小。"
+  },
+  "full_dl_host_checking": {
+    "message": "正在檢查…"
+  },
+  "full_dl_host_connected": {
+    "message": "已連線"
+  },
+  "full_dl_host_save_to": {
+    "message": "儲存至：$1"
+  },
+  "full_dl_no_ffmpeg": {
+    "message": "缺少 ffmpeg：只能下載同時包含畫面和聲音的格式。請重新執行 install.bat。"
+  },
+  "full_dl_setup_missing_title": {
+    "message": "未安裝影片下載工具"
+  },
+  "full_dl_setup_error_title": {
+    "message": "無法連線至下載工具"
+  },
+  "full_dl_setup_missing_text": {
+    "message": "下載影片需要在你的電腦上安裝 yt-dlp 工具（只需安裝一次，免費）："
+  },
+  "full_dl_setup_error_text": {
+    "message": "$1 修正方法："
+  },
+  "full_dl_retry": {
+    "message": "重試"
+  },
+  "full_dl_analyzing_embed": {
+    "message": "正在分析嵌入的影片…"
+  },
+  "full_dl_analyzing": {
+    "message": "正在分析影片…"
+  },
+  "full_dl_analyze_failed": {
+    "message": "無法分析這個網頁。"
+  },
+  "full_dl_no_videos": {
+    "message": "這個網頁上找不到影片。"
+  },
+  "full_dl_entries_title_one": {
+    "message": "網頁中有 $1 部影片"
+  },
+  "full_dl_entries_title_other": {
+    "message": "網頁中有 $1 部影片"
+  },
+  "full_dl_live_unsupported": {
+    "message": "目前還無法下載直播。請在直播結束後再試一次。"
+  },
+  "full_dl_max_height": {
+    "message": "最高 $1p"
+  },
+  "full_dl_audio_only_info": {
+    "message": "僅音訊"
+  },
+  "full_dl_group_video": {
+    "message": "影片"
+  },
+  "full_dl_group_audio_only": {
+    "message": "僅音訊"
+  },
+  "full_dl_audio_format": {
+    "message": "$1 · 音訊"
+  },
+  "full_dl_quality_best": {
+    "message": "最佳（$1）"
+  },
+  "full_dl_download_audio": {
+    "message": "下載音訊"
+  },
+  "full_dl_download_audio_size": {
+    "message": "下載音訊 · 約 $1"
+  },
+  "full_dl_download_video": {
+    "message": "下載影片"
+  },
+  "full_dl_download_video_size": {
+    "message": "下載影片 · 約 $1"
+  },
+  "full_dl_job_cancel": {
+    "message": "取消下載"
+  },
+  "full_dl_job_open": {
+    "message": "開啟檔案"
+  },
+  "full_dl_job_reveal": {
+    "message": "在資料夾中顯示"
+  },
+  "full_dl_stream_playing": {
+    "message": "播放中的影片"
+  },
+  "full_dl_stream_in_post": {
+    "message": "貼文中的影片"
+  },
+  "full_dl_stream_pick": {
+    "message": "選擇"
+  },
+  "full_dl_stream_embed": {
+    "message": "網頁中嵌入的 $1 影片"
+  },
+  "full_dl_stream_download": {
+    "message": "下載"
+  },
+  "full_dl_stream_sent": {
+    "message": "已交由瀏覽器下載"
+  },
+  "full_dl_stream_error": {
+    "message": "錯誤：$1"
+  },
+  "full_dl_stream_need_host": {
+    "message": "請先安裝影片下載工具（見上方）"
+  },
+  "full_dl_stream_started": {
+    "message": "下載中 · 進度請見上方"
+  },
+  "dl_img_upgraded_tip": {
+    "message": "將下載找到的最大版本"
+  },
+  "dl_img_count_one": {
+    "message": "$1 張圖片"
+  },
+  "dl_img_count_other": {
+    "message": "$1 張圖片"
+  },
+  "dl_img_count_of_one": {
+    "message": "$2 / $1 張圖片"
+  },
+  "dl_img_count_of_other": {
+    "message": "$2 / $1 張圖片"
+  },
+  "dl_img_only_small": {
+    "message": "只有小圖片（圖示）。開啟「小圖」即可顯示。"
+  },
+  "dl_img_none": {
+    "message": "這個網頁上找不到圖片。"
+  },
+  "dl_img_deselect": {
+    "message": "取消全選"
+  },
+  "dl_img_select_all": {
+    "message": "全選"
+  },
+  "dl_img_download_n_one": {
+    "message": "下載 $1 張圖片"
+  },
+  "dl_img_download_n_other": {
+    "message": "下載 $1 張圖片"
+  },
+  "dl_img_download": {
+    "message": "下載"
+  },
+  "dl_img_downloading_one": {
+    "message": "正在下載 $1 張圖片…"
+  },
+  "dl_img_downloading_other": {
+    "message": "正在下載 $1 張圖片…"
+  },
+  "dl_img_saved_failed_folder_one": {
+    "message": "已將 $1 張圖片儲存至「$4」資料夾 · $2 張失敗（$3）"
+  },
+  "dl_img_saved_failed_folder_other": {
+    "message": "已將 $1 張圖片儲存至「$4」資料夾 · $2 張失敗（$3）"
+  },
+  "dl_img_saved_failed_one": {
+    "message": "已儲存 $1 張圖片 · $2 張失敗（$3）"
+  },
+  "dl_img_saved_failed_other": {
+    "message": "已儲存 $1 張圖片 · $2 張失敗（$3）"
+  },
+  "dl_img_saved_folder_one": {
+    "message": "已將 $1 張圖片儲存至「$2」資料夾"
+  },
+  "dl_img_saved_folder_other": {
+    "message": "已將 $1 張圖片儲存至「$2」資料夾"
+  },
+  "dl_img_saved_one": {
+    "message": "已儲存 $1 張圖片"
+  },
+  "dl_img_saved_other": {
+    "message": "已儲存 $1 張圖片"
+  },
+  "dl_img_download_failed": {
+    "message": "下載失敗：$1"
+  },
+  "dl_img_unknown_error": {
+    "message": "不明錯誤"
+  },
+  "dl_snap_label": {
+    "message": "截圖"
+  },
+  "dl_snap_tip": {
+    "message": "以原始解析度 $1×$2 擷取播放中的畫面"
+  },
+  "dl_scan_system_page": {
+    "message": "無法掃描這個網頁（瀏覽器系統頁面）。"
+  },
+  "dl_scanning": {
+    "message": "正在掃描網頁…"
+  },
+  "dl_scan_failed_file": {
+    "message": "無法掃描這個網頁。請為這個擴充功能開啟「允許存取檔案網址」。"
+  },
+  "dl_scan_failed": {
+    "message": "無法掃描這個網頁。"
+  },
+  "full_dl_start_failed": {
+    "message": "無法開始下載。"
+  },
+  "full_dl_copied": {
+    "message": "已複製"
+  },
+  "full_dl_thumb_name": {
+    "message": "$1 - 縮圖"
+  },
+  "dl_snap_done": {
+    "message": "已擷取 $1×$2 · $3"
+  },
+  "dl_snap_failed": {
+    "message": "無法擷取畫面"
+  },
+  "dl_snap_failed_detail": {
+    "message": "無法擷取畫面：$1"
+  },
+  "full_dl_unavailable_page": {
+    "message": "這個網頁無法使用此功能。"
+  },
+  "full_dl_feed_hint": {
+    "message": "這是動態消息 / 個人檔案頁面，尚未找到影片。請播放你要下載的影片（或開啟該貼文 / Reel），然後按一下下方按鈕。"
+  },
+  "full_dl_find_playing": {
+    "message": "尋找播放中的影片"
+  },
+  "full_dl_feed_retry": {
+    "message": "這個網頁上尚未找到影片。請播放你要下載的影片（或開啟該貼文 / Reel），然後再試一次。"
+  },
+  "audio_volume_aria": {
+    "message": "音量：$1"
+  },
+  "audio_set_failed": {
+    "message": "無法調整這個分頁的音量。"
+  },
+  "audio_tab_switch_tip": {
+    "message": "$1\n按一下即可切換至這個分頁"
+  },
+  "audio_this_tab": {
+    "message": "此分頁"
+  },
+  "audio_playing": {
+    "message": "正在播放音訊"
+  },
+  "audio_pip": {
+    "message": "將這個分頁的影片彈出為子母畫面"
+  },
+  "audio_pip_failed": {
+    "message": "無法開啟子母畫面。"
+  },
+  "audio_unmute": {
+    "message": "取消靜音"
+  },
+  "audio_mute": {
+    "message": "靜音"
+  },
+  "audio_boost_current_only": {
+    "message": "只有在開啟彈出式視窗的那個分頁上，音量才能增強到 100% 以上。請在該分頁上開啟彈出式視窗，然後再試一次。"
+  },
+  "bg_file_name_default": {
+    "message": "檔案"
+  },
+  "full_bg_host_missing": {
+    "message": "這部電腦上未安裝影片下載工具。"
+  },
+  "full_bg_host_forbidden": {
+    "message": "下載工具尚未允許這個擴充功能（其 ID 已變更）。請重新執行 install.bat。"
+  },
+  "full_bg_host_crash": {
+    "message": "下載工具意外結束。請重新執行 install.bat，或查看 native-host\\host.log。"
+  },
+  "full_bg_host_unreachable": {
+    "message": "無法連線至下載工具。"
+  },
+  "full_bg_host_no_reply": {
+    "message": "下載工具沒有回應。"
+  },
+  "full_bg_invalid_url": {
+    "message": "網址無效。"
+  },
+  "full_bg_job_interrupted": {
+    "message": "在完成前遭到中斷。"
+  },
+  "full_bg_unknown_error": {
+    "message": "不明錯誤。"
+  },
+  "full_bg_invalid_choice": {
+    "message": "下載選項無效。"
+  },
+  "full_bg_host_stopped": {
+    "message": "下載工具意外停止。"
+  },
+  "bg_img_no_url": {
+    "message": "缺少圖片網址"
+  },
+  "bg_img_failed": {
+    "message": "無法下載圖片"
+  },
+  "bg_img_none_selected": {
+    "message": "未選取任何圖片。"
+  },
+  "bg_vol_no_tab": {
+    "message": "未指定分頁。"
+  },
+  "bg_vol_cannot_set": {
+    "message": "無法調整這個網頁的音量。"
+  },
+  "bg_vol_no_tab_info": {
+    "message": "缺少分頁資訊。"
+  },
+  "bg_vol_capture_failed": {
+    "message": "無法擷取分頁的音訊。"
+  },
+  "bg_shot_bad_mode": {
+    "message": "擷取模式無效。"
+  },
+  "bg_shot_busy": {
+    "message": "正在擷取畫面，請稍候。"
+  },
+  "bg_shot_no_tab": {
+    "message": "找不到分頁。"
+  },
+  "bg_shot_restricted": {
+    "message": "無法擷取這個網頁（瀏覽器系統頁面）。"
+  },
+  "bg_img_private_host": {
+    "message": "不會下載來自區域網路位址的圖片"
+  },
+  "bg_img_server_status": {
+    "message": "伺服器傳回錯誤 $1"
+  },
+  "bg_img_too_large": {
+    "message": "圖片過大（超過 50 MB）"
+  },
+  "bg_img_not_image": {
+    "message": "該網址不是圖片"
+  },
+  "bg_img_bad_size": {
+    "message": "圖片尺寸無效"
+  },
+  "bg_img_unreadable": {
+    "message": "無法讀取圖片"
+  },
+  "page_image_name_default": {
+    "message": "圖片"
+  },
+  "page_image_name_random": {
+    "message": "圖片-$1"
+  },
+  "page_alt_video_poster": {
+    "message": "影片封面"
+  },
+  "page_alt_page_image": {
+    "message": "網頁預覽圖片"
+  },
+  "page_snap_no_video": {
+    "message": "目前沒有顯示任何影片。"
+  },
+  "page_snap_failed": {
+    "message": "無法產生圖片"
+  },
+  "page_snap_blocked": {
+    "message": "這個網頁不允許擷取影片畫面（影片來自其他網站或受到保護）。"
+  },
+  "page_pip_no_video": {
+    "message": "這個網頁上找不到影片。"
+  },
+  "page_pip_blocked": {
+    "message": "瀏覽器封鎖了子母畫面。請再按一下「子母畫面」按鈕。"
+  },
+  "page_pip_failed": {
+    "message": "無法開啟子母畫面"
+  },
+  "page_pip_failed_detail": {
+    "message": "無法開啟子母畫面：$1"
+  },
+  "page_shot_select_hint": {
+    "message": "拖曳以選取要擷取的範圍 · 按 Esc 取消"
+  },
+  "shot_page_title": {
+    "message": "網頁截圖"
+  },
+  "shot_stitching": {
+    "message": "正在拼接圖片…"
+  },
+  "shot_save_png": {
+    "message": "下載 PNG"
+  },
+  "shot_save_jpg": {
+    "message": "下載 JPG"
+  },
+  "shot_copy": {
+    "message": "複製"
+  },
+  "shot_file_name_default": {
+    "message": "螢幕截圖"
+  },
+  "shot_file_name_page": {
+    "message": "網頁"
+  },
+  "shot_err_read_image": {
+    "message": "無法讀取螢幕截圖"
+  },
+  "shot_err_too_large": {
+    "message": "圖片過大，無法儲存"
+  },
+  "shot_open_folder": {
+    "message": "開啟資料夾"
+  },
+  "shot_saved": {
+    "message": "已將 $1 儲存至「下載」資料夾。"
+  },
+  "shot_save_failed": {
+    "message": "無法儲存：$1"
+  },
+  "shot_gone_title": {
+    "message": "螢幕截圖已無法使用"
+  },
+  "shot_expired": {
+    "message": "這張螢幕截圖已過期（瀏覽器或擴充功能剛剛重新啟動）。請重新擷取。"
+  },
+  "shot_doc_title": {
+    "message": "螢幕截圖 – $1"
+  },
+  "shot_file_name": {
+    "message": "螢幕截圖 $1 $2"
+  },
+  "shot_stitching_progress": {
+    "message": "正在拼接圖片… $1/$2"
+  },
+  "shot_processing": {
+    "message": "正在處理圖片…"
+  },
+  "shot_err_missing_frame": {
+    "message": "螢幕截圖缺少部分內容。請重新擷取。"
+  },
+  "shot_img_alt": {
+    "message": "螢幕截圖 $1"
+  },
+  "shot_img_hint": {
+    "message": "按一下即可在實際大小和符合螢幕大小之間切換"
+  },
+  "shot_mode_full": {
+    "message": "整個網頁"
+  },
+  "shot_mode_visible": {
+    "message": "可見區域"
+  },
+  "shot_mode_region": {
+    "message": "選取範圍"
+  },
+  "shot_meta_scaled": {
+    "message": "因網頁過長已縮小"
+  },
+  "shot_meta_truncated": {
+    "message": "僅擷取前 $1 px（無限捲動網頁）"
+  },
+  "shot_meta_css_size": {
+    "message": "網頁上的 $1 × $2 px"
+  },
+  "shot_copied": {
+    "message": "圖片已複製——按 Ctrl+V 即可貼到需要的地方。"
+  },
+  "shot_copy_failed": {
+    "message": "無法複製（圖片可能過大）：$1"
+  },
+  "share_title": {
+    "message": "分享預覽"
+  },
+  "share_subtitle": {
+    "message": "Open Graph · Twitter Card · 基本 SEO"
+  },
+  "share_url_placeholder": {
+    "message": "https://www.example.com.tw/article"
+  },
+  "share_url_aria": {
+    "message": "要檢查的網頁網址"
+  },
+  "share_check_btn": {
+    "message": "檢查"
+  },
+  "share_loading_page": {
+    "message": "正在讀取網頁…"
+  },
+  "share_empty_title": {
+    "message": "你的網頁分享出去會是什麼樣子？"
+  },
+  "share_empty_body": {
+    "message": "在上方輸入網頁網址（或在彈出式視窗中按一下 **工具 → 檢查這個網頁**），即可預覽連結在 Facebook、Zalo、X、LinkedIn、Discord、Telegram 和 Google 上的呈現效果，並取得評分和修正建議。"
+  },
+  "share_status_pass": {
+    "message": "通過："
+  },
+  "share_status_warn": {
+    "message": "警告："
+  },
+  "share_status_fail": {
+    "message": "錯誤："
+  },
+  "share_status_info": {
+    "message": "資訊："
+  },
+  "share_platform_pass": {
+    "message": "正常"
+  },
+  "share_platform_warn": {
+    "message": "待改善"
+  },
+  "share_platform_fail": {
+    "message": "有錯誤"
+  },
+  "share_loading_raw": {
+    "message": "正在以社群平台爬蟲的方式擷取原始 HTML…"
+  },
+  "share_err_unknown": {
+    "message": "無法讀取網頁：不明錯誤。"
+  },
+  "share_err_read_status": {
+    "message": "無法讀取網頁：伺服器傳回狀態碼 $1。"
+  },
+  "share_err_read": {
+    "message": "無法讀取網頁：$1。"
+  },
+  "share_loading_images": {
+    "message": "正在載入分享圖片…"
+  },
+  "share_err_invalid_url": {
+    "message": "網址無效。請輸入以 http:// 或 https:// 開頭的網頁網址"
+  },
+  "share_doc_title_score": {
+    "message": "$1/100 – 分享預覽"
+  },
+  "share_score_aria": {
+    "message": "$1 分（滿分 100）– $2"
+  },
+  "share_page_untitled": {
+    "message": "（網頁沒有標題）"
+  },
+  "share_count_fail_one": {
+    "message": "$1 個錯誤"
+  },
+  "share_count_fail_other": {
+    "message": "$1 個錯誤"
+  },
+  "share_count_warn_one": {
+    "message": "$1 個警告"
+  },
+  "share_count_warn_other": {
+    "message": "$1 個警告"
+  },
+  "share_count_pass_one": {
+    "message": "$1 項通過"
+  },
+  "share_count_pass_other": {
+    "message": "$1 項通過"
+  },
+  "share_platforms_aria": {
+    "message": "各平台狀態"
+  },
+  "share_chip_issues": {
+    "message": "錯誤：$1，警告：$2"
+  },
+  "share_chip_no_issues": {
+    "message": "沒有問題"
+  },
+  "share_notice_private": {
+    "message": "這個網頁位於本機位址（localhost / 區域網路），社群平台無法存取。以下結果可協助你在網頁上線前檢查標記。"
+  },
+  "share_notice_no_raw": {
+    "message": "無法讀取原始 HTML（爬蟲可能也遭到封鎖），因此分數上限為 49。以下項目取自分頁中顯示的網頁，可能與社群平台收到的內容不同。"
+  },
+  "share_notice_raw_only": {
+    "message": "僅檢查原始 HTML（未與分頁中開啟的網頁比較）。"
+  },
+  "share_pv_no_image": {
+    "message": "沒有圖片"
+  },
+  "share_pv_svg": {
+    "message": "SVG 圖片：不會顯示"
+  },
+  "share_pv_bad_image": {
+    "message": "圖片無法使用"
+  },
+  "share_pv_untitled": {
+    "message": "（無標題）"
+  },
+  "share_x_from": {
+    "message": "來自 $1"
+  },
+  "share_google_no_desc": {
+    "message": "沒有 meta description：Google 會從網頁中自行擷取摘要。"
+  },
+  "share_sec_preview": {
+    "message": "預覽"
+  },
+  "share_sec_preview_sub": {
+    "message": "約略模擬各平台呈現連結的方式，實際版面可能隨時間改變。Cinema Tools 與這些平台沒有任何關係。"
+  },
+  "share_fix_label": {
+    "message": "修正方法："
+  },
+  "share_filter_issues": {
+    "message": "需處理（$1）"
+  },
+  "share_filter_fail": {
+    "message": "錯誤（$1）"
+  },
+  "share_filter_all": {
+    "message": "全部（$1）"
+  },
+  "share_filter_aria": {
+    "message": "篩選結果"
+  },
+  "share_sec_checks": {
+    "message": "檢查結果"
+  },
+  "share_checks_none": {
+    "message": "沒有需要修正的項目了，做得好！"
+  },
+  "share_img_url": {
+    "message": "網址"
+  },
+  "share_img_size": {
+    "message": "尺寸"
+  },
+  "share_img_ratio": {
+    "message": "長寬比"
+  },
+  "share_img_ratio_value": {
+    "message": "$1 : 1（標準為 1.91 : 1）"
+  },
+  "share_img_bytes": {
+    "message": "檔案大小"
+  },
+  "share_img_bytes_min": {
+    "message": "$1 以上"
+  },
+  "share_img_format": {
+    "message": "格式"
+  },
+  "share_img_http": {
+    "message": "HTTP 狀態"
+  },
+  "share_img_status_redirected": {
+    "message": "$1（已重新導向）"
+  },
+  "share_img_cannot_view": {
+    "message": "無法顯示圖片"
+  },
+  "share_img_svg": {
+    "message": "SVG 圖片：社群平台不會顯示，本頁也不會顯示。"
+  },
+  "share_img_too_large": {
+    "message": "圖片過大，無法顯示。"
+  },
+  "share_img_decode_error": {
+    "message": "圖片已損毀，無法解碼。"
+  },
+  "share_img_too_many_pixels": {
+    "message": "圖片像素過多，無法顯示。"
+  },
+  "share_img_crop_title": {
+    "message": "大圖資訊卡中顯示的範圍（1.91:1）"
+  },
+  "share_img_crop_caption": {
+    "message": "亮框：裁切為 1.91:1 後保留的部分。"
+  },
+  "share_sec_image": {
+    "message": "分享圖片（og:image）"
+  },
+  "share_sec_tags": {
+    "message": "找到的標記"
+  },
+  "share_tags_none": {
+    "message": "網頁沒有任何用於分享的 meta 標記。"
+  },
+  "share_src_raw": {
+    "message": "原始 HTML"
+  },
+  "share_src_dom": {
+    "message": "渲染後網頁"
+  },
+  "share_src_js_only": {
+    "message": "僅 JS"
+  },
+  "share_src_js_changed": {
+    "message": "經 JS 修改"
+  },
+  "share_tags_after_js": {
+    "message": "JS 執行後：$1"
+  },
+  "share_sec_tags_sub": {
+    "message": "「僅 JS」：由 JavaScript 加入的標記，社群平台爬蟲看不到。"
+  },
+  "share_th_tag": {
+    "message": "標記"
+  },
+  "share_th_value": {
+    "message": "值"
+  },
+  "share_th_source": {
+    "message": "來源"
+  },
+  "share_copy": {
+    "message": "複製"
+  },
+  "share_copied": {
+    "message": "已複製。請貼到網頁的 <head> 中。"
+  },
+  "share_copy_failed": {
+    "message": "無法複製：$1"
+  },
+  "share_sec_snippet": {
+    "message": "建議的 meta 標記"
+  },
+  "share_snippet_changes_one": {
+    "message": "需要新增（+）或修改（~）$1 行；其他行維持現有值。請將【】中的預留文字換成實際內容。"
+  },
+  "share_snippet_changes_other": {
+    "message": "需要新增（+）或修改（~）$1 行；其他行維持現有值。請將【】中的預留文字換成實際內容。"
+  },
+  "share_snippet_complete": {
+    "message": "網頁已包含所有基本標記。"
+  },
+  "share_tools_how": {
+    "message": "為了檢視爬蟲看到的內容，會再擷取一次網頁（不附 Cookie），同時擷取分享圖片和網頁宣告的圖示。"
+  },
+  "share_tools_caveat": {
+    "message": "各平台實際的爬蟲可能收到不同內容（封鎖機器人、提供爬蟲專用網頁），而且平台會快取預覽。修正標記後，請將網址貼到官方工具中確認並重新整理："
+  },
+  "share_tools_private": {
+    "message": "這些工具僅在網頁上線後才能使用（不支援 localhost）。"
+  },
+  "share_tool_fb_note": {
+    "message": "– 也會重新整理 Messenger 和 Instagram 的預覽"
+  },
+  "share_tool_google_note": {
+    "message": "– 檢查結構化資料"
+  },
+  "share_sec_tools": {
+    "message": "在各平台上重新檢查"
+  },
+  "share_err_not_web": {
+    "message": "只能檢查網頁（http / https）。"
+  },
+  "share_err_tab_closed": {
+    "message": "要檢查的分頁已關閉。請在上方輸入網頁網址。"
+  },
+  "share_jsonld_invalid": {
+    "message": "（無效的 JSON）"
+  },
+  "share_err_http_only": {
+    "message": "僅支援 http / https 網址"
+  },
+  "share_err_redirect_private": {
+    "message": "遭重新導向至社群平台無法載入的區域網路位址"
+  },
+  "share_err_timeout": {
+    "message": "逾時（$1 秒）"
+  },
+  "share_err_connect": {
+    "message": "無法連線至伺服器"
+  },
+  "share_err_not_http": {
+    "message": "不是 http / https 網址"
+  },
+  "share_err_image_private": {
+    "message": "圖片位於區域網路位址 / 這部電腦上，社群平台無法載入"
+  },
+  "share_err_http_status": {
+    "message": "伺服器傳回狀態碼 $1"
+  },
+  "chk_group_access": {
+    "message": "爬蟲可讀取網頁"
+  },
+  "chk_group_image": {
+    "message": "分享圖片"
+  },
+  "chk_group_seo": {
+    "message": "Google 和基本 SEO"
+  },
+  "chk_bytes_mb": {
+    "message": "$1 MB"
+  },
+  "chk_bytes_kb": {
+    "message": "$1 KB"
+  },
+  "chk_quoted": {
+    "message": "「$1」"
+  },
+  "chk_raw_ok": {
+    "message": "未登入也能載入原始 HTML"
+  },
+  "chk_raw_redirected": {
+    "message": "已重新導向至 $1"
+  },
+  "chk_raw_not_html": {
+    "message": "這個網址未傳回 HTML 網頁"
+  },
+  "chk_received": {
+    "message": "收到：$1"
+  },
+  "chk_received_empty": {
+    "message": "收到：空白回應"
+  },
+  "chk_raw_not_html_fix": {
+    "message": "社群平台只會讀取 HTML 網頁中的 meta 標記。"
+  },
+  "chk_raw_status": {
+    "message": "伺服器對未登入的訪客傳回 HTTP $1"
+  },
+  "chk_raw_status_detail": {
+    "message": "社群平台爬蟲會以未登入訪客的身分造訪網頁，因此也可能遇到這個錯誤。以下結果取自分頁中目前顯示的網頁。"
+  },
+  "chk_raw_status_fix": {
+    "message": "允許公開存取；檢查防火牆 / 機器人防護（Cloudflare…）是否封鎖了爬蟲。"
+  },
+  "chk_raw_failed": {
+    "message": "無法載入原始 HTML"
+  },
+  "chk_raw_failed_fix": {
+    "message": "檢查網頁網址能否從網際網路存取。"
+  },
+  "chk_raw_size": {
+    "message": "原始 HTML 超過 5 MB"
+  },
+  "chk_raw_size_detail": {
+    "message": "僅讀取前 5 MB。"
+  },
+  "chk_raw_size_fix": {
+    "message": "將 meta 標記放在 <head> 的最前面，並縮減 HTML 大小。"
+  },
+  "chk_js_only_one": {
+    "message": "$1 個標記僅在 JavaScript 執行後出現"
+  },
+  "chk_js_only_other": {
+    "message": "$1 個標記僅在 JavaScript 執行後出現"
+  },
+  "chk_js_only_fix": {
+    "message": "Facebook、Zalo、X、LinkedIn、Discord 和 Telegram 不會執行 JavaScript，因此看不到這些標記。請讓伺服器直接在 HTML 中輸出標記（SSR、預先建置的靜態網頁或預先渲染）。如果未登入或未接受 Cookie 的訪客只會看到阻擋頁面，爬蟲也只會看到該頁面。"
+  },
+  "chk_js_only_ok": {
+    "message": "原始 HTML 中已包含分享標記"
+  },
+  "chk_js_only_ok_detail": {
+    "message": "僅由 JavaScript 加入：$1（不影響分享標記）。"
+  },
+  "chk_changed": {
+    "message": "原始 HTML 與渲染後網頁不同"
+  },
+  "chk_changed_line": {
+    "message": "$1：「$2」 → 「$3」"
+  },
+  "chk_changed_fix": {
+    "message": "社群平台採用原始 HTML 中的值。這在切換頁面時修改標記的單頁應用程式（SPA）中很常見：伺服器必須為每個網址傳回正確的標記。"
+  },
+  "chk_og_title_missing": {
+    "message": "缺少 og:title"
+  },
+  "chk_og_title_missing_fallback": {
+    "message": "各平台將改用 <title> 標記：「$1」。"
+  },
+  "chk_og_title_missing_no_title": {
+    "message": "網頁也沒有 <title>。"
+  },
+  "chk_og_title_missing_fix": {
+    "message": "新增 <meta property=\"og:title\" content=\"…\"> – 吸引人的標題，約 30–65 個字元。"
+  },
+  "chk_og_title_long_one": {
+    "message": "og:title 長度為 $1 個字元，可能會遭到截斷"
+  },
+  "chk_og_title_long_other": {
+    "message": "og:title 長度為 $1 個字元，可能會遭到截斷"
+  },
+  "chk_og_title_long_fix": {
+    "message": "控制在約 30–65 個字元，並將重點放在前面。"
+  },
+  "chk_og_title_short_one": {
+    "message": "og:title 過短（$1 個字元）"
+  },
+  "chk_og_title_short_other": {
+    "message": "og:title 過短（$1 個字元）"
+  },
+  "chk_og_title_short_fix": {
+    "message": "建議 30–65 個字元，內容更完整也更吸引人。"
+  },
+  "chk_og_title_ok_one": {
+    "message": "已設定 og:title（$1 個字元）"
+  },
+  "chk_og_title_ok_other": {
+    "message": "已設定 og:title（$1 個字元）"
+  },
+  "chk_og_desc_missing": {
+    "message": "缺少 og:description"
+  },
+  "chk_og_desc_missing_fallback": {
+    "message": "Facebook 和 Zalo 將改用 meta description。"
+  },
+  "chk_og_desc_missing_no_desc": {
+    "message": "網頁也沒有 meta description：分享資訊卡將不會有說明文字。"
+  },
+  "chk_og_desc_missing_fix": {
+    "message": "新增 <meta property=\"og:description\" content=\"…\"> – 約 60–160 個字元。"
+  },
+  "chk_og_desc_long_one": {
+    "message": "og:description 長度為 $1 個字元"
+  },
+  "chk_og_desc_long_other": {
+    "message": "og:description 長度為 $1 個字元"
+  },
+  "chk_og_desc_long_detail": {
+    "message": "分享資訊卡通常只顯示 1–2 行，其餘部分會遭到截斷。"
+  },
+  "chk_og_desc_long_fix": {
+    "message": "縮短至約 60–160 個字元，並將重點放在前面。"
+  },
+  "chk_og_desc_short_one": {
+    "message": "og:description 過短（$1 個字元）"
+  },
+  "chk_og_desc_short_other": {
+    "message": "og:description 過短（$1 個字元）"
+  },
+  "chk_og_desc_short_fix": {
+    "message": "建議約 60–160 個字元，把內容說清楚。"
+  },
+  "chk_og_desc_ok_one": {
+    "message": "已設定 og:description（$1 個字元）"
+  },
+  "chk_og_desc_ok_other": {
+    "message": "已設定 og:description（$1 個字元）"
+  },
+  "chk_og_url_missing": {
+    "message": "缺少 og:url"
+  },
+  "chk_og_url_missing_detail": {
+    "message": "按讚 / 分享次數可能會分散到多個網址（含 ?utm_…、#…）。"
+  },
+  "chk_og_url_missing_fix": {
+    "message": "新增 <meta property=\"og:url\" content=\"網頁的標準網址\">。"
+  },
+  "chk_og_url_relative": {
+    "message": "og:url 不是絕對網址"
+  },
+  "chk_og_url_relative_fix": {
+    "message": "使用以 https:// 開頭的絕對網址"
+  },
+  "chk_og_url_mismatch": {
+    "message": "og:url 與 canonical 連結不一致"
+  },
+  "chk_og_url_mismatch_fix": {
+    "message": "兩個標記應指向同一個標準網址。"
+  },
+  "chk_og_url_ok": {
+    "message": "已設定 og:url"
+  },
+  "chk_og_type_missing": {
+    "message": "缺少 og:type"
+  },
+  "chk_og_type_missing_detail": {
+    "message": "Facebook 預設會將其視為 \"website\"。"
+  },
+  "chk_og_type_missing_fix": {
+    "message": "新增 <meta property=\"og:type\" content=\"website\">（文章請用 \"article\"）。"
+  },
+  "chk_og_site_missing": {
+    "message": "缺少 og:site_name"
+  },
+  "chk_og_site_missing_detail": {
+    "message": "Discord 和 Telegram 會在資訊卡第一行顯示網站名稱；若沒有，則只會顯示網域。"
+  },
+  "chk_og_site_missing_fix": {
+    "message": "新增 <meta property=\"og:site_name\" content=\"品牌名稱\">。"
+  },
+  "chk_og_locale_missing": {
+    "message": "未宣告 og:locale"
+  },
+  "chk_og_locale_missing_vi": {
+    "message": "非必要。越南文網頁可設定為 \"vi_VN\"。"
+  },
+  "chk_og_locale_optional": {
+    "message": "非必要。"
+  },
+  "chk_dup": {
+    "message": "有值不同的重複標記：$1"
+  },
+  "chk_dup_fix": {
+    "message": "每個標記只應出現一次，否則平台可能會選錯。"
+  },
+  "chk_og_image_missing": {
+    "message": "缺少 og:image"
+  },
+  "chk_og_image_missing_tw": {
+    "message": "僅設定了 twitter:image（Facebook、Zalo 和 LinkedIn 不使用這個標記）。"
+  },
+  "chk_og_image_missing_detail": {
+    "message": "分享的貼文將不會有圖片，或是平台會從網頁中任意挑選一張圖片。"
+  },
+  "chk_og_image_missing_fix": {
+    "message": "新增 <meta property=\"og:image\" content=\"https://…/image-1200x630.jpg\"> – 1200×630 px 的 JPG / PNG 圖片。"
+  },
+  "chk_og_image_ok": {
+    "message": "已設定 og:image"
+  },
+  "chk_img_abs_scheme": {
+    "message": "og:image 缺少 https:"
+  },
+  "chk_img_abs_scheme_fix": {
+    "message": "寫出完整的 https://… 網址"
+  },
+  "chk_img_abs_relative": {
+    "message": "og:image 必須是絕對網址"
+  },
+  "chk_img_abs_relative_detail": {
+    "message": "目前為「$1」。"
+  },
+  "chk_img_abs_relative_fix": {
+    "message": "使用完整網址：$1"
+  },
+  "chk_img_abs_ok": {
+    "message": "og:image 是絕對網址"
+  },
+  "chk_img_https": {
+    "message": "og:image 使用 http（未加密）"
+  },
+  "chk_img_https_fix": {
+    "message": "使用 https://，確保所有平台都能載入。"
+  },
+  "chk_tw_image_ok": {
+    "message": "twitter:image 可正常載入"
+  },
+  "chk_tw_image_failed": {
+    "message": "無法載入 twitter:image"
+  },
+  "chk_tw_image_failed_fix": {
+    "message": "請檢查圖片網址。"
+  },
+  "chk_tw_card_missing": {
+    "message": "缺少 twitter:card"
+  },
+  "chk_tw_card_missing_detail": {
+    "message": "X 可能不會為該連結顯示大圖資訊卡。"
+  },
+  "chk_tw_card_missing_fix": {
+    "message": "新增 <meta name=\"twitter:card\" content=\"summary_large_image\">。"
+  },
+  "chk_tw_card_invalid": {
+    "message": "twitter:card 無效：「$1」"
+  },
+  "chk_tw_card_invalid_detail": {
+    "message": "有效值：$1。"
+  },
+  "chk_tw_card_invalid_fix": {
+    "message": "如需橫向大圖，請使用 \"summary_large_image\"。"
+  },
+  "chk_tw_card_summary": {
+    "message": "小型資訊卡（方形圖片位於側邊）。如需大圖，請使用 summary_large_image。"
+  },
+  "chk_tw_fallback": {
+    "message": "沒有 $1"
+  },
+  "chk_tw_fallback_detail": {
+    "message": "沒關係：X 會改用 og:title / og:description / og:image。"
+  },
+  "chk_title_missing": {
+    "message": "缺少 <title> 標記"
+  },
+  "chk_title_missing_fix": {
+    "message": "新增能準確描述網頁內容的 <title>，約 30–60 個字元。"
+  },
+  "chk_title_long_one": {
+    "message": "<title> 長度為 $1 個字元"
+  },
+  "chk_title_long_other": {
+    "message": "<title> 長度為 $1 個字元"
+  },
+  "chk_title_long_fix": {
+    "message": "Google 通常會截斷超過約 60 個字元的標題，請縮短。"
+  },
+  "chk_title_short_one": {
+    "message": "<title> 過短（$1 個字元）"
+  },
+  "chk_title_short_other": {
+    "message": "<title> 過短（$1 個字元）"
+  },
+  "chk_title_short_fix": {
+    "message": "建議 30–60 個字元，並包含主要關鍵字。"
+  },
+  "chk_title_ok_one": {
+    "message": "已設定 <title>（$1 個字元）"
+  },
+  "chk_title_ok_other": {
+    "message": "已設定 <title>（$1 個字元）"
+  },
+  "chk_desc_missing": {
+    "message": "缺少 meta description"
+  },
+  "chk_desc_missing_detail": {
+    "message": "Google 會從網頁中任意擷取一段文字作為說明。"
+  },
+  "chk_desc_missing_fix": {
+    "message": "新增約 70–160 個字元的 <meta name=\"description\" content=\"…\">。"
+  },
+  "chk_desc_long_one": {
+    "message": "Meta description 長度為 $1 個字元"
+  },
+  "chk_desc_long_other": {
+    "message": "Meta description 長度為 $1 個字元"
+  },
+  "chk_desc_long_detail": {
+    "message": "Google 通常會在約 160 個字元處截斷。"
+  },
+  "chk_desc_long_fix": {
+    "message": "縮短至 70–160 個字元。"
+  },
+  "chk_desc_short_one": {
+    "message": "Meta description 過短（$1 個字元）"
+  },
+  "chk_desc_short_other": {
+    "message": "Meta description 過短（$1 個字元）"
+  },
+  "chk_desc_short_fix": {
+    "message": "建議 70–160 個字元。"
+  },
+  "chk_desc_ok_one": {
+    "message": "已設定 meta description（$1 個字元）"
+  },
+  "chk_desc_ok_other": {
+    "message": "已設定 meta description（$1 個字元）"
+  },
+  "chk_canonical_missing": {
+    "message": "缺少 canonical 連結"
+  },
+  "chk_canonical_missing_detail": {
+    "message": "可透過多個網址存取的網頁（參數、http/https、www）可能會被視為重複內容。"
+  },
+  "chk_canonical_missing_fix": {
+    "message": "新增 <link rel=\"canonical\" href=\"https://…\">。"
+  },
+  "chk_canonical_relative": {
+    "message": "Canonical 不是絕對網址"
+  },
+  "chk_canonical_relative_fix": {
+    "message": "使用完整網址：$1"
+  },
+  "chk_canonical_ok": {
+    "message": "已設定 canonical 連結"
+  },
+  "chk_robots_noindex": {
+    "message": "網頁禁止 Google 建立索引（noindex）"
+  },
+  "chk_robots_ok": {
+    "message": "允許搜尋引擎為網頁建立索引"
+  },
+  "chk_robots_noindex_fix": {
+    "message": "如果希望網頁出現在 Google 上，請移除 \"noindex\"。"
+  },
+  "chk_lang_ok": {
+    "message": "已宣告語言：lang=\"$1\""
+  },
+  "chk_lang_missing": {
+    "message": "<html> 缺少 lang 屬性"
+  },
+  "chk_lang_missing_fix": {
+    "message": "新增 <html lang=\"zh-TW\">（使用網頁的語言代碼）。"
+  },
+  "chk_viewport_ok": {
+    "message": "已設定 meta viewport（在手機上顯示良好）"
+  },
+  "chk_viewport_missing": {
+    "message": "缺少 meta viewport"
+  },
+  "chk_viewport_missing_fix": {
+    "message": "新增 <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">。"
+  },
+  "chk_favicon_ok": {
+    "message": "已設定網站圖示（favicon）"
+  },
+  "chk_favicon_failed": {
+    "message": "已宣告 favicon，但無法載入"
+  },
+  "chk_favicon_failed_fix": {
+    "message": "請檢查圖示網址。"
+  },
+  "chk_favicon_ico": {
+    "message": "找到 /favicon.ico"
+  },
+  "chk_favicon_missing": {
+    "message": "沒有網站圖示（favicon）"
+  },
+  "chk_favicon_ico_detail": {
+    "message": "建議同時宣告 <link rel=\"icon\">（方形圖片，至少 48×48）。"
+  },
+  "chk_favicon_missing_detail": {
+    "message": "Google 會在搜尋結果旁顯示網站圖示。"
+  },
+  "chk_favicon_missing_fix": {
+    "message": "新增 <link rel=\"icon\" href=\"/favicon.png\">（方形圖片，至少 48×48）。"
+  },
+  "chk_h1_count_one": {
+    "message": "找到 $1 個 H1 標題"
+  },
+  "chk_h1_count_other": {
+    "message": "找到 $1 個 H1 標題"
+  },
+  "chk_h1_missing": {
+    "message": "沒有 H1 標題"
+  },
+  "chk_h1_missing_fix": {
+    "message": "每個網頁都應有一個主要的 <h1> 標題。"
+  },
+  "chk_jsonld_ok": {
+    "message": "找到結構化資料（JSON-LD）"
+  },
+  "chk_jsonld_missing": {
+    "message": "沒有結構化資料（JSON-LD）"
+  },
+  "chk_jsonld_missing_detail": {
+    "message": "有助於 Google 顯示複合式搜尋結果（評分、價格、常見問題…）。"
+  },
+  "chk_jsonld_missing_fix": {
+    "message": "新增合適的 schema.org 標記（Organization、Article、Product…）。"
+  },
+  "chk_img_load_failed": {
+    "message": "無法載入分享圖片"
+  },
+  "chk_img_load_failed_fix": {
+    "message": "請檢查圖片是否可公開存取（無須登入），以及網址是否正確。"
+  },
+  "chk_img_load_ok": {
+    "message": "分享圖片可正常載入"
+  },
+  "chk_img_too_large": {
+    "message": "圖片過大（超過 20 MB）"
+  },
+  "chk_img_too_large_fix": {
+    "message": "Facebook 接受最大 8 MB 的圖片，X 最大 5 MB。請將圖片壓縮至 1 MB 以下。"
+  },
+  "chk_img_redirected": {
+    "message": "已重新導向"
+  },
+  "chk_img_svg": {
+    "message": "不支援 SVG 圖片"
+  },
+  "chk_img_svg_detail": {
+    "message": "Facebook、X、LinkedIn… 不會顯示 SVG 圖片。"
+  },
+  "chk_img_svg_fix": {
+    "message": "將圖片匯出為 JPG 或 PNG。"
+  },
+  "chk_img_format_unknown": {
+    "message": "無法辨識的圖片格式"
+  },
+  "chk_img_format_unknown_detail": {
+    "message": "伺服器回報的類型為 $1。"
+  },
+  "chk_img_use_jpg_png": {
+    "message": "為求保險，請使用 JPG 或 PNG。"
+  },
+  "chk_img_not_image": {
+    "message": "og:image 網址未傳回圖片"
+  },
+  "chk_received_unknown": {
+    "message": "收到：不明類型"
+  },
+  "chk_img_not_image_fix": {
+    "message": "請讓 og:image 指向實際的圖片檔案。"
+  },
+  "chk_img_corrupt": {
+    "message": "圖片已損毀或無法讀取"
+  },
+  "chk_img_corrupt_fix": {
+    "message": "重新將圖片匯出為 JPG / PNG。"
+  },
+  "chk_img_format_ok": {
+    "message": "支援 $1 格式"
+  },
+  "chk_img_format_partial": {
+    "message": "並非所有平台都支援 $1 格式"
+  },
+  "chk_img_bytes_fb": {
+    "message": "圖片大小為 $1：Facebook 會略過（上限 8 MB）"
+  },
+  "chk_img_compress": {
+    "message": "請將圖片壓縮至 1 MB 以下。"
+  },
+  "chk_img_bytes_x": {
+    "message": "圖片大小為 $1：X 不會顯示（上限 5 MB）"
+  },
+  "chk_img_bytes_heavy": {
+    "message": "圖片檔案較大（$1）"
+  },
+  "chk_img_bytes_heavy_detail": {
+    "message": "大型圖片載入緩慢，部分通訊應用程式可能會略過。"
+  },
+  "chk_img_bytes_heavy_fix": {
+    "message": "壓縮至 1 MB 以下（JPG 品質約 80%）。"
+  },
+  "chk_img_bytes_ok": {
+    "message": "圖片大小：$1"
+  },
+  "chk_img_dim_ok": {
+    "message": "尺寸 $1×$2 px"
+  },
+  "chk_img_dim_ok_detail": {
+    "message": "清晰度足以用於大圖資訊卡。"
+  },
+  "chk_img_dim_low": {
+    "message": "圖片為 $1×$2 px，不夠清晰"
+  },
+  "chk_img_dim_low_detail": {
+    "message": "仍會顯示為大圖，但在高解析度螢幕上會模糊。"
+  },
+  "chk_img_dim_low_fix": {
+    "message": "請使用 1200×630 px。"
+  },
+  "chk_img_dim_small": {
+    "message": "圖片為 $1×$2 px，偏小"
+  },
+  "chk_img_dim_small_detail": {
+    "message": "Facebook 會將其顯示為側邊的小縮圖，而非大圖（小於 600×315 時）。"
+  },
+  "chk_img_use_1200": {
+    "message": "請使用 1200×630 px 的圖片。"
+  },
+  "chk_img_dim_tiny": {
+    "message": "圖片為 $1×$2 px，太小"
+  },
+  "chk_img_dim_tiny_detail": {
+    "message": "Facebook 不使用小於 200×200 的圖片。"
+  },
+  "chk_img_ratio": {
+    "message": "長寬比 $1:1"
+  },
+  "chk_img_ratio_ok": {
+    "message": "符合大圖資訊卡的 1.91:1 框架。"
+  },
+  "chk_img_ratio_off": {
+    "message": "大圖資訊卡使用約 1.91:1 的框架，因此圖片會遭到裁切（請見預覽）。"
+  },
+  "chk_img_ratio_fix": {
+    "message": "使用 1200×630 px 的圖片，並將重要內容置中。"
+  },
+  "chk_img_declared_missing": {
+    "message": "未宣告 og:image:width / og:image:height"
+  },
+  "chk_img_declared_missing_detail": {
+    "message": "宣告後，Facebook 在第一次分享時就能顯示圖片（無須等待下載）。"
+  },
+  "chk_img_declared_missing_fix": {
+    "message": "新增 <meta property=\"og:image:width\" content=\"$1\"> 和 <meta property=\"og:image:height\" content=\"$2\">。"
+  },
+  "chk_img_declared_mismatch": {
+    "message": "宣告的尺寸與實際圖片不符"
+  },
+  "chk_img_declared_mismatch_detail": {
+    "message": "宣告為 $1×$2，實際為 $3×$4。"
+  },
+  "chk_img_declared_mismatch_fix": {
+    "message": "請改為 $1 和 $2。"
+  },
+  "chk_img_declared_ok": {
+    "message": "og:image:width / height 宣告正確"
+  },
+  "chk_img_alt_ok": {
+    "message": "已設定圖片說明（alt）"
+  },
+  "chk_img_alt_missing": {
+    "message": "缺少圖片說明（og:image:alt）"
+  },
+  "chk_img_alt_missing_detail": {
+    "message": "使用螢幕閱讀器的使用者將無法得知圖片內容。"
+  },
+  "chk_img_alt_missing_fix": {
+    "message": "新增 <meta property=\"og:image:alt\" content=\"…\">。"
+  },
+  "chk_grade_great": {
+    "message": "優秀"
+  },
+  "chk_grade_good": {
+    "message": "良好"
+  },
+  "chk_grade_fair": {
+    "message": "有待改善"
+  },
+  "chk_grade_poor": {
+    "message": "不佳"
+  },
+  "chk_suggest_title_placeholder": {
+    "message": "【網頁標題（30–65 個字元）】"
+  },
+  "chk_suggest_desc_placeholder": {
+    "message": "【簡短吸睛的說明（60–160 個字元）】"
+  },
+  "chk_suggest_image_url": {
+    "message": "https://$1/share-image-1200x630.jpg"
+  },
+  "chk_suggest_domain_placeholder": {
+    "message": "example.com"
+  },
+  "chk_suggest_note_basic": {
+    "message": "基本（Google）"
+  },
+  "chk_suggest_alt_placeholder": {
+    "message": "【圖片內容說明】"
+  },
+  "chk_suggest_site_placeholder": {
+    "message": "【品牌名稱】"
+  },
+  "chk_suggest_note_x": {
+    "message": "X（Twitter）：標題、說明和圖片取自上方的 og:* 標記"
+  }
+}

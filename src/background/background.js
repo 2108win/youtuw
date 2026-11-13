@@ -11,7 +11,8 @@
 // #full-end
 'use strict';
 
-importScripts('/src/shared/shared.js'); // YTX_SHARED.pipInTab dùng chung với popup
+importScripts('/src/shared/i18n.js', '/src/shared/shared.js'); // YTX_I18N (chuỗi giao diện), YTX_SHARED.pipInTab dùng chung với popup
+const { t } = globalThis.YTX_I18N;
 
 // #full-start
 const HOST = 'com.cinematools.downloader';
@@ -40,7 +41,7 @@ function sanitize(name, max = 120) {
 }
 
 function buildFilename(folder, name, ext) {
-  const file = `${sanitize(name) || 'tep'}.${ext}`;
+  const file = `${sanitize(name) || sanitize(t('bg_file_name_default')) || 'file'}.${ext}`;
   const dir = sanitize(folder, 80);
   return dir ? `${dir}/${file}` : file;
 }
@@ -67,15 +68,15 @@ function broadcastRuntime(msg) {
 // ---- Bộ tải trên máy (native messaging) ------------------------------------------------
 function hostError(message = '') {
   if (/not found/i.test(message)) {
-    return { code: 'missing', text: 'Chưa cài bộ tải video trên máy.' };
+    return { code: 'missing', text: t('full_bg_host_missing') };
   }
   if (/forbidden/i.test(message)) {
-    return { code: 'forbidden', text: 'Bộ tải chưa cho phép extension này (ID đã đổi). Chạy lại install.bat.' };
+    return { code: 'forbidden', text: t('full_bg_host_forbidden') };
   }
   if (/exited/i.test(message)) {
-    return { code: 'crash', text: 'Bộ tải bị thoát đột ngột. Chạy lại install.bat hoặc xem native-host\\host.log.' };
+    return { code: 'crash', text: t('full_bg_host_crash') };
   }
-  return { code: 'error', text: message || 'Không kết nối được bộ tải.' };
+  return { code: 'error', text: message || t('full_bg_host_unreachable') };
 }
 
 function nativeCall(msg) {
@@ -87,7 +88,7 @@ function nativeCall(msg) {
           const e = hostError(err.message);
           resolve({ ok: false, error: e.text, code: e.code });
         } else {
-          resolve(res || { ok: false, error: 'Bộ tải không trả lời.' });
+          resolve(res || { ok: false, error: t('full_bg_host_no_reply') });
         }
       });
     } catch (err) {
@@ -174,7 +175,7 @@ async function cookiesFor(url) {
 const INFO_TTL = 15 * 60 * 1000;
 
 async function getInfo({ url, headers, refresh, cacheOnly }) {
-  if (!isHttpUrl(url)) return { ok: false, error: 'Địa chỉ không hợp lệ.' };
+  if (!isHttpUrl(url)) return { ok: false, error: t('full_bg_invalid_url') };
   const key = `info:${url}`;
   if (!refresh) {
     const cached = (await chrome.storage.session.get(key))[key];
@@ -203,7 +204,7 @@ function restoreJobs() {
         // Service worker khởi động lại => kết nối tới bộ tải đã mất.
         if (ACTIVE.has(job.status)) {
           job.status = 'error';
-          job.error = 'Bị ngắt giữa chừng.';
+          job.error = t('full_bg_job_interrupted');
         }
         jobs.set(job.id, job);
       }
@@ -293,13 +294,13 @@ function onHostMessage(job, m) {
       break;
     case 'error':
       job.status = 'error';
-      job.error = m.error || 'Lỗi không rõ.';
+      job.error = m.error || t('full_bg_unknown_error');
       closePort(job.id);
       break;
     default:
       if (m.ok === false) {
         job.status = 'error';
-        job.error = m.error || 'Lỗi không rõ.';
+        job.error = m.error || t('full_bg_unknown_error');
         closePort(job.id);
       } else {
         return;
@@ -311,8 +312,8 @@ function onHostMessage(job, m) {
 async function startJob(msg, sender) {
   await restoreJobs();
   const choice = validChoice(msg.choice);
-  if (!isHttpUrl(msg.url)) return { ok: false, error: 'Địa chỉ không hợp lệ.' };
-  if (!choice) return { ok: false, error: 'Lựa chọn tải không hợp lệ.' };
+  if (!isHttpUrl(msg.url)) return { ok: false, error: t('full_bg_invalid_url') };
+  if (!choice) return { ok: false, error: t('full_bg_invalid_choice') };
 
   const job = {
     id: Math.random().toString(36).slice(2, 10),
@@ -346,7 +347,7 @@ async function startJob(msg, sender) {
     if (ACTIVE.has(job.status)) {
       const e = hostError(err ? err.message : '');
       job.status = 'error';
-      job.error = err ? e.text : 'Bộ tải dừng bất ngờ.';
+      job.error = err ? e.text : t('full_bg_host_stopped');
       job.code = e.code;
       changed(job);
     }
@@ -409,7 +410,7 @@ async function ensureOffscreen() {
     offscreenReady = chrome.offscreen.createDocument({
       url: OFFSCREEN_URL,
       reasons: ['BLOBS', 'USER_MEDIA'],
-      justification: 'Đổi định dạng ảnh để tải về; tăng âm lượng tab (bắt âm thanh tab và khuếch đại)',
+      justification: 'Convert images for download; boost tab volume (capture tab audio and amplify it)',
     }).catch((err) => {
       if (!/single offscreen/i.test(String(err && err.message))) throw err;
     }).finally(() => { offscreenReady = null; });
@@ -417,9 +418,20 @@ async function ensureOffscreen() {
   await offscreenReady;
 }
 
+// Trang offscreen không có chrome.i18n nên trả mã lỗi (kèm args cho $1…); dịch ở đây trước khi gửi tới giao diện.
+// Lỗi khác (của trình duyệt: fetch, getUserMedia...) giữ nguyên.
+const OFFSCREEN_ERRORS = new Set([
+  'bg_img_private_host', 'bg_img_server_status', 'bg_img_too_large', 'bg_img_not_image', 'bg_img_bad_size',
+  'bg_img_unreadable', 'bg_img_failed',
+]);
+
+function offscreenError(errorCode, args) {
+  return OFFSCREEN_ERRORS.has(errorCode) ? t(errorCode, ...(Array.isArray(args) ? args : [])) : errorCode;
+}
+
 async function downloadOneImage(item, format, quality, folder) {
   const candidates = (item.candidates || []).filter((u) => isHttpUrl(u) || /^data:image\//.test(u)).slice(0, 6);
-  if (!candidates.length) throw new Error('Thiếu địa chỉ ảnh');
+  if (!candidates.length) throw new Error(t('bg_img_no_url'));
   const res = await chrome.runtime.sendMessage({
     type: 'off:image', candidates, format, quality, minW: item.w || 0, minH: item.h || 0,
   });
@@ -439,11 +451,11 @@ async function downloadOneImage(item, format, quality, folder) {
     });
     return;
   }
-  throw new Error((res && res.error) || 'Không tải được ảnh');
+  throw new Error(res && res.error ? offscreenError(res.error, res.args) : t('bg_img_failed'));
 }
 
 async function downloadImages({ items, format, quality, folder }) {
-  if (!Array.isArray(items) || !items.length) return { ok: false, error: 'Chưa chọn ảnh nào.' };
+  if (!Array.isArray(items) || !items.length) return { ok: false, error: t('bg_img_none_selected') };
   if (!IMAGE_FORMATS.has(format)) format = 'original';
   const q = Math.min(1, Math.max(0.5, Number(quality) || 0.92));
   await ensureOffscreen();
@@ -477,7 +489,7 @@ chrome.downloads.onChanged.addListener((delta) => {
 
 // #full-start
 async function downloadFile({ url, name }) {
-  if (!isHttpUrl(url)) return { ok: false, error: 'Địa chỉ không hợp lệ.' };
+  if (!isHttpUrl(url)) return { ok: false, error: t('full_bg_invalid_url') };
   const ext = extFromUrl(url);
   const opts = { url, conflictAction: 'uniquify' };
   if (name && ext) opts.filename = buildFilename('', name, ext);
@@ -615,7 +627,7 @@ async function saveVol(tabId, st) {
 async function scaleMedia(tabId, factor) {
   try {
     const target = { tabId, allFrames: true };
-    await chrome.scripting.executeScript({ target, files: ['src/page/volume.js'] });
+    await chrome.scripting.executeScript({ target, files: ['src/page/volume.js'] }); // volume.js không có chữ hiển thị
     await chrome.scripting.executeScript({
       target, func: (f) => globalThis.__CT_VOL && globalThis.__CT_VOL.set(f), args: [factor],
     });
@@ -648,7 +660,7 @@ async function listAudio({ currentTabId }) {
 }
 
 async function setVolume({ tabId, level }) {
-  if (!Number.isInteger(tabId)) return { ok: false, error: 'Thiếu tab.' };
+  if (!Number.isInteger(tabId)) return { ok: false, error: t('bg_vol_no_tab') };
   const st = await volState(tabId);
   st.level = Math.round(Math.max(0, Math.min(MAX_LEVEL, Number(level) || 0)) * 100) / 100;
   if (st.captured) {
@@ -657,18 +669,20 @@ async function setVolume({ tabId, level }) {
   }
   if (!st.captured) {
     st.level = Math.min(1, st.level);
-    if (!(await scaleMedia(tabId, st.level))) return { ok: false, error: 'Không chỉnh được âm lượng trang này.' };
+    if (!(await scaleMedia(tabId, st.level))) return { ok: false, error: t('bg_vol_cannot_set') };
   }
   await saveVol(tabId, st);
   return { ok: true, level: st.level, captured: st.captured };
 }
 
 async function startBoost({ tabId, streamId, level }) {
-  if (!Number.isInteger(tabId) || typeof streamId !== 'string') return { ok: false, error: 'Thiếu thông tin tab.' };
+  if (!Number.isInteger(tabId) || typeof streamId !== 'string') return { ok: false, error: t('bg_vol_no_tab_info') };
   const gain = Math.max(0, Math.min(MAX_LEVEL, Number(level) || 1));
   await ensureOffscreen();
   const res = await chrome.runtime.sendMessage({ type: 'off:capture', tabId, streamId, gain }).catch((e) => ({ ok: false, error: String(e.message) }));
-  if (!res || !res.ok) return { ok: false, error: (res && res.error) || 'Không bắt được âm thanh tab.' };
+  if (!res || !res.ok) {
+    return { ok: false, error: res && res.error ? offscreenError(res.error, res.args) : t('bg_vol_capture_failed') };
+  }
   await scaleMedia(tabId, 1); // từ giờ bộ khuếch đại lo toàn bộ âm lượng
   const st = { level: gain, captured: true };
   await saveVol(tabId, st);
@@ -756,7 +770,7 @@ function shotBadge(text) {
 
 async function runShot(tab, mode) {
   const tabId = tab.id;
-  await chrome.scripting.executeScript({ target: { tabId }, files: ['src/page/shot.js'] });
+  await chrome.scripting.executeScript({ target: { tabId }, files: ['src/shared/i18n.js', 'src/page/shot.js'] });
   let rect = null;
   if (mode === 'region') {
     rect = await shotCall(tabId, 'select');
@@ -767,13 +781,13 @@ async function runShot(tab, mode) {
   const frames = [];
   let truncated = false;
   try {
-    if (!info.viewWidth || info.viewHeight < 50) throw new Error('Cửa sổ đang bị thu nhỏ hoặc quá nhỏ để chụp.');
+    if (!info.viewWidth || info.viewHeight < 50) throw new Error('Window is minimized or too small to capture.');
     if (mode === 'full') {
       let y = 0;
       for (;;) {
         const actual = await shotCall(tabId, 'scrollTo', y);
         const current = await chrome.tabs.get(tabId);
-        if (!current.active) throw new Error('Bạn đã chuyển sang tab khác trong lúc chụp.');
+        if (!current.active) throw new Error('User switched to another tab during capture.');
         shotBadge(String(frames.length + 1));
         frames.push({ y: actual, dataUrl: await captureFrame(tab.windowId) });
         if (frames.length === 1) await shotCall(tabId, 'hideFixed');
@@ -799,19 +813,19 @@ async function runShot(tab, mode) {
 }
 
 async function startShot({ tabId, mode }) {
-  if (!['full', 'visible', 'region'].includes(mode)) return { ok: false, error: 'Kiểu chụp không hợp lệ.' };
-  if (shotBusy) return { ok: false, error: 'Đang chụp, chờ một chút.' };
+  if (!['full', 'visible', 'region'].includes(mode)) return { ok: false, error: t('bg_shot_bad_mode') };
+  if (shotBusy) return { ok: false, error: t('bg_shot_busy') };
   let tab;
   try {
     tab = await chrome.tabs.get(tabId);
   } catch (_) {
-    return { ok: false, error: 'Không tìm thấy tab.' };
+    return { ok: false, error: t('bg_shot_no_tab') };
   }
-  if (!isWebUrl(tab.url)) return { ok: false, error: 'Không chụp được trang này (trang hệ thống của trình duyệt).' };
+  if (!isWebUrl(tab.url)) return { ok: false, error: t('bg_shot_restricted') };
   shotBusy = true;
   runShot(tab, mode)
     .catch((err) => {
-      console.warn('[Cinema Tools] chụp màn hình lỗi', err);
+      console.warn('[Cinema Tools] screenshot failed', err);
       shotBadge('!');
       setTimeout(updateBadge, 3000);
     })

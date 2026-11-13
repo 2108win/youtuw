@@ -2,6 +2,7 @@
 (() => {
   'use strict';
   const { DEFAULTS, LABELS, SHORTCUTS, createIcon } = globalThis.YTX_SHARED;
+  const { t, apply } = globalThis.YTX_I18N;
   const $ = (id) => document.getElementById(id);
 
   let settings = { ...DEFAULTS };
@@ -19,9 +20,10 @@
   // #full-end
 
   // ---- Dựng giao diện tĩnh ----------------------------------------------------
+  apply(); // chữ trong popup.html (data-i18n) theo ngôn ngữ trình duyệt
   for (const el of document.querySelectorAll('[data-icon]')) el.append(createIcon(el.dataset.icon));
   for (const btn of document.querySelectorAll('#actions button')) {
-    btn.querySelector('.lbl').textContent = LABELS[btn.dataset.action].replace(' 90°', '');
+    btn.querySelector('.lbl').textContent = LABELS[btn.dataset.action].replace(/\s*90°/, ''); // nút ngắn gọn: "Xoay trái 90°" -> "Xoay trái"
     btn.title = LABELS[btn.dataset.action];
   }
   $('version').textContent = `v${chrome.runtime.getManifest().version}`;
@@ -29,12 +31,13 @@
   const list = $('shortcutList');
   const keyRows = [
     ...SHORTCUTS.map((s) => [LABELS[s.action], s.key]),
-    ['Thoát Rạp phim / bật đèn', 'Esc'],
-    ['Cửa sổ nổi (mọi trang)', 'Alt+P'],
-    ['Chụp cả trang (mọi trang)', 'Alt+S'],
+    [t('popup_key_escape'), 'Esc', 'global first'],
+    [t('popup_key_pip'), 'Alt+P', 'global'],
+    [t('popup_key_capture'), 'Alt+S', 'global'],
   ];
-  for (const [label, key] of keyRows) {
+  for (const [label, key, cls] of keyRows) {
     const li = document.createElement('li');
+    if (cls) li.className = cls;
     const name = document.createElement('span');
     name.textContent = label;
     const kbd = document.createElement('kbd');
@@ -63,6 +66,7 @@
     current: () => (tabs.find((t) => t.getAttribute('aria-selected') === 'true') || tabs[0]).id,
   };
   for (const t of tabs) {
+    if (!t.title) t.title = t.textContent; // tên thẻ dài (một số ngôn ngữ) bị cắt "…" thì vẫn đọc được khi trỏ chuột
     t.addEventListener('click', () => selectTab(t));
     t.addEventListener('keydown', (e) => {
       if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
@@ -115,6 +119,10 @@
       save();
     });
   }
+  $('editShortcuts').addEventListener('click', () => {
+    chrome.tabs.create({ url: 'chrome://extensions/shortcuts' });
+    window.close();
+  });
   $('resetSettings').addEventListener('click', () => {
     settings = { ...DEFAULTS };
     renderSettings();
@@ -135,9 +143,9 @@
     const notice = $('notice');
     const hasVideo = !!(st && st.hasPlayer);
     if (!st) {
-      notice.textContent = 'Hãy mở một video YouTube. Vừa cài extension? Tải lại tab YouTube (F5).';
+      notice.textContent = t('popup_notice_no_tab');
     } else if (!hasVideo || !st.isWatch) {
-      notice.textContent = 'Hãy mở một video YouTube để dùng xoay, lật và tắt đèn.';
+      notice.textContent = t('popup_notice_open_video');
     }
     notice.hidden = !!(st && hasVideo && st.isWatch);
     // Popup Chrome cao tối đa 600px: khi hiện dòng nhắc (chưa có video) thì ẩn khối phóng to.
@@ -150,27 +158,27 @@
     const dark = !!(st && st.lightsOff);
     lights.disabled = !canMode;
     lights.setAttribute('aria-pressed', String(dark));
-    $('lightsTitle').textContent = dark ? 'Đang tắt đèn' : 'Tắt đèn';
-    $('lightsSub').textContent = dark ? 'Bấm để bật lại' : 'Trang tối, đèn nền';
+    $('lightsTitle').textContent = dark ? t('popup_lights_on_title') : t('popup_lights_title');
+    lights.title = `${LABELS.toggleLights} (Alt+Shift+L)`;
 
     const cinema = $('cinemaBtn');
     const cine = !!(st && st.cinema);
     cinema.disabled = !canMode;
     cinema.setAttribute('aria-pressed', String(cine));
-    $('cinemaTitle').textContent = cine ? 'Đang Rạp phim' : 'Rạp phim';
-    $('cinemaSub').textContent = cine ? 'Bấm để thoát' : 'Tràn kín cửa sổ';
+    $('cinemaTitle').textContent = cine ? t('popup_cinema_on_title') : t('popup_cinema_title');
+    cinema.title = cine ? `${t('popup_key_escape')} (Esc)` : `${LABELS.toggleCinema} (Alt+Shift+C)`;
 
-    const t = st ? st.transform : { angle: 0, flipH: false, flipV: false };
-    const parts = [`${t.angle}°`];
-    if (t.flipH) parts.push('lật ngang');
-    if (t.flipV) parts.push('lật dọc');
+    const tf = st ? st.transform : { angle: 0, flipH: false, flipV: false };
+    const parts = [`${tf.angle}°`];
+    if (tf.flipH) parts.push(t('popup_state_flip_h'));
+    if (tf.flipV) parts.push(t('popup_state_flip_v'));
     $('transformState').textContent = parts.join(' · ');
-    document.querySelector('[data-action="flipH"]').classList.toggle('active', t.flipH);
-    document.querySelector('[data-action="flipV"]').classList.toggle('active', t.flipV);
+    document.querySelector('[data-action="flipH"]').classList.toggle('active', tf.flipH);
+    document.querySelector('[data-action="flipV"]').classList.toggle('active', tf.flipV);
 
-    $('zoomState').textContent = `${t.zoom || 100}%`;
+    $('zoomState').textContent = `${tf.zoom || 100}%`;
     for (const btn of document.querySelectorAll('#zoomActions [data-crop]')) {
-      btn.classList.toggle('active', !!t.crop && btn.dataset.crop === t.crop);
+      btn.classList.toggle('active', !!tf.crop && btn.dataset.crop === tf.crop);
     }
   }
 
@@ -192,8 +200,26 @@
       window.close(); // đóng popup để chụp trang (và để kéo chọn vùng)
       return;
     }
-    $('shotErr').textContent = (res && res.error) || 'Không chụp được trang này.';
+    $('shotErr').textContent = (res && res.error) || t('popup_shot_error');
     $('shotErr').hidden = false;
+  });
+
+  // ---- Xem trước khi chia sẻ (thẻ Tiện ích): mở trang báo cáo ở tab mới, cạnh tab đang xem ----------
+  $('shareBtn').addEventListener('click', async () => {
+    const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+    let error = '';
+    if (!tab || !/^https?:/i.test(tab.url || '')) error = t('popup_share_http_only');
+    // Trang báo cáo của extension sẽ mở ở cửa sổ thường, làm lộ địa chỉ trang ẩn danh vào lịch sử thường.
+    else if (tab.incognito) error = t('popup_share_incognito');
+    if (error) {
+      $('shareErr').textContent = error;
+      $('shareErr').hidden = false;
+      return;
+    }
+    await chrome.tabs.create({
+      url: chrome.runtime.getURL(`src/share/share.html#tab=${tab.id}`), index: tab.index + 1, openerTabId: tab.id,
+    });
+    window.close();
   });
 
   // ---- Cửa sổ nổi cho tab đang xem (mọi trang) ------------------------------------
@@ -206,10 +232,10 @@
       return;
     }
     const text = $('pipText');
-    text.textContent = res && res.reason === 'no-video' ? 'Không có video' : 'Không mở được';
+    text.textContent = res && res.reason === 'no-video' ? t('popup_pip_no_video') : t('popup_pip_failed');
     $('pipBtn').title = (res && res.error) || '';
     clearTimeout(pipTimer);
-    pipTimer = setTimeout(() => { text.textContent = 'Cửa sổ nổi'; }, 2500);
+    pipTimer = setTimeout(() => { text.textContent = t('popup_pip'); }, 2500);
   });
 
   $('lightsBtn').addEventListener('click', async () => {

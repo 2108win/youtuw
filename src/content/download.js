@@ -12,6 +12,7 @@
   if (!YTX || YTX.download) return;
 
   const D = (YTX.download = {});
+  const I18N = globalThis.YTX_I18N;
   const toast = (text) => YTX.ui && YTX.ui.toast(text);
 
   D.snapshot = async () => {
@@ -19,7 +20,7 @@
     const video = YTX.getVideo();
     if (!agent || !video) return;
     const res = await agent.snapshot('png', 0.95, video.videoWidth ? video : null);
-    toast(res.ok ? `Đã chụp khung hình ${res.width}×${res.height}` : res.error);
+    toast(res.ok ? I18N.t('yt_toast_snapshot_saved', res.width, res.height) : res.error);
   };
 
   /* #store-start
@@ -40,10 +41,10 @@
 
   // text: chữ trên nút (ngắn); label: mô tả đầy đủ khi rê chuột / thông báo.
   const PRESETS = [
-    { icon: 'video', text: 'Tốt nhất', label: 'Video tốt nhất · MP4', choice: { mode: 'video', quality: 'best', container: 'mp4' } },
-    { icon: 'video', text: '1080p', label: 'Video 1080p · MP4', choice: { mode: 'video', quality: 1080, container: 'mp4' } },
-    { icon: 'video', text: '720p', label: 'Video 720p · MP4', choice: { mode: 'video', quality: 720, container: 'mp4' } },
-    { icon: 'music', text: 'MP3', label: 'Chỉ âm thanh · MP3', choice: { mode: 'audio', audioFormat: 'mp3' } },
+    { icon: 'video', text: I18N.t('full_yt_dl_preset_best'), label: I18N.t('full_yt_dl_preset_best_label'), choice: { mode: 'video', quality: 'best', container: 'mp4' } },
+    { icon: 'video', text: '1080p', label: I18N.t('full_yt_dl_preset_video_label', '1080p'), choice: { mode: 'video', quality: 1080, container: 'mp4' } },
+    { icon: 'video', text: '720p', label: I18N.t('full_yt_dl_preset_video_label', '720p'), choice: { mode: 'video', quality: 720, container: 'mp4' } },
+    { icon: 'music', text: 'MP3', label: I18N.t('full_yt_dl_preset_mp3_label'), choice: { mode: 'audio', audioFormat: 'mp3' } },
   ];
 
   let panel = null;
@@ -62,7 +63,7 @@
       return await chrome.runtime.sendMessage(msg);
     } catch (err) {
       const text = String((err && err.message) || err);
-      return { ok: false, error: /invalidated/i.test(text) ? 'Extension vừa được cập nhật, hãy tải lại trang (F5).' : text };
+      return { ok: false, error: /invalidated/i.test(text) ? I18N.t('full_yt_err_extension_updated') : text };
     }
   }
 
@@ -100,19 +101,18 @@
       h('div', { class: 'ytx-dl-row' }, [statusText, statusActions]),
       h('div', { class: 'ytx-dl-bar' }, [statusFill]),
     ]);
-    panel = h('div', { class: 'ytx-panel ytx-dl-panel', role: 'dialog', 'aria-label': 'Tải về' }, [
+    panel = h('div', { class: 'ytx-panel ytx-dl-panel', role: 'dialog', 'aria-label': I18N.t('full_yt_dl_panel_title') }, [
       h('div', { class: 'ytx-panel-head' }, [
-        h('span', { class: 'ytx-panel-title', text: 'Tải về' }),
-        h('span', { class: 'ytx-panel-state', text: 'video MP4' }),
+        h('span', { class: 'ytx-panel-title', text: I18N.t('full_yt_dl_panel_title') }),
+        h('span', { class: 'ytx-panel-state', text: I18N.t('full_yt_dl_panel_state') }),
       ]),
       h('div', { class: 'ytx-panel-grid ytx-dl-grid' }, [
         ...PRESETS.map((p) => panelButton(p.icon, p.text, () => start(p), p.label)),
-        panelButton('image', 'Ảnh bìa', () => D.downloadThumb(), 'Tải ảnh bìa video (bản lớn nhất)'),
-        panelButton('camera', 'Chụp', () => D.snapshot(), 'Chụp khung hình đang phát (Alt+Shift+S)'),
+        panelButton('image', I18N.t('full_yt_dl_thumb'), () => D.downloadThumb(), I18N.t('full_yt_dl_thumb_title')),
+        panelButton('camera', I18N.t('full_yt_dl_snapshot'), () => D.snapshot(), I18N.t('full_yt_dl_snapshot_title')),
       ]),
       hostNote,
       statusBox,
-      h('div', { class: 'ytx-dl-foot', text: 'Thêm định dạng và ảnh trên trang: biểu tượng extension → Tải về' }),
     ]);
     YTX.ui.shield(panel);
   }
@@ -130,7 +130,7 @@
     if (!hostNote) return;
     if (host.ok === false) {
       hostNote.textContent = host.code === 'missing'
-        ? 'Chưa cài bộ tải video (yt-dlp). Bấm biểu tượng extension → Tải về để xem cách cài. Ảnh vẫn tải được.'
+        ? I18N.t('full_yt_dl_host_missing')
         : host.error;
       hostNote.hidden = false;
     } else {
@@ -142,19 +142,19 @@
   async function start(preset) {
     const url = videoUrl();
     if (!url) {
-      toast('Chỉ tải được ở trang xem video');
+      toast(I18N.t('full_yt_toast_watch_only'));
       return;
     }
     const res = await send({
       type: 'dl:start', url, title: videoTitle(), choice: preset.choice, videoId: YTX.getVideoId(),
     });
     if (!res || !res.ok) {
-      toast(res && res.error ? res.error : 'Không bắt đầu tải được');
+      toast(res && res.error ? res.error : I18N.t('full_yt_toast_download_start_failed'));
       return;
     }
     lastJob = res.job;
     render();
-    toast(`Bắt đầu tải · ${preset.label}`);
+    toast(I18N.t('full_yt_toast_download_started', preset.label));
   }
 
   function render() {
@@ -171,10 +171,10 @@
 
     const actions = [];
     if (job.status === 'starting' || job.status === 'downloading' || job.status === 'processing') {
-      actions.push(smallButton('close', 'Huỷ tải', () => send({ type: 'dl:cancel', id: job.id })));
+      actions.push(smallButton('close', I18N.t('full_yt_dl_cancel'), () => send({ type: 'dl:cancel', id: job.id })));
     } else if (job.status === 'done' && job.file) {
-      actions.push(smallButton('play', 'Mở tệp', () => send({ type: 'dl:open', path: job.file })));
-      actions.push(smallButton('folder', 'Mở thư mục chứa tệp', () => send({ type: 'dl:reveal', path: job.file })));
+      actions.push(smallButton('play', I18N.t('full_yt_dl_open_file'), () => send({ type: 'dl:open', path: job.file })));
+      actions.push(smallButton('folder', I18N.t('full_yt_dl_show_in_folder'), () => send({ type: 'dl:reveal', path: job.file })));
     }
     statusActions.replaceChildren(...actions);
     if (job.status === 'error' && job.code === 'missing') {
@@ -189,8 +189,8 @@
     lastJob = job;
     render();
     if (prev !== job.status) {
-      if (job.status === 'done') toast('Đã tải xong');
-      else if (job.status === 'error') toast('Tải không thành công');
+      if (job.status === 'done') toast(I18N.t('full_yt_toast_download_done'));
+      else if (job.status === 'error') toast(I18N.t('full_yt_toast_download_failed'));
     }
   }
 
@@ -198,16 +198,20 @@
   D.downloadThumb = async () => {
     const id = YTX.getVideoId();
     if (!id) {
-      toast('Chỉ tải được ở trang xem video');
+      toast(I18N.t('full_yt_toast_watch_only'));
       return;
     }
-    toast('Đang tải ảnh bìa…');
+    toast(I18N.t('full_yt_toast_thumb_loading'));
     const candidates = ['maxresdefault', 'sddefault', 'hqdefault'].map((n) => `https://i.ytimg.com/vi/${id}/${n}.jpg`);
     const res = await send({
       type: 'img:download', format: 'original',
-      items: [{ candidates, name: `${videoTitle()} - ảnh bìa`, w: 0, h: 0 }],
+      items: [{ candidates, name: I18N.t('full_yt_thumb_filename', videoTitle()), w: 0, h: 0 }],
     });
-    toast(res && res.ok ? 'Đã lưu ảnh bìa' : `Không tải được ảnh bìa${res && res.error ? `: ${res.error}` : ''}`);
+    let msg;
+    if (res && res.ok) msg = I18N.t('full_yt_toast_thumb_saved');
+    else if (res && res.error) msg = I18N.t('full_yt_toast_thumb_failed_reason', res.error);
+    else msg = I18N.t('full_yt_toast_thumb_failed');
+    toast(msg);
   };
 
   // ---- Bảng chọn -----------------------------------------------------------------------

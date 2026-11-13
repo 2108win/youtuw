@@ -19,6 +19,7 @@
   /* #store-start
   const { createIcon } = globalThis.YTX_SHARED;
   #store-end */
+  const { t: tr, tn, num } = globalThis.YTX_I18N; // tr: tránh trùng tên biến t ở dưới
   const $ = (id) => document.getElementById(id);
   const PREF_KEY = 'ytx-dl-pref';
 
@@ -44,13 +45,14 @@
 
   const VIDEO_FORMATS = [['mp4', 'MP4'], ['webm', 'WebM'], ['mkv', 'MKV']];
   const AUDIO_FORMATS = [['mp3', 'MP3'], ['m4a', 'M4A'], ['opus', 'Opus']];
+  // Khoá chuỗi gợi ý cho từng định dạng (dịch khi hiển thị).
   const HINTS = {
-    mp4: 'MP4 mở được ở mọi nơi. Từ 1080p trở xuống ưu tiên H.264; cao hơn dùng VP9/AV1.',
-    webm: 'WebM (VP9 + Opus): chất lượng tốt, dung lượng gọn.',
-    mkv: 'MKV giữ codec tốt nhất có sẵn (thường là AV1), hợp để lưu trữ.',
-    mp3: 'MP3 mở được ở mọi nơi (được nén lại từ âm thanh gốc).',
-    m4a: 'M4A (AAC): thường lấy thẳng âm thanh gốc, không phải nén lại.',
-    opus: 'Opus: âm thanh gốc của YouTube, nhẹ nhất.',
+    mp4: 'full_dl_hint_mp4',
+    webm: 'full_dl_hint_webm',
+    mkv: 'full_dl_hint_mkv',
+    mp3: 'full_dl_hint_mp3',
+    m4a: 'full_dl_hint_m4a',
+    opus: 'full_dl_hint_opus',
   };
   // #full-end
 
@@ -151,25 +153,25 @@
 
   // ---- Bộ tải trên máy ------------------------------------------------------------------
   async function checkHost() {
-    $('hostState').textContent = 'Đang kiểm tra…';
+    $('hostState').textContent = tr('full_dl_host_checking');
     const res = await send({ type: 'dl:ping' });
     state.hostOk = !!(res && res.ok);
     if (state.hostOk) {
-      $('hostState').textContent = res.ytdlp ? `yt-dlp ${res.ytdlp}` : 'Đã kết nối';
-      $('hostState').title = `Lưu vào: ${res.downloadDir}`;
+      $('hostState').textContent = res.ytdlp ? `yt-dlp ${res.ytdlp}` : tr('full_dl_host_connected');
+      $('hostState').title = tr('full_dl_host_save_to', res.downloadDir);
       $('hostSetup').hidden = true;
       $('videoArea').hidden = false;
       $('vHint').hidden = !!res.ffmpeg;
-      if (!res.ffmpeg) $('vHint').textContent = 'Thiếu ffmpeg: chỉ tải được bản có sẵn cả hình và tiếng. Chạy lại install.bat.';
+      if (!res.ffmpeg) $('vHint').textContent = tr('full_dl_no_ffmpeg');
     } else {
       $('hostState').textContent = '';
       $('hostSetup').hidden = false;
       $('videoArea').hidden = true;
       const missing = !res || res.code === 'missing';
-      $('setupTitle').textContent = missing ? 'Chưa cài bộ tải video' : 'Không kết nối được bộ tải';
+      $('setupTitle').textContent = missing ? tr('full_dl_setup_missing_title') : tr('full_dl_setup_error_title');
       $('setupText').textContent = missing
-        ? 'Tải video cần công cụ yt-dlp chạy trên máy (cài một lần, miễn phí):'
-        : `${res.error} Cách sửa:`;
+        ? tr('full_dl_setup_missing_text')
+        : tr('full_dl_setup_error_text', res.error);
     }
     return state.hostOk;
   }
@@ -181,7 +183,7 @@
     $('vInfo').hidden = view !== 'info';
     $('vError').hidden = view !== 'error';
     setText($('vError'), message, 500);
-    if (view === 'error') $('vAnalyze').lastChild.textContent = 'Thử lại';
+    if (view === 'error') $('vAnalyze').lastChild.textContent = tr('full_dl_retry');
   }
 
   async function analyze(target, { refresh = false, cacheOnly = false, keepEntries = false } = {}) {
@@ -191,7 +193,7 @@
       $('vEntry').hidden = true;
     }
     if (!cacheOnly) {
-      $('vLoadingText').textContent = target.referer ? 'Đang phân tích video nhúng…' : 'Đang phân tích video…';
+      $('vLoadingText').textContent = target.referer ? tr('full_dl_analyzing_embed') : tr('full_dl_analyzing');
       showVideo('loading');
     }
     const headers = target.referer ? { Referer: target.referer } : undefined;
@@ -199,14 +201,14 @@
     if (state.target !== target) return; // người dùng đã chọn video khác
     if (!res || !res.ok) {
       if (res && res.cacheMiss) return;
-      showVideo('error', (res && res.error) || 'Không phân tích được trang này.');
+      showVideo('error', (res && res.error) || tr('full_dl_analyze_failed'));
       if (res && (res.code === 'missing' || res.code === 'forbidden')) checkHost();
       return;
     }
     const info = res.info;
     if (info.kind === 'playlist') {
       if (!info.entries.length) {
-        showVideo('error', 'Không tìm thấy video nào trên trang này.');
+        showVideo('error', tr('full_dl_no_videos'));
         return;
       }
       state.entries = info.entries;
@@ -215,13 +217,13 @@
       select.replaceChildren(...info.entries.map((e, i) => h('option', {
         value: String(i), text: `${i + 1}/${n} · ${oneLine(e.title, 90)}${e.duration ? ` (${fmt.duration(e.duration)})` : ''}`,
       })));
-      select.title = `Trang có ${n} video`;
+      select.title = tn('full_dl_entries_title', n);
       select.hidden = false;
       pickEntry(0, target.url);
       return;
     }
     if (info.isLive) {
-      showVideo('error', 'Video đang phát trực tiếp: chưa hỗ trợ tải. Hãy tải sau khi buổi phát kết thúc.');
+      showVideo('error', tr('full_dl_live_unsupported'));
       return;
     }
     renderInfo(info);
@@ -240,7 +242,7 @@
     setText($('vTitle'), info.title || state.target.title || state.pageTitle, 300);
     setText($('vSub'), [
       info.extractor, info.uploader, info.duration ? fmt.duration(info.duration) : '',
-      info.heights.length ? `tối đa ${info.heights[0]}p` : 'chỉ có âm thanh',
+      info.heights.length ? tr('full_dl_max_height', info.heights[0]) : tr('full_dl_audio_only_info'),
     ].filter(Boolean).join(' · '), 300);
 
     renderFormats();
@@ -265,10 +267,10 @@
     const hasVideo = info.heights.length > 0;
     const groups = [];
     if (hasVideo) {
-      groups.push(h('optgroup', { label: 'Video' }, VIDEO_FORMATS.map(([v, t]) => h('option', { value: `v:${v}`, text: t }))));
+      groups.push(h('optgroup', { label: tr('full_dl_group_video') }, VIDEO_FORMATS.map(([v, t]) => h('option', { value: `v:${v}`, text: t }))));
     }
-    groups.push(h('optgroup', { label: 'Chỉ âm thanh' },
-      AUDIO_FORMATS.map(([v, t]) => h('option', { value: `a:${v}`, text: `${t} · âm thanh` }))));
+    groups.push(h('optgroup', { label: tr('full_dl_group_audio_only') },
+      AUDIO_FORMATS.map(([v, t]) => h('option', { value: `a:${v}`, text: tr('full_dl_audio_format', t) }))));
     const keep = format.value;
     format.replaceChildren(...groups);
     const fromPref = pref.mode === 'audio' || !hasVideo ? `a:${pref.audioFormat || 'mp3'}` : `v:${pref.container || 'mp4'}`;
@@ -284,11 +286,11 @@
     const quality = $('vQuality');
     quality.hidden = audio;
     $('vRow').classList.toggle('one', audio);
-    $('vFormat').title = HINTS[name] || '';
+    $('vFormat').title = HINTS[name] ? tr(HINTS[name]) : '';
     if (!audio) {
       const pref = loadPref();
       const sizes = (info.sizes && info.sizes[name]) || {};
-      const opts = [h('option', { value: 'best', text: `Tốt nhất (${heightLabel(info.heights[0])})` })];
+      const opts = [h('option', { value: 'best', text: tr('full_dl_quality_best', heightLabel(info.heights[0])) })];
       for (const ht of info.heights) {
         opts.push(h('option', { value: String(ht), text: `${heightLabel(ht)}${sizes[ht] ? ` · ~${fmt.bytes(sizes[ht])}` : ''}` }));
       }
@@ -311,8 +313,10 @@
       const ht = q === 'best' ? info.heights[0] : +q;
       size = ((info.sizes && info.sizes[name]) || {})[ht] || 0;
     }
-    const label = audio ? 'Tải âm thanh' : 'Tải video';
-    $('vDownloadText').textContent = size ? `${label} · ~${fmt.bytes(size)}` : label;
+    let label;
+    if (audio) label = size ? tr('full_dl_download_audio_size', fmt.bytes(size)) : tr('full_dl_download_audio');
+    else label = size ? tr('full_dl_download_video_size', fmt.bytes(size)) : tr('full_dl_download_video');
+    $('vDownloadText').textContent = label;
   }
 
   function currentChoice() {
@@ -348,11 +352,11 @@
     }, [createIcon(icon)]);
     const top = h('div', { class: 'job-top' }, [h('span', { class: 'job-title', text: title, title })]);
     if (active) {
-      top.append(iconBtn('close', 'Huỷ tải', () => send({ type: 'dl:cancel', id: job.id })));
+      top.append(iconBtn('close', tr('full_dl_job_cancel'), () => send({ type: 'dl:cancel', id: job.id })));
     } else if (job.status === 'done' && job.file) {
       top.append(
-        iconBtn('play', 'Mở tệp', () => openFile('dl:open', job)),
-        iconBtn('folder', 'Mở thư mục chứa tệp', () => openFile('dl:reveal', job)),
+        iconBtn('play', tr('full_dl_job_open'), () => openFile('dl:open', job)),
+        iconBtn('folder', tr('full_dl_job_reveal'), () => openFile('dl:reveal', job)),
       );
     }
     const sub = oneLine(`${describeChoice(job.choice)} — ${describeJob(job)}`, 500);
@@ -422,14 +426,14 @@
         const u = new URL(p.url);
         path = `${u.hostname.replace(/^www\./, '')}${u.pathname}${u.search}`;
       } catch (_) { /* giữ nguyên */ }
-      rows.push(streamRow(p.site, p.playing ? 'Video đang phát' : 'Video trong bài viết', path, 'Chọn', async () => {
+      rows.push(streamRow(p.site, p.playing ? tr('full_dl_stream_playing') : tr('full_dl_stream_in_post'), path, tr('full_dl_stream_pick'), async () => {
         $('videoCard').scrollIntoView({ behavior: 'smooth' });
         analyze({ url: canonicalVideoUrl(p.url), referer: state.pageUrl, title: p.site });
         return '';
       }, 'embed'));
     }
     for (const e of (state.scan && state.scan.embeds) || []) {
-      rows.push(streamRow(e.site, `Video ${e.site} nhúng trong trang`, hostOf(e.url), 'Chọn', async () => {
+      rows.push(streamRow(e.site, tr('full_dl_stream_embed', e.site), hostOf(e.url), tr('full_dl_stream_pick'), async () => {
         $('videoCard').scrollIntoView({ behavior: 'smooth' });
         analyze({ url: canonicalVideoUrl(e.url), referer: state.pageUrl, title: e.site });
         return '';
@@ -452,16 +456,16 @@
 
       if (m.kind === 'file') {
         const ext = (fileOf(m.url).match(/\.([a-z0-9]{2,4})$/i) || [])[1];
-        rows.push(streamRow((ext || (m.audio ? 'AUDIO' : 'VIDEO')).toUpperCase(), fileOf(m.url), sub, 'Tải', async () => {
+        rows.push(streamRow((ext || (m.audio ? 'AUDIO' : 'VIDEO')).toUpperCase(), fileOf(m.url), sub, tr('full_dl_stream_download'), async () => {
           const res = await send({ type: 'file:download', url: m.url, name: fileOf(m.url).replace(/\.[^.]+$/, '') });
-          return res && res.ok ? 'Đã chuyển cho trình duyệt tải' : `Lỗi: ${(res && res.error) || ''}`;
+          return res && res.ok ? tr('full_dl_stream_sent') : tr('full_dl_stream_error', (res && res.error) || '');
         }));
       } else {
-        rows.push(streamRow(m.kind.toUpperCase(), state.pageTitle || fileOf(m.url), sub, 'Tải', async () => {
-          if (!state.hostOk) return 'Cần cài bộ tải video (xem phía trên)';
+        rows.push(streamRow(m.kind.toUpperCase(), state.pageTitle || fileOf(m.url), sub, tr('full_dl_stream_download'), async () => {
+          if (!state.hostOk) return tr('full_dl_stream_need_host');
           const res = await startDownload(m.url, state.pageTitle || fileOf(m.url),
             { mode: 'video', quality: 'best', container: 'mp4' }, state.pageUrl);
-          return res && res.ok ? 'Đang tải · xem tiến độ phía trên' : `Lỗi: ${(res && res.error) || ''}`;
+          return res && res.ok ? tr('full_dl_stream_started') : tr('full_dl_stream_error', (res && res.error) || '');
         }));
       }
     }
@@ -497,7 +501,7 @@
     const pic = h('img', { src: img.preview, loading: 'lazy', referrerpolicy: 'no-referrer', alt: '', decoding: 'async' });
     const btn = h('button', {
       class: 'tile', type: 'button', 'aria-pressed': String(state.selected.has(key)),
-      title: [img.alt, img.upgraded ? 'Sẽ tải bản lớn nhất tìm được' : ''].filter(Boolean).join(' · ') || fileOf(key),
+      title: [img.alt, img.upgraded ? tr('dl_img_upgraded_tip') : ''].filter(Boolean).join(' · ') || fileOf(key),
     }, [pic, dim, h('span', { class: 'tick' }, [createIcon('check')])]);
     pic.addEventListener('error', () => btn.classList.add('broken'), { once: true });
     pic.addEventListener('load', () => {
@@ -521,11 +525,13 @@
     const list = visibleImages();
     const total = ((state.scan && state.scan.images) || []).length;
     $('imgGrid').replaceChildren(...list.map(tile));
-    $('imgCount').textContent = total ? `${list.length}${list.length !== total ? ` / ${total}` : ''} ảnh` : '';
+    let count = '';
+    if (total) count = list.length !== total ? tn('dl_img_count_of', total, num(list.length)) : tn('dl_img_count', total);
+    $('imgCount').textContent = count;
     const empty = $('imgEmpty');
     empty.hidden = list.length > 0 || !state.scan;
     if (state.scan && !list.length) {
-      empty.textContent = total ? 'Chỉ có ảnh nhỏ (biểu tượng). Bật "Hiện ảnh nhỏ" để xem.' : 'Không tìm thấy ảnh nào trên trang.';
+      empty.textContent = total ? tr('dl_img_only_small') : tr('dl_img_none');
     }
     renderImageActions();
   }
@@ -534,9 +540,9 @@
     const list = visibleImages();
     const chosen = list.filter((img) => state.selected.has(keyOf(img)));
     $('imgAll').disabled = !list.length;
-    $('imgAll').textContent = list.length && chosen.length === list.length ? 'Bỏ chọn' : 'Chọn tất cả';
+    $('imgAll').textContent = list.length && chosen.length === list.length ? tr('dl_img_deselect') : tr('dl_img_select_all');
     $('imgDownload').disabled = !chosen.length;
-    $('imgDownloadText').textContent = chosen.length ? `Tải ${chosen.length} ảnh` : 'Tải ảnh';
+    $('imgDownloadText').textContent = chosen.length ? tn('dl_img_download_n', chosen.length) : tr('dl_img_download');
   }
 
   function imgStatus(text) {
@@ -546,12 +552,21 @@
   }
 
   async function downloadImages(items, folder) {
-    imgStatus(`Đang tải ${items.length} ảnh…`);
+    imgStatus(tn('dl_img_downloading', items.length));
     const res = await send({ type: 'img:download', items, format: $('imgFormat').value, quality: 0.92, folder });
     if (res && res.saved) {
-      imgStatus(`Đã lưu ${res.saved} ảnh${res.failed ? ` · ${res.failed} ảnh lỗi (${res.error})` : ''}${items.length > 1 ? ` vào thư mục "${folder}"` : ''}`);
+      const inFolder = items.length > 1;
+      let msg;
+      if (res.failed) {
+        msg = inFolder
+          ? tn('dl_img_saved_failed_folder', res.saved, num(res.failed), res.error, folder)
+          : tn('dl_img_saved_failed', res.saved, num(res.failed), res.error);
+      } else {
+        msg = inFolder ? tn('dl_img_saved_folder', res.saved, folder) : tn('dl_img_saved', res.saved);
+      }
+      imgStatus(msg);
     } else {
-      imgStatus(`Không tải được: ${(res && res.error) || 'lỗi không rõ'}`);
+      imgStatus(tr('dl_img_download_failed', (res && res.error) || tr('dl_img_unknown_error')));
     }
   }
 
@@ -563,29 +578,29 @@
     const snap = state.scan && state.scan.snapshot;
     $('snapBtn').hidden = !snap;
     if (snap) {
-      $('snapText').textContent = 'Chụp';
-      $('snapBtn').title = `Chụp khung hình đang phát ở độ phân giải gốc ${snap.w}×${snap.h}`;
+      $('snapText').textContent = tr('dl_snap_label');
+      $('snapBtn').title = tr('dl_snap_tip', snap.w, snap.h);
     }
   }
 
   async function scanPage() {
     const empty = $('imgEmpty');
     if (!state.tab || !/^(https?|file):/i.test(state.pageUrl)) {
-      empty.textContent = 'Không quét được trang này (trang hệ thống của trình duyệt).';
+      empty.textContent = tr('dl_scan_system_page');
       empty.hidden = false;
       return;
     }
-    empty.textContent = 'Đang quét trang…';
+    empty.textContent = tr('dl_scanning');
     empty.hidden = false;
     try {
       const target = { tabId: state.tab.id };
-      await chrome.scripting.executeScript({ target, files: ['src/page/agent.js'] });
+      await chrome.scripting.executeScript({ target, files: ['src/shared/i18n.js', 'src/page/agent.js'] });
       const [r] = await chrome.scripting.executeScript({
         target, func: () => globalThis.__CT_AGENT && globalThis.__CT_AGENT.scan(),
       });
       state.scan = (r && r.result) || null;
     } catch (err) {
-      empty.textContent = `Không quét được trang này. ${/file/i.test(state.pageUrl) ? 'Cần bật "Cho phép truy cập URL tệp" cho extension.' : ''}`;
+      empty.textContent = /file/i.test(state.pageUrl) ? tr('dl_scan_failed_file') : tr('dl_scan_failed');
       return;
     }
     if (state.scan && state.scan.title) state.pageTitle = state.scan.title;
@@ -616,7 +631,7 @@
       const t = state.target;
       const res = await startDownload(t.url, state.info.title || t.title, currentChoice(), t.referer);
       btn.disabled = false;
-      if (!res || !res.ok) showVideo('error', (res && res.error) || 'Không bắt đầu tải được.');
+      if (!res || !res.ok) showVideo('error', (res && res.error) || tr('full_dl_start_failed'));
     });
     $('jobsClear').addEventListener('click', async () => {
       const res = await send({ type: 'dl:clear' });
@@ -629,7 +644,7 @@
     $('copyId').addEventListener('click', async () => {
       try {
         await navigator.clipboard.writeText(chrome.runtime.id);
-        $('copyId').textContent = 'Đã chép';
+        $('copyId').textContent = tr('full_dl_copied');
       } catch (_) { /* không bắt buộc */ }
     });
     // #full-end
@@ -664,7 +679,7 @@
       if (!id) return;
       const candidates = ['maxresdefault', 'sddefault', 'hqdefault'].map((n) => `https://i.ytimg.com/vi/${id}/${n}.jpg`);
       const title = (state.info && youtubeId(state.target.url) === id && state.info.title) || state.pageTitle;
-      downloadImages([{ candidates, name: `${title} - ảnh bìa`, w: 0, h: 0 }], '');
+      downloadImages([{ candidates, name: tr('full_dl_thumb_name', title), w: 0, h: 0 }], '');
     });
     // #full-end
     $('snapBtn').addEventListener('click', async () => {
@@ -676,9 +691,9 @@
           args: [format],
         });
         const res = r && r.result;
-        imgStatus(res && res.ok ? `Đã chụp ${res.width}×${res.height} · ${res.name}` : (res && res.error) || 'Không chụp được');
+        imgStatus(res && res.ok ? tr('dl_snap_done', res.width, res.height, res.name) : (res && res.error) || tr('dl_snap_failed'));
       } catch (err) {
-        imgStatus(`Không chụp được: ${err.message}`);
+        imgStatus(tr('dl_snap_failed_detail', err.message));
       }
     });
 
@@ -711,19 +726,16 @@
     return { url: canonicalVideoUrl(state.pageUrl), referer: '', title: state.pageTitle, known: false };
   }
 
-  const FEED_TEXT = 'Đây là trang bảng tin / trang cá nhân, chưa thấy video nào. Bấm phát video bạn muốn tải '
-    + '(hoặc mở bài viết / reel đó) rồi bấm nút bên dưới.';
-
   function autoAnalyze() {
     if (!/^https?:/i.test(state.pageUrl)) {
-      $('vIdleText').textContent = 'Không dùng được ở trang này.';
+      $('vIdleText').textContent = tr('full_dl_unavailable_page');
       $('vAnalyze').disabled = true;
       return;
     }
     const target = pickTarget();
     if (target.feed) {
-      $('vIdleText').textContent = FEED_TEXT;
-      $('vAnalyze').lastChild.textContent = 'Tìm video đang xem';
+      $('vIdleText').textContent = tr('full_dl_feed_hint');
+      $('vAnalyze').lastChild.textContent = tr('full_dl_find_playing');
       return;
     }
     // Biết chắc là video: phân tích ngay; trang khác: chỉ dùng kết quả cũ nếu có.
@@ -737,7 +749,7 @@
     $('vAnalyze').disabled = false;
     const target = pickTarget();
     if (target.feed) {
-      showVideo('error', 'Chưa thấy video nào trên trang. Hãy bấm phát video muốn tải (hoặc mở bài viết / reel đó) rồi thử lại.');
+      showVideo('error', tr('full_dl_feed_retry'));
       return;
     }
     analyze(target, { refresh: true });

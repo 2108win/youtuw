@@ -4,6 +4,8 @@
  */
 (() => {
   'use strict';
+  const { t, num, apply } = globalThis.YTX_I18N;
+  apply(); // điền chữ cho [data-i18n] trong shot.html
   const $ = (id) => document.getElementById(id);
   const id = location.hash.slice(1);
   const MAX_SIDE = 32000;       // giới hạn cạnh canvas của Chrome (~32767 px)
@@ -11,7 +13,7 @@
 
   let canvas = null;
   let pngBlob = null;
-  let baseName = 'Chup man hinh';
+  let baseName = t('shot_file_name_default');
 
   async function send(msg) {
     try {
@@ -32,7 +34,7 @@
   function sanitize(name) {
     return String(name || '').normalize('NFC')
       .replace(/[\u0000-\u001f\u007f<>:"/\\|?*~]+/g, ' ')
-      .replace(/\s+/g, ' ').trim().replace(/^[.\s]+|[.\s]+$/g, '').slice(0, 90) || 'trang';
+      .replace(/\s+/g, ' ').trim().replace(/^[.\s]+|[.\s]+$/g, '').slice(0, 90) || t('shot_file_name_page');
   }
 
   function stamp(t) {
@@ -45,13 +47,13 @@
     return new Promise((resolve, reject) => {
       const img = new Image();
       img.onload = () => resolve(img);
-      img.onerror = () => reject(new Error('Không đọc được ảnh chụp'));
+      img.onerror = () => reject(new Error(t('shot_err_read_image')));
       img.src = src;
     });
   }
 
   const toBlob = (type, quality) => new Promise((resolve, reject) => {
-    canvas.toBlob((b) => (b ? resolve(b) : reject(new Error('Ảnh quá lớn để lưu'))), type, quality);
+    canvas.toBlob((b) => (b ? resolve(b) : reject(new Error(t('shot_err_too_large')))), type, quality);
   });
 
   /** Ghép các khung (mỗi khung = một màn hình, kèm vị trí cuộn y) thành một ảnh. */
@@ -94,11 +96,11 @@
       const downloadId = await chrome.downloads.download({ url, filename: `${baseName}.${ext}`, conflictAction: 'uniquify' });
       const open = document.createElement('button');
       open.type = 'button';
-      open.textContent = 'Mở thư mục';
+      open.textContent = t('shot_open_folder');
       open.addEventListener('click', () => chrome.downloads.show(downloadId));
-      status(`Đã lưu ${ext.toUpperCase()} vào thư mục Tải về.`, { action: open });
+      status(t('shot_saved', ext.toUpperCase()), { action: open });
     } catch (err) {
-      status(`Không lưu được: ${err.message}`, { error: true });
+      status(t('shot_save_failed', err.message), { error: true });
     } finally {
       setTimeout(() => URL.revokeObjectURL(url), 60000);
     }
@@ -107,22 +109,22 @@
   async function main() {
     const res = await send({ type: 'shot:meta', id });
     if (!res || !res.ok) {
-      $('title').textContent = 'Không còn ảnh chụp';
+      $('title').textContent = t('shot_gone_title');
       $('loading').hidden = true;
-      status('Ảnh chụp đã hết hạn (trình duyệt hoặc extension vừa khởi động lại). Hãy chụp lại.', { error: true });
+      status(t('shot_expired'), { error: true });
       return;
     }
     const meta = res.meta;
     $('title').textContent = meta.title || meta.url;
     $('title').title = meta.url;
-    document.title = `Ảnh chụp – ${meta.title || meta.url}`;
-    baseName = `Chụp ${sanitize(meta.title)} ${stamp(meta.time)}`;
+    document.title = t('shot_doc_title', meta.title || meta.url);
+    baseName = t('shot_file_name', sanitize(meta.title), stamp(meta.time));
 
     const frames = [];
     for (let i = 0; i < meta.count; i += 1) {
-      $('loadingText').textContent = meta.count > 1 ? `Đang ghép ảnh… ${i + 1}/${meta.count}` : 'Đang xử lý ảnh…';
+      $('loadingText').textContent = meta.count > 1 ? t('shot_stitching_progress', i + 1, meta.count) : t('shot_processing');
       const f = await send({ type: 'shot:frame', id, index: i });
-      if (!f || !f.ok) throw new Error('Thiếu một phần ảnh chụp, hãy chụp lại.');
+      if (!f || !f.ok) throw new Error(t('shot_err_missing_frame'));
       frames.push(f);
     }
     send({ type: 'shot:done', id }); // giải phóng bộ nhớ của service worker
@@ -132,17 +134,17 @@
     pngBlob = await toBlob('image/png');
     const img = document.createElement('img');
     img.src = URL.createObjectURL(pngBlob);
-    img.alt = `Ảnh chụp ${meta.title || ''}`;
-    img.title = 'Bấm để xem cỡ thật / vừa màn hình';
+    img.alt = t('shot_img_alt', meta.title || '');
+    img.title = t('shot_img_hint');
     img.addEventListener('click', () => img.classList.toggle('actual'));
     $('view').replaceChildren(img);
 
-    const mode = { full: 'Cả trang', visible: 'Phần đang thấy', region: 'Vùng chọn' }[meta.mode];
+    const mode = { full: t('shot_mode_full'), visible: t('shot_mode_visible'), region: t('shot_mode_region') }[meta.mode];
     const parts = [mode, `${canvas.width} × ${canvas.height} px`, `${(pngBlob.size / 1048576).toFixed(1)} MB`];
-    if (k < 1) parts.push('đã thu nhỏ vì trang quá dài');
-    if (meta.truncated) parts.push(`chỉ chụp ${cssHeight.toLocaleString('vi-VN')} px đầu (trang cuộn vô tận)`);
+    if (k < 1) parts.push(t('shot_meta_scaled'));
+    if (meta.truncated) parts.push(t('shot_meta_truncated', num(cssHeight)));
     $('meta').textContent = parts.join(' · ');
-    $('meta').title = `${cssWidth} × ${cssHeight} px trên trang`;
+    $('meta').title = t('shot_meta_css_size', cssWidth, cssHeight);
     for (const b of ['savePng', 'saveJpg', 'copy']) $(b).disabled = false;
   }
 
@@ -151,9 +153,9 @@
   $('copy').addEventListener('click', async () => {
     try {
       await navigator.clipboard.write([new ClipboardItem({ 'image/png': pngBlob })]);
-      status('Đã chép ảnh — dán (Ctrl+V) vào chỗ cần dùng.');
+      status(t('shot_copied'));
     } catch (err) {
-      status(`Không chép được (ảnh có thể quá lớn): ${err.message}`, { error: true });
+      status(t('shot_copy_failed', err.message), { error: true });
     }
   });
 

@@ -10,6 +10,7 @@
 
   const UI = (YTX.ui = {});
   const h = YTX.h;
+  const I18N = globalThis.YTX_I18N;
 
   const PANEL_ACTIONS = ['flipH', 'flipV', 'rotateLeft', 'rotateRight', 'rotate180', 'resetTransform'];
 
@@ -55,16 +56,16 @@
 
   function buildButtons() {
     // #full-start
-    btnDownload = playerButton('ytx-btn-download', 'download', 'Tải về', () => YTX.download.togglePanel());
+    btnDownload = playerButton('ytx-btn-download', 'download', I18N.t('full_yt_btn_download'), () => YTX.download.togglePanel());
     btnDownload.setAttribute('aria-haspopup', 'true');
     btnDownload.setAttribute('aria-expanded', 'false');
     // #full-end
-    btnPip = playerButton('ytx-btn-pip', 'pip', 'Cửa sổ nổi (Alt+Shift+P)', () => YTX.run('togglePip'));
-    btnTransform = playerButton('ytx-btn-transform', 'transform', 'Xoay, lật & phóng to', () => UI.togglePanel());
+    btnPip = playerButton('ytx-btn-pip', 'pip', I18N.t('yt_btn_pip'), () => YTX.run('togglePip'));
+    btnTransform = playerButton('ytx-btn-transform', 'transform', I18N.t('yt_btn_transform'), () => UI.togglePanel());
     btnTransform.setAttribute('aria-haspopup', 'true');
     btnTransform.setAttribute('aria-expanded', 'false');
-    btnLights = playerButton('ytx-btn-lights', 'lights', 'Tắt đèn (Alt+Shift+L)', () => YTX.run('toggleLights'));
-    btnCinema = playerButton('ytx-btn-cinema', 'cinema', 'Rạp phim (Alt+Shift+C)', () => YTX.run('toggleCinema'));
+    btnLights = playerButton('ytx-btn-lights', 'lights', I18N.t('yt_btn_lights_off'), () => YTX.run('toggleLights'));
+    btnCinema = playerButton('ytx-btn-cinema', 'cinema', I18N.t('yt_btn_cinema'), () => YTX.run('toggleCinema'));
   }
 
   function panelButton(action, { icon = action, text = YTX.LABELS[action], cls = '', title } = {}) {
@@ -82,21 +83,21 @@
 
   function buildPanel() {
     panelState = h('span', { class: 'ytx-panel-state' });
-    zoomValue = panelButton('resetZoom', { icon: null, text: '100%', cls: 'ytx-zoom-val', title: 'Bỏ phóng to (về 100%)' });
-    panel = h('div', { class: 'ytx-panel', role: 'dialog', 'aria-label': 'Xoay, lật & phóng to' }, [
-      h('div', { class: 'ytx-panel-head' }, [h('span', { class: 'ytx-panel-title', text: 'Xoay, lật & phóng to' }), panelState]),
+    zoomValue = panelButton('resetZoom', { icon: null, text: '100%', cls: 'ytx-zoom-val', title: I18N.t('yt_zoom_reset_title') });
+    panel = h('div', { class: 'ytx-panel', role: 'dialog', 'aria-label': I18N.t('yt_transform_panel_title') }, [
+      h('div', { class: 'ytx-panel-head' }, [h('span', { class: 'ytx-panel-title', text: I18N.t('yt_transform_panel_title') }), panelState]),
       h('div', { class: 'ytx-panel-grid' }, PANEL_ACTIONS.map((action) => panelButton(action))),
-      h('div', { class: 'ytx-panel-sub', text: 'Phóng to & cắt viền' }),
+      h('div', { class: 'ytx-panel-sub', text: I18N.t('yt_panel_zoom_crop') }),
       h('div', { class: 'ytx-panel-grid' }, [
-        panelButton('autoCrop', { text: 'Tự cắt viền', title: 'Tự cắt viền đen (Alt+Shift+A)' }),
-        panelButton('fillFrame', { text: 'Lấp đầy' }),
+        panelButton('autoCrop', { text: I18N.t('yt_btn_autocrop'), title: I18N.t('yt_btn_autocrop_title') }),
+        panelButton('fillFrame', { text: I18N.t('yt_btn_fill') }),
       ]),
       h('div', { class: 'ytx-zoom-row' }, [
         panelButton('crop21x9', { icon: null, text: '21:9', cls: 'ytx-chip' }),
         panelButton('crop4x3', { icon: null, text: '4:3', cls: 'ytx-chip' }),
-        panelButton('zoomOut', { text: null, cls: 'ytx-zoom-step', title: 'Thu nhỏ (Alt+Shift+−)' }),
+        panelButton('zoomOut', { text: null, cls: 'ytx-zoom-step', title: I18N.t('yt_btn_zoom_out_title') }),
         zoomValue,
-        panelButton('zoomIn', { text: null, cls: 'ytx-zoom-step', title: 'Phóng to (Alt+Shift++)' }),
+        panelButton('zoomIn', { text: null, cls: 'ytx-zoom-step', title: I18N.t('yt_btn_zoom_in_title') }),
       ]),
     ]);
     panel.addEventListener('click', (e) => {
@@ -150,7 +151,7 @@
     if (btnLights) {
       btnLights.classList.toggle('ytx-active', dark);
       btnLights.classList.toggle('ytx-hidden', !YTX.isWatchPage());
-      const label = dark ? 'Bật đèn (Alt+Shift+L)' : 'Tắt đèn (Alt+Shift+L)';
+      const label = dark ? I18N.t('yt_btn_lights_on') : I18N.t('yt_btn_lights_off');
       btnLights.setAttribute('aria-label', label);
       btnLights.setAttribute('data-ytx-tip', label);
       btnLights.setAttribute('aria-pressed', String(dark));
@@ -159,7 +160,7 @@
       const on = YTX.cinema.on;
       btnCinema.classList.toggle('ytx-active', on);
       btnCinema.classList.toggle('ytx-hidden', !YTX.isWatchPage());
-      const label = on ? 'Thoát Rạp phim (Esc)' : 'Rạp phim (Alt+Shift+C)';
+      const label = on ? I18N.t('yt_btn_cinema_exit') : I18N.t('yt_btn_cinema');
       btnCinema.setAttribute('aria-label', label);
       btnCinema.setAttribute('data-ytx-tip', label);
       btnCinema.setAttribute('aria-pressed', String(on));
@@ -168,16 +169,16 @@
     if (btnDownload) btnDownload.classList.toggle('ytx-hidden', !YTX.isWatchPage());
     if (btnPip) {
       const open = !!(YTX.floating && YTX.floating.isOpen());
-      const label = open ? 'Đóng cửa sổ nổi (Alt+Shift+P)' : 'Cửa sổ nổi (Alt+Shift+P)';
+      const label = open ? I18N.t('yt_btn_pip_close') : I18N.t('yt_btn_pip');
       btnPip.classList.toggle('ytx-active', open);
       btnPip.setAttribute('aria-label', label);
       btnPip.setAttribute('data-ytx-tip', label);
     }
     if (panel) {
-      const parts = [`${t.angle}°`];
-      if (t.flipH) parts.push('lật ngang');
-      if (t.flipV) parts.push('lật dọc');
-      panelState.textContent = parts.join(' · ');
+      if (t.flipH && t.flipV) panelState.textContent = I18N.t('yt_panel_state_flip_hv', t.angle);
+      else if (t.flipH) panelState.textContent = I18N.t('yt_panel_state_flip_h', t.angle);
+      else if (t.flipV) panelState.textContent = I18N.t('yt_panel_state_flip_v', t.angle);
+      else panelState.textContent = `${t.angle}°`;
       zoomValue.firstChild.textContent = `${t.zoom}%`;
       const CROP_OF = { autoCrop: 'auto', fillFrame: 'fill', crop21x9: '21:9', crop4x3: '4:3' };
       for (const btn of panel.querySelectorAll('.ytx-panel-btn')) {

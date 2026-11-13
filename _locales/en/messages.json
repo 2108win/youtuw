@@ -1,0 +1,2714 @@
+{
+  "locale_code": {
+    "message": "en",
+    "description": "BCP 47 code of THIS translation, used for number formatting and <html lang> (e.g. zh-CN, pt-BR). Not shown as text."
+  },
+  "ext_name": {
+    "message": "Cinema Tools for YouTube",
+    "description": "Extension name (full edition). Max 75 characters. 'Cinema Tools' is the brand: keep it in Latin letters."
+  },
+  "ext_desc": {
+    "message": "Rotate & flip YouTube videos, lights off with ambient glow. Picture-in-Picture, per-tab volume, download video, audio and images.",
+    "description": "Extension description (full edition). HARD LIMIT: 132 characters."
+  },
+  "ext_name_store": {
+    "message": "Cinema Tools – Video Viewing Tools",
+    "description": "Extension name in the Chrome Web Store edition. Max 75 characters. Keep 'Cinema Tools' in Latin letters."
+  },
+  "ext_desc_store": {
+    "message": "Rotate, flip & zoom YouTube videos, lights off with ambient glow. Picture-in-Picture, per-tab volume, screenshots, share preview.",
+    "description": "Extension description in the Chrome Web Store edition. HARD LIMIT: 132 characters."
+  },
+  "cmd_toggle_pip": {
+    "message": "Open / close Picture-in-Picture for the current tab’s video",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts"
+  },
+  "cmd_capture_page": {
+    "message": "Capture the whole current page",
+    "description": "Keyboard shortcut description on chrome://extensions/shortcuts"
+  },
+  "act_flip_h": {
+    "message": "Flip horizontally",
+    "description": "Video action (button label, tooltip, shortcut list)"
+  },
+  "act_flip_v": {
+    "message": "Flip vertically",
+    "description": "Video action"
+  },
+  "act_rotate_left": {
+    "message": "Rotate left 90°",
+    "description": "Video action. Keep ' 90°' at the very end: the popup button removes it to stay short."
+  },
+  "act_rotate_right": {
+    "message": "Rotate right 90°",
+    "description": "Video action. Keep ' 90°' at the very end: the popup button removes it to stay short."
+  },
+  "act_rotate_180": {
+    "message": "Rotate 180°",
+    "description": "Video action"
+  },
+  "act_reset_transform": {
+    "message": "Reset",
+    "description": "Video action: undo rotate/flip"
+  },
+  "act_toggle_lights": {
+    "message": "Lights off / on",
+    "description": "Video action: dim the page around the player"
+  },
+  "act_toggle_cinema": {
+    "message": "Cinema mode",
+    "description": "Video action: player fills the whole window"
+  },
+  "act_auto_crop": {
+    "message": "Auto-crop black bars",
+    "description": "Video action"
+  },
+  "act_fill_frame": {
+    "message": "Fill frame",
+    "description": "Video action: zoom so the picture fills the player"
+  },
+  "act_crop_21x9": {
+    "message": "Crop to 21:9",
+    "description": "Video action"
+  },
+  "act_crop_4x3": {
+    "message": "Crop to 4:3",
+    "description": "Video action"
+  },
+  "act_zoom_in": {
+    "message": "Zoom in",
+    "description": "Video action"
+  },
+  "act_zoom_out": {
+    "message": "Zoom out",
+    "description": "Video action"
+  },
+  "act_reset_zoom": {
+    "message": "Reset zoom",
+    "description": "Video action"
+  },
+  "act_snapshot": {
+    "message": "Capture frame",
+    "description": "Video action: save the current video frame as an image"
+  },
+  "full_act_download_thumb": {
+    "message": "Download thumbnail",
+    "description": "Video action"
+  },
+  "act_toggle_pip": {
+    "message": "Picture-in-Picture",
+    "description": "Video action: Picture-in-Picture window that stays above other apps. Use the platform/browser term for Picture-in-Picture in your language."
+  },
+  "act_pip_no_video": {
+    "message": "No video found on this page.",
+    "description": "Error tooltip"
+  },
+  "act_pip_unavailable": {
+    "message": "Picture-in-Picture can’t be used on this page.",
+    "description": "Error tooltip"
+  },
+  "full_act_stage_merge": {
+    "message": "Merging video and audio…",
+    "description": "Download progress stage"
+  },
+  "full_act_stage_extract_audio": {
+    "message": "Converting audio…",
+    "description": "Download progress stage"
+  },
+  "full_act_stage_metadata": {
+    "message": "Writing file info…",
+    "description": "Download progress stage"
+  },
+  "full_act_stage_move_files": {
+    "message": "Saving file…",
+    "description": "Download progress stage"
+  },
+  "full_act_stage_convert": {
+    "message": "Converting format…",
+    "description": "Download progress stage"
+  },
+  "full_act_stage_embed_thumb": {
+    "message": "Embedding thumbnail…",
+    "description": "Download progress stage"
+  },
+  "full_act_stage_fixup": {
+    "message": "Fixing file…",
+    "description": "Download progress stage"
+  },
+  "full_act_stage_processing": {
+    "message": "Processing…",
+    "description": "Download progress stage"
+  },
+  "full_act_choice_audio": {
+    "message": "Audio $1",
+    "description": "Chosen download format; $1 = audio format such as MP3"
+  },
+  "full_act_quality_best": {
+    "message": "Best",
+    "description": "Video quality option: best available"
+  },
+  "full_act_job_starting": {
+    "message": "Getting video info…",
+    "description": "Download status"
+  },
+  "full_act_job_part_audio": {
+    "message": "Audio",
+    "description": "Download status: the audio part is downloading (followed by a percentage)"
+  },
+  "full_act_job_part_video": {
+    "message": "Video $1p",
+    "description": "Download status: the video part is downloading; $1 = height like 1080 (shown as 1080p)"
+  },
+  "full_act_job_part_any": {
+    "message": "Downloading",
+    "description": "Download status (followed by a percentage)"
+  },
+  "full_act_job_eta": {
+    "message": "$1 left",
+    "description": "Time remaining; $1 = duration like 1:05"
+  },
+  "full_act_job_done": {
+    "message": "Saved",
+    "description": "Download finished"
+  },
+  "full_act_job_done_size": {
+    "message": "Saved · $1",
+    "description": "Download finished; $1 = file size like 12 MB"
+  },
+  "full_act_job_cancelled": {
+    "message": "Cancelled",
+    "description": "Download cancelled"
+  },
+  "full_act_job_error": {
+    "message": "Error: $1",
+    "description": "Download failed; $1 = error text"
+  },
+  "full_act_job_error_unknown": {
+    "message": "unknown",
+    "description": "Unknown error reason (inserted into 'Error: $1')"
+  },
+  "full_popup_brand_sub": {
+    "message": "for YouTube",
+    "description": "Popup header under the name 'Cinema Tools'"
+  },
+  "popup_brand_sub_store": {
+    "message": "video viewing tools",
+    "description": "Popup header under the name 'Cinema Tools' (Store edition)"
+  },
+  "popup_pip_title": {
+    "message": "Pop the playing video out into Picture-in-Picture, above all apps (Alt+P)",
+    "description": "Tooltip of the header button"
+  },
+  "popup_pip": {
+    "message": "Pop out",
+    "description": "Small header button that opens a floating video window. Keep very short."
+  },
+  "popup_pip_no_video": {
+    "message": "No video",
+    "description": "Header button text for 2 s after failure. Keep very short."
+  },
+  "popup_pip_failed": {
+    "message": "Can't open",
+    "description": "Header button text for 2 s after failure. Keep very short."
+  },
+  "popup_settings": {
+    "message": "Settings",
+    "description": "Gear button tooltip"
+  },
+  "popup_sections": {
+    "message": "Sections",
+    "description": "Accessible name of the tab bar"
+  },
+  "popup_tab_video": {
+    "message": "Video",
+    "description": "Popup tab. Keep short (4 tabs share 320 px)."
+  },
+  "popup_tab_audio": {
+    "message": "Audio",
+    "description": "Popup tab. Keep short."
+  },
+  "full_popup_tab_download": {
+    "message": "Download",
+    "description": "Popup tab. Keep short."
+  },
+  "popup_tab_images": {
+    "message": "Images",
+    "description": "Popup tab (Store edition). Keep short."
+  },
+  "popup_tab_tools": {
+    "message": "Tools",
+    "description": "Popup tab. Keep short."
+  },
+  "popup_lights_title": {
+    "message": "Lights off",
+    "description": "Big mode button title"
+  },
+  "popup_lights_on_title": {
+    "message": "Lights are off",
+    "description": "Mode button title while active"
+  },
+  "popup_cinema_title": {
+    "message": "Cinema",
+    "description": "Big mode button title: the player fills the window"
+  },
+  "popup_cinema_on_title": {
+    "message": "Cinema on",
+    "description": "Mode button title while active"
+  },
+  "popup_transform_heading": {
+    "message": "Rotate & flip",
+    "description": "Card heading"
+  },
+  "popup_state_flip_h": {
+    "message": "flipped H",
+    "description": "Short state next to the rotation angle, e.g. '90° · flipped H'"
+  },
+  "popup_state_flip_v": {
+    "message": "flipped V",
+    "description": "Short state next to the rotation angle"
+  },
+  "popup_zoom_heading": {
+    "message": "Zoom & crop",
+    "description": "Card heading"
+  },
+  "popup_autocrop_title": {
+    "message": "Detect and crop black bars in the video",
+    "description": "Tooltip"
+  },
+  "popup_autocrop": {
+    "message": "Auto-crop",
+    "description": "Button. Short."
+  },
+  "popup_fill_title": {
+    "message": "Zoom so the picture fills the player",
+    "description": "Tooltip"
+  },
+  "popup_fill": {
+    "message": "Fill",
+    "description": "Button. Short."
+  },
+  "popup_crop21_title": {
+    "message": "21:9 widescreen movie",
+    "description": "Tooltip of the 21:9 button"
+  },
+  "popup_crop43_title": {
+    "message": "4:3 video boxed in 16:9",
+    "description": "Tooltip of the 4:3 button"
+  },
+  "popup_notice_no_tab": {
+    "message": "Open a YouTube video. Just installed? Reload the YouTube tab (F5).",
+    "description": "Notice in the popup"
+  },
+  "popup_notice_open_video": {
+    "message": "Open a YouTube video to rotate, flip and turn the lights off.",
+    "description": "Notice in the popup"
+  },
+  "popup_audio_heading": {
+    "message": "Per-tab volume",
+    "description": "Card heading"
+  },
+  "popup_mute_others_title": {
+    "message": "Mute every other tab that is playing",
+    "description": "Tooltip"
+  },
+  "popup_mute_others": {
+    "message": "Only this tab",
+    "description": "Small link button. Short."
+  },
+  "popup_mixer_empty": {
+    "message": "No tab is playing audio.",
+    "description": "Empty state"
+  },
+  "popup_shot_heading": {
+    "message": "Screenshot",
+    "description": "Card heading"
+  },
+  "popup_shot_full": {
+    "message": "Full page",
+    "description": "Screenshot mode button. Short."
+  },
+  "popup_shot_full_sub": {
+    "message": "Scrolls & stitches",
+    "description": "Subtitle. Very short."
+  },
+  "popup_shot_visible": {
+    "message": "Visible",
+    "description": "Screenshot mode button: the visible part. Short."
+  },
+  "popup_shot_visible_sub": {
+    "message": "What's on screen",
+    "description": "Subtitle. Very short."
+  },
+  "popup_shot_region": {
+    "message": "Region",
+    "description": "Screenshot mode button: select an area. Short."
+  },
+  "popup_shot_region_sub": {
+    "message": "Drag to select",
+    "description": "Subtitle. Very short."
+  },
+  "popup_shot_error": {
+    "message": "Can't capture this page.",
+    "description": "Error"
+  },
+  "popup_share_heading": {
+    "message": "Share preview",
+    "description": "Card heading: preview how a link looks when shared"
+  },
+  "popup_share_btn": {
+    "message": "Check this page",
+    "description": "Button title"
+  },
+  "popup_share_btn_sub": {
+    "message": "How this page's link looks on social networks and Google: score and fix tips",
+    "description": "Button subtitle"
+  },
+  "popup_share_http_only": {
+    "message": "Only web pages (http / https) can be checked.",
+    "description": "Error"
+  },
+  "popup_share_incognito": {
+    "message": "Not available in incognito windows.",
+    "description": "Error"
+  },
+  "full_popup_video_heading": {
+    "message": "Video & audio",
+    "description": "Card heading"
+  },
+  "full_popup_setup_title": {
+    "message": "Video downloader not installed",
+    "description": "Setup box title"
+  },
+  "full_popup_setup_text": {
+    "message": "Downloading video needs yt-dlp on this computer (one-time, free setup):",
+    "description": "Setup box text, followed by 2 steps"
+  },
+  "full_popup_setup_step1": {
+    "message": "Extension folder → **native-host** → double-click **install.bat**.",
+    "description": "Setup step 1. Keep **…** markers (bold) and the folder/file names unchanged."
+  },
+  "full_popup_setup_step2": {
+    "message": "Wait for **Hoàn tất** (done), then click **Check again**.",
+    "description": "Setup step 2. 'Hoàn tất' is the exact Vietnamese word the installer prints: keep it verbatim and add a translation in parentheses. The second bold text must match the 'Check again' button. Keep **…** markers."
+  },
+  "full_popup_copy": {
+    "message": "Copy",
+    "description": "Link button: copy the extension ID"
+  },
+  "full_popup_recheck": {
+    "message": "Check again",
+    "description": "Button: re-detect the installed downloader"
+  },
+  "full_popup_v_idle": {
+    "message": "Find videos on the page with yt-dlp (YouTube, Facebook, TikTok, X… 1000+ sites).",
+    "description": "Intro text"
+  },
+  "full_popup_v_analyze": {
+    "message": "Find videos on this page",
+    "description": "Primary button"
+  },
+  "full_popup_v_loading": {
+    "message": "Analyzing video…",
+    "description": "Loading state"
+  },
+  "full_popup_v_entry": {
+    "message": "Choose a video on the page",
+    "description": "Accessible name of a dropdown"
+  },
+  "full_popup_v_quality": {
+    "message": "Quality",
+    "description": "Accessible name of a dropdown"
+  },
+  "full_popup_v_format": {
+    "message": "Format",
+    "description": "Accessible name of a dropdown"
+  },
+  "full_popup_v_download": {
+    "message": "Download",
+    "description": "Primary button"
+  },
+  "full_popup_jobs_clear": {
+    "message": "Clear finished",
+    "description": "Link button under the download list"
+  },
+  "full_popup_streams_heading": {
+    "message": "Files & video streams",
+    "description": "Card heading"
+  },
+  "popup_img_heading": {
+    "message": "Images on page",
+    "description": "Card heading"
+  },
+  "popup_img_format": {
+    "message": "Save images as",
+    "description": "Tooltip / accessible name of the format dropdown (Original, PNG, JPG, WebP)"
+  },
+  "popup_img_format_original": {
+    "message": "Original",
+    "description": "Dropdown option: keep the original format. Very short."
+  },
+  "popup_img_small_title": {
+    "message": "Also show icons and small images",
+    "description": "Tooltip of a checkbox"
+  },
+  "popup_img_small": {
+    "message": "Small",
+    "description": "Checkbox label: include small images. Very short."
+  },
+  "full_popup_thumb_title": {
+    "message": "Download the video thumbnail (largest size)",
+    "description": "Tooltip"
+  },
+  "full_popup_thumb": {
+    "message": "Thumbnail",
+    "description": "Small button. Short."
+  },
+  "popup_snap": {
+    "message": "Capture",
+    "description": "Small button: capture the video frame. Short."
+  },
+  "popup_img_all": {
+    "message": "Select all",
+    "description": "Button"
+  },
+  "popup_img_download": {
+    "message": "Download",
+    "description": "Primary button: download the selected images"
+  },
+  "popup_set_lights_heading": {
+    "message": "Lights off & ambient glow",
+    "description": "Settings card heading"
+  },
+  "popup_set_dim": {
+    "message": "Dimming",
+    "description": "Slider label: how dark the page gets"
+  },
+  "popup_set_glow": {
+    "message": "Ambient glow behind the video",
+    "description": "Toggle label"
+  },
+  "popup_set_glow_strength": {
+    "message": "Glow brightness",
+    "description": "Slider label"
+  },
+  "popup_set_glow_size": {
+    "message": "Glow spread",
+    "description": "Slider label"
+  },
+  "popup_set_options": {
+    "message": "Options",
+    "description": "Settings card heading"
+  },
+  "popup_set_keep_transform": {
+    "message": "Keep rotate, flip and zoom when changing videos",
+    "description": "Toggle label"
+  },
+  "popup_set_player_buttons": {
+    "message": "Show buttons on the player",
+    "description": "Toggle label"
+  },
+  "popup_set_shortcuts": {
+    "message": "Keyboard shortcuts",
+    "description": "Toggle label"
+  },
+  "popup_set_auto_pip": {
+    "message": "Auto Picture-in-Picture when switching tabs (YouTube)",
+    "description": "Toggle label"
+  },
+  "popup_keys_heading": {
+    "message": "Shortcuts",
+    "description": "Settings card heading"
+  },
+  "popup_keys_hint": {
+    "message": "Alt + Shift + key",
+    "description": "Hint: shortcuts are Alt+Shift plus the listed key"
+  },
+  "popup_keys_customize": {
+    "message": "Change shortcuts",
+    "description": "Link button under the shortcut list; opens chrome://extensions/shortcuts. Short."
+  },
+  "popup_key_escape": {
+    "message": "Exit Cinema / lights on",
+    "description": "Shortcut list entry for Esc"
+  },
+  "popup_key_pip": {
+    "message": "Picture-in-Picture (any site)",
+    "description": "Shortcut list entry for Alt+P"
+  },
+  "popup_key_capture": {
+    "message": "Capture full page (any site)",
+    "description": "Shortcut list entry for Alt+S"
+  },
+  "full_popup_set_download_heading": {
+    "message": "Downloads",
+    "description": "Settings card heading"
+  },
+  "full_popup_set_cookies": {
+    "message": "Use the browser's sign-in when downloading video",
+    "description": "Toggle label"
+  },
+  "full_popup_set_cookies_note": {
+    "message": "Needed for Facebook, Instagram, private videos… Cookies only go to the downloader on your computer and are never saved to disk. Not used for YouTube.",
+    "description": "Help text"
+  },
+  "popup_reset": {
+    "message": "Restore default settings",
+    "description": "Link button"
+  },
+  "yt_toast_snapshot_saved": {
+    "message": "Frame captured $1×$2",
+    "description": "Toast on the YouTube player after saving a frame; $1×$2 = width×height in px"
+  },
+  "full_yt_dl_preset_best": {
+    "message": "Best",
+    "description": "Short button text in the player's Download panel: best available video quality (MP4)"
+  },
+  "full_yt_dl_preset_best_label": {
+    "message": "Best video · MP4",
+    "description": "Tooltip of the 'Best' download button; also inserted into the 'Download started · $1' toast"
+  },
+  "full_yt_dl_preset_video_label": {
+    "message": "Video $1 · MP4",
+    "description": "Tooltip of a resolution download button; $1 = resolution such as 1080p. Also inserted into the 'Download started · $1' toast"
+  },
+  "full_yt_dl_preset_mp3_label": {
+    "message": "Audio only · MP3",
+    "description": "Tooltip of the MP3 download button; also inserted into the 'Download started · $1' toast"
+  },
+  "full_yt_err_extension_updated": {
+    "message": "The extension was just updated. Reload the page (F5).",
+    "description": "Error on the YouTube page when the extension was reloaded and the page lost its connection"
+  },
+  "full_yt_dl_panel_title": {
+    "message": "Download",
+    "description": "Title (and aria-label) of the Download panel that opens above the YouTube player controls"
+  },
+  "full_yt_dl_panel_state": {
+    "message": "MP4 video",
+    "description": "Small grey text next to the Download panel title: the format the video buttons produce"
+  },
+  "full_yt_dl_thumb": {
+    "message": "Thumbnail",
+    "description": "Short button text in the Download panel: download the video thumbnail image"
+  },
+  "full_yt_dl_thumb_title": {
+    "message": "Download the video thumbnail (largest size)",
+    "description": "Tooltip of the Thumbnail button"
+  },
+  "full_yt_dl_snapshot": {
+    "message": "Capture",
+    "description": "Short button text in the Download panel: capture the current video frame as an image"
+  },
+  "full_yt_dl_snapshot_title": {
+    "message": "Capture the current frame (Alt+Shift+S)",
+    "description": "Tooltip of the Capture button; keep the shortcut unchanged"
+  },
+  "full_yt_dl_host_missing": {
+    "message": "The video downloader (yt-dlp) isn't installed. Click the extension icon → Download for setup steps. Images still work.",
+    "description": "Note in the Download panel when the local yt-dlp helper is missing; 'Download' is the name of the tab in the extension popup"
+  },
+  "full_yt_toast_watch_only": {
+    "message": "Downloads only work on a video page",
+    "description": "Toast when a download is requested outside a YouTube watch page"
+  },
+  "full_yt_toast_download_start_failed": {
+    "message": "Couldn't start the download",
+    "description": "Toast when the download could not be started (no further detail)"
+  },
+  "full_yt_toast_download_started": {
+    "message": "Download started · $1",
+    "description": "Toast; $1 = chosen preset, e.g. 'Best video · MP4'"
+  },
+  "full_yt_dl_cancel": {
+    "message": "Cancel download",
+    "description": "Tooltip/aria-label of a small icon button in the download progress row"
+  },
+  "full_yt_dl_open_file": {
+    "message": "Open file",
+    "description": "Tooltip/aria-label of a small icon button after the download finished"
+  },
+  "full_yt_dl_show_in_folder": {
+    "message": "Show in folder",
+    "description": "Tooltip/aria-label of a small icon button: open the folder containing the downloaded file"
+  },
+  "full_yt_toast_download_done": {
+    "message": "Download complete",
+    "description": "Toast on the YouTube player"
+  },
+  "full_yt_toast_download_failed": {
+    "message": "Download failed",
+    "description": "Toast on the YouTube player"
+  },
+  "full_yt_toast_thumb_loading": {
+    "message": "Downloading thumbnail…",
+    "description": "Toast while the video thumbnail is being downloaded"
+  },
+  "full_yt_thumb_filename": {
+    "message": "$1 - thumbnail",
+    "description": "File name (without extension) of the saved thumbnail; $1 = video title. Avoid characters not allowed in file names (/ \\ : * ? \" < > |)"
+  },
+  "full_yt_toast_thumb_saved": {
+    "message": "Thumbnail saved",
+    "description": "Toast on the YouTube player"
+  },
+  "full_yt_toast_thumb_failed_reason": {
+    "message": "Couldn't download thumbnail: $1",
+    "description": "Toast; $1 = error message (already translated)"
+  },
+  "full_yt_toast_thumb_failed": {
+    "message": "Couldn't download thumbnail",
+    "description": "Toast when the thumbnail download failed without an error message"
+  },
+  "yt_toast_pip_failed": {
+    "message": "Couldn't open Picture-in-Picture",
+    "description": "Toast on the YouTube player; 'Cửa sổ nổi' = the browser's Picture-in-Picture window"
+  },
+  "yt_toast_lights_off": {
+    "message": "Lights off · Esc to turn back on",
+    "description": "Toast after dimming the page around the player; Esc is the key name"
+  },
+  "yt_toast_lights_on": {
+    "message": "Lights on",
+    "description": "Toast after undimming the page"
+  },
+  "yt_toast_cinema_on": {
+    "message": "Cinema mode · Esc to exit",
+    "description": "Toast after entering Cinema mode (player fills the screen at the top of the page); Esc is the key name"
+  },
+  "yt_toast_cinema_off": {
+    "message": "Exited Cinema mode",
+    "description": "Toast after leaving Cinema mode"
+  },
+  "yt_toast_transform_reset": {
+    "message": "Video reset",
+    "description": "Toast after resetting rotation, flip and zoom"
+  },
+  "yt_toast_zoom_reset": {
+    "message": "Zoom reset",
+    "description": "Toast after resetting zoom/crop to 100%"
+  },
+  "yt_toast_pan_hint": {
+    "message": "$1 · drag the video to pan",
+    "description": "Shown once, the first time the video is zoomed; $1 = the normal toast text, e.g. 'Zoom in · 115%'"
+  },
+  "yt_toast_watch_only": {
+    "message": "Only available on a video page",
+    "description": "Toast when lights-off / Cinema mode is used outside a YouTube watch page"
+  },
+  "full_yt_btn_download": {
+    "message": "Download",
+    "description": "Tooltip/aria-label of the Download button in the YouTube player control bar"
+  },
+  "yt_btn_pip": {
+    "message": "Picture-in-Picture (Alt+Shift+P)",
+    "description": "Tooltip/aria-label of a YouTube player control-bar button; keep the shortcut unchanged"
+  },
+  "yt_btn_transform": {
+    "message": "Rotate/flip & zoom",
+    "description": "Tooltip/aria-label of the player control-bar button that opens the rotate/flip/zoom panel"
+  },
+  "yt_btn_lights_off": {
+    "message": "Lights off (Alt+Shift+L)",
+    "description": "Tooltip/aria-label of the player button that dims the page around the video; keep the shortcut unchanged"
+  },
+  "yt_btn_cinema": {
+    "message": "Cinema mode (Alt+Shift+C)",
+    "description": "Tooltip/aria-label of the Cinema mode player button; keep the shortcut unchanged"
+  },
+  "yt_zoom_reset_title": {
+    "message": "Reset zoom (back to 100%)",
+    "description": "Tooltip of the zoom percentage chip in the rotate/flip/zoom panel"
+  },
+  "yt_transform_panel_title": {
+    "message": "Rotate/flip & zoom",
+    "description": "Title (and aria-label) of the panel above the player controls"
+  },
+  "yt_panel_zoom_crop": {
+    "message": "Zoom & crop",
+    "description": "Section heading in the rotate/flip/zoom panel"
+  },
+  "yt_btn_autocrop": {
+    "message": "Auto crop",
+    "description": "Short panel button text: detect and crop black bars baked into the video"
+  },
+  "yt_btn_autocrop_title": {
+    "message": "Auto-crop black bars (Alt+Shift+A)",
+    "description": "Tooltip of the Auto crop button; keep the shortcut unchanged"
+  },
+  "yt_btn_fill": {
+    "message": "Fill",
+    "description": "Short panel button text: zoom the video to fill the player frame"
+  },
+  "yt_btn_zoom_out_title": {
+    "message": "Zoom out (Alt+Shift+−)",
+    "description": "Tooltip of the zoom-out button; the key is the minus sign (U+2212), keep it"
+  },
+  "yt_btn_zoom_in_title": {
+    "message": "Zoom in (Alt+Shift++)",
+    "description": "Tooltip of the zoom-in button; the shortcut is Alt+Shift and the + key"
+  },
+  "yt_btn_lights_on": {
+    "message": "Lights on (Alt+Shift+L)",
+    "description": "Tooltip of the lights button while the page is dimmed; keep the shortcut unchanged"
+  },
+  "yt_btn_cinema_exit": {
+    "message": "Exit Cinema mode (Esc)",
+    "description": "Tooltip of the Cinema mode button while it is on"
+  },
+  "yt_btn_pip_close": {
+    "message": "Close Picture-in-Picture (Alt+Shift+P)",
+    "description": "Tooltip of the Picture-in-Picture button while the window is open"
+  },
+  "yt_panel_state_flip_hv": {
+    "message": "$1° · flipped H · flipped V",
+    "description": "Short status next to the panel title; $1 = rotation angle (0/90/180/270); video is flipped horizontally and vertically"
+  },
+  "yt_panel_state_flip_h": {
+    "message": "$1° · flipped H",
+    "description": "Short status next to the panel title; $1 = rotation angle; video is flipped horizontally (mirrored)"
+  },
+  "yt_panel_state_flip_v": {
+    "message": "$1° · flipped V",
+    "description": "Short status next to the panel title; $1 = rotation angle; video is flipped vertically"
+  },
+  "yt_err_video_not_ready": {
+    "message": "Video isn't ready yet, try again in a moment",
+    "description": "Toast when cropping is requested before the video has loaded"
+  },
+  "yt_err_frame_unreadable": {
+    "message": "Can't read frames from this video",
+    "description": "Toast when auto crop can't read pixels (e.g. DRM-protected video)"
+  },
+  "yt_err_scene_too_dark": {
+    "message": "Scene too dark, try again on a brighter scene",
+    "description": "Toast when auto crop can't tell black bars from a dark scene"
+  },
+  "yt_toast_no_bars": {
+    "message": "No black bars found · filling frame $1%",
+    "description": "Toast after auto crop; $1 = resulting zoom percentage"
+  },
+  "yt_toast_bars_cropped": {
+    "message": "Black bars cropped · $1%",
+    "description": "Toast after auto crop; $1 = resulting zoom percentage"
+  },
+  "yt_toast_fill": {
+    "message": "Fill frame · $1%",
+    "description": "Toast; $1 = resulting zoom percentage"
+  },
+  "yt_toast_crop_ratio": {
+    "message": "Cropped to $1 · $2%",
+    "description": "Toast; $1 = aspect ratio such as 21:9 or 4:3, $2 = resulting zoom percentage"
+  },
+  "full_dl_hint_mp4": {
+    "message": "MP4 plays everywhere. Up to 1080p prefers H.264; higher uses VP9/AV1.",
+    "description": "Tooltip of the Format select when MP4 is chosen"
+  },
+  "full_dl_hint_webm": {
+    "message": "WebM (VP9 + Opus): good quality, compact size.",
+    "description": "Tooltip of the Format select when WebM is chosen"
+  },
+  "full_dl_hint_mkv": {
+    "message": "MKV keeps the best available codec (usually AV1), good for archiving.",
+    "description": "Tooltip of the Format select when MKV is chosen"
+  },
+  "full_dl_hint_mp3": {
+    "message": "MP3 plays everywhere (re-encoded from the original audio).",
+    "description": "Tooltip of the Format select when MP3 is chosen"
+  },
+  "full_dl_hint_m4a": {
+    "message": "M4A (AAC): usually the original audio as is, no re-encoding.",
+    "description": "Tooltip of the Format select when M4A is chosen"
+  },
+  "full_dl_hint_opus": {
+    "message": "Opus: YouTube's original audio, the smallest.",
+    "description": "Tooltip of the Format select when Opus is chosen"
+  },
+  "full_dl_host_checking": {
+    "message": "Checking…",
+    "description": "Video card header: status while checking the local downloader (yt-dlp)"
+  },
+  "full_dl_host_connected": {
+    "message": "Connected",
+    "description": "Video card header: local downloader is connected (version unknown)"
+  },
+  "full_dl_host_save_to": {
+    "message": "Saves to: $1",
+    "description": "Tooltip on the downloader status; $1 = download folder path"
+  },
+  "full_dl_no_ffmpeg": {
+    "message": "ffmpeg is missing: only formats with both video and sound can be downloaded. Run install.bat again.",
+    "description": "Video card hint when ffmpeg is not installed"
+  },
+  "full_dl_setup_missing_title": {
+    "message": "Video downloader not installed",
+    "description": "Setup box title: yt-dlp helper not installed"
+  },
+  "full_dl_setup_error_title": {
+    "message": "Can't connect to the downloader",
+    "description": "Setup box title: helper installed but connection failed"
+  },
+  "full_dl_setup_missing_text": {
+    "message": "Downloading videos needs the yt-dlp tool on your computer (one-time, free install):",
+    "description": "Setup box text, followed by install steps"
+  },
+  "full_dl_setup_error_text": {
+    "message": "$1 How to fix:",
+    "description": "Setup box text, followed by fix steps; $1 = connection error message (already translated)"
+  },
+  "full_dl_retry": {
+    "message": "Try again",
+    "description": "Video card: label of the Find video button after an error"
+  },
+  "full_dl_analyzing_embed": {
+    "message": "Analyzing embedded video…",
+    "description": "Video card loading text (video embedded in another page)"
+  },
+  "full_dl_analyzing": {
+    "message": "Analyzing video…",
+    "description": "Video card loading text"
+  },
+  "full_dl_analyze_failed": {
+    "message": "Couldn't analyze this page.",
+    "description": "Video card error (no details available)"
+  },
+  "full_dl_no_videos": {
+    "message": "No videos found on this page.",
+    "description": "Video card error: playlist/page has no videos"
+  },
+  "full_dl_entries_title_one": {
+    "message": "Page has $1 video",
+    "description": "Tooltip of the video picker when a page has several videos; $1 = number of videos"
+  },
+  "full_dl_entries_title_other": {
+    "message": "Page has $1 videos",
+    "description": "Tooltip of the video picker when a page has several videos; $1 = number of videos"
+  },
+  "full_dl_live_unsupported": {
+    "message": "Live streams can't be downloaded yet. Try again after the stream ends.",
+    "description": "Video card error for a live stream"
+  },
+  "full_dl_max_height": {
+    "message": "up to $1p",
+    "description": "Part of the \" · \"-separated video details line; $1 = highest video height, e.g. 1080 (shown as 1080p)"
+  },
+  "full_dl_audio_only_info": {
+    "message": "audio only",
+    "description": "Part of the \" · \"-separated video details line: the source has no video track"
+  },
+  "full_dl_group_video": {
+    "message": "Video",
+    "description": "Format select: option group for video formats (MP4/WebM/MKV)"
+  },
+  "full_dl_group_audio_only": {
+    "message": "Audio only",
+    "description": "Format select: option group for audio-only formats"
+  },
+  "full_dl_audio_format": {
+    "message": "$1 · audio",
+    "description": "Format select option; $1 = audio format name (MP3, M4A, Opus)"
+  },
+  "full_dl_quality_best": {
+    "message": "Best ($1)",
+    "description": "Quality select: first option; $1 = best resolution, e.g. \"2160p 4K\""
+  },
+  "full_dl_download_audio": {
+    "message": "Download audio",
+    "description": "Main download button (audio format chosen, size unknown)"
+  },
+  "full_dl_download_audio_size": {
+    "message": "Download audio · ~$1",
+    "description": "Main download button; $1 = estimated file size, e.g. \"4.2 MB\""
+  },
+  "full_dl_download_video": {
+    "message": "Download video",
+    "description": "Main download button (video format chosen, size unknown)"
+  },
+  "full_dl_download_video_size": {
+    "message": "Download video · ~$1",
+    "description": "Main download button; $1 = estimated file size, e.g. \"120 MB\""
+  },
+  "full_dl_job_cancel": {
+    "message": "Cancel download",
+    "description": "Download list: icon button tooltip"
+  },
+  "full_dl_job_open": {
+    "message": "Open file",
+    "description": "Download list: icon button tooltip for a finished download"
+  },
+  "full_dl_job_reveal": {
+    "message": "Show in folder",
+    "description": "Download list: icon button tooltip, opens the folder containing the file"
+  },
+  "full_dl_stream_playing": {
+    "message": "Playing video",
+    "description": "Video files & streams list: name of a video post that is playing now"
+  },
+  "full_dl_stream_in_post": {
+    "message": "Video in post",
+    "description": "Video files & streams list: name of a video found in a social post"
+  },
+  "full_dl_stream_pick": {
+    "message": "Select",
+    "description": "Video files & streams list: button that loads this video in the Video card"
+  },
+  "full_dl_stream_embed": {
+    "message": "$1 video embedded in page",
+    "description": "Video files & streams list: row name; $1 = site name (YouTube, Vimeo…)"
+  },
+  "full_dl_stream_download": {
+    "message": "Download",
+    "description": "Video files & streams list: download button (short)"
+  },
+  "full_dl_stream_sent": {
+    "message": "Handed off to browser downloads",
+    "description": "Video files & streams list: status after a direct file was passed to Chrome downloads"
+  },
+  "full_dl_stream_error": {
+    "message": "Error: $1",
+    "description": "Video files & streams list: status; $1 = error message"
+  },
+  "full_dl_stream_need_host": {
+    "message": "Install the video downloader first (see above)",
+    "description": "Video files & streams list: status when the yt-dlp helper is missing"
+  },
+  "full_dl_stream_started": {
+    "message": "Downloading · see progress above",
+    "description": "Video files & streams list: status after a stream download started"
+  },
+  "dl_img_upgraded_tip": {
+    "message": "Will download the largest version found",
+    "description": "Images grid: tooltip of an image whose larger version was found"
+  },
+  "dl_img_count_one": {
+    "message": "$1 image",
+    "description": "Images card header; $1 = number of images found"
+  },
+  "dl_img_count_other": {
+    "message": "$1 images",
+    "description": "Images card header; $1 = number of images found"
+  },
+  "dl_img_count_of_one": {
+    "message": "$2 / $1 image",
+    "description": "Images card header when small images are hidden; $1 = total images found, $2 = images shown"
+  },
+  "dl_img_count_of_other": {
+    "message": "$2 / $1 images",
+    "description": "Images card header when small images are hidden; $1 = total images found, $2 = images shown"
+  },
+  "dl_img_only_small": {
+    "message": "Only small images (icons). Turn on \"Small\" to show them.",
+    "description": "Images card empty state; the quoted text refers to the checkbox label popup_img_small"
+  },
+  "dl_img_none": {
+    "message": "No images found on this page.",
+    "description": "Images card empty state"
+  },
+  "dl_img_deselect": {
+    "message": "Deselect all",
+    "description": "Images card button when all images are selected"
+  },
+  "dl_img_select_all": {
+    "message": "Select all",
+    "description": "Images card button; same text as popup_img_all"
+  },
+  "dl_img_download_n_one": {
+    "message": "Download $1 image",
+    "description": "Images card download button; $1 = number selected"
+  },
+  "dl_img_download_n_other": {
+    "message": "Download $1 images",
+    "description": "Images card download button; $1 = number selected"
+  },
+  "dl_img_download": {
+    "message": "Download",
+    "description": "Images card download button when nothing is selected (disabled); same text as popup_img_download"
+  },
+  "dl_img_downloading_one": {
+    "message": "Downloading $1 image…",
+    "description": "Images card status; $1 = number of images being downloaded"
+  },
+  "dl_img_downloading_other": {
+    "message": "Downloading $1 images…",
+    "description": "Images card status; $1 = number of images being downloaded"
+  },
+  "dl_img_saved_failed_folder_one": {
+    "message": "Saved $1 image to folder \"$4\" · $2 failed ($3)",
+    "description": "Images card status; $1 = images saved, $2 = images that failed, $3 = error message, $4 = folder name"
+  },
+  "dl_img_saved_failed_folder_other": {
+    "message": "Saved $1 images to folder \"$4\" · $2 failed ($3)",
+    "description": "Images card status; $1 = images saved, $2 = images that failed, $3 = error message, $4 = folder name"
+  },
+  "dl_img_saved_failed_one": {
+    "message": "Saved $1 image · $2 failed ($3)",
+    "description": "Images card status; $1 = images saved, $2 = images that failed, $3 = error message"
+  },
+  "dl_img_saved_failed_other": {
+    "message": "Saved $1 images · $2 failed ($3)",
+    "description": "Images card status; $1 = images saved, $2 = images that failed, $3 = error message"
+  },
+  "dl_img_saved_folder_one": {
+    "message": "Saved $1 image to folder \"$2\"",
+    "description": "Images card status; $1 = images saved, $2 = folder name"
+  },
+  "dl_img_saved_folder_other": {
+    "message": "Saved $1 images to folder \"$2\"",
+    "description": "Images card status; $1 = images saved, $2 = folder name"
+  },
+  "dl_img_saved_one": {
+    "message": "Saved $1 image",
+    "description": "Images card status; $1 = images saved"
+  },
+  "dl_img_saved_other": {
+    "message": "Saved $1 images",
+    "description": "Images card status; $1 = images saved"
+  },
+  "dl_img_download_failed": {
+    "message": "Download failed: $1",
+    "description": "Images card status; $1 = error message (or the \"unknown error\" text)"
+  },
+  "dl_img_unknown_error": {
+    "message": "unknown error",
+    "description": "Inserted as $1 of the \"Download failed: $1\" status"
+  },
+  "dl_snap_label": {
+    "message": "Capture",
+    "description": "Images card: button that captures the playing video frame (short); same text as popup_snap"
+  },
+  "dl_snap_tip": {
+    "message": "Capture the playing frame at its original $1×$2 resolution",
+    "description": "Tooltip of the snapshot button; $1 × $2 = video width × height in pixels"
+  },
+  "dl_scan_system_page": {
+    "message": "Can't scan this page (browser system page).",
+    "description": "Images card empty state on chrome:// and similar pages"
+  },
+  "dl_scanning": {
+    "message": "Scanning page…",
+    "description": "Images card status while scanning the page"
+  },
+  "dl_scan_failed_file": {
+    "message": "Can't scan this page. Turn on \"Allow access to file URLs\" for the extension.",
+    "description": "Images card error on a local file page; quote Chrome's own name of that extension setting"
+  },
+  "dl_scan_failed": {
+    "message": "Can't scan this page.",
+    "description": "Images card error when page scanning fails"
+  },
+  "full_dl_start_failed": {
+    "message": "Couldn't start the download.",
+    "description": "Video card error (no details available)"
+  },
+  "full_dl_copied": {
+    "message": "Copied",
+    "description": "Setup box: button label after copying the extension ID"
+  },
+  "full_dl_thumb_name": {
+    "message": "$1 - thumbnail",
+    "description": "File name of a saved YouTube thumbnail; $1 = video title"
+  },
+  "dl_snap_done": {
+    "message": "Captured $1×$2 · $3",
+    "description": "Images card status; $1 × $2 = width × height in pixels, $3 = file name"
+  },
+  "dl_snap_failed": {
+    "message": "Couldn't capture",
+    "description": "Images card status when the frame capture failed (no details)"
+  },
+  "dl_snap_failed_detail": {
+    "message": "Couldn't capture: $1",
+    "description": "Images card status; $1 = browser error message"
+  },
+  "full_dl_unavailable_page": {
+    "message": "Not available on this page.",
+    "description": "Video card text on non-web pages"
+  },
+  "full_dl_feed_hint": {
+    "message": "This is a feed / profile page and no video was found yet. Play the video you want (or open that post / reel), then click the button below.",
+    "description": "Video card text on social feeds"
+  },
+  "full_dl_find_playing": {
+    "message": "Find playing video",
+    "description": "Video card button label on social feeds"
+  },
+  "full_dl_feed_retry": {
+    "message": "No video found on this page yet. Play the video you want (or open that post / reel), then try again.",
+    "description": "Video card error after searching a social feed again"
+  },
+  "audio_volume_aria": {
+    "message": "Volume: $1",
+    "description": "Audio card: accessible name of a tab's volume slider; $1 = tab title"
+  },
+  "audio_set_failed": {
+    "message": "Couldn't change this tab's volume.",
+    "description": "Audio card: note under a tab row"
+  },
+  "audio_tab_switch_tip": {
+    "message": "$1\nClick to switch to this tab",
+    "description": "Audio card: tooltip of a tab name (two lines); $1 = tab title"
+  },
+  "audio_this_tab": {
+    "message": "This tab",
+    "description": "Audio card: tag on the row of the tab where the popup was opened"
+  },
+  "audio_playing": {
+    "message": "Playing audio",
+    "description": "Audio card: tooltip of the \"live\" dot on a tab that makes sound"
+  },
+  "audio_pip": {
+    "message": "Pop out this tab's video (picture-in-picture)",
+    "description": "Audio card: icon button tooltip"
+  },
+  "audio_pip_failed": {
+    "message": "Couldn't open picture-in-picture.",
+    "description": "Audio card: note under a tab row"
+  },
+  "audio_unmute": {
+    "message": "Unmute",
+    "description": "Audio card: icon button tooltip"
+  },
+  "audio_mute": {
+    "message": "Mute",
+    "description": "Audio card: icon button tooltip"
+  },
+  "audio_boost_current_only": {
+    "message": "Boosting above 100% only works on the tab where you opened the popup. Open the popup on that tab and try again.",
+    "description": "Audio card: note shown when trying to boost another tab above 100%"
+  },
+  "bg_file_name_default": {
+    "message": "file",
+    "description": "Fallback name (without extension) for a downloaded image that has no usable name. A file name: keep it short, no characters like / \\ : * ? \" < > |. Vietnamese is intentionally written without diacritics."
+  },
+  "full_bg_host_missing": {
+    "message": "The video downloader isn't installed on this computer.",
+    "description": "Error in the Download tab when the local downloader (native messaging host) is not installed."
+  },
+  "full_bg_host_forbidden": {
+    "message": "The downloader doesn't allow this extension yet (its ID changed). Run install.bat again.",
+    "description": "Error when the local downloader rejects this extension ID. install.bat is a file name: keep as is."
+  },
+  "full_bg_host_crash": {
+    "message": "The downloader quit unexpectedly. Run install.bat again or check native-host\\host.log.",
+    "description": "Error when the local downloader process exits. install.bat and native-host\\host.log are file paths: keep as is."
+  },
+  "full_bg_host_unreachable": {
+    "message": "Couldn't connect to the downloader.",
+    "description": "Generic error when the extension cannot talk to the local downloader."
+  },
+  "full_bg_host_no_reply": {
+    "message": "The downloader didn't respond.",
+    "description": "Error when the local downloader returns an empty reply."
+  },
+  "full_bg_invalid_url": {
+    "message": "Invalid URL.",
+    "description": "Error when a video / file download is requested for an address that is not an http(s) URL."
+  },
+  "full_bg_job_interrupted": {
+    "message": "Interrupted before finishing.",
+    "description": "Status of a video download that was cut off because the browser restarted the extension's background worker."
+  },
+  "full_bg_unknown_error": {
+    "message": "Unknown error.",
+    "description": "Video download failed without an error message from the downloader."
+  },
+  "full_bg_invalid_choice": {
+    "message": "Invalid download option.",
+    "description": "Error when the chosen quality / format for a video download is not valid."
+  },
+  "full_bg_host_stopped": {
+    "message": "The downloader stopped unexpectedly.",
+    "description": "Video download failed because the connection to the local downloader closed while downloading."
+  },
+  "bg_img_no_url": {
+    "message": "Missing image URL",
+    "description": "Image download error (shown after the saved/failed counts in the Images tab)."
+  },
+  "bg_img_failed": {
+    "message": "Couldn't download the image",
+    "description": "Generic image download error."
+  },
+  "bg_img_none_selected": {
+    "message": "No images selected.",
+    "description": "Error when the user starts an image download with nothing selected."
+  },
+  "bg_vol_no_tab": {
+    "message": "No tab specified.",
+    "description": "Volume tab: internal error, the volume request did not say which browser tab to change."
+  },
+  "bg_vol_cannot_set": {
+    "message": "Can't change the volume on this page.",
+    "description": "Volume tab: the page does not allow the extension to run (browser pages, Chrome Web Store…)."
+  },
+  "bg_vol_no_tab_info": {
+    "message": "Missing tab information.",
+    "description": "Volume tab: internal error when boosting volume above 100% without the needed tab data."
+  },
+  "bg_vol_capture_failed": {
+    "message": "Couldn't capture the tab's audio.",
+    "description": "Volume tab: boosting above 100% needs to capture the tab's audio, and that failed."
+  },
+  "bg_shot_bad_mode": {
+    "message": "Invalid capture mode.",
+    "description": "Screenshot: internal error, unknown mode (full page / visible area / selected area)."
+  },
+  "bg_shot_busy": {
+    "message": "Already capturing, please wait.",
+    "description": "Screenshot: another screenshot is still in progress."
+  },
+  "bg_shot_no_tab": {
+    "message": "Tab not found.",
+    "description": "Screenshot: the browser tab to capture no longer exists."
+  },
+  "bg_shot_restricted": {
+    "message": "Can't capture this page (it's a browser system page).",
+    "description": "Screenshot: browser internal pages (chrome://, new tab…) cannot be captured."
+  },
+  "bg_img_private_host": {
+    "message": "Images from local network addresses aren't downloaded",
+    "description": "Image download error: the image URL points to localhost / a private network address, which is blocked for safety."
+  },
+  "bg_img_server_status": {
+    "message": "Server returned error $1",
+    "description": "Image download error. $1 = HTTP status code, e.g. 404."
+  },
+  "bg_img_too_large": {
+    "message": "Image too large (over 50 MB)",
+    "description": "Image download error: the file exceeds the 50 MB limit."
+  },
+  "bg_img_not_image": {
+    "message": "The URL isn't an image",
+    "description": "Image download error: the server returned something that is not an image."
+  },
+  "bg_img_bad_size": {
+    "message": "Invalid image dimensions",
+    "description": "Image conversion error: width/height is zero or too large to convert."
+  },
+  "bg_img_unreadable": {
+    "message": "Couldn't read the image",
+    "description": "Image download error: the image could not be decoded (needed to convert to PNG/JPG/WebP)."
+  },
+  "page_image_name_default": {
+    "message": "image",
+    "description": "Fallback file name (without extension) for an image found on a web page. A file name: one short word, no characters like / \\ : * ? \" < > |. Vietnamese is intentionally written without diacritics."
+  },
+  "page_image_name_random": {
+    "message": "image-$1",
+    "description": "File name (without extension) for an image whose original name is a random ID. $1 = first 10 characters of that ID. No characters like / \\ : * ? \" < > |."
+  },
+  "page_alt_video_poster": {
+    "message": "Video poster",
+    "description": "Label (and file name) for the poster/cover image of a video found on a web page, in the Images list."
+  },
+  "page_alt_page_image": {
+    "message": "Page preview image",
+    "description": "Label (and file name) for the page's share/preview image (og:image), in the Images list."
+  },
+  "page_snap_no_video": {
+    "message": "No video is showing.",
+    "description": "Video frame snapshot error: there is no visible, loaded video on the page."
+  },
+  "page_snap_failed": {
+    "message": "Couldn't create the image",
+    "description": "Video frame snapshot error: the browser could not encode the image."
+  },
+  "page_snap_blocked": {
+    "message": "This page doesn't allow capturing video frames (the video is from another site or protected).",
+    "description": "Video frame snapshot error: the video is cross-origin or DRM-protected."
+  },
+  "page_pip_no_video": {
+    "message": "No video found on this page.",
+    "description": "Floating window (picture-in-picture) error."
+  },
+  "page_pip_blocked": {
+    "message": "The browser blocked Picture-in-Picture. Click the Picture-in-Picture button again.",
+    "description": "The browser requires a fresh click to open the floating (picture-in-picture) window. \"Cửa sổ nổi\" / \"Picture-in-Picture\" is the name of the extension's action button (key act_toggle_pip): use the same wording."
+  },
+  "page_pip_failed": {
+    "message": "Couldn't open Picture-in-Picture",
+    "description": "Floating window (picture-in-picture) error without details."
+  },
+  "page_pip_failed_detail": {
+    "message": "Couldn't open Picture-in-Picture: $1",
+    "description": "Floating window (picture-in-picture) error. $1 = the browser's error message (usually English)."
+  },
+  "page_shot_select_hint": {
+    "message": "Drag to select the area to capture · Esc to cancel",
+    "description": "Hint shown at the top of the web page while selecting an area for a screenshot. Esc is the keyboard key."
+  },
+  "shot_page_title": {
+    "message": "Page screenshot",
+    "description": "Browser tab title of the screenshot result page while it loads."
+  },
+  "shot_stitching": {
+    "message": "Stitching image…",
+    "description": "Screenshot result page: shown while the captured screens are being joined into one image."
+  },
+  "shot_save_png": {
+    "message": "Download PNG",
+    "description": "Button on the screenshot result page: save the image as a PNG file."
+  },
+  "shot_save_jpg": {
+    "message": "Download JPG",
+    "description": "Button on the screenshot result page: save the image as a JPG file."
+  },
+  "shot_copy": {
+    "message": "Copy",
+    "description": "Button on the screenshot result page: copy the image to the clipboard."
+  },
+  "shot_file_name_default": {
+    "message": "Screenshot",
+    "description": "Fallback file name (without extension) for a saved screenshot. A file name: no characters like / \\ : * ? \" < > |. Vietnamese is intentionally written without diacritics."
+  },
+  "shot_file_name_page": {
+    "message": "page",
+    "description": "Used in the screenshot file name in place of the page title when the page has no title. One short word, no characters like / \\ : * ? \" < > |."
+  },
+  "shot_err_read_image": {
+    "message": "Couldn't read the screenshot",
+    "description": "Screenshot result page error."
+  },
+  "shot_err_too_large": {
+    "message": "Image is too large to save",
+    "description": "Screenshot result page error: the browser could not encode such a large image."
+  },
+  "shot_open_folder": {
+    "message": "Open folder",
+    "description": "Button shown after saving a screenshot: shows the file in its folder."
+  },
+  "shot_saved": {
+    "message": "Saved $1 to your Downloads folder.",
+    "description": "Screenshot result page. $1 = file format, PNG or JPG."
+  },
+  "shot_save_failed": {
+    "message": "Couldn't save: $1",
+    "description": "Screenshot result page. $1 = the browser's error message (usually English)."
+  },
+  "shot_gone_title": {
+    "message": "Screenshot no longer available",
+    "description": "Heading of the screenshot result page when the screenshot data is gone."
+  },
+  "shot_expired": {
+    "message": "This screenshot has expired (the browser or extension just restarted). Please capture it again.",
+    "description": "Screenshot result page error."
+  },
+  "shot_doc_title": {
+    "message": "Screenshot – $1",
+    "description": "Browser tab title of the screenshot result page. $1 = title (or URL) of the captured web page."
+  },
+  "shot_file_name": {
+    "message": "Screenshot $1 $2",
+    "description": "File name (without extension) of a saved screenshot. $1 = title of the captured page, $2 = date and time like 2026-11-13 09-30-00. No characters like / \\ : * ? \" < > |."
+  },
+  "shot_stitching_progress": {
+    "message": "Stitching image… $1/$2",
+    "description": "Screenshot result page progress. $1 = current part number, $2 = total number of parts."
+  },
+  "shot_processing": {
+    "message": "Processing image…",
+    "description": "Screenshot result page: shown while a single-screen capture is being prepared."
+  },
+  "shot_err_missing_frame": {
+    "message": "Part of the screenshot is missing. Please capture it again.",
+    "description": "Screenshot result page error."
+  },
+  "shot_img_alt": {
+    "message": "Screenshot of $1",
+    "description": "Alt text of the screenshot image. $1 = title of the captured page (may be empty)."
+  },
+  "shot_img_hint": {
+    "message": "Click to switch between actual size and fit to screen",
+    "description": "Tooltip on the screenshot image."
+  },
+  "shot_mode_full": {
+    "message": "Full page",
+    "description": "Screenshot type, shown in the info line of the result page."
+  },
+  "shot_mode_visible": {
+    "message": "Visible area",
+    "description": "Screenshot type, shown in the info line of the result page."
+  },
+  "shot_mode_region": {
+    "message": "Selected area",
+    "description": "Screenshot type, shown in the info line of the result page."
+  },
+  "shot_meta_scaled": {
+    "message": "scaled down because the page is too long",
+    "description": "Item in the info line of the screenshot result page (items are joined with ' · ', so it starts lowercase)."
+  },
+  "shot_meta_truncated": {
+    "message": "only the first $1 px captured (infinite scrolling page)",
+    "description": "Item in the info line of the screenshot result page (joined with ' · ', starts lowercase). $1 = height in pixels, already formatted."
+  },
+  "shot_meta_css_size": {
+    "message": "$1 × $2 px on the page",
+    "description": "Tooltip of the info line. $1 = width, $2 = height of the captured area in page (CSS) pixels."
+  },
+  "shot_copied": {
+    "message": "Image copied — paste it (Ctrl+V) wherever you need it.",
+    "description": "Screenshot result page, after Copy. Ctrl+V is the keyboard shortcut: keep as is."
+  },
+  "shot_copy_failed": {
+    "message": "Couldn't copy (the image may be too large): $1",
+    "description": "Screenshot result page. $1 = the browser's error message (usually English)."
+  },
+  "share_title": {
+    "message": "Share preview",
+    "description": "Share preview page: tab title and header heading"
+  },
+  "share_subtitle": {
+    "message": "Open Graph · Twitter Card · basic SEO",
+    "description": "Share preview header subtitle (standards checked)"
+  },
+  "share_url_placeholder": {
+    "message": "https://your-site.com/article",
+    "description": "Placeholder of the page-address field: an example URL, adapt the domain/path to the language"
+  },
+  "share_url_aria": {
+    "message": "Address of the page to check",
+    "description": "Accessible label of the page-address field"
+  },
+  "share_check_btn": {
+    "message": "Check",
+    "description": "Submit button next to the page-address field"
+  },
+  "share_loading_page": {
+    "message": "Reading the page…",
+    "description": "Initial loading text"
+  },
+  "share_empty_title": {
+    "message": "How does your page look when shared?",
+    "description": "Empty state heading (no page checked yet)"
+  },
+  "share_empty_body": {
+    "message": "Enter a page address above (or click **Tools → Check this page** in the popup) to preview the link on Facebook, Zalo, X, LinkedIn, Discord, Telegram and Google, get a score and suggested fixes.",
+    "description": "Empty state text. **…** is shown in bold and must match the popup's Tools tab and 'Check this page' button labels"
+  },
+  "share_status_pass": {
+    "message": "Passed:",
+    "description": "Screen-reader-only prefix before a passed check's title"
+  },
+  "share_status_warn": {
+    "message": "Warning:",
+    "description": "Screen-reader-only prefix before a check that needs work"
+  },
+  "share_status_fail": {
+    "message": "Error:",
+    "description": "Screen-reader-only prefix before a failed check"
+  },
+  "share_status_info": {
+    "message": "Info:",
+    "description": "Screen-reader-only prefix before an informational check"
+  },
+  "share_platform_pass": {
+    "message": "OK",
+    "description": "Platform status badge (chip and preview card): no problems"
+  },
+  "share_platform_warn": {
+    "message": "Needs work",
+    "description": "Platform status badge: has warnings"
+  },
+  "share_platform_fail": {
+    "message": "Errors",
+    "description": "Platform status badge: has errors"
+  },
+  "share_loading_raw": {
+    "message": "Fetching the raw HTML like a social media crawler…",
+    "description": "Loading text"
+  },
+  "share_err_unknown": {
+    "message": "Couldn't read the page: unknown error.",
+    "description": "Error when the page could not be read and no reason is known"
+  },
+  "share_err_read_status": {
+    "message": "Couldn't read the page: the server returned status $1.",
+    "description": "$1 = HTTP status code"
+  },
+  "share_err_read": {
+    "message": "Couldn't read the page: $1.",
+    "description": "$1 = error reason (one of the share_err_* fetch messages, e.g. timeout)"
+  },
+  "share_loading_images": {
+    "message": "Loading share images…",
+    "description": "Loading text"
+  },
+  "share_err_invalid_url": {
+    "message": "Invalid address. Enter a web page address starting with http:// or https://",
+    "description": "Error for an invalid page address"
+  },
+  "share_doc_title_score": {
+    "message": "$1/100 – Share preview",
+    "description": "Browser tab title after a check; $1 = score (0–100)"
+  },
+  "share_score_aria": {
+    "message": "$1 out of 100 points – $2",
+    "description": "Accessible label of the score ring; $1 = score, $2 = grade name"
+  },
+  "share_page_untitled": {
+    "message": "(page has no title)",
+    "description": "Summary heading when the checked page has no title"
+  },
+  "share_count_fail_one": {
+    "message": "$1 error",
+    "description": "Summary count of failed checks; $1 = number"
+  },
+  "share_count_fail_other": {
+    "message": "$1 errors",
+    "description": "Summary count of failed checks; $1 = number"
+  },
+  "share_count_warn_one": {
+    "message": "$1 warning",
+    "description": "Summary count of checks that need work; $1 = number"
+  },
+  "share_count_warn_other": {
+    "message": "$1 warnings",
+    "description": "Summary count of checks that need work; $1 = number"
+  },
+  "share_count_pass_one": {
+    "message": "$1 passed",
+    "description": "Summary count of passed checks; $1 = number"
+  },
+  "share_count_pass_other": {
+    "message": "$1 passed",
+    "description": "Summary count of passed checks; $1 = number"
+  },
+  "share_platforms_aria": {
+    "message": "Status by platform",
+    "description": "Accessible label of the platform chip row"
+  },
+  "share_chip_issues": {
+    "message": "Errors: $1, warnings: $2",
+    "description": "Tooltip of a platform chip; $1 = error count, $2 = warning count (worded to avoid plural forms)"
+  },
+  "share_chip_no_issues": {
+    "message": "No issues",
+    "description": "Tooltip of a platform chip without problems"
+  },
+  "share_notice_private": {
+    "message": "This page is on a local address (localhost / LAN), so social networks can't reach it. The results below help you check the tags before the page goes live.",
+    "description": "Notice above the report"
+  },
+  "share_notice_no_raw": {
+    "message": "Couldn't read the raw HTML (crawlers may be blocked too), so the score is capped at 49. The items below come from the page shown in the tab and may differ from what social networks receive.",
+    "description": "Notice above the report"
+  },
+  "share_notice_raw_only": {
+    "message": "Checked the raw HTML only (not compared with the page open in a tab).",
+    "description": "Notice above the report"
+  },
+  "share_pv_no_image": {
+    "message": "No image",
+    "description": "Note above a platform preview card"
+  },
+  "share_pv_svg": {
+    "message": "SVG image: not shown",
+    "description": "Note above a platform preview card"
+  },
+  "share_pv_bad_image": {
+    "message": "Image can't be used",
+    "description": "Note above a platform preview card"
+  },
+  "share_pv_untitled": {
+    "message": "(no title)",
+    "description": "Title placeholder in platform preview cards"
+  },
+  "share_x_from": {
+    "message": "From $1",
+    "description": "Line under an X (Twitter) large image card; $1 = domain"
+  },
+  "share_google_no_desc": {
+    "message": "No meta description: Google picks a snippet from the page itself.",
+    "description": "Placeholder in the Google result preview"
+  },
+  "share_sec_preview": {
+    "message": "Preview",
+    "description": "Section heading: platform previews"
+  },
+  "share_sec_preview_sub": {
+    "message": "An approximate simulation of how each platform displays the link; the real layout may change over time. Cinema Tools is not affiliated with these platforms.",
+    "description": "Subtitle of the preview section"
+  },
+  "share_fix_label": {
+    "message": "How to fix:",
+    "description": "Bold label before a check's fix suggestion (a space is added after it)"
+  },
+  "share_filter_issues": {
+    "message": "Needs attention ($1)",
+    "description": "Filter button; $1 = number of errors + warnings"
+  },
+  "share_filter_fail": {
+    "message": "Errors ($1)",
+    "description": "Filter button; $1 = number of errors"
+  },
+  "share_filter_all": {
+    "message": "All ($1)",
+    "description": "Filter button; $1 = number of checks"
+  },
+  "share_filter_aria": {
+    "message": "Filter results",
+    "description": "Accessible label of the filter button group"
+  },
+  "share_sec_checks": {
+    "message": "Check results",
+    "description": "Section heading"
+  },
+  "share_checks_none": {
+    "message": "Nothing left to fix. Great job!",
+    "description": "Shown when the filter leaves no items"
+  },
+  "share_img_url": {
+    "message": "URL",
+    "description": "Share image facts: label of the image address"
+  },
+  "share_img_size": {
+    "message": "Dimensions",
+    "description": "Share image facts: label of width × height"
+  },
+  "share_img_ratio": {
+    "message": "Aspect ratio",
+    "description": "Share image facts label"
+  },
+  "share_img_ratio_value": {
+    "message": "$1 : 1 (standard 1.91 : 1)",
+    "description": "Share image aspect ratio; $1 = width/height formatted as a number. Write 1.91 with the language's decimal separator"
+  },
+  "share_img_bytes": {
+    "message": "File size",
+    "description": "Share image facts label"
+  },
+  "share_img_bytes_min": {
+    "message": "$1 or more",
+    "description": "File size when the download was stopped at the limit; $1 = size, e.g. 20 MB"
+  },
+  "share_img_format": {
+    "message": "Format",
+    "description": "Share image facts label"
+  },
+  "share_img_http": {
+    "message": "HTTP status",
+    "description": "Share image facts label"
+  },
+  "share_img_status_redirected": {
+    "message": "$1 (redirected)",
+    "description": "$1 = HTTP status code of the image request"
+  },
+  "share_img_cannot_view": {
+    "message": "Can't display the image",
+    "description": "Shown in the image frame when the image can't be displayed"
+  },
+  "share_img_svg": {
+    "message": "SVG image: social networks don't display it, and neither does this page.",
+    "description": "Shown in the image frame"
+  },
+  "share_img_too_large": {
+    "message": "The image is too large to display.",
+    "description": "Shown in the image frame (file too big)"
+  },
+  "share_img_decode_error": {
+    "message": "The image is corrupt and can't be decoded.",
+    "description": "Shown in the image frame"
+  },
+  "share_img_too_many_pixels": {
+    "message": "The image has too many pixels to display.",
+    "description": "Shown in the image frame"
+  },
+  "share_img_crop_title": {
+    "message": "Area shown in a large image card (1.91:1)",
+    "description": "Tooltip of the crop guide over the share image"
+  },
+  "share_img_crop_caption": {
+    "message": "Bright frame: what remains when cropped to 1.91:1.",
+    "description": "Caption under the share image"
+  },
+  "share_sec_image": {
+    "message": "Share image (og:image)",
+    "description": "Section heading"
+  },
+  "share_sec_tags": {
+    "message": "Tags found",
+    "description": "Section heading: table of meta tags found"
+  },
+  "share_tags_none": {
+    "message": "The page has no sharing meta tags.",
+    "description": "Shown instead of the tag table"
+  },
+  "share_src_raw": {
+    "message": "Raw HTML",
+    "description": "Tag table, Source column: tag is in the server's original HTML"
+  },
+  "share_src_dom": {
+    "message": "Rendered page",
+    "description": "Tag table, Source column: tag read from the page shown in the tab"
+  },
+  "share_src_js_only": {
+    "message": "JS only",
+    "description": "Tag table, Source column: tag only exists after JavaScript runs. Keep in sync with share_sec_tags_sub"
+  },
+  "share_src_js_changed": {
+    "message": "Changed by JS",
+    "description": "Tag table, Source column: JavaScript changed the value"
+  },
+  "share_tags_after_js": {
+    "message": "After JS: $1",
+    "description": "Tag table: value after JavaScript ran; $1 = tag value"
+  },
+  "share_sec_tags_sub": {
+    "message": "\"JS only\": tags added by JavaScript, which social media crawlers don't see.",
+    "description": "Subtitle of the tag table; the quoted label must match share_src_js_only"
+  },
+  "share_th_tag": {
+    "message": "Tag",
+    "description": "Tag table column header"
+  },
+  "share_th_value": {
+    "message": "Value",
+    "description": "Tag table column header"
+  },
+  "share_th_source": {
+    "message": "Source",
+    "description": "Tag table column header"
+  },
+  "share_copy": {
+    "message": "Copy",
+    "description": "Button: copy the suggested meta tags"
+  },
+  "share_copied": {
+    "message": "Copied. Paste it into the page's <head>.",
+    "description": "Status after copying; <head> is the HTML tag name, keep it"
+  },
+  "share_copy_failed": {
+    "message": "Couldn't copy: $1",
+    "description": "$1 = browser error message"
+  },
+  "share_sec_snippet": {
+    "message": "Suggested meta tags",
+    "description": "Section heading"
+  },
+  "share_snippet_changes_one": {
+    "message": "$1 line to add (+) or fix (~); the other lines keep their current values. Replace the UPPERCASE text with real content.",
+    "description": "Subtitle of the suggested tags; $1 = number of lines to add or fix. UPPERCASE placeholders come from the suggested tags"
+  },
+  "share_snippet_changes_other": {
+    "message": "$1 lines to add (+) or fix (~); the other lines keep their current values. Replace the UPPERCASE text with real content.",
+    "description": "Subtitle of the suggested tags; $1 = number of lines to add or fix. UPPERCASE placeholders come from the suggested tags"
+  },
+  "share_snippet_complete": {
+    "message": "The page already has all the basic tags.",
+    "description": "Subtitle of the suggested tags when nothing is missing"
+  },
+  "share_tools_how": {
+    "message": "To see what crawlers see, the page is fetched once more (without cookies), along with the share image and the icon the page declares.",
+    "description": "Re-check section, first paragraph"
+  },
+  "share_tools_caveat": {
+    "message": "Each platform's real crawler may receive different content (bot blocking, crawler-specific pages), and platforms cache previews. After fixing the tags, paste the address into the official tools to confirm and refresh:",
+    "description": "Re-check section; followed by a list of official tools"
+  },
+  "share_tools_private": {
+    "message": "These tools only work once the page is online (not on localhost).",
+    "description": "Re-check section, shown for local pages instead of the tool list"
+  },
+  "share_tool_fb_note": {
+    "message": "– also refreshes previews for Messenger and Instagram",
+    "description": "Shown after the 'Facebook Sharing Debugger' link (a space is added before it)"
+  },
+  "share_tool_google_note": {
+    "message": "– checks structured data",
+    "description": "Shown after the 'Google Rich Results Test' link (a space is added before it)"
+  },
+  "share_sec_tools": {
+    "message": "Re-check on the platforms",
+    "description": "Section heading: links to the platforms' official debugging tools"
+  },
+  "share_err_not_web": {
+    "message": "Only web pages (http / https) can be checked.",
+    "description": "Error when the tab to check isn't a web page"
+  },
+  "share_err_tab_closed": {
+    "message": "The tab to check has been closed. Enter the page address above.",
+    "description": "Error when the tab to check no longer exists"
+  },
+  "share_jsonld_invalid": {
+    "message": "(invalid JSON)",
+    "description": "Listed among the page's JSON-LD types when a JSON-LD block can't be parsed"
+  },
+  "share_err_http_only": {
+    "message": "Only http / https addresses are supported",
+    "description": "Fetch error reason, shown alone or inside share_err_read"
+  },
+  "share_err_redirect_private": {
+    "message": "Redirected to a local network address that social networks can't load",
+    "description": "Fetch error reason"
+  },
+  "share_err_timeout": {
+    "message": "Timed out ($1 seconds)",
+    "description": "Fetch error reason; $1 = timeout in seconds (20)"
+  },
+  "share_err_connect": {
+    "message": "Couldn't connect to the server",
+    "description": "Fetch error reason"
+  },
+  "share_err_not_http": {
+    "message": "Not an http / https address",
+    "description": "Image load error reason"
+  },
+  "share_err_image_private": {
+    "message": "The image is on a local network address / this computer, so social networks can't load it",
+    "description": "Image load error reason"
+  },
+  "share_err_http_status": {
+    "message": "Server returned status $1",
+    "description": "Image load error reason; $1 = HTTP status code"
+  },
+  "chk_group_access": {
+    "message": "Crawlers can read the page",
+    "description": "Group heading in the share-preview report (checks whether social/search crawlers can fetch the page)"
+  },
+  "chk_group_image": {
+    "message": "Share image",
+    "description": "Group heading in the share-preview report (checks on og:image)"
+  },
+  "chk_group_seo": {
+    "message": "Google & basic SEO",
+    "description": "Group heading in the share-preview report"
+  },
+  "chk_bytes_mb": {
+    "message": "$1 MB",
+    "description": "File size; $1 = number of megabytes (formatted, up to 1 decimal). Localize the unit if needed (e.g. \"Mo\")"
+  },
+  "chk_bytes_kb": {
+    "message": "$1 KB",
+    "description": "File size; $1 = number of kilobytes (formatted). Localize the unit if needed (e.g. \"ko\")"
+  },
+  "chk_quoted": {
+    "message": "“$1”",
+    "description": "Wraps a value taken from the checked page (title, description, URL…) in quotation marks; $1 = the value. Use your language's quotation marks"
+  },
+  "chk_raw_ok": {
+    "message": "Raw HTML loads without signing in",
+    "description": "Check title: the page's raw HTML (before JavaScript) was fetched as a signed-out visitor"
+  },
+  "chk_raw_redirected": {
+    "message": "redirected to $1",
+    "description": "Appended to a \" · \"-separated detail line (lowercase start); $1 = final URL after redirects"
+  },
+  "chk_raw_not_html": {
+    "message": "This URL doesn't return an HTML page",
+    "description": "Check title"
+  },
+  "chk_received": {
+    "message": "Received: $1",
+    "description": "Detail line; $1 = Content-Type returned by the server (e.g. application/json)"
+  },
+  "chk_received_empty": {
+    "message": "Received: empty response",
+    "description": "Detail line when the server returned no Content-Type / empty body"
+  },
+  "chk_raw_not_html_fix": {
+    "message": "Social networks only read meta tags from HTML pages.",
+    "description": "Fix hint"
+  },
+  "chk_raw_status": {
+    "message": "Server returns HTTP $1 to signed-out visitors",
+    "description": "Check title; $1 = HTTP status code (e.g. 403)"
+  },
+  "chk_raw_status_detail": {
+    "message": "Social network crawlers visit the page as signed-out guests, so they may get this error too. The results below come from the page currently shown in the tab.",
+    "description": "Detail text"
+  },
+  "chk_raw_status_fix": {
+    "message": "Allow public access; check whether a firewall / bot protection (Cloudflare…) is blocking crawlers.",
+    "description": "Fix hint"
+  },
+  "chk_raw_failed": {
+    "message": "Couldn't load the raw HTML",
+    "description": "Check title: network error while fetching the page"
+  },
+  "chk_raw_failed_fix": {
+    "message": "Check that the page URL is reachable from the Internet.",
+    "description": "Fix hint"
+  },
+  "chk_raw_size": {
+    "message": "Raw HTML is larger than 5 MB",
+    "description": "Check title"
+  },
+  "chk_raw_size_detail": {
+    "message": "Only the first 5 MB were read.",
+    "description": "Detail text"
+  },
+  "chk_raw_size_fix": {
+    "message": "Put the meta tags at the top of <head> and reduce the HTML size.",
+    "description": "Fix hint; keep <head> as is"
+  },
+  "chk_js_only_one": {
+    "message": "$1 tag only appears after JavaScript runs",
+    "description": "Check title; $1 = number of share tags (og:*, twitter:*, description, <title>) that exist only after JavaScript runs"
+  },
+  "chk_js_only_other": {
+    "message": "$1 tags only appear after JavaScript runs",
+    "description": "Check title; $1 = number of share tags (og:*, twitter:*, description, <title>) that exist only after JavaScript runs"
+  },
+  "chk_js_only_fix": {
+    "message": "Facebook, Zalo, X, LinkedIn, Discord and Telegram don't run JavaScript, so they can't see these tags. Have the server send the tags in the HTML (SSR, pre-built static pages or prerendering). If signed-out visitors or visitors who haven't accepted cookies only see a blocking page, crawlers see only that page too.",
+    "description": "Fix hint"
+  },
+  "chk_js_only_ok": {
+    "message": "Share tags are present in the raw HTML",
+    "description": "Check title"
+  },
+  "chk_js_only_ok_detail": {
+    "message": "Added only by JavaScript: $1 (doesn't affect share tags).",
+    "description": "$1 = comma-separated list of tag names (e.g. robots, theme-color)"
+  },
+  "chk_changed": {
+    "message": "Raw HTML differs from the rendered page",
+    "description": "Check title: tag values in the server HTML differ from the page after JavaScript ran"
+  },
+  "chk_changed_line": {
+    "message": "$1: “$2” → “$3”",
+    "description": "One line per changed tag; $1 = tag name, $2 = value in the raw HTML, $3 = value on the rendered page. Use your language's quotation marks"
+  },
+  "chk_changed_fix": {
+    "message": "Social networks use the values in the raw HTML. This is common with single-page apps (SPA) that change tags on navigation: the server must return the right tags for each URL.",
+    "description": "Fix hint"
+  },
+  "chk_og_title_missing": {
+    "message": "Missing og:title",
+    "description": "Check title; og:title is a meta tag name, do not translate"
+  },
+  "chk_og_title_missing_fallback": {
+    "message": "Platforms will fall back to the <title> tag: “$1”.",
+    "description": "$1 = the page's <title> text (shortened)"
+  },
+  "chk_og_title_missing_no_title": {
+    "message": "The page has no <title> either.",
+    "description": "Detail text"
+  },
+  "chk_og_title_missing_fix": {
+    "message": "Add <meta property=\"og:title\" content=\"…\"> – an engaging title of about 30–65 characters.",
+    "description": "Fix hint; keep the HTML tag verbatim"
+  },
+  "chk_og_title_long_one": {
+    "message": "og:title is $1 character long and may be truncated",
+    "description": "Check title; $1 = number of characters (formatted)"
+  },
+  "chk_og_title_long_other": {
+    "message": "og:title is $1 characters long and may be truncated",
+    "description": "Check title; $1 = number of characters (formatted)"
+  },
+  "chk_og_title_long_fix": {
+    "message": "Keep it to about 30–65 characters, with the key point first.",
+    "description": "Fix hint"
+  },
+  "chk_og_title_short_one": {
+    "message": "og:title is short ($1 character)",
+    "description": "Check title; $1 = number of characters (formatted)"
+  },
+  "chk_og_title_short_other": {
+    "message": "og:title is short ($1 characters)",
+    "description": "Check title; $1 = number of characters (formatted)"
+  },
+  "chk_og_title_short_fix": {
+    "message": "Aim for 30–65 characters to be complete and more engaging.",
+    "description": "Fix hint"
+  },
+  "chk_og_title_ok_one": {
+    "message": "og:title is set ($1 character)",
+    "description": "Check title (passed); $1 = number of characters (formatted)"
+  },
+  "chk_og_title_ok_other": {
+    "message": "og:title is set ($1 characters)",
+    "description": "Check title (passed); $1 = number of characters (formatted)"
+  },
+  "chk_og_desc_missing": {
+    "message": "Missing og:description",
+    "description": "Check title"
+  },
+  "chk_og_desc_missing_fallback": {
+    "message": "Facebook and Zalo will fall back to the meta description.",
+    "description": "Detail text"
+  },
+  "chk_og_desc_missing_no_desc": {
+    "message": "The page has no meta description either: the share card will have no description line.",
+    "description": "Detail text"
+  },
+  "chk_og_desc_missing_fix": {
+    "message": "Add <meta property=\"og:description\" content=\"…\"> – about 60–160 characters.",
+    "description": "Fix hint; keep the HTML tag verbatim"
+  },
+  "chk_og_desc_long_one": {
+    "message": "og:description is $1 character long",
+    "description": "Check title; $1 = number of characters (formatted)"
+  },
+  "chk_og_desc_long_other": {
+    "message": "og:description is $1 characters long",
+    "description": "Check title; $1 = number of characters (formatted)"
+  },
+  "chk_og_desc_long_detail": {
+    "message": "Share cards usually show only 1–2 lines; the rest is cut off.",
+    "description": "Detail text"
+  },
+  "chk_og_desc_long_fix": {
+    "message": "Shorten it to about 60–160 characters, with the key point first.",
+    "description": "Fix hint"
+  },
+  "chk_og_desc_short_one": {
+    "message": "og:description is short ($1 character)",
+    "description": "Check title; $1 = number of characters (formatted)"
+  },
+  "chk_og_desc_short_other": {
+    "message": "og:description is short ($1 characters)",
+    "description": "Check title; $1 = number of characters (formatted)"
+  },
+  "chk_og_desc_short_fix": {
+    "message": "Aim for about 60–160 characters to say enough.",
+    "description": "Fix hint"
+  },
+  "chk_og_desc_ok_one": {
+    "message": "og:description is set ($1 character)",
+    "description": "Check title (passed); $1 = number of characters (formatted)"
+  },
+  "chk_og_desc_ok_other": {
+    "message": "og:description is set ($1 characters)",
+    "description": "Check title (passed); $1 = number of characters (formatted)"
+  },
+  "chk_og_url_missing": {
+    "message": "Missing og:url",
+    "description": "Check title"
+  },
+  "chk_og_url_missing_detail": {
+    "message": "Likes / shares may be split across several URLs (with ?utm_…, #…).",
+    "description": "Detail text"
+  },
+  "chk_og_url_missing_fix": {
+    "message": "Add <meta property=\"og:url\" content=\"the page's canonical URL\">.",
+    "description": "Fix hint; translate only the content=\"…\" example value"
+  },
+  "chk_og_url_relative": {
+    "message": "og:url is not an absolute URL",
+    "description": "Check title"
+  },
+  "chk_og_url_relative_fix": {
+    "message": "Use an absolute URL starting with https://",
+    "description": "Fix hint"
+  },
+  "chk_og_url_mismatch": {
+    "message": "og:url differs from the canonical link",
+    "description": "Check title"
+  },
+  "chk_og_url_mismatch_fix": {
+    "message": "Both tags should point to the same canonical URL.",
+    "description": "Fix hint"
+  },
+  "chk_og_url_ok": {
+    "message": "og:url is set",
+    "description": "Check title (passed)"
+  },
+  "chk_og_type_missing": {
+    "message": "Missing og:type",
+    "description": "Check title"
+  },
+  "chk_og_type_missing_detail": {
+    "message": "Facebook treats it as \"website\" by default.",
+    "description": "Detail text; \"website\" is an og:type value, do not translate"
+  },
+  "chk_og_type_missing_fix": {
+    "message": "Add <meta property=\"og:type\" content=\"website\"> (for articles: \"article\").",
+    "description": "Fix hint; \"website\" and \"article\" are og:type values, do not translate"
+  },
+  "chk_og_site_missing": {
+    "message": "Missing og:site_name",
+    "description": "Check title"
+  },
+  "chk_og_site_missing_detail": {
+    "message": "Discord and Telegram show the site name on the card's first line; without it, only the domain is shown.",
+    "description": "Detail text"
+  },
+  "chk_og_site_missing_fix": {
+    "message": "Add <meta property=\"og:site_name\" content=\"Brand name\">.",
+    "description": "Fix hint; translate only the content=\"…\" example value"
+  },
+  "chk_og_locale_missing": {
+    "message": "og:locale is not declared",
+    "description": "Info item title"
+  },
+  "chk_og_locale_missing_vi": {
+    "message": "Optional. Vietnamese-language pages can set \"vi_VN\".",
+    "description": "Shown only when the checked page declares lang=\"vi…\"; \"vi_VN\" is a literal og:locale value"
+  },
+  "chk_og_locale_optional": {
+    "message": "Optional.",
+    "description": "Detail text for og:locale"
+  },
+  "chk_dup": {
+    "message": "Duplicate tags with different values: $1",
+    "description": "Check title; $1 = comma-separated list of tag names"
+  },
+  "chk_dup_fix": {
+    "message": "Each tag should appear only once; platforms may pick the wrong one.",
+    "description": "Fix hint"
+  },
+  "chk_og_image_missing": {
+    "message": "Missing og:image",
+    "description": "Check title"
+  },
+  "chk_og_image_missing_tw": {
+    "message": "Only twitter:image is set (Facebook, Zalo and LinkedIn don't use this tag).",
+    "description": "Detail text"
+  },
+  "chk_og_image_missing_detail": {
+    "message": "Shared posts will have no image, or the platform will pick any image from the page.",
+    "description": "Detail text"
+  },
+  "chk_og_image_missing_fix": {
+    "message": "Add <meta property=\"og:image\" content=\"https://…/image-1200x630.jpg\"> – a 1200×630 px JPG / PNG image.",
+    "description": "Fix hint; the file name in the example URL may be localized"
+  },
+  "chk_og_image_ok": {
+    "message": "og:image is set",
+    "description": "Check title (passed)"
+  },
+  "chk_img_abs_scheme": {
+    "message": "og:image is missing https:",
+    "description": "Check title: og:image starts with // (protocol-relative URL)"
+  },
+  "chk_img_abs_scheme_fix": {
+    "message": "Write out the full https://… URL",
+    "description": "Fix hint"
+  },
+  "chk_img_abs_relative": {
+    "message": "og:image must be an absolute URL",
+    "description": "Check title"
+  },
+  "chk_img_abs_relative_detail": {
+    "message": "Currently “$1”.",
+    "description": "$1 = current og:image value (relative URL)"
+  },
+  "chk_img_abs_relative_fix": {
+    "message": "Use the full URL: $1",
+    "description": "Fix hint; $1 = resolved absolute URL (or https://…)"
+  },
+  "chk_img_abs_ok": {
+    "message": "og:image is an absolute URL",
+    "description": "Check title (passed)"
+  },
+  "chk_img_https": {
+    "message": "og:image uses http (unencrypted)",
+    "description": "Check title"
+  },
+  "chk_img_https_fix": {
+    "message": "Use https:// so every platform can load it.",
+    "description": "Fix hint"
+  },
+  "chk_tw_image_ok": {
+    "message": "twitter:image loads",
+    "description": "Check title (passed)"
+  },
+  "chk_tw_image_failed": {
+    "message": "Couldn't load twitter:image",
+    "description": "Check title"
+  },
+  "chk_tw_image_failed_fix": {
+    "message": "Check the image URL.",
+    "description": "Fix hint"
+  },
+  "chk_tw_card_missing": {
+    "message": "Missing twitter:card",
+    "description": "Check title"
+  },
+  "chk_tw_card_missing_detail": {
+    "message": "X may not show a large image card for the link.",
+    "description": "Detail text"
+  },
+  "chk_tw_card_missing_fix": {
+    "message": "Add <meta name=\"twitter:card\" content=\"summary_large_image\">.",
+    "description": "Fix hint; keep the HTML tag verbatim"
+  },
+  "chk_tw_card_invalid": {
+    "message": "Invalid twitter:card: “$1”",
+    "description": "Check title; $1 = the invalid value"
+  },
+  "chk_tw_card_invalid_detail": {
+    "message": "Valid values: $1.",
+    "description": "$1 = comma-separated list of valid twitter:card values"
+  },
+  "chk_tw_card_invalid_fix": {
+    "message": "Use \"summary_large_image\" for a large landscape image.",
+    "description": "Fix hint; summary_large_image is a literal value"
+  },
+  "chk_tw_card_summary": {
+    "message": "Small card (square image on the side). For a large image, use summary_large_image.",
+    "description": "Detail text; summary_large_image is a literal value"
+  },
+  "chk_tw_fallback": {
+    "message": "No $1",
+    "description": "Info item title; $1 = list of missing tags, e.g. \"twitter:title / twitter:image\""
+  },
+  "chk_tw_fallback_detail": {
+    "message": "That's fine: X falls back to og:title / og:description / og:image.",
+    "description": "Detail text"
+  },
+  "chk_title_missing": {
+    "message": "Missing <title> tag",
+    "description": "Check title"
+  },
+  "chk_title_missing_fix": {
+    "message": "Add a <title> that accurately describes the page, about 30–60 characters.",
+    "description": "Fix hint"
+  },
+  "chk_title_long_one": {
+    "message": "<title> is $1 character long",
+    "description": "Check title; $1 = number of characters (formatted)"
+  },
+  "chk_title_long_other": {
+    "message": "<title> is $1 characters long",
+    "description": "Check title; $1 = number of characters (formatted)"
+  },
+  "chk_title_long_fix": {
+    "message": "Google usually truncates titles longer than ~60 characters; shorten it.",
+    "description": "Fix hint"
+  },
+  "chk_title_short_one": {
+    "message": "<title> is short ($1 character)",
+    "description": "Check title; $1 = number of characters (formatted)"
+  },
+  "chk_title_short_other": {
+    "message": "<title> is short ($1 characters)",
+    "description": "Check title; $1 = number of characters (formatted)"
+  },
+  "chk_title_short_fix": {
+    "message": "Aim for 30–60 characters, including the main keyword.",
+    "description": "Fix hint"
+  },
+  "chk_title_ok_one": {
+    "message": "<title> is set ($1 character)",
+    "description": "Check title (passed); $1 = number of characters (formatted)"
+  },
+  "chk_title_ok_other": {
+    "message": "<title> is set ($1 characters)",
+    "description": "Check title (passed); $1 = number of characters (formatted)"
+  },
+  "chk_desc_missing": {
+    "message": "Missing meta description",
+    "description": "Check title"
+  },
+  "chk_desc_missing_detail": {
+    "message": "Google will pick an arbitrary snippet from the page as the description.",
+    "description": "Detail text"
+  },
+  "chk_desc_missing_fix": {
+    "message": "Add <meta name=\"description\" content=\"…\"> of about 70–160 characters.",
+    "description": "Fix hint; keep the HTML tag verbatim"
+  },
+  "chk_desc_long_one": {
+    "message": "Meta description is $1 character long",
+    "description": "Check title; $1 = number of characters (formatted)"
+  },
+  "chk_desc_long_other": {
+    "message": "Meta description is $1 characters long",
+    "description": "Check title; $1 = number of characters (formatted)"
+  },
+  "chk_desc_long_detail": {
+    "message": "Google usually truncates at around 160 characters.",
+    "description": "Detail text"
+  },
+  "chk_desc_long_fix": {
+    "message": "Shorten it to 70–160 characters.",
+    "description": "Fix hint"
+  },
+  "chk_desc_short_one": {
+    "message": "Meta description is short ($1 character)",
+    "description": "Check title; $1 = number of characters (formatted)"
+  },
+  "chk_desc_short_other": {
+    "message": "Meta description is short ($1 characters)",
+    "description": "Check title; $1 = number of characters (formatted)"
+  },
+  "chk_desc_short_fix": {
+    "message": "Aim for 70–160 characters.",
+    "description": "Fix hint"
+  },
+  "chk_desc_ok_one": {
+    "message": "Meta description is set ($1 character)",
+    "description": "Check title (passed); $1 = number of characters (formatted)"
+  },
+  "chk_desc_ok_other": {
+    "message": "Meta description is set ($1 characters)",
+    "description": "Check title (passed); $1 = number of characters (formatted)"
+  },
+  "chk_canonical_missing": {
+    "message": "Missing canonical link",
+    "description": "Check title"
+  },
+  "chk_canonical_missing_detail": {
+    "message": "Pages reachable at several URLs (parameters, http/https, www) may be treated as duplicates.",
+    "description": "Detail text"
+  },
+  "chk_canonical_missing_fix": {
+    "message": "Add <link rel=\"canonical\" href=\"https://…\">.",
+    "description": "Fix hint; keep the HTML tag verbatim"
+  },
+  "chk_canonical_relative": {
+    "message": "Canonical is not an absolute URL",
+    "description": "Check title"
+  },
+  "chk_canonical_relative_fix": {
+    "message": "Use the full URL: $1",
+    "description": "Fix hint; $1 = resolved absolute URL (or https://…)"
+  },
+  "chk_canonical_ok": {
+    "message": "Canonical link is set",
+    "description": "Check title (passed)"
+  },
+  "chk_robots_noindex": {
+    "message": "The page blocks Google from indexing it (noindex)",
+    "description": "Check title"
+  },
+  "chk_robots_ok": {
+    "message": "Search engines are allowed to index the page",
+    "description": "Check title (passed)"
+  },
+  "chk_robots_noindex_fix": {
+    "message": "Remove \"noindex\" if you want the page to appear on Google.",
+    "description": "Fix hint"
+  },
+  "chk_lang_ok": {
+    "message": "Language declared: lang=\"$1\"",
+    "description": "Check title (passed); $1 = the page's lang attribute value"
+  },
+  "chk_lang_missing": {
+    "message": "Missing lang attribute on <html>",
+    "description": "Check title"
+  },
+  "chk_lang_missing_fix": {
+    "message": "Add <html lang=\"en\"> (use the page's language code).",
+    "description": "Fix hint; use YOUR locale's language code as the example (vi → lang=\"vi\", en → lang=\"en\", fr → lang=\"fr\")"
+  },
+  "chk_viewport_ok": {
+    "message": "Meta viewport is set (displays well on phones)",
+    "description": "Check title (passed)"
+  },
+  "chk_viewport_missing": {
+    "message": "Missing meta viewport",
+    "description": "Check title"
+  },
+  "chk_viewport_missing_fix": {
+    "message": "Add <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">.",
+    "description": "Fix hint; keep the HTML tag verbatim"
+  },
+  "chk_favicon_ok": {
+    "message": "Site icon (favicon) is set",
+    "description": "Check title (passed)"
+  },
+  "chk_favicon_failed": {
+    "message": "Favicon is declared but couldn't be loaded",
+    "description": "Check title"
+  },
+  "chk_favicon_failed_fix": {
+    "message": "Check the icon URL.",
+    "description": "Fix hint"
+  },
+  "chk_favicon_ico": {
+    "message": "/favicon.ico found",
+    "description": "Check title (passed): no <link rel=\"icon\"> but /favicon.ico exists"
+  },
+  "chk_favicon_missing": {
+    "message": "No site icon (favicon)",
+    "description": "Check title"
+  },
+  "chk_favicon_ico_detail": {
+    "message": "Also declare <link rel=\"icon\"> (square image, at least 48×48).",
+    "description": "Detail text"
+  },
+  "chk_favicon_missing_detail": {
+    "message": "Google shows the site icon next to search results.",
+    "description": "Detail text"
+  },
+  "chk_favicon_missing_fix": {
+    "message": "Add <link rel=\"icon\" href=\"/favicon.png\"> (square image, at least 48×48).",
+    "description": "Fix hint; keep the HTML tag verbatim"
+  },
+  "chk_h1_count_one": {
+    "message": "$1 H1 heading found",
+    "description": "Check title (passed); $1 = number of <h1> headings"
+  },
+  "chk_h1_count_other": {
+    "message": "$1 H1 headings found",
+    "description": "Check title (passed); $1 = number of <h1> headings"
+  },
+  "chk_h1_missing": {
+    "message": "No H1 heading",
+    "description": "Check title"
+  },
+  "chk_h1_missing_fix": {
+    "message": "Each page should have one main <h1> heading.",
+    "description": "Fix hint"
+  },
+  "chk_jsonld_ok": {
+    "message": "Structured data (JSON-LD) found",
+    "description": "Check title (passed)"
+  },
+  "chk_jsonld_missing": {
+    "message": "No structured data (JSON-LD)",
+    "description": "Check title"
+  },
+  "chk_jsonld_missing_detail": {
+    "message": "Helps Google show rich results (ratings, prices, FAQs…).",
+    "description": "Detail text"
+  },
+  "chk_jsonld_missing_fix": {
+    "message": "Add suitable schema.org markup (Organization, Article, Product…).",
+    "description": "Fix hint; schema type names are not translated"
+  },
+  "chk_img_load_failed": {
+    "message": "Couldn't load the share image",
+    "description": "Check title"
+  },
+  "chk_img_load_failed_fix": {
+    "message": "Check that the image is publicly accessible (no sign-in needed) and the URL is correct.",
+    "description": "Fix hint"
+  },
+  "chk_img_load_ok": {
+    "message": "Share image loads",
+    "description": "Check title (passed)"
+  },
+  "chk_img_too_large": {
+    "message": "Image is too large (over 20 MB)",
+    "description": "Check title"
+  },
+  "chk_img_too_large_fix": {
+    "message": "Facebook accepts images up to 8 MB, X up to 5 MB. Compress the image to under 1 MB.",
+    "description": "Fix hint"
+  },
+  "chk_img_redirected": {
+    "message": "redirected",
+    "description": "Item in a \" · \"-separated detail line (e.g. \"JPEG · 120 KB · redirected\"); lowercase"
+  },
+  "chk_img_svg": {
+    "message": "SVG images aren't supported",
+    "description": "Check title"
+  },
+  "chk_img_svg_detail": {
+    "message": "Facebook, X, LinkedIn… don't display SVG images.",
+    "description": "Detail text"
+  },
+  "chk_img_svg_fix": {
+    "message": "Export the image as JPG or PNG.",
+    "description": "Fix hint"
+  },
+  "chk_img_format_unknown": {
+    "message": "Unrecognized image format",
+    "description": "Check title"
+  },
+  "chk_img_format_unknown_detail": {
+    "message": "The server reports $1.",
+    "description": "$1 = Content-Type header value (e.g. image/x-icon)"
+  },
+  "chk_img_use_jpg_png": {
+    "message": "Use JPG or PNG to be safe.",
+    "description": "Fix hint"
+  },
+  "chk_img_not_image": {
+    "message": "The og:image URL doesn't return an image",
+    "description": "Check title"
+  },
+  "chk_received_unknown": {
+    "message": "Received: unknown type",
+    "description": "Detail line when the server sent no Content-Type"
+  },
+  "chk_img_not_image_fix": {
+    "message": "Point og:image to the actual image file.",
+    "description": "Fix hint"
+  },
+  "chk_img_corrupt": {
+    "message": "Image is corrupt or unreadable",
+    "description": "Check title"
+  },
+  "chk_img_corrupt_fix": {
+    "message": "Re-export the image as JPG / PNG.",
+    "description": "Fix hint"
+  },
+  "chk_img_format_ok": {
+    "message": "$1 format is supported",
+    "description": "Check title (passed); $1 = image format, e.g. JPEG, PNG, WEBP"
+  },
+  "chk_img_format_partial": {
+    "message": "$1 format isn't supported by every platform",
+    "description": "Check title; $1 = image format, e.g. AVIF"
+  },
+  "chk_img_bytes_fb": {
+    "message": "Image is $1: Facebook ignores it (max 8 MB)",
+    "description": "Check title; $1 = file size with unit (e.g. \"9.2 MB\")"
+  },
+  "chk_img_compress": {
+    "message": "Compress the image to under 1 MB.",
+    "description": "Fix hint"
+  },
+  "chk_img_bytes_x": {
+    "message": "Image is $1: X won't show it (max 5 MB)",
+    "description": "Check title; $1 = file size with unit (e.g. \"6.1 MB\")"
+  },
+  "chk_img_bytes_heavy": {
+    "message": "Heavy image ($1)",
+    "description": "Check title; $1 = file size with unit (e.g. \"2.4 MB\")"
+  },
+  "chk_img_bytes_heavy_detail": {
+    "message": "Heavy images load slowly, and some messaging apps may skip them.",
+    "description": "Detail text"
+  },
+  "chk_img_bytes_heavy_fix": {
+    "message": "Compress it to under 1 MB (JPG at ~80% quality).",
+    "description": "Fix hint"
+  },
+  "chk_img_bytes_ok": {
+    "message": "Image size: $1",
+    "description": "Check title (passed); $1 = file size with unit (e.g. \"180 KB\")"
+  },
+  "chk_img_dim_ok": {
+    "message": "Dimensions $1×$2 px",
+    "description": "Check title (passed); $1 = width, $2 = height in pixels (raw numbers)"
+  },
+  "chk_img_dim_ok_detail": {
+    "message": "Sharp enough for a large image card.",
+    "description": "Detail text"
+  },
+  "chk_img_dim_low": {
+    "message": "Image is $1×$2 px, not sharp enough",
+    "description": "Check title; $1 = width, $2 = height in pixels"
+  },
+  "chk_img_dim_low_detail": {
+    "message": "Still shown as a large image, but blurry on high-resolution screens.",
+    "description": "Detail text"
+  },
+  "chk_img_dim_low_fix": {
+    "message": "Use 1200×630 px.",
+    "description": "Fix hint"
+  },
+  "chk_img_dim_small": {
+    "message": "Image is $1×$2 px, small",
+    "description": "Check title; $1 = width, $2 = height in pixels"
+  },
+  "chk_img_dim_small_detail": {
+    "message": "Facebook shows it as a small side thumbnail instead of a large image (below 600×315).",
+    "description": "Detail text"
+  },
+  "chk_img_use_1200": {
+    "message": "Use a 1200×630 px image.",
+    "description": "Fix hint"
+  },
+  "chk_img_dim_tiny": {
+    "message": "Image is $1×$2 px, too small",
+    "description": "Check title; $1 = width, $2 = height in pixels"
+  },
+  "chk_img_dim_tiny_detail": {
+    "message": "Facebook doesn't use images smaller than 200×200.",
+    "description": "Detail text"
+  },
+  "chk_img_ratio": {
+    "message": "Aspect ratio $1:1",
+    "description": "Check title; $1 = width/height ratio (formatted, up to 2 decimals), e.g. 1.91"
+  },
+  "chk_img_ratio_ok": {
+    "message": "Matches the 1.91:1 frame of large image cards.",
+    "description": "Detail text; write 1.91 with your locale's decimal separator"
+  },
+  "chk_img_ratio_off": {
+    "message": "Large image cards use a frame of about 1.91:1, so the image will be cropped (see the previews).",
+    "description": "Detail text; write 1.91 with your locale's decimal separator"
+  },
+  "chk_img_ratio_fix": {
+    "message": "Use a 1200×630 px image with the important content centered.",
+    "description": "Fix hint"
+  },
+  "chk_img_declared_missing": {
+    "message": "og:image:width / og:image:height not declared",
+    "description": "Check title"
+  },
+  "chk_img_declared_missing_detail": {
+    "message": "Declaring them lets Facebook show the image from the very first share (without waiting to download it).",
+    "description": "Detail text"
+  },
+  "chk_img_declared_missing_fix": {
+    "message": "Add <meta property=\"og:image:width\" content=\"$1\"> and <meta property=\"og:image:height\" content=\"$2\">.",
+    "description": "Fix hint; $1 = actual width, $2 = actual height in pixels; keep the HTML tags verbatim"
+  },
+  "chk_img_declared_mismatch": {
+    "message": "Declared size differs from the actual image",
+    "description": "Check title"
+  },
+  "chk_img_declared_mismatch_detail": {
+    "message": "Declared $1×$2, actual $3×$4.",
+    "description": "$1×$2 = declared width×height, $3×$4 = actual width×height (pixels)"
+  },
+  "chk_img_declared_mismatch_fix": {
+    "message": "Change them to $1 and $2.",
+    "description": "Fix hint; $1 = actual width, $2 = actual height"
+  },
+  "chk_img_declared_ok": {
+    "message": "og:image:width / height declared correctly",
+    "description": "Check title (passed)"
+  },
+  "chk_img_alt_ok": {
+    "message": "Image description (alt) is set",
+    "description": "Check title (passed)"
+  },
+  "chk_img_alt_missing": {
+    "message": "Missing image description (og:image:alt)",
+    "description": "Check title"
+  },
+  "chk_img_alt_missing_detail": {
+    "message": "Screen reader users won't know what the image shows.",
+    "description": "Detail text"
+  },
+  "chk_img_alt_missing_fix": {
+    "message": "Add <meta property=\"og:image:alt\" content=\"…\">.",
+    "description": "Fix hint; keep the HTML tag verbatim"
+  },
+  "chk_grade_great": {
+    "message": "Excellent",
+    "description": "Score grade for 90–100 points"
+  },
+  "chk_grade_good": {
+    "message": "Good",
+    "description": "Score grade for 75–89 points"
+  },
+  "chk_grade_fair": {
+    "message": "Needs improvement",
+    "description": "Score grade for 50–74 points"
+  },
+  "chk_grade_poor": {
+    "message": "Poor",
+    "description": "Score grade below 50 points"
+  },
+  "chk_suggest_title_placeholder": {
+    "message": "PAGE TITLE (30–65 CHARACTERS)",
+    "description": "Placeholder value inside the suggested <title> / og:title tag when the page has none; uppercase on purpose"
+  },
+  "chk_suggest_desc_placeholder": {
+    "message": "SHORT, ENGAGING DESCRIPTION (60–160 CHARACTERS)",
+    "description": "Placeholder value in the suggested description tags; uppercase on purpose"
+  },
+  "chk_suggest_image_url": {
+    "message": "https://$1/share-image-1200x630.jpg",
+    "description": "Example og:image URL in the suggested tags; $1 = the page's domain. Only the file name may be localized (ASCII, no spaces)"
+  },
+  "chk_suggest_domain_placeholder": {
+    "message": "example.com",
+    "description": "Example domain used in the suggested og:image URL when the page domain is unknown (ASCII)"
+  },
+  "chk_suggest_note_basic": {
+    "message": "Basics (Google)",
+    "description": "HTML comment heading in the suggested tag block (<!-- … -->); must not contain \"--\""
+  },
+  "chk_suggest_alt_placeholder": {
+    "message": "DESCRIPTION OF THE IMAGE CONTENT",
+    "description": "Placeholder value in the suggested og:image:alt tag; uppercase on purpose"
+  },
+  "chk_suggest_site_placeholder": {
+    "message": "BRAND NAME",
+    "description": "Placeholder value in the suggested og:site_name tag; uppercase on purpose"
+  },
+  "chk_suggest_note_x": {
+    "message": "X (Twitter): title, description and image come from the og:* tags above",
+    "description": "HTML comment heading in the suggested tag block (<!-- … -->); must not contain \"--\""
+  }
+}

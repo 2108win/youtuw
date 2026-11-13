@@ -1,10 +1,12 @@
 /*
  * Dữ liệu dùng chung cho content script và popup:
  * cài đặt mặc định, tên thao tác, phím tắt và biểu tượng SVG.
+ * Cần nạp src/shared/i18n.js trước (chuỗi giao diện).
  */
 (() => {
   'use strict';
   if (globalThis.YTX_SHARED) return;
+  const { t, num } = globalThis.YTX_I18N;
 
   const DEFAULTS = Object.freeze({
     dim: 0.92,           // Độ tối màn che khi tắt đèn (0.5 – 1)
@@ -21,26 +23,26 @@
   });
 
   const LABELS = Object.freeze({
-    flipH: 'Lật ngang',
-    flipV: 'Lật dọc',
-    rotateLeft: 'Xoay trái 90°',
-    rotateRight: 'Xoay phải 90°',
-    rotate180: 'Xoay 180°',
-    resetTransform: 'Đặt lại',
-    toggleLights: 'Tắt / bật đèn',
-    toggleCinema: 'Rạp phim',
-    autoCrop: 'Tự cắt viền đen',
-    fillFrame: 'Lấp đầy khung',
-    crop21x9: 'Cắt theo 21:9',
-    crop4x3: 'Cắt theo 4:3',
-    zoomIn: 'Phóng to',
-    zoomOut: 'Thu nhỏ',
-    resetZoom: 'Bỏ phóng to',
-    snapshot: 'Chụp khung hình',
+    flipH: t('act_flip_h'),
+    flipV: t('act_flip_v'),
+    rotateLeft: t('act_rotate_left'),
+    rotateRight: t('act_rotate_right'),
+    rotate180: t('act_rotate_180'),
+    resetTransform: t('act_reset_transform'),
+    toggleLights: t('act_toggle_lights'),
+    toggleCinema: t('act_toggle_cinema'),
+    autoCrop: t('act_auto_crop'),
+    fillFrame: t('act_fill_frame'),
+    crop21x9: t('act_crop_21x9'),
+    crop4x3: t('act_crop_4x3'),
+    zoomIn: t('act_zoom_in'),
+    zoomOut: t('act_zoom_out'),
+    resetZoom: t('act_reset_zoom'),
+    snapshot: t('act_snapshot'),
     // #full-start
-    downloadThumb: 'Tải ảnh bìa',
+    downloadThumb: t('full_act_download_thumb'),
     // #full-end
-    togglePip: 'Cửa sổ nổi',
+    togglePip: t('act_toggle_pip'),
   });
 
   // Phím tắt: Alt + Shift + phím (dùng event.code nên không phụ thuộc bộ gõ).
@@ -169,18 +171,21 @@
       ['rect', { x: 11.5, y: 11.5, width: 7.5, height: 5.5, rx: 1, fill: 'currentColor' }],
     ],
     gear: [
+      // Bánh răng 8 răng (toạ độ cực: răng ngoài r=9,6, thân r=7,4).
+      ['path', { d: 'M9.3 5.11L9.69 2.68h4.62l.39 2.43.27.11 1.98-1.44 3.27 3.27-1.44 1.98.11.27 2.43.39v4.62l-2.43.39-.11.27 1.44 1.98-3.27 3.27-1.98-1.44-.27.11-.39 2.43H9.69L9.3 18.89l-.27-.11-1.98 1.44-3.27-3.27 1.44-1.98-.11-.27-2.43-.39V9.69l2.43-.39.11-.27-1.44-1.98 3.27-3.27 1.98 1.44z' }],
       ['circle', { cx: 12, cy: 12, r: 3 }],
-      ['path', { d: 'M12 2.8v2.4M12 18.8v2.4M2.8 12h2.4M18.8 12h2.4M5.5 5.5l1.7 1.7M16.8 16.8l1.7 1.7M5.5 18.5l1.7-1.7M16.8 7.2l1.7-1.7' }],
-      ['circle', { cx: 12, cy: 12, r: 6.6 }],
+    ],
+    chevron: [
+      ['path', { d: 'M9.5 6l6 6-6 6' }],
     ],
     shotFull: [
       ['rect', { x: 6, y: 2.5, width: 12, height: 19, rx: 1.8 }],
       ['path', { d: 'M9.5 8.5L12 6l2.5 2.5M9.5 15.5L12 18l2.5-2.5M12 6v12' }],
     ],
     shotVisible: [
-      ['rect', { x: 3, y: 5, width: 18, height: 13, rx: 1.8 }],
-      ['path', { d: 'M8 21h8' }],
-      ['circle', { cx: 12, cy: 11.5, r: 2.6 }],
+      ['rect', { x: 2.5, y: 4, width: 19, height: 13, rx: 1.8 }],
+      ['path', { d: 'M12 17v3.5M8 20.5h8' }],
+      ['path', { d: 'M6.5 8v-1h1M16.5 7h1v1M17.5 13v1h-1M7.5 14h-1v-1' }],
     ],
     shotRegion: [
       ['path', { d: 'M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3' }],
@@ -203,6 +208,12 @@
       ['path', { d: 'M12 17.1V21' }],
     ],
     // #full-end
+    share: [
+      ['circle', { cx: 18, cy: 5.5, r: 2.5 }],
+      ['circle', { cx: 6, cy: 12, r: 2.5 }],
+      ['circle', { cx: 18, cy: 18.5, r: 2.5 }],
+      ['path', { d: 'M8.2 10.8l7.6-4.1M8.2 13.2l7.6 4.1' }],
+    ],
   });
 
   const SVG_NS = 'http://www.w3.org/2000/svg';
@@ -232,7 +243,7 @@
       const units = ['B', 'KB', 'MB', 'GB', 'TB'];
       let i = 0;
       while (n >= 1024 && i < units.length - 1) { n /= 1024; i += 1; }
-      return `${n.toLocaleString('vi-VN', { maximumFractionDigits: n < 10 && i > 1 ? 1 : 0 })} ${units[i]}`;
+      return `${num(n, { maximumFractionDigits: n < 10 && i > 1 ? 1 : 0 })} ${units[i]}`;
     },
     duration(sec) {
       sec = Math.max(0, Math.round(sec || 0));
@@ -243,42 +254,45 @@
     },
   };
 
+  // Giai đoạn xử lý của yt-dlp -> khoá chuỗi.
   const STAGES = {
-    Merger: 'Đang ghép hình và tiếng…',
-    ExtractAudio: 'Đang chuyển định dạng âm thanh…',
-    Metadata: 'Đang ghi thông tin vào tệp…',
-    MoveFiles: 'Đang lưu tệp…',
-    VideoRemuxer: 'Đang đổi định dạng…',
-    VideoConvertor: 'Đang đổi định dạng…',
-    EmbedThumbnail: 'Đang gắn ảnh bìa…',
+    Merger: 'full_act_stage_merge',
+    ExtractAudio: 'full_act_stage_extract_audio',
+    Metadata: 'full_act_stage_metadata',
+    MoveFiles: 'full_act_stage_move_files',
+    VideoRemuxer: 'full_act_stage_convert',
+    VideoConvertor: 'full_act_stage_convert',
+    EmbedThumbnail: 'full_act_stage_embed_thumb',
   };
 
   function describeChoice(c) {
     if (!c) return '';
-    if (c.mode === 'audio') return `Âm thanh ${c.audioFormat.toUpperCase()}`;
-    return `${c.quality === 'best' ? 'Tốt nhất' : `${c.quality}p`} · ${c.container.toUpperCase()}`;
+    if (c.mode === 'audio') return t('full_act_choice_audio', c.audioFormat.toUpperCase());
+    return `${c.quality === 'best' ? t('full_act_quality_best') : `${c.quality}p`} · ${c.container.toUpperCase()}`;
   }
 
   /** Một dòng mô tả trạng thái của lượt tải video. */
   function describeJob(job) {
     switch (job.status) {
       case 'starting':
-        return 'Đang lấy thông tin video…';
+        return t('full_act_job_starting');
       case 'downloading': {
-        const part = job.part === 'audio' ? 'Âm thanh' : job.height ? `Hình ${job.height}p` : 'Đang tải';
+        const part = job.part === 'audio' ? t('full_act_job_part_audio')
+          : job.height ? t('full_act_job_part_video', job.height) : t('full_act_job_part_any');
         const bits = [`${part} ${job.percent != null ? `${Math.floor(job.percent)}%` : ''}`.trim()];
         if (job.speed) bits.push(`${fmt.bytes(job.speed)}/s`);
-        if (job.eta != null && job.eta > 0) bits.push(`còn ${fmt.duration(job.eta)}`);
+        if (job.eta != null && job.eta > 0) bits.push(t('full_act_job_eta', fmt.duration(job.eta)));
         return bits.join(' · ');
       }
       case 'processing':
-        return STAGES[job.stage] || (/^Fixup/.test(job.stage || '') ? 'Đang sửa tệp…' : 'Đang xử lý…');
+        if (STAGES[job.stage]) return t(STAGES[job.stage]);
+        return /^Fixup/.test(job.stage || '') ? t('full_act_stage_fixup') : t('full_act_stage_processing');
       case 'done':
-        return `Đã lưu${job.size ? ` · ${fmt.bytes(job.size)}` : ''}`;
+        return job.size ? t('full_act_job_done_size', fmt.bytes(job.size)) : t('full_act_job_done');
       case 'cancelled':
-        return 'Đã huỷ';
+        return t('full_act_job_cancelled');
       case 'error':
-        return `Lỗi: ${job.error || 'không rõ'}`;
+        return t('full_act_job_error', job.error || t('full_act_job_error_unknown'));
       default:
         return '';
     }
@@ -312,7 +326,7 @@
   async function pipInTab(tabId) {
     const run = async (allFrames, runner) => {
       const results = await chrome.scripting.executeScript({
-        target: { tabId, allFrames }, files: ['src/page/pip.js', runner],
+        target: { tabId, allFrames }, files: ['src/shared/i18n.js', 'src/page/pip.js', runner],
       });
       return results.map((r) => r.result).filter(Boolean);
     };
@@ -322,9 +336,9 @@
       // Video nằm trong khung con (video nhúng): dùng cửa sổ nổi thường của trình duyệt.
       const frames = await run(true, 'src/page/pip-run-frame.js');
       return frames.find((r) => r.ok) || frames.find((r) => r.reason !== 'no-video') || main
-        || { ok: false, reason: 'no-video', error: 'Không thấy video nào trên trang này.' };
+        || { ok: false, reason: 'no-video', error: t('act_pip_no_video') };
     } catch (err) {
-      return { ok: false, reason: 'error', error: 'Không dùng được cửa sổ nổi ở trang này.' };
+      return { ok: false, reason: 'error', error: t('act_pip_unavailable') };
     }
   }
 

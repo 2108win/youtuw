@@ -1,0 +1,2036 @@
+{
+  "locale_code": {
+    "message": "pt-BR"
+  },
+  "ext_name": {
+    "message": "Cinema Tools para YouTube"
+  },
+  "ext_desc": {
+    "message": "Gire e inverta vídeos do YouTube, apague as luzes com brilho. Picture-in-picture, volume por guia, baixe vídeo, áudio e imagens."
+  },
+  "ext_name_store": {
+    "message": "Cinema Tools – Ferramentas para assistir vídeos"
+  },
+  "ext_desc_store": {
+    "message": "Gire, inverta e amplie vídeos do YouTube, luzes apagadas com brilho. Picture-in-picture, volume por guia, capturas, prévia de links."
+  },
+  "cmd_toggle_pip": {
+    "message": "Abrir / fechar o picture-in-picture do vídeo da guia atual"
+  },
+  "cmd_capture_page": {
+    "message": "Capturar a página atual inteira"
+  },
+  "act_flip_h": {
+    "message": "Inverter horizontalmente"
+  },
+  "act_flip_v": {
+    "message": "Inverter verticalmente"
+  },
+  "act_rotate_left": {
+    "message": "Girar para a esquerda 90°"
+  },
+  "act_rotate_right": {
+    "message": "Girar para a direita 90°"
+  },
+  "act_rotate_180": {
+    "message": "Girar 180°"
+  },
+  "act_reset_transform": {
+    "message": "Redefinir"
+  },
+  "act_toggle_lights": {
+    "message": "Apagar / acender luzes"
+  },
+  "act_toggle_cinema": {
+    "message": "Modo cinema"
+  },
+  "act_auto_crop": {
+    "message": "Cortar barras pretas automaticamente"
+  },
+  "act_fill_frame": {
+    "message": "Preencher o quadro"
+  },
+  "act_crop_21x9": {
+    "message": "Cortar para 21:9"
+  },
+  "act_crop_4x3": {
+    "message": "Cortar para 4:3"
+  },
+  "act_zoom_in": {
+    "message": "Aumentar zoom"
+  },
+  "act_zoom_out": {
+    "message": "Diminuir zoom"
+  },
+  "act_reset_zoom": {
+    "message": "Redefinir zoom"
+  },
+  "act_snapshot": {
+    "message": "Capturar quadro"
+  },
+  "full_act_download_thumb": {
+    "message": "Baixar miniatura"
+  },
+  "act_toggle_pip": {
+    "message": "Picture-in-picture"
+  },
+  "act_pip_no_video": {
+    "message": "Nenhum vídeo encontrado nesta página."
+  },
+  "act_pip_unavailable": {
+    "message": "Não é possível usar o picture-in-picture nesta página."
+  },
+  "full_act_stage_merge": {
+    "message": "Juntando vídeo e áudio…"
+  },
+  "full_act_stage_extract_audio": {
+    "message": "Convertendo áudio…"
+  },
+  "full_act_stage_metadata": {
+    "message": "Gravando informações do arquivo…"
+  },
+  "full_act_stage_move_files": {
+    "message": "Salvando arquivo…"
+  },
+  "full_act_stage_convert": {
+    "message": "Convertendo formato…"
+  },
+  "full_act_stage_embed_thumb": {
+    "message": "Incorporando miniatura…"
+  },
+  "full_act_stage_fixup": {
+    "message": "Corrigindo arquivo…"
+  },
+  "full_act_stage_processing": {
+    "message": "Processando…"
+  },
+  "full_act_choice_audio": {
+    "message": "Áudio $1"
+  },
+  "full_act_quality_best": {
+    "message": "Melhor"
+  },
+  "full_act_job_starting": {
+    "message": "Obtendo informações do vídeo…"
+  },
+  "full_act_job_part_audio": {
+    "message": "Áudio"
+  },
+  "full_act_job_part_video": {
+    "message": "Vídeo $1p"
+  },
+  "full_act_job_part_any": {
+    "message": "Baixando"
+  },
+  "full_act_job_eta": {
+    "message": "Faltam $1"
+  },
+  "full_act_job_done": {
+    "message": "Salvo"
+  },
+  "full_act_job_done_size": {
+    "message": "Salvo · $1"
+  },
+  "full_act_job_cancelled": {
+    "message": "Cancelado"
+  },
+  "full_act_job_error": {
+    "message": "Erro: $1"
+  },
+  "full_act_job_error_unknown": {
+    "message": "desconhecido"
+  },
+  "full_popup_brand_sub": {
+    "message": "para YouTube"
+  },
+  "popup_brand_sub_store": {
+    "message": "ferramentas para assistir vídeos"
+  },
+  "popup_pip_title": {
+    "message": "Abrir o vídeo em reprodução em picture-in-picture, acima de todos os apps (Alt+P)"
+  },
+  "popup_pip": {
+    "message": "Flutuante"
+  },
+  "popup_pip_no_video": {
+    "message": "Sem vídeo"
+  },
+  "popup_pip_failed": {
+    "message": "Falhou"
+  },
+  "popup_settings": {
+    "message": "Configurações"
+  },
+  "popup_sections": {
+    "message": "Seções"
+  },
+  "popup_tab_video": {
+    "message": "Vídeo"
+  },
+  "popup_tab_audio": {
+    "message": "Áudio"
+  },
+  "full_popup_tab_download": {
+    "message": "Baixar"
+  },
+  "popup_tab_images": {
+    "message": "Imagens"
+  },
+  "popup_tab_tools": {
+    "message": "Ferramentas"
+  },
+  "popup_lights_title": {
+    "message": "Apagar luzes"
+  },
+  "popup_lights_on_title": {
+    "message": "Luzes apagadas"
+  },
+  "popup_cinema_title": {
+    "message": "Cinema"
+  },
+  "popup_cinema_on_title": {
+    "message": "Cinema ativado"
+  },
+  "popup_transform_heading": {
+    "message": "Girar e inverter"
+  },
+  "popup_state_flip_h": {
+    "message": "invertido H"
+  },
+  "popup_state_flip_v": {
+    "message": "invertido V"
+  },
+  "popup_zoom_heading": {
+    "message": "Zoom e corte"
+  },
+  "popup_autocrop_title": {
+    "message": "Detectar e cortar as barras pretas do vídeo"
+  },
+  "popup_autocrop": {
+    "message": "Corte auto"
+  },
+  "popup_fill_title": {
+    "message": "Ampliar para a imagem preencher o player"
+  },
+  "popup_fill": {
+    "message": "Preencher"
+  },
+  "popup_crop21_title": {
+    "message": "Filme panorâmico 21:9"
+  },
+  "popup_crop43_title": {
+    "message": "Vídeo 4:3 com barras laterais em 16:9"
+  },
+  "popup_notice_no_tab": {
+    "message": "Abra um vídeo do YouTube. Acabou de instalar? Recarregue a guia do YouTube (F5)."
+  },
+  "popup_notice_open_video": {
+    "message": "Abra um vídeo do YouTube para girar, inverter e apagar as luzes."
+  },
+  "popup_audio_heading": {
+    "message": "Volume por guia"
+  },
+  "popup_mute_others_title": {
+    "message": "Silenciar todas as outras guias que estão tocando"
+  },
+  "popup_mute_others": {
+    "message": "Só esta guia"
+  },
+  "popup_mixer_empty": {
+    "message": "Nenhuma guia está tocando áudio."
+  },
+  "popup_shot_heading": {
+    "message": "Captura de tela"
+  },
+  "popup_shot_full": {
+    "message": "Página inteira"
+  },
+  "popup_shot_full_sub": {
+    "message": "Rola e junta"
+  },
+  "popup_shot_visible": {
+    "message": "Visível"
+  },
+  "popup_shot_visible_sub": {
+    "message": "O que está na tela"
+  },
+  "popup_shot_region": {
+    "message": "Região"
+  },
+  "popup_shot_region_sub": {
+    "message": "Arraste e selecione"
+  },
+  "popup_shot_error": {
+    "message": "Não é possível capturar esta página."
+  },
+  "popup_share_heading": {
+    "message": "Prévia de compartilhamento"
+  },
+  "popup_share_btn": {
+    "message": "Verificar esta página"
+  },
+  "popup_share_btn_sub": {
+    "message": "Como o link desta página aparece nas redes sociais e no Google: nota e dicas de correção"
+  },
+  "popup_share_http_only": {
+    "message": "Só é possível verificar páginas da web (http / https)."
+  },
+  "popup_share_incognito": {
+    "message": "Indisponível em janelas anônimas."
+  },
+  "full_popup_video_heading": {
+    "message": "Vídeo e áudio"
+  },
+  "full_popup_setup_title": {
+    "message": "Downloader de vídeo não instalado"
+  },
+  "full_popup_setup_text": {
+    "message": "Para baixar vídeos, é preciso ter o yt-dlp neste computador (instalação única e gratuita):"
+  },
+  "full_popup_setup_step1": {
+    "message": "Pasta da extensão → **native-host** → clique duas vezes em **install.bat**."
+  },
+  "full_popup_setup_step2": {
+    "message": "Aguarde aparecer **Hoàn tất** (concluído) e clique em **Verificar de novo**."
+  },
+  "full_popup_copy": {
+    "message": "Copiar"
+  },
+  "full_popup_recheck": {
+    "message": "Verificar de novo"
+  },
+  "full_popup_v_idle": {
+    "message": "Encontre vídeos na página com o yt-dlp (YouTube, Facebook, TikTok, X… mais de 1000 sites)."
+  },
+  "full_popup_v_analyze": {
+    "message": "Encontrar vídeos nesta página"
+  },
+  "full_popup_v_loading": {
+    "message": "Analisando vídeo…"
+  },
+  "full_popup_v_entry": {
+    "message": "Escolha um vídeo da página"
+  },
+  "full_popup_v_quality": {
+    "message": "Qualidade"
+  },
+  "full_popup_v_format": {
+    "message": "Formato"
+  },
+  "full_popup_v_download": {
+    "message": "Baixar"
+  },
+  "full_popup_jobs_clear": {
+    "message": "Limpar concluídos"
+  },
+  "full_popup_streams_heading": {
+    "message": "Arquivos e streams de vídeo"
+  },
+  "popup_img_heading": {
+    "message": "Imagens da página"
+  },
+  "popup_img_format": {
+    "message": "Salvar imagens como"
+  },
+  "popup_img_format_original": {
+    "message": "Original"
+  },
+  "popup_img_small_title": {
+    "message": "Mostrar também ícones e imagens pequenas"
+  },
+  "popup_img_small": {
+    "message": "Pequenas"
+  },
+  "full_popup_thumb_title": {
+    "message": "Baixar a miniatura do vídeo (maior tamanho)"
+  },
+  "full_popup_thumb": {
+    "message": "Miniatura"
+  },
+  "popup_snap": {
+    "message": "Capturar"
+  },
+  "popup_img_all": {
+    "message": "Selecionar tudo"
+  },
+  "popup_img_download": {
+    "message": "Baixar"
+  },
+  "popup_set_lights_heading": {
+    "message": "Luzes apagadas e brilho ambiente"
+  },
+  "popup_set_dim": {
+    "message": "Escurecimento"
+  },
+  "popup_set_glow": {
+    "message": "Brilho ambiente atrás do vídeo"
+  },
+  "popup_set_glow_strength": {
+    "message": "Intensidade do brilho"
+  },
+  "popup_set_glow_size": {
+    "message": "Alcance do brilho"
+  },
+  "popup_set_options": {
+    "message": "Opções"
+  },
+  "popup_set_keep_transform": {
+    "message": "Manter giro, inversão e zoom ao trocar de vídeo"
+  },
+  "popup_set_player_buttons": {
+    "message": "Mostrar botões no player"
+  },
+  "popup_set_shortcuts": {
+    "message": "Atalhos de teclado"
+  },
+  "popup_set_auto_pip": {
+    "message": "Picture-in-picture automático ao trocar de guia (YouTube)"
+  },
+  "popup_keys_heading": {
+    "message": "Atalhos"
+  },
+  "popup_keys_hint": {
+    "message": "Alt + Shift + tecla"
+  },
+  "popup_keys_customize": {
+    "message": "Alterar atalhos"
+  },
+  "popup_key_escape": {
+    "message": "Sair do cinema / acender luzes"
+  },
+  "popup_key_pip": {
+    "message": "Picture-in-picture (qualquer site)"
+  },
+  "popup_key_capture": {
+    "message": "Capturar página inteira (qualquer site)"
+  },
+  "full_popup_set_download_heading": {
+    "message": "Downloads"
+  },
+  "full_popup_set_cookies": {
+    "message": "Usar o login do navegador ao baixar vídeos"
+  },
+  "full_popup_set_cookies_note": {
+    "message": "Necessário para Facebook, Instagram, vídeos privados… Os cookies só vão para o downloader no seu computador e nunca são salvos no disco. Não é usado no YouTube."
+  },
+  "popup_reset": {
+    "message": "Restaurar configurações padrão"
+  },
+  "yt_toast_snapshot_saved": {
+    "message": "Quadro capturado $1×$2"
+  },
+  "full_yt_dl_preset_best": {
+    "message": "Melhor"
+  },
+  "full_yt_dl_preset_best_label": {
+    "message": "Melhor vídeo · MP4"
+  },
+  "full_yt_dl_preset_video_label": {
+    "message": "Vídeo $1 · MP4"
+  },
+  "full_yt_dl_preset_mp3_label": {
+    "message": "Só áudio · MP3"
+  },
+  "full_yt_err_extension_updated": {
+    "message": "A extensão acabou de ser atualizada. Recarregue a página (F5)."
+  },
+  "full_yt_dl_panel_title": {
+    "message": "Baixar"
+  },
+  "full_yt_dl_panel_state": {
+    "message": "Vídeo MP4"
+  },
+  "full_yt_dl_thumb": {
+    "message": "Miniatura"
+  },
+  "full_yt_dl_thumb_title": {
+    "message": "Baixar a miniatura do vídeo (maior tamanho)"
+  },
+  "full_yt_dl_snapshot": {
+    "message": "Capturar"
+  },
+  "full_yt_dl_snapshot_title": {
+    "message": "Capturar o quadro atual (Alt+Shift+S)"
+  },
+  "full_yt_dl_host_missing": {
+    "message": "O downloader de vídeo (yt-dlp) não está instalado. Clique no ícone da extensão → Baixar para ver as etapas de instalação. As imagens continuam funcionando."
+  },
+  "full_yt_toast_watch_only": {
+    "message": "Os downloads só funcionam na página de um vídeo"
+  },
+  "full_yt_toast_download_start_failed": {
+    "message": "Não foi possível iniciar o download"
+  },
+  "full_yt_toast_download_started": {
+    "message": "Download iniciado · $1"
+  },
+  "full_yt_dl_cancel": {
+    "message": "Cancelar download"
+  },
+  "full_yt_dl_open_file": {
+    "message": "Abrir arquivo"
+  },
+  "full_yt_dl_show_in_folder": {
+    "message": "Mostrar na pasta"
+  },
+  "full_yt_toast_download_done": {
+    "message": "Download concluído"
+  },
+  "full_yt_toast_download_failed": {
+    "message": "Falha no download"
+  },
+  "full_yt_toast_thumb_loading": {
+    "message": "Baixando miniatura…"
+  },
+  "full_yt_thumb_filename": {
+    "message": "$1 - miniatura"
+  },
+  "full_yt_toast_thumb_saved": {
+    "message": "Miniatura salva"
+  },
+  "full_yt_toast_thumb_failed_reason": {
+    "message": "Não foi possível baixar a miniatura: $1"
+  },
+  "full_yt_toast_thumb_failed": {
+    "message": "Não foi possível baixar a miniatura"
+  },
+  "yt_toast_pip_failed": {
+    "message": "Não foi possível abrir o picture-in-picture"
+  },
+  "yt_toast_lights_off": {
+    "message": "Luzes apagadas · Esc para acender"
+  },
+  "yt_toast_lights_on": {
+    "message": "Luzes acesas"
+  },
+  "yt_toast_cinema_on": {
+    "message": "Modo cinema · Esc para sair"
+  },
+  "yt_toast_cinema_off": {
+    "message": "Modo cinema desativado"
+  },
+  "yt_toast_transform_reset": {
+    "message": "Vídeo redefinido"
+  },
+  "yt_toast_zoom_reset": {
+    "message": "Zoom redefinido"
+  },
+  "yt_toast_pan_hint": {
+    "message": "$1 · arraste o vídeo para movê-lo"
+  },
+  "yt_toast_watch_only": {
+    "message": "Disponível apenas na página de um vídeo"
+  },
+  "full_yt_btn_download": {
+    "message": "Baixar"
+  },
+  "yt_btn_pip": {
+    "message": "Picture-in-picture (Alt+Shift+P)"
+  },
+  "yt_btn_transform": {
+    "message": "Girar/inverter e zoom"
+  },
+  "yt_btn_lights_off": {
+    "message": "Apagar luzes (Alt+Shift+L)"
+  },
+  "yt_btn_cinema": {
+    "message": "Modo cinema (Alt+Shift+C)"
+  },
+  "yt_zoom_reset_title": {
+    "message": "Redefinir zoom (voltar a 100%)"
+  },
+  "yt_transform_panel_title": {
+    "message": "Girar/inverter e zoom"
+  },
+  "yt_panel_zoom_crop": {
+    "message": "Zoom e corte"
+  },
+  "yt_btn_autocrop": {
+    "message": "Corte auto"
+  },
+  "yt_btn_autocrop_title": {
+    "message": "Cortar barras pretas automaticamente (Alt+Shift+A)"
+  },
+  "yt_btn_fill": {
+    "message": "Preencher"
+  },
+  "yt_btn_zoom_out_title": {
+    "message": "Diminuir zoom (Alt+Shift+−)"
+  },
+  "yt_btn_zoom_in_title": {
+    "message": "Aumentar zoom (Alt+Shift++)"
+  },
+  "yt_btn_lights_on": {
+    "message": "Acender luzes (Alt+Shift+L)"
+  },
+  "yt_btn_cinema_exit": {
+    "message": "Sair do modo cinema (Esc)"
+  },
+  "yt_btn_pip_close": {
+    "message": "Fechar picture-in-picture (Alt+Shift+P)"
+  },
+  "yt_panel_state_flip_hv": {
+    "message": "$1° · invertido H · invertido V"
+  },
+  "yt_panel_state_flip_h": {
+    "message": "$1° · invertido H"
+  },
+  "yt_panel_state_flip_v": {
+    "message": "$1° · invertido V"
+  },
+  "yt_err_video_not_ready": {
+    "message": "O vídeo ainda não está pronto, tente de novo em instantes"
+  },
+  "yt_err_frame_unreadable": {
+    "message": "Não é possível ler os quadros deste vídeo"
+  },
+  "yt_err_scene_too_dark": {
+    "message": "Cena escura demais, tente de novo em uma cena mais clara"
+  },
+  "yt_toast_no_bars": {
+    "message": "Sem barras pretas · preenchendo o quadro $1%"
+  },
+  "yt_toast_bars_cropped": {
+    "message": "Barras pretas cortadas · $1%"
+  },
+  "yt_toast_fill": {
+    "message": "Preencher o quadro · $1%"
+  },
+  "yt_toast_crop_ratio": {
+    "message": "Cortado para $1 · $2%"
+  },
+  "full_dl_hint_mp4": {
+    "message": "MP4 roda em qualquer lugar. Até 1080p prefere H.264; acima disso usa VP9/AV1."
+  },
+  "full_dl_hint_webm": {
+    "message": "WebM (VP9 + Opus): boa qualidade, tamanho compacto."
+  },
+  "full_dl_hint_mkv": {
+    "message": "MKV mantém o melhor codec disponível (geralmente AV1), bom para arquivar."
+  },
+  "full_dl_hint_mp3": {
+    "message": "MP3 toca em qualquer lugar (recodificado a partir do áudio original)."
+  },
+  "full_dl_hint_m4a": {
+    "message": "M4A (AAC): geralmente o áudio original como está, sem recodificar."
+  },
+  "full_dl_hint_opus": {
+    "message": "Opus: o áudio original do YouTube, o menor de todos."
+  },
+  "full_dl_host_checking": {
+    "message": "Verificando…"
+  },
+  "full_dl_host_connected": {
+    "message": "Conectado"
+  },
+  "full_dl_host_save_to": {
+    "message": "Salva em: $1"
+  },
+  "full_dl_no_ffmpeg": {
+    "message": "O ffmpeg não está instalado: só é possível baixar formatos que tenham vídeo e som juntos. Execute o install.bat novamente."
+  },
+  "full_dl_setup_missing_title": {
+    "message": "Downloader de vídeo não instalado"
+  },
+  "full_dl_setup_error_title": {
+    "message": "Não foi possível conectar ao downloader"
+  },
+  "full_dl_setup_missing_text": {
+    "message": "Para baixar vídeos, é preciso ter a ferramenta yt-dlp no seu computador (instalação única e gratuita):"
+  },
+  "full_dl_setup_error_text": {
+    "message": "$1 Como resolver:"
+  },
+  "full_dl_retry": {
+    "message": "Tentar de novo"
+  },
+  "full_dl_analyzing_embed": {
+    "message": "Analisando vídeo incorporado…"
+  },
+  "full_dl_analyzing": {
+    "message": "Analisando vídeo…"
+  },
+  "full_dl_analyze_failed": {
+    "message": "Não foi possível analisar esta página."
+  },
+  "full_dl_no_videos": {
+    "message": "Nenhum vídeo encontrado nesta página."
+  },
+  "full_dl_entries_title_one": {
+    "message": "A página tem $1 vídeo"
+  },
+  "full_dl_entries_title_other": {
+    "message": "A página tem $1 vídeos"
+  },
+  "full_dl_live_unsupported": {
+    "message": "Ainda não é possível baixar transmissões ao vivo. Tente de novo quando a transmissão terminar."
+  },
+  "full_dl_max_height": {
+    "message": "até $1p"
+  },
+  "full_dl_audio_only_info": {
+    "message": "só áudio"
+  },
+  "full_dl_group_video": {
+    "message": "Vídeo"
+  },
+  "full_dl_group_audio_only": {
+    "message": "Só áudio"
+  },
+  "full_dl_audio_format": {
+    "message": "$1 · áudio"
+  },
+  "full_dl_quality_best": {
+    "message": "Melhor ($1)"
+  },
+  "full_dl_download_audio": {
+    "message": "Baixar áudio"
+  },
+  "full_dl_download_audio_size": {
+    "message": "Baixar áudio · ~$1"
+  },
+  "full_dl_download_video": {
+    "message": "Baixar vídeo"
+  },
+  "full_dl_download_video_size": {
+    "message": "Baixar vídeo · ~$1"
+  },
+  "full_dl_job_cancel": {
+    "message": "Cancelar download"
+  },
+  "full_dl_job_open": {
+    "message": "Abrir arquivo"
+  },
+  "full_dl_job_reveal": {
+    "message": "Mostrar na pasta"
+  },
+  "full_dl_stream_playing": {
+    "message": "Vídeo em reprodução"
+  },
+  "full_dl_stream_in_post": {
+    "message": "Vídeo na publicação"
+  },
+  "full_dl_stream_pick": {
+    "message": "Escolher"
+  },
+  "full_dl_stream_embed": {
+    "message": "Vídeo do $1 incorporado na página"
+  },
+  "full_dl_stream_download": {
+    "message": "Baixar"
+  },
+  "full_dl_stream_sent": {
+    "message": "Enviado para os downloads do navegador"
+  },
+  "full_dl_stream_error": {
+    "message": "Erro: $1"
+  },
+  "full_dl_stream_need_host": {
+    "message": "Instale primeiro o downloader de vídeo (veja acima)"
+  },
+  "full_dl_stream_started": {
+    "message": "Baixando · veja o progresso acima"
+  },
+  "dl_img_upgraded_tip": {
+    "message": "Será baixada a maior versão encontrada"
+  },
+  "dl_img_count_one": {
+    "message": "$1 imagem"
+  },
+  "dl_img_count_other": {
+    "message": "$1 imagens"
+  },
+  "dl_img_count_of_one": {
+    "message": "$2 / $1 imagem"
+  },
+  "dl_img_count_of_other": {
+    "message": "$2 / $1 imagens"
+  },
+  "dl_img_only_small": {
+    "message": "Só há imagens pequenas (ícones). Ative “Pequenas” para mostrá-las."
+  },
+  "dl_img_none": {
+    "message": "Nenhuma imagem encontrada nesta página."
+  },
+  "dl_img_deselect": {
+    "message": "Desmarcar tudo"
+  },
+  "dl_img_select_all": {
+    "message": "Selecionar tudo"
+  },
+  "dl_img_download_n_one": {
+    "message": "Baixar $1 imagem"
+  },
+  "dl_img_download_n_other": {
+    "message": "Baixar $1 imagens"
+  },
+  "dl_img_download": {
+    "message": "Baixar"
+  },
+  "dl_img_downloading_one": {
+    "message": "Baixando $1 imagem…"
+  },
+  "dl_img_downloading_other": {
+    "message": "Baixando $1 imagens…"
+  },
+  "dl_img_saved_failed_folder_one": {
+    "message": "$1 imagem salva na pasta “$4” · $2 com erro ($3)"
+  },
+  "dl_img_saved_failed_folder_other": {
+    "message": "$1 imagens salvas na pasta “$4” · $2 com erro ($3)"
+  },
+  "dl_img_saved_failed_one": {
+    "message": "$1 imagem salva · $2 com erro ($3)"
+  },
+  "dl_img_saved_failed_other": {
+    "message": "$1 imagens salvas · $2 com erro ($3)"
+  },
+  "dl_img_saved_folder_one": {
+    "message": "$1 imagem salva na pasta “$2”"
+  },
+  "dl_img_saved_folder_other": {
+    "message": "$1 imagens salvas na pasta “$2”"
+  },
+  "dl_img_saved_one": {
+    "message": "$1 imagem salva"
+  },
+  "dl_img_saved_other": {
+    "message": "$1 imagens salvas"
+  },
+  "dl_img_download_failed": {
+    "message": "Falha no download: $1"
+  },
+  "dl_img_unknown_error": {
+    "message": "erro desconhecido"
+  },
+  "dl_snap_label": {
+    "message": "Capturar"
+  },
+  "dl_snap_tip": {
+    "message": "Capturar o quadro atual na resolução original de $1×$2"
+  },
+  "dl_scan_system_page": {
+    "message": "Não é possível analisar esta página (página do sistema do navegador)."
+  },
+  "dl_scanning": {
+    "message": "Analisando a página…"
+  },
+  "dl_scan_failed_file": {
+    "message": "Não é possível analisar esta página. Ative “Permitir acesso aos URLs de arquivo” para a extensão."
+  },
+  "dl_scan_failed": {
+    "message": "Não é possível analisar esta página."
+  },
+  "full_dl_start_failed": {
+    "message": "Não foi possível iniciar o download."
+  },
+  "full_dl_copied": {
+    "message": "Copiado"
+  },
+  "full_dl_thumb_name": {
+    "message": "$1 - miniatura"
+  },
+  "dl_snap_done": {
+    "message": "Capturado $1×$2 · $3"
+  },
+  "dl_snap_failed": {
+    "message": "Não foi possível capturar"
+  },
+  "dl_snap_failed_detail": {
+    "message": "Não foi possível capturar: $1"
+  },
+  "full_dl_unavailable_page": {
+    "message": "Indisponível nesta página."
+  },
+  "full_dl_feed_hint": {
+    "message": "Esta é uma página de feed / perfil e ainda não foi encontrado nenhum vídeo. Reproduza o vídeo que você quer (ou abra a publicação / reel) e clique no botão abaixo."
+  },
+  "full_dl_find_playing": {
+    "message": "Encontrar vídeo em reprodução"
+  },
+  "full_dl_feed_retry": {
+    "message": "Ainda não foi encontrado nenhum vídeo nesta página. Reproduza o vídeo que você quer (ou abra a publicação / reel) e tente de novo."
+  },
+  "audio_volume_aria": {
+    "message": "Volume: $1"
+  },
+  "audio_set_failed": {
+    "message": "Não foi possível alterar o volume desta guia."
+  },
+  "audio_tab_switch_tip": {
+    "message": "$1\nClique para ir para esta guia"
+  },
+  "audio_this_tab": {
+    "message": "Esta guia"
+  },
+  "audio_playing": {
+    "message": "Tocando áudio"
+  },
+  "audio_pip": {
+    "message": "Abrir o vídeo desta guia em picture-in-picture"
+  },
+  "audio_pip_failed": {
+    "message": "Não foi possível abrir o picture-in-picture."
+  },
+  "audio_unmute": {
+    "message": "Ativar som"
+  },
+  "audio_mute": {
+    "message": "Silenciar"
+  },
+  "audio_boost_current_only": {
+    "message": "Aumentar acima de 100% só funciona na guia em que você abriu o pop-up. Abra o pop-up nessa guia e tente de novo."
+  },
+  "bg_file_name_default": {
+    "message": "arquivo"
+  },
+  "full_bg_host_missing": {
+    "message": "O downloader de vídeo não está instalado neste computador."
+  },
+  "full_bg_host_forbidden": {
+    "message": "O downloader ainda não permite esta extensão (o ID dela mudou). Execute o install.bat novamente."
+  },
+  "full_bg_host_crash": {
+    "message": "O downloader fechou inesperadamente. Execute o install.bat novamente ou confira native-host\\host.log."
+  },
+  "full_bg_host_unreachable": {
+    "message": "Não foi possível conectar ao downloader."
+  },
+  "full_bg_host_no_reply": {
+    "message": "O downloader não respondeu."
+  },
+  "full_bg_invalid_url": {
+    "message": "URL inválido."
+  },
+  "full_bg_job_interrupted": {
+    "message": "Interrompido antes de terminar."
+  },
+  "full_bg_unknown_error": {
+    "message": "Erro desconhecido."
+  },
+  "full_bg_invalid_choice": {
+    "message": "Opção de download inválida."
+  },
+  "full_bg_host_stopped": {
+    "message": "O downloader parou inesperadamente."
+  },
+  "bg_img_no_url": {
+    "message": "Falta o URL da imagem"
+  },
+  "bg_img_failed": {
+    "message": "Não foi possível baixar a imagem"
+  },
+  "bg_img_none_selected": {
+    "message": "Nenhuma imagem selecionada."
+  },
+  "bg_vol_no_tab": {
+    "message": "Nenhuma guia especificada."
+  },
+  "bg_vol_cannot_set": {
+    "message": "Não é possível alterar o volume nesta página."
+  },
+  "bg_vol_no_tab_info": {
+    "message": "Faltam informações da guia."
+  },
+  "bg_vol_capture_failed": {
+    "message": "Não foi possível capturar o áudio da guia."
+  },
+  "bg_shot_bad_mode": {
+    "message": "Modo de captura inválido."
+  },
+  "bg_shot_busy": {
+    "message": "Já há uma captura em andamento. Aguarde."
+  },
+  "bg_shot_no_tab": {
+    "message": "Guia não encontrada."
+  },
+  "bg_shot_restricted": {
+    "message": "Não é possível capturar esta página (é uma página do sistema do navegador)."
+  },
+  "bg_img_private_host": {
+    "message": "Imagens de endereços de rede local não são baixadas"
+  },
+  "bg_img_server_status": {
+    "message": "O servidor retornou o erro $1"
+  },
+  "bg_img_too_large": {
+    "message": "Imagem grande demais (mais de 50 MB)"
+  },
+  "bg_img_not_image": {
+    "message": "O URL não é uma imagem"
+  },
+  "bg_img_bad_size": {
+    "message": "Dimensões de imagem inválidas"
+  },
+  "bg_img_unreadable": {
+    "message": "Não foi possível ler a imagem"
+  },
+  "page_image_name_default": {
+    "message": "imagem"
+  },
+  "page_image_name_random": {
+    "message": "imagem-$1"
+  },
+  "page_alt_video_poster": {
+    "message": "Capa do vídeo"
+  },
+  "page_alt_page_image": {
+    "message": "Imagem de prévia da página"
+  },
+  "page_snap_no_video": {
+    "message": "Nenhum vídeo está sendo exibido."
+  },
+  "page_snap_failed": {
+    "message": "Não foi possível criar a imagem"
+  },
+  "page_snap_blocked": {
+    "message": "Esta página não permite capturar quadros do vídeo (o vídeo é de outro site ou está protegido)."
+  },
+  "page_pip_no_video": {
+    "message": "Nenhum vídeo encontrado nesta página."
+  },
+  "page_pip_blocked": {
+    "message": "O navegador bloqueou o picture-in-picture. Clique novamente no botão Picture-in-picture."
+  },
+  "page_pip_failed": {
+    "message": "Não foi possível abrir o picture-in-picture"
+  },
+  "page_pip_failed_detail": {
+    "message": "Não foi possível abrir o picture-in-picture: $1"
+  },
+  "page_shot_select_hint": {
+    "message": "Arraste para selecionar a área a capturar · Esc para cancelar"
+  },
+  "shot_page_title": {
+    "message": "Captura da página"
+  },
+  "shot_stitching": {
+    "message": "Juntando a imagem…"
+  },
+  "shot_save_png": {
+    "message": "Baixar PNG"
+  },
+  "shot_save_jpg": {
+    "message": "Baixar JPG"
+  },
+  "shot_copy": {
+    "message": "Copiar"
+  },
+  "shot_file_name_default": {
+    "message": "Captura de tela"
+  },
+  "shot_file_name_page": {
+    "message": "página"
+  },
+  "shot_err_read_image": {
+    "message": "Não foi possível ler a captura"
+  },
+  "shot_err_too_large": {
+    "message": "A imagem é grande demais para salvar"
+  },
+  "shot_open_folder": {
+    "message": "Abrir pasta"
+  },
+  "shot_saved": {
+    "message": "$1 salvo na sua pasta Downloads."
+  },
+  "shot_save_failed": {
+    "message": "Não foi possível salvar: $1"
+  },
+  "shot_gone_title": {
+    "message": "A captura não está mais disponível"
+  },
+  "shot_expired": {
+    "message": "Esta captura expirou (o navegador ou a extensão acabou de reiniciar). Capture de novo."
+  },
+  "shot_doc_title": {
+    "message": "Captura – $1"
+  },
+  "shot_file_name": {
+    "message": "Captura $1 $2"
+  },
+  "shot_stitching_progress": {
+    "message": "Juntando a imagem… $1/$2"
+  },
+  "shot_processing": {
+    "message": "Processando a imagem…"
+  },
+  "shot_err_missing_frame": {
+    "message": "Falta uma parte da captura. Capture de novo."
+  },
+  "shot_img_alt": {
+    "message": "Captura de $1"
+  },
+  "shot_img_hint": {
+    "message": "Clique para alternar entre tamanho real e ajustar à tela"
+  },
+  "shot_mode_full": {
+    "message": "Página inteira"
+  },
+  "shot_mode_visible": {
+    "message": "Área visível"
+  },
+  "shot_mode_region": {
+    "message": "Área selecionada"
+  },
+  "shot_meta_scaled": {
+    "message": "reduzida porque a página é longa demais"
+  },
+  "shot_meta_truncated": {
+    "message": "só os primeiros $1 px foram capturados (página com rolagem infinita)"
+  },
+  "shot_meta_css_size": {
+    "message": "$1 × $2 px na página"
+  },
+  "shot_copied": {
+    "message": "Imagem copiada — cole (Ctrl+V) onde precisar."
+  },
+  "shot_copy_failed": {
+    "message": "Não foi possível copiar (a imagem pode ser grande demais): $1"
+  },
+  "share_title": {
+    "message": "Prévia de compartilhamento"
+  },
+  "share_subtitle": {
+    "message": "Open Graph · Twitter Card · SEO básico"
+  },
+  "share_url_placeholder": {
+    "message": "https://seu-site.com.br/artigo"
+  },
+  "share_url_aria": {
+    "message": "Endereço da página a verificar"
+  },
+  "share_check_btn": {
+    "message": "Verificar"
+  },
+  "share_loading_page": {
+    "message": "Lendo a página…"
+  },
+  "share_empty_title": {
+    "message": "Como sua página aparece quando compartilhada?"
+  },
+  "share_empty_body": {
+    "message": "Digite o endereço de uma página acima (ou clique em **Ferramentas → Verificar esta página** no pop-up) para ver a prévia do link no Facebook, Zalo, X, LinkedIn, Discord, Telegram e Google, com nota e sugestões de correção."
+  },
+  "share_status_pass": {
+    "message": "Aprovado:"
+  },
+  "share_status_warn": {
+    "message": "Aviso:"
+  },
+  "share_status_fail": {
+    "message": "Erro:"
+  },
+  "share_status_info": {
+    "message": "Informação:"
+  },
+  "share_platform_pass": {
+    "message": "OK"
+  },
+  "share_platform_warn": {
+    "message": "Requer ajustes"
+  },
+  "share_platform_fail": {
+    "message": "Erros"
+  },
+  "share_loading_raw": {
+    "message": "Buscando o HTML original como um rastreador de rede social…"
+  },
+  "share_err_unknown": {
+    "message": "Não foi possível ler a página: erro desconhecido."
+  },
+  "share_err_read_status": {
+    "message": "Não foi possível ler a página: o servidor retornou o status $1."
+  },
+  "share_err_read": {
+    "message": "Não foi possível ler a página: $1."
+  },
+  "share_loading_images": {
+    "message": "Carregando as imagens de compartilhamento…"
+  },
+  "share_err_invalid_url": {
+    "message": "Endereço inválido. Digite o endereço de uma página da web que comece com http:// ou https://"
+  },
+  "share_doc_title_score": {
+    "message": "$1/100 – Prévia de compartilhamento"
+  },
+  "share_score_aria": {
+    "message": "$1 de 100 pontos – $2"
+  },
+  "share_page_untitled": {
+    "message": "(página sem título)"
+  },
+  "share_count_fail_one": {
+    "message": "Erros: $1"
+  },
+  "share_count_fail_other": {
+    "message": "Erros: $1"
+  },
+  "share_count_warn_one": {
+    "message": "Avisos: $1"
+  },
+  "share_count_warn_other": {
+    "message": "Avisos: $1"
+  },
+  "share_count_pass_one": {
+    "message": "Aprovados: $1"
+  },
+  "share_count_pass_other": {
+    "message": "Aprovados: $1"
+  },
+  "share_platforms_aria": {
+    "message": "Status por plataforma"
+  },
+  "share_chip_issues": {
+    "message": "Erros: $1, avisos: $2"
+  },
+  "share_chip_no_issues": {
+    "message": "Sem problemas"
+  },
+  "share_notice_private": {
+    "message": "Esta página está em um endereço local (localhost / LAN), então as redes sociais não conseguem acessá-la. Os resultados abaixo ajudam a verificar as tags antes de publicar a página."
+  },
+  "share_notice_no_raw": {
+    "message": "Não foi possível ler o HTML original (os rastreadores também podem estar bloqueados), então a nota fica limitada a 49. Os itens abaixo vêm da página exibida na guia e podem ser diferentes do que as redes sociais recebem."
+  },
+  "share_notice_raw_only": {
+    "message": "Só o HTML original foi verificado (sem comparar com a página aberta em uma guia)."
+  },
+  "share_pv_no_image": {
+    "message": "Sem imagem"
+  },
+  "share_pv_svg": {
+    "message": "Imagem SVG: não exibida"
+  },
+  "share_pv_bad_image": {
+    "message": "A imagem não pode ser usada"
+  },
+  "share_pv_untitled": {
+    "message": "(sem título)"
+  },
+  "share_x_from": {
+    "message": "De $1"
+  },
+  "share_google_no_desc": {
+    "message": "Sem meta description: o Google escolhe um trecho da própria página."
+  },
+  "share_sec_preview": {
+    "message": "Prévia"
+  },
+  "share_sec_preview_sub": {
+    "message": "Uma simulação aproximada de como cada plataforma exibe o link; o layout real pode mudar com o tempo. O Cinema Tools não tem vínculo com essas plataformas."
+  },
+  "share_fix_label": {
+    "message": "Como corrigir:"
+  },
+  "share_filter_issues": {
+    "message": "Requer atenção ($1)"
+  },
+  "share_filter_fail": {
+    "message": "Erros ($1)"
+  },
+  "share_filter_all": {
+    "message": "Todos ($1)"
+  },
+  "share_filter_aria": {
+    "message": "Filtrar resultados"
+  },
+  "share_sec_checks": {
+    "message": "Resultados da verificação"
+  },
+  "share_checks_none": {
+    "message": "Nada mais a corrigir. Ótimo trabalho!"
+  },
+  "share_img_url": {
+    "message": "URL"
+  },
+  "share_img_size": {
+    "message": "Dimensões"
+  },
+  "share_img_ratio": {
+    "message": "Proporção"
+  },
+  "share_img_ratio_value": {
+    "message": "$1 : 1 (padrão 1,91 : 1)"
+  },
+  "share_img_bytes": {
+    "message": "Tamanho do arquivo"
+  },
+  "share_img_bytes_min": {
+    "message": "$1 ou mais"
+  },
+  "share_img_format": {
+    "message": "Formato"
+  },
+  "share_img_http": {
+    "message": "Status HTTP"
+  },
+  "share_img_status_redirected": {
+    "message": "$1 (redirecionado)"
+  },
+  "share_img_cannot_view": {
+    "message": "Não é possível exibir a imagem"
+  },
+  "share_img_svg": {
+    "message": "Imagem SVG: as redes sociais não a exibem, nem esta página."
+  },
+  "share_img_too_large": {
+    "message": "A imagem é grande demais para ser exibida."
+  },
+  "share_img_decode_error": {
+    "message": "A imagem está corrompida e não pode ser decodificada."
+  },
+  "share_img_too_many_pixels": {
+    "message": "A imagem tem pixels demais para ser exibida."
+  },
+  "share_img_crop_title": {
+    "message": "Área exibida em um card de imagem grande (1,91:1)"
+  },
+  "share_img_crop_caption": {
+    "message": "Moldura clara: o que sobra ao cortar para 1,91:1."
+  },
+  "share_sec_image": {
+    "message": "Imagem de compartilhamento (og:image)"
+  },
+  "share_sec_tags": {
+    "message": "Tags encontradas"
+  },
+  "share_tags_none": {
+    "message": "A página não tem meta tags de compartilhamento."
+  },
+  "share_src_raw": {
+    "message": "HTML original"
+  },
+  "share_src_dom": {
+    "message": "Página renderizada"
+  },
+  "share_src_js_only": {
+    "message": "Só JS"
+  },
+  "share_src_js_changed": {
+    "message": "Alterada por JS"
+  },
+  "share_tags_after_js": {
+    "message": "Após JS: $1"
+  },
+  "share_sec_tags_sub": {
+    "message": "“Só JS”: tags adicionadas por JavaScript, que os rastreadores das redes sociais não veem."
+  },
+  "share_th_tag": {
+    "message": "Tag"
+  },
+  "share_th_value": {
+    "message": "Valor"
+  },
+  "share_th_source": {
+    "message": "Origem"
+  },
+  "share_copy": {
+    "message": "Copiar"
+  },
+  "share_copied": {
+    "message": "Copiado. Cole no <head> da página."
+  },
+  "share_copy_failed": {
+    "message": "Não foi possível copiar: $1"
+  },
+  "share_sec_snippet": {
+    "message": "Meta tags sugeridas"
+  },
+  "share_snippet_changes_one": {
+    "message": "$1 linha para adicionar (+) ou corrigir (~); as demais linhas mantêm os valores atuais. Substitua o texto em MAIÚSCULAS pelo conteúdo real."
+  },
+  "share_snippet_changes_other": {
+    "message": "$1 linhas para adicionar (+) ou corrigir (~); as demais linhas mantêm os valores atuais. Substitua o texto em MAIÚSCULAS pelo conteúdo real."
+  },
+  "share_snippet_complete": {
+    "message": "A página já tem todas as tags básicas."
+  },
+  "share_tools_how": {
+    "message": "Para ver o que os rastreadores veem, a página é buscada mais uma vez (sem cookies), junto com a imagem de compartilhamento e o ícone que a página declara."
+  },
+  "share_tools_caveat": {
+    "message": "O rastreador real de cada plataforma pode receber outro conteúdo (bloqueio de bots, páginas específicas para rastreadores), e as plataformas guardam as prévias em cache. Depois de corrigir as tags, cole o endereço nas ferramentas oficiais para confirmar e atualizar:"
+  },
+  "share_tools_private": {
+    "message": "Essas ferramentas só funcionam quando a página estiver on-line (não em localhost)."
+  },
+  "share_tool_fb_note": {
+    "message": "– também atualiza as prévias do Messenger e do Instagram"
+  },
+  "share_tool_google_note": {
+    "message": "– verifica os dados estruturados"
+  },
+  "share_sec_tools": {
+    "message": "Verificar de novo nas plataformas"
+  },
+  "share_err_not_web": {
+    "message": "Só é possível verificar páginas da web (http / https)."
+  },
+  "share_err_tab_closed": {
+    "message": "A guia a verificar foi fechada. Digite o endereço da página acima."
+  },
+  "share_jsonld_invalid": {
+    "message": "(JSON inválido)"
+  },
+  "share_err_http_only": {
+    "message": "Só endereços http / https são aceitos"
+  },
+  "share_err_redirect_private": {
+    "message": "Redireciona para um endereço de rede local que as redes sociais não conseguem carregar"
+  },
+  "share_err_timeout": {
+    "message": "Tempo esgotado ($1 segundos)"
+  },
+  "share_err_connect": {
+    "message": "Não foi possível conectar ao servidor"
+  },
+  "share_err_not_http": {
+    "message": "Não é um endereço http / https"
+  },
+  "share_err_image_private": {
+    "message": "A imagem está em um endereço de rede local / neste computador, então as redes sociais não conseguem carregá-la"
+  },
+  "share_err_http_status": {
+    "message": "O servidor retornou o status $1"
+  },
+  "chk_group_access": {
+    "message": "Os rastreadores conseguem ler a página"
+  },
+  "chk_group_image": {
+    "message": "Imagem de compartilhamento"
+  },
+  "chk_group_seo": {
+    "message": "Google e SEO básico"
+  },
+  "chk_bytes_mb": {
+    "message": "$1 MB"
+  },
+  "chk_bytes_kb": {
+    "message": "$1 KB"
+  },
+  "chk_quoted": {
+    "message": "“$1”"
+  },
+  "chk_raw_ok": {
+    "message": "O HTML original carrega sem login"
+  },
+  "chk_raw_redirected": {
+    "message": "redirecionado para $1"
+  },
+  "chk_raw_not_html": {
+    "message": "Este URL não retorna uma página HTML"
+  },
+  "chk_received": {
+    "message": "Recebido: $1"
+  },
+  "chk_received_empty": {
+    "message": "Recebido: resposta vazia"
+  },
+  "chk_raw_not_html_fix": {
+    "message": "As redes sociais só leem meta tags de páginas HTML."
+  },
+  "chk_raw_status": {
+    "message": "O servidor retorna HTTP $1 para visitantes sem login"
+  },
+  "chk_raw_status_detail": {
+    "message": "Os rastreadores das redes sociais visitam a página como visitantes sem login, então também podem receber esse erro. Os resultados abaixo vêm da página exibida na guia."
+  },
+  "chk_raw_status_fix": {
+    "message": "Permita o acesso público; verifique se um firewall / proteção contra bots (Cloudflare…) está bloqueando os rastreadores."
+  },
+  "chk_raw_failed": {
+    "message": "Não foi possível carregar o HTML original"
+  },
+  "chk_raw_failed_fix": {
+    "message": "Verifique se o URL da página está acessível pela internet."
+  },
+  "chk_raw_size": {
+    "message": "O HTML original tem mais de 5 MB"
+  },
+  "chk_raw_size_detail": {
+    "message": "Só os primeiros 5 MB foram lidos."
+  },
+  "chk_raw_size_fix": {
+    "message": "Coloque as meta tags no início do <head> e reduza o tamanho do HTML."
+  },
+  "chk_js_only_one": {
+    "message": "$1 tag só aparece depois que o JavaScript é executado"
+  },
+  "chk_js_only_other": {
+    "message": "$1 tags só aparecem depois que o JavaScript é executado"
+  },
+  "chk_js_only_fix": {
+    "message": "Facebook, Zalo, X, LinkedIn, Discord e Telegram não executam JavaScript, então não veem essas tags. Faça o servidor enviar as tags no HTML (SSR, páginas estáticas pré-geradas ou pré-renderização). Se visitantes sem login ou que não aceitaram os cookies só veem uma página de bloqueio, os rastreadores também só veem essa página."
+  },
+  "chk_js_only_ok": {
+    "message": "As tags de compartilhamento estão no HTML original"
+  },
+  "chk_js_only_ok_detail": {
+    "message": "Adicionadas só por JavaScript: $1 (não afeta as tags de compartilhamento)."
+  },
+  "chk_changed": {
+    "message": "O HTML original é diferente da página renderizada"
+  },
+  "chk_changed_line": {
+    "message": "$1: “$2” → “$3”"
+  },
+  "chk_changed_fix": {
+    "message": "As redes sociais usam os valores do HTML original. Isso é comum em aplicativos de página única (SPA) que mudam as tags durante a navegação: o servidor precisa retornar as tags certas para cada URL."
+  },
+  "chk_og_title_missing": {
+    "message": "Sem og:title"
+  },
+  "chk_og_title_missing_fallback": {
+    "message": "As plataformas usarão a tag <title>: “$1”."
+  },
+  "chk_og_title_missing_no_title": {
+    "message": "A página também não tem <title>."
+  },
+  "chk_og_title_missing_fix": {
+    "message": "Adicione <meta property=\"og:title\" content=\"…\"> – um título atraente com cerca de 30–65 caracteres."
+  },
+  "chk_og_title_long_one": {
+    "message": "og:title tem $1 caractere e pode ser cortado"
+  },
+  "chk_og_title_long_other": {
+    "message": "og:title tem $1 caracteres e pode ser cortado"
+  },
+  "chk_og_title_long_fix": {
+    "message": "Mantenha em cerca de 30–65 caracteres, com o principal no início."
+  },
+  "chk_og_title_short_one": {
+    "message": "og:title é curto ($1 caractere)"
+  },
+  "chk_og_title_short_other": {
+    "message": "og:title é curto ($1 caracteres)"
+  },
+  "chk_og_title_short_fix": {
+    "message": "Use de 30 a 65 caracteres para ficar completo e mais atraente."
+  },
+  "chk_og_title_ok_one": {
+    "message": "og:title definido ($1 caractere)"
+  },
+  "chk_og_title_ok_other": {
+    "message": "og:title definido ($1 caracteres)"
+  },
+  "chk_og_desc_missing": {
+    "message": "Sem og:description"
+  },
+  "chk_og_desc_missing_fallback": {
+    "message": "Facebook e Zalo usarão a meta description."
+  },
+  "chk_og_desc_missing_no_desc": {
+    "message": "A página também não tem meta description: o card compartilhado ficará sem linha de descrição."
+  },
+  "chk_og_desc_missing_fix": {
+    "message": "Adicione <meta property=\"og:description\" content=\"…\"> – cerca de 60–160 caracteres."
+  },
+  "chk_og_desc_long_one": {
+    "message": "og:description tem $1 caractere"
+  },
+  "chk_og_desc_long_other": {
+    "message": "og:description tem $1 caracteres"
+  },
+  "chk_og_desc_long_detail": {
+    "message": "Os cards compartilhados costumam mostrar só 1–2 linhas; o resto é cortado."
+  },
+  "chk_og_desc_long_fix": {
+    "message": "Encurte para cerca de 60–160 caracteres, com o principal no início."
+  },
+  "chk_og_desc_short_one": {
+    "message": "og:description é curta ($1 caractere)"
+  },
+  "chk_og_desc_short_other": {
+    "message": "og:description é curta ($1 caracteres)"
+  },
+  "chk_og_desc_short_fix": {
+    "message": "Use cerca de 60–160 caracteres para dizer o suficiente."
+  },
+  "chk_og_desc_ok_one": {
+    "message": "og:description definida ($1 caractere)"
+  },
+  "chk_og_desc_ok_other": {
+    "message": "og:description definida ($1 caracteres)"
+  },
+  "chk_og_url_missing": {
+    "message": "Sem og:url"
+  },
+  "chk_og_url_missing_detail": {
+    "message": "Curtidas / compartilhamentos podem se dividir entre vários URLs (com ?utm_…, #…)."
+  },
+  "chk_og_url_missing_fix": {
+    "message": "Adicione <meta property=\"og:url\" content=\"URL canônico da página\">."
+  },
+  "chk_og_url_relative": {
+    "message": "og:url não é um URL absoluto"
+  },
+  "chk_og_url_relative_fix": {
+    "message": "Use um URL absoluto começando com https://"
+  },
+  "chk_og_url_mismatch": {
+    "message": "og:url é diferente do link canonical"
+  },
+  "chk_og_url_mismatch_fix": {
+    "message": "As duas tags devem apontar para o mesmo URL canônico."
+  },
+  "chk_og_url_ok": {
+    "message": "og:url definido"
+  },
+  "chk_og_type_missing": {
+    "message": "Sem og:type"
+  },
+  "chk_og_type_missing_detail": {
+    "message": "O Facebook o considera \"website\" por padrão."
+  },
+  "chk_og_type_missing_fix": {
+    "message": "Adicione <meta property=\"og:type\" content=\"website\"> (para artigos: \"article\")."
+  },
+  "chk_og_site_missing": {
+    "message": "Sem og:site_name"
+  },
+  "chk_og_site_missing_detail": {
+    "message": "Discord e Telegram mostram o nome do site na primeira linha do card; sem ele, só aparece o domínio."
+  },
+  "chk_og_site_missing_fix": {
+    "message": "Adicione <meta property=\"og:site_name\" content=\"Nome da marca\">."
+  },
+  "chk_og_locale_missing": {
+    "message": "og:locale não declarado"
+  },
+  "chk_og_locale_missing_vi": {
+    "message": "Opcional. Páginas em vietnamita podem usar \"vi_VN\"."
+  },
+  "chk_og_locale_optional": {
+    "message": "Opcional."
+  },
+  "chk_dup": {
+    "message": "Tags duplicadas com valores diferentes: $1"
+  },
+  "chk_dup_fix": {
+    "message": "Cada tag deve aparecer só uma vez; as plataformas podem escolher a errada."
+  },
+  "chk_og_image_missing": {
+    "message": "Sem og:image"
+  },
+  "chk_og_image_missing_tw": {
+    "message": "Só twitter:image está definido (Facebook, Zalo e LinkedIn não usam essa tag)."
+  },
+  "chk_og_image_missing_detail": {
+    "message": "As publicações compartilhadas ficarão sem imagem, ou a plataforma escolherá qualquer imagem da página."
+  },
+  "chk_og_image_missing_fix": {
+    "message": "Adicione <meta property=\"og:image\" content=\"https://…/imagem-1200x630.jpg\"> – uma imagem JPG / PNG de 1200×630 px."
+  },
+  "chk_og_image_ok": {
+    "message": "og:image definido"
+  },
+  "chk_img_abs_scheme": {
+    "message": "Falta https: em og:image"
+  },
+  "chk_img_abs_scheme_fix": {
+    "message": "Escreva o URL completo https://…"
+  },
+  "chk_img_abs_relative": {
+    "message": "og:image deve ser um URL absoluto"
+  },
+  "chk_img_abs_relative_detail": {
+    "message": "Valor atual: “$1”."
+  },
+  "chk_img_abs_relative_fix": {
+    "message": "Use o URL completo: $1"
+  },
+  "chk_img_abs_ok": {
+    "message": "og:image é um URL absoluto"
+  },
+  "chk_img_https": {
+    "message": "og:image usa http (sem criptografia)"
+  },
+  "chk_img_https_fix": {
+    "message": "Use https:// para que todas as plataformas consigam carregá-la."
+  },
+  "chk_tw_image_ok": {
+    "message": "twitter:image carrega"
+  },
+  "chk_tw_image_failed": {
+    "message": "Não foi possível carregar twitter:image"
+  },
+  "chk_tw_image_failed_fix": {
+    "message": "Verifique o URL da imagem."
+  },
+  "chk_tw_card_missing": {
+    "message": "Sem twitter:card"
+  },
+  "chk_tw_card_missing_detail": {
+    "message": "O X pode não mostrar um card de imagem grande para o link."
+  },
+  "chk_tw_card_missing_fix": {
+    "message": "Adicione <meta name=\"twitter:card\" content=\"summary_large_image\">."
+  },
+  "chk_tw_card_invalid": {
+    "message": "twitter:card inválido: “$1”"
+  },
+  "chk_tw_card_invalid_detail": {
+    "message": "Valores válidos: $1."
+  },
+  "chk_tw_card_invalid_fix": {
+    "message": "Use \"summary_large_image\" para uma imagem grande na horizontal."
+  },
+  "chk_tw_card_summary": {
+    "message": "Card pequeno (imagem quadrada ao lado). Para uma imagem grande, use summary_large_image."
+  },
+  "chk_tw_fallback": {
+    "message": "Sem $1"
+  },
+  "chk_tw_fallback_detail": {
+    "message": "Tudo bem: o X usa og:title / og:description / og:image no lugar."
+  },
+  "chk_title_missing": {
+    "message": "Sem a tag <title>"
+  },
+  "chk_title_missing_fix": {
+    "message": "Adicione um <title> que descreva bem a página, com cerca de 30–60 caracteres."
+  },
+  "chk_title_long_one": {
+    "message": "<title> tem $1 caractere"
+  },
+  "chk_title_long_other": {
+    "message": "<title> tem $1 caracteres"
+  },
+  "chk_title_long_fix": {
+    "message": "O Google costuma cortar títulos com mais de ~60 caracteres; encurte."
+  },
+  "chk_title_short_one": {
+    "message": "<title> é curto ($1 caractere)"
+  },
+  "chk_title_short_other": {
+    "message": "<title> é curto ($1 caracteres)"
+  },
+  "chk_title_short_fix": {
+    "message": "Use de 30 a 60 caracteres, incluindo a palavra-chave principal."
+  },
+  "chk_title_ok_one": {
+    "message": "<title> definido ($1 caractere)"
+  },
+  "chk_title_ok_other": {
+    "message": "<title> definido ($1 caracteres)"
+  },
+  "chk_desc_missing": {
+    "message": "Sem meta description"
+  },
+  "chk_desc_missing_detail": {
+    "message": "O Google escolherá um trecho qualquer da página como descrição."
+  },
+  "chk_desc_missing_fix": {
+    "message": "Adicione <meta name=\"description\" content=\"…\"> com cerca de 70–160 caracteres."
+  },
+  "chk_desc_long_one": {
+    "message": "A meta description tem $1 caractere"
+  },
+  "chk_desc_long_other": {
+    "message": "A meta description tem $1 caracteres"
+  },
+  "chk_desc_long_detail": {
+    "message": "O Google costuma cortar por volta de 160 caracteres."
+  },
+  "chk_desc_long_fix": {
+    "message": "Encurte para 70–160 caracteres."
+  },
+  "chk_desc_short_one": {
+    "message": "A meta description é curta ($1 caractere)"
+  },
+  "chk_desc_short_other": {
+    "message": "A meta description é curta ($1 caracteres)"
+  },
+  "chk_desc_short_fix": {
+    "message": "Use de 70 a 160 caracteres."
+  },
+  "chk_desc_ok_one": {
+    "message": "Meta description definida ($1 caractere)"
+  },
+  "chk_desc_ok_other": {
+    "message": "Meta description definida ($1 caracteres)"
+  },
+  "chk_canonical_missing": {
+    "message": "Sem link canonical"
+  },
+  "chk_canonical_missing_detail": {
+    "message": "Páginas acessíveis por vários URLs (parâmetros, http/https, www) podem ser consideradas duplicadas."
+  },
+  "chk_canonical_missing_fix": {
+    "message": "Adicione <link rel=\"canonical\" href=\"https://…\">."
+  },
+  "chk_canonical_relative": {
+    "message": "O canonical não é um URL absoluto"
+  },
+  "chk_canonical_relative_fix": {
+    "message": "Use o URL completo: $1"
+  },
+  "chk_canonical_ok": {
+    "message": "Link canonical definido"
+  },
+  "chk_robots_noindex": {
+    "message": "A página impede que o Google a indexe (noindex)"
+  },
+  "chk_robots_ok": {
+    "message": "Os mecanismos de busca podem indexar a página"
+  },
+  "chk_robots_noindex_fix": {
+    "message": "Remova \"noindex\" se quiser que a página apareça no Google."
+  },
+  "chk_lang_ok": {
+    "message": "Idioma declarado: lang=\"$1\""
+  },
+  "chk_lang_missing": {
+    "message": "Sem atributo lang no <html>"
+  },
+  "chk_lang_missing_fix": {
+    "message": "Adicione <html lang=\"pt-BR\"> (use o código de idioma da página)."
+  },
+  "chk_viewport_ok": {
+    "message": "Meta viewport definida (boa exibição em celulares)"
+  },
+  "chk_viewport_missing": {
+    "message": "Sem meta viewport"
+  },
+  "chk_viewport_missing_fix": {
+    "message": "Adicione <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">."
+  },
+  "chk_favicon_ok": {
+    "message": "Ícone do site (favicon) definido"
+  },
+  "chk_favicon_failed": {
+    "message": "O favicon está declarado, mas não pôde ser carregado"
+  },
+  "chk_favicon_failed_fix": {
+    "message": "Verifique o URL do ícone."
+  },
+  "chk_favicon_ico": {
+    "message": "/favicon.ico encontrado"
+  },
+  "chk_favicon_missing": {
+    "message": "Sem ícone do site (favicon)"
+  },
+  "chk_favicon_ico_detail": {
+    "message": "Declare também <link rel=\"icon\"> (imagem quadrada, de pelo menos 48×48)."
+  },
+  "chk_favicon_missing_detail": {
+    "message": "O Google mostra o ícone do site ao lado dos resultados de busca."
+  },
+  "chk_favicon_missing_fix": {
+    "message": "Adicione <link rel=\"icon\" href=\"/favicon.png\"> (imagem quadrada, de pelo menos 48×48)."
+  },
+  "chk_h1_count_one": {
+    "message": "$1 título H1 encontrado"
+  },
+  "chk_h1_count_other": {
+    "message": "$1 títulos H1 encontrados"
+  },
+  "chk_h1_missing": {
+    "message": "Sem título H1"
+  },
+  "chk_h1_missing_fix": {
+    "message": "Cada página deve ter um título principal <h1>."
+  },
+  "chk_jsonld_ok": {
+    "message": "Dados estruturados (JSON-LD) encontrados"
+  },
+  "chk_jsonld_missing": {
+    "message": "Sem dados estruturados (JSON-LD)"
+  },
+  "chk_jsonld_missing_detail": {
+    "message": "Ajudam o Google a mostrar resultados avançados (avaliações, preços, perguntas frequentes…)."
+  },
+  "chk_jsonld_missing_fix": {
+    "message": "Adicione a marcação schema.org adequada (Organization, Article, Product…)."
+  },
+  "chk_img_load_failed": {
+    "message": "Não foi possível carregar a imagem de compartilhamento"
+  },
+  "chk_img_load_failed_fix": {
+    "message": "Verifique se a imagem é pública (sem precisar de login) e se o URL está correto."
+  },
+  "chk_img_load_ok": {
+    "message": "A imagem de compartilhamento carrega"
+  },
+  "chk_img_too_large": {
+    "message": "Imagem grande demais (mais de 20 MB)"
+  },
+  "chk_img_too_large_fix": {
+    "message": "O Facebook aceita imagens de até 8 MB, e o X, de até 5 MB. Compacte a imagem para menos de 1 MB."
+  },
+  "chk_img_redirected": {
+    "message": "redirecionada"
+  },
+  "chk_img_svg": {
+    "message": "Imagens SVG não são suportadas"
+  },
+  "chk_img_svg_detail": {
+    "message": "Facebook, X, LinkedIn… não exibem imagens SVG."
+  },
+  "chk_img_svg_fix": {
+    "message": "Exporte a imagem como JPG ou PNG."
+  },
+  "chk_img_format_unknown": {
+    "message": "Formato de imagem não reconhecido"
+  },
+  "chk_img_format_unknown_detail": {
+    "message": "O servidor informa $1."
+  },
+  "chk_img_use_jpg_png": {
+    "message": "Use JPG ou PNG por segurança."
+  },
+  "chk_img_not_image": {
+    "message": "O URL de og:image não retorna uma imagem"
+  },
+  "chk_received_unknown": {
+    "message": "Recebido: tipo desconhecido"
+  },
+  "chk_img_not_image_fix": {
+    "message": "Aponte og:image para o arquivo de imagem real."
+  },
+  "chk_img_corrupt": {
+    "message": "A imagem está corrompida ou ilegível"
+  },
+  "chk_img_corrupt_fix": {
+    "message": "Exporte a imagem de novo como JPG / PNG."
+  },
+  "chk_img_format_ok": {
+    "message": "Formato $1 suportado"
+  },
+  "chk_img_format_partial": {
+    "message": "O formato $1 não é suportado por todas as plataformas"
+  },
+  "chk_img_bytes_fb": {
+    "message": "A imagem tem $1: o Facebook a ignora (máx. 8 MB)"
+  },
+  "chk_img_compress": {
+    "message": "Compacte a imagem para menos de 1 MB."
+  },
+  "chk_img_bytes_x": {
+    "message": "A imagem tem $1: o X não vai exibi-la (máx. 5 MB)"
+  },
+  "chk_img_bytes_heavy": {
+    "message": "Imagem pesada ($1)"
+  },
+  "chk_img_bytes_heavy_detail": {
+    "message": "Imagens pesadas carregam devagar, e alguns apps de mensagens podem ignorá-las."
+  },
+  "chk_img_bytes_heavy_fix": {
+    "message": "Compacte para menos de 1 MB (JPG com ~80% de qualidade)."
+  },
+  "chk_img_bytes_ok": {
+    "message": "Tamanho da imagem: $1"
+  },
+  "chk_img_dim_ok": {
+    "message": "Dimensões $1×$2 px"
+  },
+  "chk_img_dim_ok_detail": {
+    "message": "Nítida o suficiente para um card de imagem grande."
+  },
+  "chk_img_dim_low": {
+    "message": "A imagem tem $1×$2 px, não é nítida o suficiente"
+  },
+  "chk_img_dim_low_detail": {
+    "message": "Ainda aparece como imagem grande, mas fica borrada em telas de alta resolução."
+  },
+  "chk_img_dim_low_fix": {
+    "message": "Use 1200×630 px."
+  },
+  "chk_img_dim_small": {
+    "message": "A imagem tem $1×$2 px, é pequena"
+  },
+  "chk_img_dim_small_detail": {
+    "message": "O Facebook a exibe como uma miniatura pequena ao lado, em vez de uma imagem grande (abaixo de 600×315)."
+  },
+  "chk_img_use_1200": {
+    "message": "Use uma imagem de 1200×630 px."
+  },
+  "chk_img_dim_tiny": {
+    "message": "A imagem tem $1×$2 px, é pequena demais"
+  },
+  "chk_img_dim_tiny_detail": {
+    "message": "O Facebook não usa imagens menores que 200×200."
+  },
+  "chk_img_ratio": {
+    "message": "Proporção $1:1"
+  },
+  "chk_img_ratio_ok": {
+    "message": "Corresponde ao quadro 1,91:1 dos cards de imagem grande."
+  },
+  "chk_img_ratio_off": {
+    "message": "Os cards de imagem grande usam um quadro de cerca de 1,91:1, então a imagem será cortada (veja as prévias)."
+  },
+  "chk_img_ratio_fix": {
+    "message": "Use uma imagem de 1200×630 px com o conteúdo importante centralizado."
+  },
+  "chk_img_declared_missing": {
+    "message": "og:image:width / og:image:height não declarados"
+  },
+  "chk_img_declared_missing_detail": {
+    "message": "Declarar essas tags permite que o Facebook mostre a imagem já no primeiro compartilhamento (sem esperar o download dela)."
+  },
+  "chk_img_declared_missing_fix": {
+    "message": "Adicione <meta property=\"og:image:width\" content=\"$1\"> e <meta property=\"og:image:height\" content=\"$2\">."
+  },
+  "chk_img_declared_mismatch": {
+    "message": "O tamanho declarado é diferente da imagem real"
+  },
+  "chk_img_declared_mismatch_detail": {
+    "message": "Declarado $1×$2, real $3×$4."
+  },
+  "chk_img_declared_mismatch_fix": {
+    "message": "Altere para $1 e $2."
+  },
+  "chk_img_declared_ok": {
+    "message": "og:image:width / height declarados corretamente"
+  },
+  "chk_img_alt_ok": {
+    "message": "Descrição da imagem (alt) definida"
+  },
+  "chk_img_alt_missing": {
+    "message": "Sem descrição da imagem (og:image:alt)"
+  },
+  "chk_img_alt_missing_detail": {
+    "message": "Usuários de leitores de tela não saberão o que a imagem mostra."
+  },
+  "chk_img_alt_missing_fix": {
+    "message": "Adicione <meta property=\"og:image:alt\" content=\"…\">."
+  },
+  "chk_grade_great": {
+    "message": "Excelente"
+  },
+  "chk_grade_good": {
+    "message": "Bom"
+  },
+  "chk_grade_fair": {
+    "message": "Precisa melhorar"
+  },
+  "chk_grade_poor": {
+    "message": "Fraco"
+  },
+  "chk_suggest_title_placeholder": {
+    "message": "TÍTULO DA PÁGINA (30–65 CARACTERES)"
+  },
+  "chk_suggest_desc_placeholder": {
+    "message": "DESCRIÇÃO CURTA E ATRAENTE (60–160 CARACTERES)"
+  },
+  "chk_suggest_image_url": {
+    "message": "https://$1/imagem-compartilhamento-1200x630.jpg"
+  },
+  "chk_suggest_domain_placeholder": {
+    "message": "exemplo.com.br"
+  },
+  "chk_suggest_note_basic": {
+    "message": "Básico (Google)"
+  },
+  "chk_suggest_alt_placeholder": {
+    "message": "DESCRIÇÃO DO CONTEÚDO DA IMAGEM"
+  },
+  "chk_suggest_site_placeholder": {
+    "message": "NOME DA MARCA"
+  },
+  "chk_suggest_note_x": {
+    "message": "X (Twitter): título, descrição e imagem vêm das tags og:* acima"
+  }
+}

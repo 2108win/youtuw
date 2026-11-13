@@ -1,28 +1,29 @@
 <!doctype html>
-<html lang="vi">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ảnh chụp trang</title>
+  <title data-i18n="shot_page_title"></title>
   <link rel="stylesheet" href="shot.css">
 </head>
 <body>
   <header class="bar">
     <img class="logo" src="/icons/icon32.png" alt="" width="24" height="24">
     <div class="info">
-      <strong id="title">Đang ghép ảnh…</strong>
+      <strong id="title" data-i18n="shot_stitching"></strong>
       <small id="meta"></small>
     </div>
     <div class="actions">
-      <button type="button" class="primary" id="savePng" disabled>Tải PNG</button>
-      <button type="button" id="saveJpg" disabled>Tải JPG</button>
-      <button type="button" id="copy" disabled>Sao chép</button>
+      <button type="button" class="primary" id="savePng" data-i18n="shot_save_png" disabled></button>
+      <button type="button" id="saveJpg" data-i18n="shot_save_jpg" disabled></button>
+      <button type="button" id="copy" data-i18n="shot_copy" disabled></button>
     </div>
   </header>
   <p class="status" id="status" hidden></p>
   <main id="view">
-    <div class="loading" id="loading"><span class="spinner"></span><span id="loadingText">Đang ghép ảnh…</span></div>
+    <div class="loading" id="loading"><span class="spinner"></span><span id="loadingText" data-i18n="shot_stitching"></span></div>
   </main>
+  <script src="/src/shared/i18n.js"></script>
   <script src="shot.js"></script>
 </body>
 </html>

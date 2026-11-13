@@ -1,0 +1,2036 @@
+{
+  "locale_code": {
+    "message": "th"
+  },
+  "ext_name": {
+    "message": "Cinema Tools สำหรับ YouTube"
+  },
+  "ext_desc": {
+    "message": "หมุนและพลิกวิดีโอ YouTube ปิดไฟพร้อมแสงแอมเบียนท์ การแสดงภาพซ้อนภาพ ปรับเสียงแยกแท็บ ดาวน์โหลดวิดีโอ เสียง และรูปภาพ"
+  },
+  "ext_name_store": {
+    "message": "Cinema Tools – เครื่องมือดูวิดีโอ"
+  },
+  "ext_desc_store": {
+    "message": "หมุน พลิก และซูมวิดีโอ YouTube ปิดไฟพร้อมแสงแอมเบียนท์ การแสดงภาพซ้อนภาพ ปรับเสียงแยกแท็บ จับภาพหน้าจอ ดูตัวอย่างการแชร์"
+  },
+  "cmd_toggle_pip": {
+    "message": "เปิด / ปิดการแสดงภาพซ้อนภาพสำหรับวิดีโอในแท็บปัจจุบัน"
+  },
+  "cmd_capture_page": {
+    "message": "จับภาพทั้งหน้าปัจจุบัน"
+  },
+  "act_flip_h": {
+    "message": "พลิกแนวนอน"
+  },
+  "act_flip_v": {
+    "message": "พลิกแนวตั้ง"
+  },
+  "act_rotate_left": {
+    "message": "หมุนซ้าย 90°"
+  },
+  "act_rotate_right": {
+    "message": "หมุนขวา 90°"
+  },
+  "act_rotate_180": {
+    "message": "หมุน 180°"
+  },
+  "act_reset_transform": {
+    "message": "รีเซ็ต"
+  },
+  "act_toggle_lights": {
+    "message": "ปิด / เปิดไฟ"
+  },
+  "act_toggle_cinema": {
+    "message": "โหมดโรงภาพยนตร์"
+  },
+  "act_auto_crop": {
+    "message": "ครอบตัดแถบดำอัตโนมัติ"
+  },
+  "act_fill_frame": {
+    "message": "ขยายเต็มกรอบ"
+  },
+  "act_crop_21x9": {
+    "message": "ครอบตัดเป็น 21:9"
+  },
+  "act_crop_4x3": {
+    "message": "ครอบตัดเป็น 4:3"
+  },
+  "act_zoom_in": {
+    "message": "ซูมเข้า"
+  },
+  "act_zoom_out": {
+    "message": "ซูมออก"
+  },
+  "act_reset_zoom": {
+    "message": "รีเซ็ตการซูม"
+  },
+  "act_snapshot": {
+    "message": "จับภาพเฟรม"
+  },
+  "full_act_download_thumb": {
+    "message": "ดาวน์โหลดภาพขนาดย่อ"
+  },
+  "act_toggle_pip": {
+    "message": "การแสดงภาพซ้อนภาพ"
+  },
+  "act_pip_no_video": {
+    "message": "ไม่พบวิดีโอในหน้านี้"
+  },
+  "act_pip_unavailable": {
+    "message": "ใช้การแสดงภาพซ้อนภาพในหน้านี้ไม่ได้"
+  },
+  "full_act_stage_merge": {
+    "message": "กำลังรวมวิดีโอและเสียง…"
+  },
+  "full_act_stage_extract_audio": {
+    "message": "กำลังแปลงเสียง…"
+  },
+  "full_act_stage_metadata": {
+    "message": "กำลังเขียนข้อมูลไฟล์…"
+  },
+  "full_act_stage_move_files": {
+    "message": "กำลังบันทึกไฟล์…"
+  },
+  "full_act_stage_convert": {
+    "message": "กำลังแปลงรูปแบบ…"
+  },
+  "full_act_stage_embed_thumb": {
+    "message": "กำลังฝังภาพขนาดย่อ…"
+  },
+  "full_act_stage_fixup": {
+    "message": "กำลังแก้ไขไฟล์…"
+  },
+  "full_act_stage_processing": {
+    "message": "กำลังประมวลผล…"
+  },
+  "full_act_choice_audio": {
+    "message": "เสียง $1"
+  },
+  "full_act_quality_best": {
+    "message": "ดีที่สุด"
+  },
+  "full_act_job_starting": {
+    "message": "กำลังดึงข้อมูลวิดีโอ…"
+  },
+  "full_act_job_part_audio": {
+    "message": "เสียง"
+  },
+  "full_act_job_part_video": {
+    "message": "วิดีโอ $1p"
+  },
+  "full_act_job_part_any": {
+    "message": "กำลังดาวน์โหลด"
+  },
+  "full_act_job_eta": {
+    "message": "เหลือ $1"
+  },
+  "full_act_job_done": {
+    "message": "บันทึกแล้ว"
+  },
+  "full_act_job_done_size": {
+    "message": "บันทึกแล้ว · $1"
+  },
+  "full_act_job_cancelled": {
+    "message": "ยกเลิกแล้ว"
+  },
+  "full_act_job_error": {
+    "message": "ข้อผิดพลาด: $1"
+  },
+  "full_act_job_error_unknown": {
+    "message": "ไม่ทราบสาเหตุ"
+  },
+  "full_popup_brand_sub": {
+    "message": "สำหรับ YouTube"
+  },
+  "popup_brand_sub_store": {
+    "message": "เครื่องมือดูวิดีโอ"
+  },
+  "popup_pip_title": {
+    "message": "เปิดวิดีโอที่กำลังเล่นแบบการแสดงภาพซ้อนภาพ ลอยอยู่เหนือทุกแอป (Alt+P)"
+  },
+  "popup_pip": {
+    "message": "ภาพซ้อนภาพ"
+  },
+  "popup_pip_no_video": {
+    "message": "ไม่มีวิดีโอ"
+  },
+  "popup_pip_failed": {
+    "message": "เปิดไม่ได้"
+  },
+  "popup_settings": {
+    "message": "การตั้งค่า"
+  },
+  "popup_sections": {
+    "message": "ส่วนต่างๆ"
+  },
+  "popup_tab_video": {
+    "message": "วิดีโอ"
+  },
+  "popup_tab_audio": {
+    "message": "เสียง"
+  },
+  "full_popup_tab_download": {
+    "message": "ดาวน์โหลด"
+  },
+  "popup_tab_images": {
+    "message": "รูปภาพ"
+  },
+  "popup_tab_tools": {
+    "message": "เครื่องมือ"
+  },
+  "popup_lights_title": {
+    "message": "ปิดไฟ"
+  },
+  "popup_lights_on_title": {
+    "message": "ปิดไฟอยู่"
+  },
+  "popup_cinema_title": {
+    "message": "โรงภาพยนตร์"
+  },
+  "popup_cinema_on_title": {
+    "message": "โหมดโรงภาพยนตร์เปิดอยู่"
+  },
+  "popup_transform_heading": {
+    "message": "หมุนและพลิก"
+  },
+  "popup_state_flip_h": {
+    "message": "พลิกแนวนอน"
+  },
+  "popup_state_flip_v": {
+    "message": "พลิกแนวตั้ง"
+  },
+  "popup_zoom_heading": {
+    "message": "ซูมและครอบตัด"
+  },
+  "popup_autocrop_title": {
+    "message": "ตรวจหาและครอบตัดแถบดำในวิดีโอ"
+  },
+  "popup_autocrop": {
+    "message": "ครอบตัดอัตโนมัติ"
+  },
+  "popup_fill_title": {
+    "message": "ซูมให้ภาพเต็มโปรแกรมเล่น"
+  },
+  "popup_fill": {
+    "message": "เต็มกรอบ"
+  },
+  "popup_crop21_title": {
+    "message": "ภาพยนตร์จอกว้าง 21:9"
+  },
+  "popup_crop43_title": {
+    "message": "วิดีโอ 4:3 ที่อยู่ในกรอบ 16:9"
+  },
+  "popup_notice_no_tab": {
+    "message": "เปิดวิดีโอ YouTube ก่อน หากเพิ่งติดตั้ง ให้โหลดแท็บ YouTube ซ้ำ (F5)"
+  },
+  "popup_notice_open_video": {
+    "message": "เปิดวิดีโอ YouTube เพื่อหมุน พลิก และปิดไฟ"
+  },
+  "popup_audio_heading": {
+    "message": "ระดับเสียงแยกแท็บ"
+  },
+  "popup_mute_others_title": {
+    "message": "ปิดเสียงแท็บอื่นทั้งหมดที่กำลังเล่น"
+  },
+  "popup_mute_others": {
+    "message": "เฉพาะแท็บนี้"
+  },
+  "popup_mixer_empty": {
+    "message": "ไม่มีแท็บที่กำลังเล่นเสียง"
+  },
+  "popup_shot_heading": {
+    "message": "ภาพหน้าจอ"
+  },
+  "popup_shot_full": {
+    "message": "ทั้งหน้า"
+  },
+  "popup_shot_full_sub": {
+    "message": "เลื่อนและต่อภาพ"
+  },
+  "popup_shot_visible": {
+    "message": "ส่วนที่เห็น"
+  },
+  "popup_shot_visible_sub": {
+    "message": "ตามที่เห็นบนจอ"
+  },
+  "popup_shot_region": {
+    "message": "เลือกพื้นที่"
+  },
+  "popup_shot_region_sub": {
+    "message": "ลากเพื่อเลือก"
+  },
+  "popup_shot_error": {
+    "message": "จับภาพหน้านี้ไม่ได้"
+  },
+  "popup_share_heading": {
+    "message": "ตัวอย่างการแชร์"
+  },
+  "popup_share_btn": {
+    "message": "ตรวจสอบหน้านี้"
+  },
+  "popup_share_btn_sub": {
+    "message": "ลิงก์ของหน้านี้แสดงผลอย่างไรบนโซเชียลมีเดียและ Google: คะแนนและคำแนะนำในการแก้ไข"
+  },
+  "popup_share_http_only": {
+    "message": "ตรวจสอบได้เฉพาะหน้าเว็บ (http / https)"
+  },
+  "popup_share_incognito": {
+    "message": "ใช้ในหน้าต่างที่ไม่ระบุตัวตนไม่ได้"
+  },
+  "full_popup_video_heading": {
+    "message": "วิดีโอและเสียง"
+  },
+  "full_popup_setup_title": {
+    "message": "ยังไม่ได้ติดตั้งตัวดาวน์โหลดวิดีโอ"
+  },
+  "full_popup_setup_text": {
+    "message": "การดาวน์โหลดวิดีโอต้องใช้ yt-dlp ในคอมพิวเตอร์เครื่องนี้ (ติดตั้งครั้งเดียว ฟรี):"
+  },
+  "full_popup_setup_step1": {
+    "message": "โฟลเดอร์ส่วนขยาย → **native-host** → ดับเบิลคลิก **install.bat**"
+  },
+  "full_popup_setup_step2": {
+    "message": "รอจนขึ้น **Hoàn tất** (เสร็จสิ้น) แล้วคลิก **ตรวจสอบอีกครั้ง**"
+  },
+  "full_popup_copy": {
+    "message": "คัดลอก"
+  },
+  "full_popup_recheck": {
+    "message": "ตรวจสอบอีกครั้ง"
+  },
+  "full_popup_v_idle": {
+    "message": "ค้นหาวิดีโอในหน้าด้วย yt-dlp (YouTube, Facebook, TikTok, X… กว่า 1000 เว็บไซต์)"
+  },
+  "full_popup_v_analyze": {
+    "message": "ค้นหาวิดีโอในหน้านี้"
+  },
+  "full_popup_v_loading": {
+    "message": "กำลังวิเคราะห์วิดีโอ…"
+  },
+  "full_popup_v_entry": {
+    "message": "เลือกวิดีโอในหน้า"
+  },
+  "full_popup_v_quality": {
+    "message": "คุณภาพ"
+  },
+  "full_popup_v_format": {
+    "message": "รูปแบบ"
+  },
+  "full_popup_v_download": {
+    "message": "ดาวน์โหลด"
+  },
+  "full_popup_jobs_clear": {
+    "message": "ล้างรายการที่เสร็จแล้ว"
+  },
+  "full_popup_streams_heading": {
+    "message": "ไฟล์และสตรีมวิดีโอ"
+  },
+  "popup_img_heading": {
+    "message": "รูปภาพในหน้า"
+  },
+  "popup_img_format": {
+    "message": "บันทึกรูปภาพเป็น"
+  },
+  "popup_img_format_original": {
+    "message": "ต้นฉบับ"
+  },
+  "popup_img_small_title": {
+    "message": "แสดงไอคอนและรูปภาพขนาดเล็กด้วย"
+  },
+  "popup_img_small": {
+    "message": "ภาพเล็ก"
+  },
+  "full_popup_thumb_title": {
+    "message": "ดาวน์โหลดภาพขนาดย่อของวิดีโอ (ขนาดใหญ่ที่สุด)"
+  },
+  "full_popup_thumb": {
+    "message": "ภาพขนาดย่อ"
+  },
+  "popup_snap": {
+    "message": "จับภาพ"
+  },
+  "popup_img_all": {
+    "message": "เลือกทั้งหมด"
+  },
+  "popup_img_download": {
+    "message": "ดาวน์โหลด"
+  },
+  "popup_set_lights_heading": {
+    "message": "ปิดไฟและแสงแอมเบียนท์"
+  },
+  "popup_set_dim": {
+    "message": "ระดับการหรี่"
+  },
+  "popup_set_glow": {
+    "message": "แสงแอมเบียนท์ด้านหลังวิดีโอ"
+  },
+  "popup_set_glow_strength": {
+    "message": "ความสว่างของแสง"
+  },
+  "popup_set_glow_size": {
+    "message": "การกระจายของแสง"
+  },
+  "popup_set_options": {
+    "message": "ตัวเลือก"
+  },
+  "popup_set_keep_transform": {
+    "message": "คงการหมุน พลิก และซูมไว้เมื่อเปลี่ยนวิดีโอ"
+  },
+  "popup_set_player_buttons": {
+    "message": "แสดงปุ่มบนโปรแกรมเล่น"
+  },
+  "popup_set_shortcuts": {
+    "message": "แป้นพิมพ์ลัด"
+  },
+  "popup_set_auto_pip": {
+    "message": "การแสดงภาพซ้อนภาพอัตโนมัติเมื่อสลับแท็บ (YouTube)"
+  },
+  "popup_keys_heading": {
+    "message": "แป้นพิมพ์ลัด"
+  },
+  "popup_keys_hint": {
+    "message": "Alt + Shift + ปุ่ม"
+  },
+  "popup_keys_customize": {
+    "message": "เปลี่ยนแป้นพิมพ์ลัด"
+  },
+  "popup_key_escape": {
+    "message": "ออกจากโหมดโรงภาพยนตร์ / เปิดไฟ"
+  },
+  "popup_key_pip": {
+    "message": "การแสดงภาพซ้อนภาพ (ทุกเว็บไซต์)"
+  },
+  "popup_key_capture": {
+    "message": "จับภาพทั้งหน้า (ทุกเว็บไซต์)"
+  },
+  "full_popup_set_download_heading": {
+    "message": "การดาวน์โหลด"
+  },
+  "full_popup_set_cookies": {
+    "message": "ใช้การลงชื่อเข้าใช้ของเบราว์เซอร์เมื่อดาวน์โหลดวิดีโอ"
+  },
+  "full_popup_set_cookies_note": {
+    "message": "จำเป็นสำหรับ Facebook, Instagram, วิดีโอส่วนตัว… คุกกี้จะส่งไปยังตัวดาวน์โหลดในคอมพิวเตอร์ของคุณเท่านั้นและไม่ถูกบันทึกลงดิสก์ ไม่ใช้กับ YouTube"
+  },
+  "popup_reset": {
+    "message": "คืนค่าการตั้งค่าเริ่มต้น"
+  },
+  "yt_toast_snapshot_saved": {
+    "message": "จับภาพเฟรมแล้ว $1×$2"
+  },
+  "full_yt_dl_preset_best": {
+    "message": "ดีที่สุด"
+  },
+  "full_yt_dl_preset_best_label": {
+    "message": "วิดีโอดีที่สุด · MP4"
+  },
+  "full_yt_dl_preset_video_label": {
+    "message": "วิดีโอ $1 · MP4"
+  },
+  "full_yt_dl_preset_mp3_label": {
+    "message": "เสียงอย่างเดียว · MP3"
+  },
+  "full_yt_err_extension_updated": {
+    "message": "ส่วนขยายเพิ่งได้รับการอัปเดต โหลดหน้านี้ซ้ำ (F5)"
+  },
+  "full_yt_dl_panel_title": {
+    "message": "ดาวน์โหลด"
+  },
+  "full_yt_dl_panel_state": {
+    "message": "วิดีโอ MP4"
+  },
+  "full_yt_dl_thumb": {
+    "message": "ภาพขนาดย่อ"
+  },
+  "full_yt_dl_thumb_title": {
+    "message": "ดาวน์โหลดภาพขนาดย่อของวิดีโอ (ขนาดใหญ่ที่สุด)"
+  },
+  "full_yt_dl_snapshot": {
+    "message": "จับภาพ"
+  },
+  "full_yt_dl_snapshot_title": {
+    "message": "จับภาพเฟรมปัจจุบัน (Alt+Shift+S)"
+  },
+  "full_yt_dl_host_missing": {
+    "message": "ยังไม่ได้ติดตั้งตัวดาวน์โหลดวิดีโอ (yt-dlp) คลิกไอคอนส่วนขยาย → ดาวน์โหลด เพื่อดูวิธีติดตั้ง รูปภาพยังใช้งานได้"
+  },
+  "full_yt_toast_watch_only": {
+    "message": "ดาวน์โหลดได้เฉพาะในหน้าวิดีโอ"
+  },
+  "full_yt_toast_download_start_failed": {
+    "message": "เริ่มดาวน์โหลดไม่ได้"
+  },
+  "full_yt_toast_download_started": {
+    "message": "เริ่มดาวน์โหลดแล้ว · $1"
+  },
+  "full_yt_dl_cancel": {
+    "message": "ยกเลิกการดาวน์โหลด"
+  },
+  "full_yt_dl_open_file": {
+    "message": "เปิดไฟล์"
+  },
+  "full_yt_dl_show_in_folder": {
+    "message": "แสดงในโฟลเดอร์"
+  },
+  "full_yt_toast_download_done": {
+    "message": "ดาวน์โหลดเสร็จแล้ว"
+  },
+  "full_yt_toast_download_failed": {
+    "message": "ดาวน์โหลดไม่สำเร็จ"
+  },
+  "full_yt_toast_thumb_loading": {
+    "message": "กำลังดาวน์โหลดภาพขนาดย่อ…"
+  },
+  "full_yt_thumb_filename": {
+    "message": "$1 - ภาพขนาดย่อ"
+  },
+  "full_yt_toast_thumb_saved": {
+    "message": "บันทึกภาพขนาดย่อแล้ว"
+  },
+  "full_yt_toast_thumb_failed_reason": {
+    "message": "ดาวน์โหลดภาพขนาดย่อไม่ได้: $1"
+  },
+  "full_yt_toast_thumb_failed": {
+    "message": "ดาวน์โหลดภาพขนาดย่อไม่ได้"
+  },
+  "yt_toast_pip_failed": {
+    "message": "เปิดการแสดงภาพซ้อนภาพไม่ได้"
+  },
+  "yt_toast_lights_off": {
+    "message": "ปิดไฟแล้ว · กด Esc เพื่อเปิดไฟ"
+  },
+  "yt_toast_lights_on": {
+    "message": "เปิดไฟแล้ว"
+  },
+  "yt_toast_cinema_on": {
+    "message": "โหมดโรงภาพยนตร์ · กด Esc เพื่อออก"
+  },
+  "yt_toast_cinema_off": {
+    "message": "ออกจากโหมดโรงภาพยนตร์แล้ว"
+  },
+  "yt_toast_transform_reset": {
+    "message": "รีเซ็ตวิดีโอแล้ว"
+  },
+  "yt_toast_zoom_reset": {
+    "message": "รีเซ็ตการซูมแล้ว"
+  },
+  "yt_toast_pan_hint": {
+    "message": "$1 · ลากวิดีโอเพื่อเลื่อนภาพ"
+  },
+  "yt_toast_watch_only": {
+    "message": "ใช้ได้เฉพาะในหน้าวิดีโอ"
+  },
+  "full_yt_btn_download": {
+    "message": "ดาวน์โหลด"
+  },
+  "yt_btn_pip": {
+    "message": "การแสดงภาพซ้อนภาพ (Alt+Shift+P)"
+  },
+  "yt_btn_transform": {
+    "message": "หมุน/พลิกและซูม"
+  },
+  "yt_btn_lights_off": {
+    "message": "ปิดไฟ (Alt+Shift+L)"
+  },
+  "yt_btn_cinema": {
+    "message": "โหมดโรงภาพยนตร์ (Alt+Shift+C)"
+  },
+  "yt_zoom_reset_title": {
+    "message": "รีเซ็ตการซูม (กลับเป็น 100%)"
+  },
+  "yt_transform_panel_title": {
+    "message": "หมุน/พลิกและซูม"
+  },
+  "yt_panel_zoom_crop": {
+    "message": "ซูมและครอบตัด"
+  },
+  "yt_btn_autocrop": {
+    "message": "ครอบตัดอัตโนมัติ"
+  },
+  "yt_btn_autocrop_title": {
+    "message": "ครอบตัดแถบดำอัตโนมัติ (Alt+Shift+A)"
+  },
+  "yt_btn_fill": {
+    "message": "เต็มกรอบ"
+  },
+  "yt_btn_zoom_out_title": {
+    "message": "ซูมออก (Alt+Shift+−)"
+  },
+  "yt_btn_zoom_in_title": {
+    "message": "ซูมเข้า (Alt+Shift++)"
+  },
+  "yt_btn_lights_on": {
+    "message": "เปิดไฟ (Alt+Shift+L)"
+  },
+  "yt_btn_cinema_exit": {
+    "message": "ออกจากโหมดโรงภาพยนตร์ (Esc)"
+  },
+  "yt_btn_pip_close": {
+    "message": "ปิดการแสดงภาพซ้อนภาพ (Alt+Shift+P)"
+  },
+  "yt_panel_state_flip_hv": {
+    "message": "$1° · พลิกแนวนอน · พลิกแนวตั้ง"
+  },
+  "yt_panel_state_flip_h": {
+    "message": "$1° · พลิกแนวนอน"
+  },
+  "yt_panel_state_flip_v": {
+    "message": "$1° · พลิกแนวตั้ง"
+  },
+  "yt_err_video_not_ready": {
+    "message": "วิดีโอยังไม่พร้อม ลองอีกครั้งในอีกสักครู่"
+  },
+  "yt_err_frame_unreadable": {
+    "message": "อ่านเฟรมจากวิดีโอนี้ไม่ได้"
+  },
+  "yt_err_scene_too_dark": {
+    "message": "ฉากมืดเกินไป ลองอีกครั้งในฉากที่สว่างกว่านี้"
+  },
+  "yt_toast_no_bars": {
+    "message": "ไม่พบแถบดำ · ขยายเต็มกรอบ $1%"
+  },
+  "yt_toast_bars_cropped": {
+    "message": "ครอบตัดแถบดำแล้ว · $1%"
+  },
+  "yt_toast_fill": {
+    "message": "ขยายเต็มกรอบ · $1%"
+  },
+  "yt_toast_crop_ratio": {
+    "message": "ครอบตัดเป็น $1 · $2%"
+  },
+  "full_dl_hint_mp4": {
+    "message": "MP4 เล่นได้ทุกที่ ไม่เกิน 1080p จะใช้ H.264 เป็นหลัก สูงกว่านั้นใช้ VP9/AV1"
+  },
+  "full_dl_hint_webm": {
+    "message": "WebM (VP9 + Opus): คุณภาพดี ขนาดกะทัดรัด"
+  },
+  "full_dl_hint_mkv": {
+    "message": "MKV เก็บโคเดกที่ดีที่สุดที่มี (ปกติคือ AV1) เหมาะสำหรับเก็บถาวร"
+  },
+  "full_dl_hint_mp3": {
+    "message": "MP3 เล่นได้ทุกที่ (เข้ารหัสใหม่จากเสียงต้นฉบับ)"
+  },
+  "full_dl_hint_m4a": {
+    "message": "M4A (AAC): ปกติเป็นเสียงต้นฉบับตามเดิม ไม่ต้องเข้ารหัสใหม่"
+  },
+  "full_dl_hint_opus": {
+    "message": "Opus: เสียงต้นฉบับของ YouTube ขนาดเล็กที่สุด"
+  },
+  "full_dl_host_checking": {
+    "message": "กำลังตรวจสอบ…"
+  },
+  "full_dl_host_connected": {
+    "message": "เชื่อมต่อแล้ว"
+  },
+  "full_dl_host_save_to": {
+    "message": "บันทึกไปที่: $1"
+  },
+  "full_dl_no_ffmpeg": {
+    "message": "ไม่พบ ffmpeg: ดาวน์โหลดได้เฉพาะรูปแบบที่มีทั้งภาพและเสียงในตัว เรียกใช้ install.bat อีกครั้ง"
+  },
+  "full_dl_setup_missing_title": {
+    "message": "ยังไม่ได้ติดตั้งตัวดาวน์โหลดวิดีโอ"
+  },
+  "full_dl_setup_error_title": {
+    "message": "เชื่อมต่อกับตัวดาวน์โหลดไม่ได้"
+  },
+  "full_dl_setup_missing_text": {
+    "message": "การดาวน์โหลดวิดีโอต้องใช้เครื่องมือ yt-dlp ในคอมพิวเตอร์ของคุณ (ติดตั้งครั้งเดียว ฟรี):"
+  },
+  "full_dl_setup_error_text": {
+    "message": "$1 วิธีแก้ไข:"
+  },
+  "full_dl_retry": {
+    "message": "ลองอีกครั้ง"
+  },
+  "full_dl_analyzing_embed": {
+    "message": "กำลังวิเคราะห์วิดีโอที่ฝังไว้…"
+  },
+  "full_dl_analyzing": {
+    "message": "กำลังวิเคราะห์วิดีโอ…"
+  },
+  "full_dl_analyze_failed": {
+    "message": "วิเคราะห์หน้านี้ไม่ได้"
+  },
+  "full_dl_no_videos": {
+    "message": "ไม่พบวิดีโอในหน้านี้"
+  },
+  "full_dl_entries_title_one": {
+    "message": "หน้านี้มีวิดีโอ $1 รายการ"
+  },
+  "full_dl_entries_title_other": {
+    "message": "หน้านี้มีวิดีโอ $1 รายการ"
+  },
+  "full_dl_live_unsupported": {
+    "message": "ยังดาวน์โหลดการถ่ายทอดสดไม่ได้ ลองอีกครั้งหลังการถ่ายทอดสดจบลง"
+  },
+  "full_dl_max_height": {
+    "message": "สูงสุด $1p"
+  },
+  "full_dl_audio_only_info": {
+    "message": "เสียงอย่างเดียว"
+  },
+  "full_dl_group_video": {
+    "message": "วิดีโอ"
+  },
+  "full_dl_group_audio_only": {
+    "message": "เสียงอย่างเดียว"
+  },
+  "full_dl_audio_format": {
+    "message": "$1 · เสียง"
+  },
+  "full_dl_quality_best": {
+    "message": "ดีที่สุด ($1)"
+  },
+  "full_dl_download_audio": {
+    "message": "ดาวน์โหลดเสียง"
+  },
+  "full_dl_download_audio_size": {
+    "message": "ดาวน์โหลดเสียง · ~$1"
+  },
+  "full_dl_download_video": {
+    "message": "ดาวน์โหลดวิดีโอ"
+  },
+  "full_dl_download_video_size": {
+    "message": "ดาวน์โหลดวิดีโอ · ~$1"
+  },
+  "full_dl_job_cancel": {
+    "message": "ยกเลิกการดาวน์โหลด"
+  },
+  "full_dl_job_open": {
+    "message": "เปิดไฟล์"
+  },
+  "full_dl_job_reveal": {
+    "message": "แสดงในโฟลเดอร์"
+  },
+  "full_dl_stream_playing": {
+    "message": "วิดีโอที่กำลังเล่น"
+  },
+  "full_dl_stream_in_post": {
+    "message": "วิดีโอในโพสต์"
+  },
+  "full_dl_stream_pick": {
+    "message": "เลือก"
+  },
+  "full_dl_stream_embed": {
+    "message": "วิดีโอ $1 ที่ฝังในหน้า"
+  },
+  "full_dl_stream_download": {
+    "message": "ดาวน์โหลด"
+  },
+  "full_dl_stream_sent": {
+    "message": "ส่งต่อให้เบราว์เซอร์ดาวน์โหลดแล้ว"
+  },
+  "full_dl_stream_error": {
+    "message": "ข้อผิดพลาด: $1"
+  },
+  "full_dl_stream_need_host": {
+    "message": "ติดตั้งตัวดาวน์โหลดวิดีโอก่อน (ดูด้านบน)"
+  },
+  "full_dl_stream_started": {
+    "message": "กำลังดาวน์โหลด · ดูความคืบหน้าด้านบน"
+  },
+  "dl_img_upgraded_tip": {
+    "message": "จะดาวน์โหลดเวอร์ชันใหญ่ที่สุดที่พบ"
+  },
+  "dl_img_count_one": {
+    "message": "$1 รูป"
+  },
+  "dl_img_count_other": {
+    "message": "$1 รูป"
+  },
+  "dl_img_count_of_one": {
+    "message": "$2 / $1 รูป"
+  },
+  "dl_img_count_of_other": {
+    "message": "$2 / $1 รูป"
+  },
+  "dl_img_only_small": {
+    "message": "มีเฉพาะภาพเล็ก (ไอคอน) เปิด \"ภาพเล็ก\" เพื่อแสดง"
+  },
+  "dl_img_none": {
+    "message": "ไม่พบรูปภาพในหน้านี้"
+  },
+  "dl_img_deselect": {
+    "message": "ยกเลิกการเลือก"
+  },
+  "dl_img_select_all": {
+    "message": "เลือกทั้งหมด"
+  },
+  "dl_img_download_n_one": {
+    "message": "ดาวน์โหลด $1 รูป"
+  },
+  "dl_img_download_n_other": {
+    "message": "ดาวน์โหลด $1 รูป"
+  },
+  "dl_img_download": {
+    "message": "ดาวน์โหลด"
+  },
+  "dl_img_downloading_one": {
+    "message": "กำลังดาวน์โหลด $1 รูป…"
+  },
+  "dl_img_downloading_other": {
+    "message": "กำลังดาวน์โหลด $1 รูป…"
+  },
+  "dl_img_saved_failed_folder_one": {
+    "message": "บันทึก $1 รูปไปยังโฟลเดอร์ \"$4\" แล้ว · ไม่สำเร็จ $2 รูป ($3)"
+  },
+  "dl_img_saved_failed_folder_other": {
+    "message": "บันทึก $1 รูปไปยังโฟลเดอร์ \"$4\" แล้ว · ไม่สำเร็จ $2 รูป ($3)"
+  },
+  "dl_img_saved_failed_one": {
+    "message": "บันทึกแล้ว $1 รูป · ไม่สำเร็จ $2 รูป ($3)"
+  },
+  "dl_img_saved_failed_other": {
+    "message": "บันทึกแล้ว $1 รูป · ไม่สำเร็จ $2 รูป ($3)"
+  },
+  "dl_img_saved_folder_one": {
+    "message": "บันทึก $1 รูปไปยังโฟลเดอร์ \"$2\" แล้ว"
+  },
+  "dl_img_saved_folder_other": {
+    "message": "บันทึก $1 รูปไปยังโฟลเดอร์ \"$2\" แล้ว"
+  },
+  "dl_img_saved_one": {
+    "message": "บันทึกแล้ว $1 รูป"
+  },
+  "dl_img_saved_other": {
+    "message": "บันทึกแล้ว $1 รูป"
+  },
+  "dl_img_download_failed": {
+    "message": "ดาวน์โหลดไม่สำเร็จ: $1"
+  },
+  "dl_img_unknown_error": {
+    "message": "ข้อผิดพลาดที่ไม่ทราบสาเหตุ"
+  },
+  "dl_snap_label": {
+    "message": "จับภาพ"
+  },
+  "dl_snap_tip": {
+    "message": "จับภาพเฟรมที่กำลังเล่นที่ความละเอียดต้นฉบับ $1×$2"
+  },
+  "dl_scan_system_page": {
+    "message": "สแกนหน้านี้ไม่ได้ (หน้าระบบของเบราว์เซอร์)"
+  },
+  "dl_scanning": {
+    "message": "กำลังสแกนหน้า…"
+  },
+  "dl_scan_failed_file": {
+    "message": "สแกนหน้านี้ไม่ได้ เปิด \"อนุญาตให้เข้าถึง URL ของไฟล์\" ให้ส่วนขยายนี้"
+  },
+  "dl_scan_failed": {
+    "message": "สแกนหน้านี้ไม่ได้"
+  },
+  "full_dl_start_failed": {
+    "message": "เริ่มดาวน์โหลดไม่ได้"
+  },
+  "full_dl_copied": {
+    "message": "คัดลอกแล้ว"
+  },
+  "full_dl_thumb_name": {
+    "message": "$1 - ภาพขนาดย่อ"
+  },
+  "dl_snap_done": {
+    "message": "จับภาพแล้ว $1×$2 · $3"
+  },
+  "dl_snap_failed": {
+    "message": "จับภาพไม่ได้"
+  },
+  "dl_snap_failed_detail": {
+    "message": "จับภาพไม่ได้: $1"
+  },
+  "full_dl_unavailable_page": {
+    "message": "ใช้ในหน้านี้ไม่ได้"
+  },
+  "full_dl_feed_hint": {
+    "message": "นี่คือหน้าฟีด / โปรไฟล์ และยังไม่พบวิดีโอ เล่นวิดีโอที่ต้องการ (หรือเปิดโพสต์ / รีลนั้น) แล้วคลิกปุ่มด้านล่าง"
+  },
+  "full_dl_find_playing": {
+    "message": "ค้นหาวิดีโอที่กำลังเล่น"
+  },
+  "full_dl_feed_retry": {
+    "message": "ยังไม่พบวิดีโอในหน้านี้ เล่นวิดีโอที่ต้องการ (หรือเปิดโพสต์ / รีลนั้น) แล้วลองอีกครั้ง"
+  },
+  "audio_volume_aria": {
+    "message": "ระดับเสียง: $1"
+  },
+  "audio_set_failed": {
+    "message": "เปลี่ยนระดับเสียงของแท็บนี้ไม่ได้"
+  },
+  "audio_tab_switch_tip": {
+    "message": "$1\nคลิกเพื่อสลับไปยังแท็บนี้"
+  },
+  "audio_this_tab": {
+    "message": "แท็บนี้"
+  },
+  "audio_playing": {
+    "message": "กำลังเล่นเสียง"
+  },
+  "audio_pip": {
+    "message": "เปิดวิดีโอของแท็บนี้แบบการแสดงภาพซ้อนภาพ"
+  },
+  "audio_pip_failed": {
+    "message": "เปิดการแสดงภาพซ้อนภาพไม่ได้"
+  },
+  "audio_unmute": {
+    "message": "เปิดเสียง"
+  },
+  "audio_mute": {
+    "message": "ปิดเสียง"
+  },
+  "audio_boost_current_only": {
+    "message": "การเพิ่มเสียงเกิน 100% ใช้ได้เฉพาะในแท็บที่คุณเปิดป๊อปอัป เปิดป๊อปอัปในแท็บนั้นแล้วลองอีกครั้ง"
+  },
+  "bg_file_name_default": {
+    "message": "ไฟล์"
+  },
+  "full_bg_host_missing": {
+    "message": "ยังไม่ได้ติดตั้งตัวดาวน์โหลดวิดีโอในคอมพิวเตอร์เครื่องนี้"
+  },
+  "full_bg_host_forbidden": {
+    "message": "ตัวดาวน์โหลดยังไม่อนุญาตส่วนขยายนี้ (ID เปลี่ยนไป) เรียกใช้ install.bat อีกครั้ง"
+  },
+  "full_bg_host_crash": {
+    "message": "ตัวดาวน์โหลดปิดตัวโดยไม่คาดคิด เรียกใช้ install.bat อีกครั้งหรือดู native-host\\host.log"
+  },
+  "full_bg_host_unreachable": {
+    "message": "เชื่อมต่อกับตัวดาวน์โหลดไม่ได้"
+  },
+  "full_bg_host_no_reply": {
+    "message": "ตัวดาวน์โหลดไม่ตอบสนอง"
+  },
+  "full_bg_invalid_url": {
+    "message": "URL ไม่ถูกต้อง"
+  },
+  "full_bg_job_interrupted": {
+    "message": "ถูกขัดจังหวะก่อนเสร็จ"
+  },
+  "full_bg_unknown_error": {
+    "message": "ข้อผิดพลาดที่ไม่ทราบสาเหตุ"
+  },
+  "full_bg_invalid_choice": {
+    "message": "ตัวเลือกการดาวน์โหลดไม่ถูกต้อง"
+  },
+  "full_bg_host_stopped": {
+    "message": "ตัวดาวน์โหลดหยุดทำงานโดยไม่คาดคิด"
+  },
+  "bg_img_no_url": {
+    "message": "ไม่มี URL ของรูปภาพ"
+  },
+  "bg_img_failed": {
+    "message": "ดาวน์โหลดรูปภาพไม่ได้"
+  },
+  "bg_img_none_selected": {
+    "message": "ยังไม่ได้เลือกรูปภาพ"
+  },
+  "bg_vol_no_tab": {
+    "message": "ไม่ได้ระบุแท็บ"
+  },
+  "bg_vol_cannot_set": {
+    "message": "เปลี่ยนระดับเสียงในหน้านี้ไม่ได้"
+  },
+  "bg_vol_no_tab_info": {
+    "message": "ไม่มีข้อมูลแท็บ"
+  },
+  "bg_vol_capture_failed": {
+    "message": "จับเสียงของแท็บไม่ได้"
+  },
+  "bg_shot_bad_mode": {
+    "message": "โหมดจับภาพไม่ถูกต้อง"
+  },
+  "bg_shot_busy": {
+    "message": "กำลังจับภาพอยู่ โปรดรอสักครู่"
+  },
+  "bg_shot_no_tab": {
+    "message": "ไม่พบแท็บ"
+  },
+  "bg_shot_restricted": {
+    "message": "จับภาพหน้านี้ไม่ได้ (เป็นหน้าระบบของเบราว์เซอร์)"
+  },
+  "bg_img_private_host": {
+    "message": "ไม่ดาวน์โหลดรูปภาพจากที่อยู่เครือข่ายภายใน"
+  },
+  "bg_img_server_status": {
+    "message": "เซิร์ฟเวอร์ส่งข้อผิดพลาด $1"
+  },
+  "bg_img_too_large": {
+    "message": "รูปภาพใหญ่เกินไป (เกิน 50 MB)"
+  },
+  "bg_img_not_image": {
+    "message": "URL นี้ไม่ใช่รูปภาพ"
+  },
+  "bg_img_bad_size": {
+    "message": "ขนาดรูปภาพไม่ถูกต้อง"
+  },
+  "bg_img_unreadable": {
+    "message": "อ่านรูปภาพไม่ได้"
+  },
+  "page_image_name_default": {
+    "message": "รูปภาพ"
+  },
+  "page_image_name_random": {
+    "message": "รูปภาพ-$1"
+  },
+  "page_alt_video_poster": {
+    "message": "ภาพปกวิดีโอ"
+  },
+  "page_alt_page_image": {
+    "message": "ภาพตัวอย่างของหน้า"
+  },
+  "page_snap_no_video": {
+    "message": "ไม่มีวิดีโอที่กำลังแสดง"
+  },
+  "page_snap_failed": {
+    "message": "สร้างรูปภาพไม่ได้"
+  },
+  "page_snap_blocked": {
+    "message": "หน้านี้ไม่อนุญาตให้จับภาพเฟรมวิดีโอ (วิดีโอมาจากเว็บไซต์อื่นหรือได้รับการป้องกัน)"
+  },
+  "page_pip_no_video": {
+    "message": "ไม่พบวิดีโอในหน้านี้"
+  },
+  "page_pip_blocked": {
+    "message": "เบราว์เซอร์บล็อกการแสดงภาพซ้อนภาพ คลิกปุ่มการแสดงภาพซ้อนภาพอีกครั้ง"
+  },
+  "page_pip_failed": {
+    "message": "เปิดการแสดงภาพซ้อนภาพไม่ได้"
+  },
+  "page_pip_failed_detail": {
+    "message": "เปิดการแสดงภาพซ้อนภาพไม่ได้: $1"
+  },
+  "page_shot_select_hint": {
+    "message": "ลากเพื่อเลือกพื้นที่ที่จะจับภาพ · กด Esc เพื่อยกเลิก"
+  },
+  "shot_page_title": {
+    "message": "ภาพหน้าจอของหน้า"
+  },
+  "shot_stitching": {
+    "message": "กำลังต่อภาพ…"
+  },
+  "shot_save_png": {
+    "message": "ดาวน์โหลด PNG"
+  },
+  "shot_save_jpg": {
+    "message": "ดาวน์โหลด JPG"
+  },
+  "shot_copy": {
+    "message": "คัดลอก"
+  },
+  "shot_file_name_default": {
+    "message": "ภาพหน้าจอ"
+  },
+  "shot_file_name_page": {
+    "message": "หน้า"
+  },
+  "shot_err_read_image": {
+    "message": "อ่านภาพหน้าจอไม่ได้"
+  },
+  "shot_err_too_large": {
+    "message": "รูปภาพใหญ่เกินกว่าจะบันทึกได้"
+  },
+  "shot_open_folder": {
+    "message": "เปิดโฟลเดอร์"
+  },
+  "shot_saved": {
+    "message": "บันทึก $1 ไปยังโฟลเดอร์ดาวน์โหลดแล้ว"
+  },
+  "shot_save_failed": {
+    "message": "บันทึกไม่ได้: $1"
+  },
+  "shot_gone_title": {
+    "message": "ภาพหน้าจอไม่มีอยู่แล้ว"
+  },
+  "shot_expired": {
+    "message": "ภาพหน้าจอนี้หมดอายุแล้ว (เบราว์เซอร์หรือส่วนขยายเพิ่งเริ่มใหม่) โปรดจับภาพอีกครั้ง"
+  },
+  "shot_doc_title": {
+    "message": "ภาพหน้าจอ – $1"
+  },
+  "shot_file_name": {
+    "message": "ภาพหน้าจอ $1 $2"
+  },
+  "shot_stitching_progress": {
+    "message": "กำลังต่อภาพ… $1/$2"
+  },
+  "shot_processing": {
+    "message": "กำลังประมวลผลภาพ…"
+  },
+  "shot_err_missing_frame": {
+    "message": "ภาพหน้าจอขาดหายไปบางส่วน โปรดจับภาพอีกครั้ง"
+  },
+  "shot_img_alt": {
+    "message": "ภาพหน้าจอของ $1"
+  },
+  "shot_img_hint": {
+    "message": "คลิกเพื่อสลับระหว่างขนาดจริงกับพอดีหน้าจอ"
+  },
+  "shot_mode_full": {
+    "message": "ทั้งหน้า"
+  },
+  "shot_mode_visible": {
+    "message": "ส่วนที่มองเห็น"
+  },
+  "shot_mode_region": {
+    "message": "พื้นที่ที่เลือก"
+  },
+  "shot_meta_scaled": {
+    "message": "ย่อขนาดลงเพราะหน้ายาวเกินไป"
+  },
+  "shot_meta_truncated": {
+    "message": "จับภาพเฉพาะ $1 px แรก (หน้าที่เลื่อนได้ไม่สิ้นสุด)"
+  },
+  "shot_meta_css_size": {
+    "message": "$1 × $2 px บนหน้า"
+  },
+  "shot_copied": {
+    "message": "คัดลอกภาพแล้ว — วาง (Ctrl+V) ได้ทุกที่ที่ต้องการ"
+  },
+  "shot_copy_failed": {
+    "message": "คัดลอกไม่ได้ (ภาพอาจใหญ่เกินไป): $1"
+  },
+  "share_title": {
+    "message": "ตัวอย่างการแชร์"
+  },
+  "share_subtitle": {
+    "message": "Open Graph · Twitter Card · SEO พื้นฐาน"
+  },
+  "share_url_placeholder": {
+    "message": "https://your-site.co.th/article"
+  },
+  "share_url_aria": {
+    "message": "ที่อยู่ของหน้าที่จะตรวจสอบ"
+  },
+  "share_check_btn": {
+    "message": "ตรวจสอบ"
+  },
+  "share_loading_page": {
+    "message": "กำลังอ่านหน้า…"
+  },
+  "share_empty_title": {
+    "message": "หน้าของคุณดูเป็นอย่างไรเมื่อแชร์"
+  },
+  "share_empty_body": {
+    "message": "ป้อนที่อยู่หน้าด้านบน (หรือคลิก **เครื่องมือ → ตรวจสอบหน้านี้** ในป๊อปอัป) เพื่อดูตัวอย่างลิงก์บน Facebook, Zalo, X, LinkedIn, Discord, Telegram และ Google พร้อมรับคะแนนและคำแนะนำในการแก้ไข"
+  },
+  "share_status_pass": {
+    "message": "ผ่าน:"
+  },
+  "share_status_warn": {
+    "message": "คำเตือน:"
+  },
+  "share_status_fail": {
+    "message": "ข้อผิดพลาด:"
+  },
+  "share_status_info": {
+    "message": "ข้อมูล:"
+  },
+  "share_platform_pass": {
+    "message": "ผ่าน"
+  },
+  "share_platform_warn": {
+    "message": "ควรปรับปรุง"
+  },
+  "share_platform_fail": {
+    "message": "มีข้อผิดพลาด"
+  },
+  "share_loading_raw": {
+    "message": "กำลังดึง HTML ต้นฉบับแบบเดียวกับโปรแกรมรวบรวมข้อมูลของโซเชียลมีเดีย…"
+  },
+  "share_err_unknown": {
+    "message": "อ่านหน้าไม่ได้: ข้อผิดพลาดที่ไม่ทราบสาเหตุ"
+  },
+  "share_err_read_status": {
+    "message": "อ่านหน้าไม่ได้: เซิร์ฟเวอร์ส่งสถานะ $1"
+  },
+  "share_err_read": {
+    "message": "อ่านหน้าไม่ได้: $1"
+  },
+  "share_loading_images": {
+    "message": "กำลังโหลดภาพสำหรับแชร์…"
+  },
+  "share_err_invalid_url": {
+    "message": "ที่อยู่ไม่ถูกต้อง ป้อนที่อยู่หน้าเว็บที่ขึ้นต้นด้วย http:// หรือ https://"
+  },
+  "share_doc_title_score": {
+    "message": "$1/100 – ตัวอย่างการแชร์"
+  },
+  "share_score_aria": {
+    "message": "$1 จาก 100 คะแนน – $2"
+  },
+  "share_page_untitled": {
+    "message": "(หน้านี้ไม่มีชื่อ)"
+  },
+  "share_count_fail_one": {
+    "message": "ข้อผิดพลาด $1 รายการ"
+  },
+  "share_count_fail_other": {
+    "message": "ข้อผิดพลาด $1 รายการ"
+  },
+  "share_count_warn_one": {
+    "message": "คำเตือน $1 รายการ"
+  },
+  "share_count_warn_other": {
+    "message": "คำเตือน $1 รายการ"
+  },
+  "share_count_pass_one": {
+    "message": "ผ่าน $1 รายการ"
+  },
+  "share_count_pass_other": {
+    "message": "ผ่าน $1 รายการ"
+  },
+  "share_platforms_aria": {
+    "message": "สถานะตามแพลตฟอร์ม"
+  },
+  "share_chip_issues": {
+    "message": "ข้อผิดพลาด: $1 คำเตือน: $2"
+  },
+  "share_chip_no_issues": {
+    "message": "ไม่มีปัญหา"
+  },
+  "share_notice_private": {
+    "message": "หน้านี้อยู่ที่ที่อยู่ภายใน (localhost / LAN) โซเชียลมีเดียจึงเข้าถึงไม่ได้ ผลลัพธ์ด้านล่างช่วยให้คุณตรวจสอบแท็กก่อนเผยแพร่หน้าจริง"
+  },
+  "share_notice_no_raw": {
+    "message": "อ่าน HTML ต้นฉบับไม่ได้ (โปรแกรมรวบรวมข้อมูลอาจถูกบล็อกด้วย) คะแนนจึงสูงสุดได้แค่ 49 รายการด้านล่างมาจากหน้าที่แสดงในแท็บ และอาจแตกต่างจากที่โซเชียลมีเดียได้รับ"
+  },
+  "share_notice_raw_only": {
+    "message": "ตรวจสอบเฉพาะ HTML ต้นฉบับ (ไม่ได้เปรียบเทียบกับหน้าที่เปิดในแท็บ)"
+  },
+  "share_pv_no_image": {
+    "message": "ไม่มีรูปภาพ"
+  },
+  "share_pv_svg": {
+    "message": "รูปภาพ SVG: ไม่แสดง"
+  },
+  "share_pv_bad_image": {
+    "message": "ใช้รูปภาพไม่ได้"
+  },
+  "share_pv_untitled": {
+    "message": "(ไม่มีชื่อ)"
+  },
+  "share_x_from": {
+    "message": "จาก $1"
+  },
+  "share_google_no_desc": {
+    "message": "ไม่มี meta description: Google จะเลือกข้อความตัวอย่างจากในหน้าเอง"
+  },
+  "share_sec_preview": {
+    "message": "ตัวอย่าง"
+  },
+  "share_sec_preview_sub": {
+    "message": "การจำลองโดยประมาณว่าแต่ละแพลตฟอร์มแสดงลิงก์อย่างไร รูปแบบจริงอาจเปลี่ยนไปตามเวลา Cinema Tools ไม่มีส่วนเกี่ยวข้องกับแพลตฟอร์มเหล่านี้"
+  },
+  "share_fix_label": {
+    "message": "วิธีแก้ไข:"
+  },
+  "share_filter_issues": {
+    "message": "ต้องดำเนินการ ($1)"
+  },
+  "share_filter_fail": {
+    "message": "ข้อผิดพลาด ($1)"
+  },
+  "share_filter_all": {
+    "message": "ทั้งหมด ($1)"
+  },
+  "share_filter_aria": {
+    "message": "กรองผลลัพธ์"
+  },
+  "share_sec_checks": {
+    "message": "ผลการตรวจสอบ"
+  },
+  "share_checks_none": {
+    "message": "ไม่มีอะไรต้องแก้ไขแล้ว ยอดเยี่ยม!"
+  },
+  "share_img_url": {
+    "message": "URL"
+  },
+  "share_img_size": {
+    "message": "ขนาด"
+  },
+  "share_img_ratio": {
+    "message": "สัดส่วนภาพ"
+  },
+  "share_img_ratio_value": {
+    "message": "$1 : 1 (มาตรฐาน 1.91 : 1)"
+  },
+  "share_img_bytes": {
+    "message": "ขนาดไฟล์"
+  },
+  "share_img_bytes_min": {
+    "message": "$1 ขึ้นไป"
+  },
+  "share_img_format": {
+    "message": "รูปแบบ"
+  },
+  "share_img_http": {
+    "message": "สถานะ HTTP"
+  },
+  "share_img_status_redirected": {
+    "message": "$1 (เปลี่ยนเส้นทาง)"
+  },
+  "share_img_cannot_view": {
+    "message": "แสดงรูปภาพไม่ได้"
+  },
+  "share_img_svg": {
+    "message": "รูปภาพ SVG: โซเชียลมีเดียไม่แสดง และหน้านี้ก็ไม่แสดงเช่นกัน"
+  },
+  "share_img_too_large": {
+    "message": "รูปภาพใหญ่เกินกว่าจะแสดงได้"
+  },
+  "share_img_decode_error": {
+    "message": "รูปภาพเสียหายและถอดรหัสไม่ได้"
+  },
+  "share_img_too_many_pixels": {
+    "message": "รูปภาพมีพิกเซลมากเกินกว่าจะแสดงได้"
+  },
+  "share_img_crop_title": {
+    "message": "พื้นที่ที่แสดงในการ์ดรูปภาพขนาดใหญ่ (1.91:1)"
+  },
+  "share_img_crop_caption": {
+    "message": "กรอบสว่าง: ส่วนที่เหลือเมื่อครอบตัดเป็น 1.91:1"
+  },
+  "share_sec_image": {
+    "message": "ภาพสำหรับแชร์ (og:image)"
+  },
+  "share_sec_tags": {
+    "message": "แท็กที่พบ"
+  },
+  "share_tags_none": {
+    "message": "หน้านี้ไม่มีเมตาแท็กสำหรับการแชร์"
+  },
+  "share_src_raw": {
+    "message": "HTML ต้นฉบับ"
+  },
+  "share_src_dom": {
+    "message": "หน้าที่แสดงผล"
+  },
+  "share_src_js_only": {
+    "message": "เฉพาะ JS"
+  },
+  "share_src_js_changed": {
+    "message": "JS เปลี่ยนค่า"
+  },
+  "share_tags_after_js": {
+    "message": "หลัง JS: $1"
+  },
+  "share_sec_tags_sub": {
+    "message": "\"เฉพาะ JS\": แท็กที่ JavaScript เพิ่มเข้ามา ซึ่งโปรแกรมรวบรวมข้อมูลของโซเชียลมีเดียมองไม่เห็น"
+  },
+  "share_th_tag": {
+    "message": "แท็ก"
+  },
+  "share_th_value": {
+    "message": "ค่า"
+  },
+  "share_th_source": {
+    "message": "แหล่งที่มา"
+  },
+  "share_copy": {
+    "message": "คัดลอก"
+  },
+  "share_copied": {
+    "message": "คัดลอกแล้ว วางลงใน <head> ของหน้า"
+  },
+  "share_copy_failed": {
+    "message": "คัดลอกไม่ได้: $1"
+  },
+  "share_sec_snippet": {
+    "message": "เมตาแท็กที่แนะนำ"
+  },
+  "share_snippet_changes_one": {
+    "message": "$1 บรรทัดที่ต้องเพิ่ม (+) หรือแก้ไข (~) บรรทัดอื่นคงค่าเดิมไว้ แทนที่ข้อความในวงเล็บเหลี่ยม [ ] ด้วยเนื้อหาจริง"
+  },
+  "share_snippet_changes_other": {
+    "message": "$1 บรรทัดที่ต้องเพิ่ม (+) หรือแก้ไข (~) บรรทัดอื่นคงค่าเดิมไว้ แทนที่ข้อความในวงเล็บเหลี่ยม [ ] ด้วยเนื้อหาจริง"
+  },
+  "share_snippet_complete": {
+    "message": "หน้านี้มีแท็กพื้นฐานครบแล้ว"
+  },
+  "share_tools_how": {
+    "message": "เพื่อดูสิ่งที่โปรแกรมรวบรวมข้อมูลเห็น ระบบจะดึงหน้านี้อีกครั้ง (โดยไม่มีคุกกี้) พร้อมภาพสำหรับแชร์และไอคอนที่หน้าประกาศไว้"
+  },
+  "share_tools_caveat": {
+    "message": "โปรแกรมรวบรวมข้อมูลจริงของแต่ละแพลตฟอร์มอาจได้รับเนื้อหาต่างกัน (การบล็อกบอท หน้าเฉพาะสำหรับโปรแกรมรวบรวมข้อมูล) และแพลตฟอร์มจะแคชตัวอย่างไว้ หลังแก้ไขแท็กแล้ว ให้วางที่อยู่ลงในเครื่องมืออย่างเป็นทางการเพื่อยืนยันและรีเฟรช:"
+  },
+  "share_tools_private": {
+    "message": "เครื่องมือเหล่านี้ใช้ได้เมื่อหน้าออนไลน์แล้วเท่านั้น (ไม่ใช่ localhost)"
+  },
+  "share_tool_fb_note": {
+    "message": "– รีเฟรชตัวอย่างสำหรับ Messenger และ Instagram ด้วย"
+  },
+  "share_tool_google_note": {
+    "message": "– ตรวจสอบข้อมูลที่มีโครงสร้าง"
+  },
+  "share_sec_tools": {
+    "message": "ตรวจสอบอีกครั้งบนแพลตฟอร์ม"
+  },
+  "share_err_not_web": {
+    "message": "ตรวจสอบได้เฉพาะหน้าเว็บ (http / https)"
+  },
+  "share_err_tab_closed": {
+    "message": "แท็บที่จะตรวจสอบถูกปิดแล้ว ป้อนที่อยู่หน้าด้านบน"
+  },
+  "share_jsonld_invalid": {
+    "message": "(JSON ไม่ถูกต้อง)"
+  },
+  "share_err_http_only": {
+    "message": "รองรับเฉพาะที่อยู่ http / https"
+  },
+  "share_err_redirect_private": {
+    "message": "ถูกเปลี่ยนเส้นทางไปยังที่อยู่เครือข่ายภายในที่โซเชียลมีเดียโหลดไม่ได้"
+  },
+  "share_err_timeout": {
+    "message": "หมดเวลา ($1 วินาที)"
+  },
+  "share_err_connect": {
+    "message": "เชื่อมต่อกับเซิร์ฟเวอร์ไม่ได้"
+  },
+  "share_err_not_http": {
+    "message": "ไม่ใช่ที่อยู่ http / https"
+  },
+  "share_err_image_private": {
+    "message": "รูปภาพอยู่ที่ที่อยู่เครือข่ายภายใน / คอมพิวเตอร์เครื่องนี้ โซเชียลมีเดียจึงโหลดไม่ได้"
+  },
+  "share_err_http_status": {
+    "message": "เซิร์ฟเวอร์ส่งสถานะ $1"
+  },
+  "chk_group_access": {
+    "message": "โปรแกรมรวบรวมข้อมูลอ่านหน้าได้"
+  },
+  "chk_group_image": {
+    "message": "ภาพสำหรับแชร์"
+  },
+  "chk_group_seo": {
+    "message": "Google และ SEO พื้นฐาน"
+  },
+  "chk_bytes_mb": {
+    "message": "$1 MB"
+  },
+  "chk_bytes_kb": {
+    "message": "$1 KB"
+  },
+  "chk_quoted": {
+    "message": "“$1”"
+  },
+  "chk_raw_ok": {
+    "message": "โหลด HTML ต้นฉบับได้โดยไม่ต้องลงชื่อเข้าใช้"
+  },
+  "chk_raw_redirected": {
+    "message": "เปลี่ยนเส้นทางไปที่ $1"
+  },
+  "chk_raw_not_html": {
+    "message": "URL นี้ไม่ได้ส่งคืนหน้า HTML"
+  },
+  "chk_received": {
+    "message": "ได้รับ: $1"
+  },
+  "chk_received_empty": {
+    "message": "ได้รับ: การตอบกลับว่างเปล่า"
+  },
+  "chk_raw_not_html_fix": {
+    "message": "โซเชียลมีเดียอ่านเมตาแท็กจากหน้า HTML เท่านั้น"
+  },
+  "chk_raw_status": {
+    "message": "เซิร์ฟเวอร์ส่ง HTTP $1 ให้ผู้เข้าชมที่ไม่ได้ลงชื่อเข้าใช้"
+  },
+  "chk_raw_status_detail": {
+    "message": "โปรแกรมรวบรวมข้อมูลของโซเชียลมีเดียเข้าชมหน้าในฐานะผู้เยี่ยมชมที่ไม่ได้ลงชื่อเข้าใช้ จึงอาจได้รับข้อผิดพลาดนี้เช่นกัน ผลลัพธ์ด้านล่างมาจากหน้าที่แสดงอยู่ในแท็บ"
+  },
+  "chk_raw_status_fix": {
+    "message": "อนุญาตการเข้าถึงแบบสาธารณะ ตรวจสอบว่าไฟร์วอลล์ / ระบบป้องกันบอท (Cloudflare…) บล็อกโปรแกรมรวบรวมข้อมูลหรือไม่"
+  },
+  "chk_raw_failed": {
+    "message": "โหลด HTML ต้นฉบับไม่ได้"
+  },
+  "chk_raw_failed_fix": {
+    "message": "ตรวจสอบว่าเข้าถึง URL ของหน้าจากอินเทอร์เน็ตได้"
+  },
+  "chk_raw_size": {
+    "message": "HTML ต้นฉบับใหญ่กว่า 5 MB"
+  },
+  "chk_raw_size_detail": {
+    "message": "อ่านเฉพาะ 5 MB แรก"
+  },
+  "chk_raw_size_fix": {
+    "message": "วางเมตาแท็กไว้ที่ส่วนบนของ <head> และลดขนาด HTML"
+  },
+  "chk_js_only_one": {
+    "message": "แท็ก $1 รายการจะปรากฏหลังจาก JavaScript ทำงานเท่านั้น"
+  },
+  "chk_js_only_other": {
+    "message": "แท็ก $1 รายการจะปรากฏหลังจาก JavaScript ทำงานเท่านั้น"
+  },
+  "chk_js_only_fix": {
+    "message": "Facebook, Zalo, X, LinkedIn, Discord และ Telegram ไม่เรียกใช้ JavaScript จึงมองไม่เห็นแท็กเหล่านี้ ให้เซิร์ฟเวอร์ส่งแท็กมาใน HTML (SSR, หน้าสแตติกที่สร้างไว้ล่วงหน้า หรือ prerendering) หากผู้เข้าชมที่ไม่ได้ลงชื่อเข้าใช้หรือยังไม่ยอมรับคุกกี้เห็นเพียงหน้าที่บล็อกไว้ โปรแกรมรวบรวมข้อมูลก็จะเห็นแค่หน้านั้นเช่นกัน"
+  },
+  "chk_js_only_ok": {
+    "message": "มีแท็กสำหรับการแชร์ใน HTML ต้นฉบับ"
+  },
+  "chk_js_only_ok_detail": {
+    "message": "เพิ่มโดย JavaScript เท่านั้น: $1 (ไม่มีผลต่อแท็กสำหรับการแชร์)"
+  },
+  "chk_changed": {
+    "message": "HTML ต้นฉบับแตกต่างจากหน้าที่แสดงผล"
+  },
+  "chk_changed_line": {
+    "message": "$1: “$2” → “$3”"
+  },
+  "chk_changed_fix": {
+    "message": "โซเชียลมีเดียใช้ค่าใน HTML ต้นฉบับ ปัญหานี้พบบ่อยในแอปหน้าเดียว (SPA) ที่เปลี่ยนแท็กเมื่อนำทาง: เซิร์ฟเวอร์ต้องส่งแท็กที่ถูกต้องสำหรับแต่ละ URL"
+  },
+  "chk_og_title_missing": {
+    "message": "ไม่มี og:title"
+  },
+  "chk_og_title_missing_fallback": {
+    "message": "แพลตฟอร์มจะใช้แท็ก <title> แทน: “$1”"
+  },
+  "chk_og_title_missing_no_title": {
+    "message": "หน้านี้ไม่มี <title> ด้วย"
+  },
+  "chk_og_title_missing_fix": {
+    "message": "เพิ่ม <meta property=\"og:title\" content=\"…\"> – ชื่อที่น่าสนใจ ยาวประมาณ 30–65 ตัวอักษร"
+  },
+  "chk_og_title_long_one": {
+    "message": "og:title ยาว $1 ตัวอักษร อาจถูกตัด"
+  },
+  "chk_og_title_long_other": {
+    "message": "og:title ยาว $1 ตัวอักษร อาจถูกตัด"
+  },
+  "chk_og_title_long_fix": {
+    "message": "ควรยาวประมาณ 30–65 ตัวอักษร โดยใส่ประเด็นสำคัญไว้ก่อน"
+  },
+  "chk_og_title_short_one": {
+    "message": "og:title สั้น ($1 ตัวอักษร)"
+  },
+  "chk_og_title_short_other": {
+    "message": "og:title สั้น ($1 ตัวอักษร)"
+  },
+  "chk_og_title_short_fix": {
+    "message": "ควรยาว 30–65 ตัวอักษรเพื่อให้ครบถ้วนและน่าสนใจยิ่งขึ้น"
+  },
+  "chk_og_title_ok_one": {
+    "message": "มี og:title ($1 ตัวอักษร)"
+  },
+  "chk_og_title_ok_other": {
+    "message": "มี og:title ($1 ตัวอักษร)"
+  },
+  "chk_og_desc_missing": {
+    "message": "ไม่มี og:description"
+  },
+  "chk_og_desc_missing_fallback": {
+    "message": "Facebook และ Zalo จะใช้ meta description แทน"
+  },
+  "chk_og_desc_missing_no_desc": {
+    "message": "หน้านี้ไม่มี meta description ด้วย: การ์ดแชร์จะไม่มีบรรทัดคำอธิบาย"
+  },
+  "chk_og_desc_missing_fix": {
+    "message": "เพิ่ม <meta property=\"og:description\" content=\"…\"> – ประมาณ 60–160 ตัวอักษร"
+  },
+  "chk_og_desc_long_one": {
+    "message": "og:description ยาว $1 ตัวอักษร"
+  },
+  "chk_og_desc_long_other": {
+    "message": "og:description ยาว $1 ตัวอักษร"
+  },
+  "chk_og_desc_long_detail": {
+    "message": "การ์ดแชร์มักแสดงเพียง 1–2 บรรทัด ส่วนที่เหลือจะถูกตัด"
+  },
+  "chk_og_desc_long_fix": {
+    "message": "ย่อให้เหลือประมาณ 60–160 ตัวอักษร โดยใส่ประเด็นสำคัญไว้ก่อน"
+  },
+  "chk_og_desc_short_one": {
+    "message": "og:description สั้น ($1 ตัวอักษร)"
+  },
+  "chk_og_desc_short_other": {
+    "message": "og:description สั้น ($1 ตัวอักษร)"
+  },
+  "chk_og_desc_short_fix": {
+    "message": "ควรยาวประมาณ 60–160 ตัวอักษรเพื่อให้ได้ใจความ"
+  },
+  "chk_og_desc_ok_one": {
+    "message": "มี og:description ($1 ตัวอักษร)"
+  },
+  "chk_og_desc_ok_other": {
+    "message": "มี og:description ($1 ตัวอักษร)"
+  },
+  "chk_og_url_missing": {
+    "message": "ไม่มี og:url"
+  },
+  "chk_og_url_missing_detail": {
+    "message": "ยอดถูกใจ / แชร์อาจแยกกระจายไปหลาย URL (ที่มี ?utm_…, #…)"
+  },
+  "chk_og_url_missing_fix": {
+    "message": "เพิ่ม <meta property=\"og:url\" content=\"URL หลักของหน้า\">"
+  },
+  "chk_og_url_relative": {
+    "message": "og:url ไม่ใช่ URL แบบเต็ม"
+  },
+  "chk_og_url_relative_fix": {
+    "message": "ใช้ URL แบบเต็มที่ขึ้นต้นด้วย https://"
+  },
+  "chk_og_url_mismatch": {
+    "message": "og:url ไม่ตรงกับลิงก์ canonical"
+  },
+  "chk_og_url_mismatch_fix": {
+    "message": "ทั้งสองแท็กควรชี้ไปยัง URL หลักเดียวกัน"
+  },
+  "chk_og_url_ok": {
+    "message": "มี og:url"
+  },
+  "chk_og_type_missing": {
+    "message": "ไม่มี og:type"
+  },
+  "chk_og_type_missing_detail": {
+    "message": "Facebook จะถือเป็น \"website\" โดยค่าเริ่มต้น"
+  },
+  "chk_og_type_missing_fix": {
+    "message": "เพิ่ม <meta property=\"og:type\" content=\"website\"> (สำหรับบทความ: \"article\")"
+  },
+  "chk_og_site_missing": {
+    "message": "ไม่มี og:site_name"
+  },
+  "chk_og_site_missing_detail": {
+    "message": "Discord และ Telegram แสดงชื่อเว็บไซต์ที่บรรทัดแรกของการ์ด หากไม่มีจะแสดงเฉพาะโดเมน"
+  },
+  "chk_og_site_missing_fix": {
+    "message": "เพิ่ม <meta property=\"og:site_name\" content=\"ชื่อแบรนด์\">"
+  },
+  "chk_og_locale_missing": {
+    "message": "ไม่ได้ประกาศ og:locale"
+  },
+  "chk_og_locale_missing_vi": {
+    "message": "ไม่บังคับ หน้าภาษาเวียดนามตั้งค่าเป็น \"vi_VN\" ได้"
+  },
+  "chk_og_locale_optional": {
+    "message": "ไม่บังคับ"
+  },
+  "chk_dup": {
+    "message": "แท็กซ้ำที่มีค่าต่างกัน: $1"
+  },
+  "chk_dup_fix": {
+    "message": "แต่ละแท็กควรมีเพียงครั้งเดียว แพลตฟอร์มอาจเลือกค่าผิด"
+  },
+  "chk_og_image_missing": {
+    "message": "ไม่มี og:image"
+  },
+  "chk_og_image_missing_tw": {
+    "message": "มีเพียง twitter:image (Facebook, Zalo และ LinkedIn ไม่ใช้แท็กนี้)"
+  },
+  "chk_og_image_missing_detail": {
+    "message": "โพสต์ที่แชร์จะไม่มีรูปภาพ หรือแพลตฟอร์มจะเลือกรูปภาพใดก็ได้จากหน้า"
+  },
+  "chk_og_image_missing_fix": {
+    "message": "เพิ่ม <meta property=\"og:image\" content=\"https://…/image-1200x630.jpg\"> – รูปภาพ JPG / PNG ขนาด 1200×630 px"
+  },
+  "chk_og_image_ok": {
+    "message": "มี og:image"
+  },
+  "chk_img_abs_scheme": {
+    "message": "og:image ไม่มี https:"
+  },
+  "chk_img_abs_scheme_fix": {
+    "message": "เขียน URL https://… แบบเต็ม"
+  },
+  "chk_img_abs_relative": {
+    "message": "og:image ต้องเป็น URL แบบเต็ม"
+  },
+  "chk_img_abs_relative_detail": {
+    "message": "ปัจจุบันเป็น “$1”"
+  },
+  "chk_img_abs_relative_fix": {
+    "message": "ใช้ URL แบบเต็ม: $1"
+  },
+  "chk_img_abs_ok": {
+    "message": "og:image เป็น URL แบบเต็ม"
+  },
+  "chk_img_https": {
+    "message": "og:image ใช้ http (ไม่เข้ารหัส)"
+  },
+  "chk_img_https_fix": {
+    "message": "ใช้ https:// เพื่อให้ทุกแพลตฟอร์มโหลดได้"
+  },
+  "chk_tw_image_ok": {
+    "message": "โหลด twitter:image ได้"
+  },
+  "chk_tw_image_failed": {
+    "message": "โหลด twitter:image ไม่ได้"
+  },
+  "chk_tw_image_failed_fix": {
+    "message": "ตรวจสอบ URL ของรูปภาพ"
+  },
+  "chk_tw_card_missing": {
+    "message": "ไม่มี twitter:card"
+  },
+  "chk_tw_card_missing_detail": {
+    "message": "X อาจไม่แสดงการ์ดรูปภาพขนาดใหญ่สำหรับลิงก์"
+  },
+  "chk_tw_card_missing_fix": {
+    "message": "เพิ่ม <meta name=\"twitter:card\" content=\"summary_large_image\">"
+  },
+  "chk_tw_card_invalid": {
+    "message": "twitter:card ไม่ถูกต้อง: “$1”"
+  },
+  "chk_tw_card_invalid_detail": {
+    "message": "ค่าที่ถูกต้อง: $1"
+  },
+  "chk_tw_card_invalid_fix": {
+    "message": "ใช้ \"summary_large_image\" สำหรับรูปภาพแนวนอนขนาดใหญ่"
+  },
+  "chk_tw_card_summary": {
+    "message": "การ์ดขนาดเล็ก (รูปภาพสี่เหลี่ยมจัตุรัสด้านข้าง) หากต้องการรูปภาพขนาดใหญ่ ให้ใช้ summary_large_image"
+  },
+  "chk_tw_fallback": {
+    "message": "ไม่มี $1"
+  },
+  "chk_tw_fallback_detail": {
+    "message": "ไม่เป็นไร: X จะใช้ og:title / og:description / og:image แทน"
+  },
+  "chk_title_missing": {
+    "message": "ไม่มีแท็ก <title>"
+  },
+  "chk_title_missing_fix": {
+    "message": "เพิ่ม <title> ที่อธิบายหน้าได้ถูกต้อง ยาวประมาณ 30–60 ตัวอักษร"
+  },
+  "chk_title_long_one": {
+    "message": "<title> ยาว $1 ตัวอักษร"
+  },
+  "chk_title_long_other": {
+    "message": "<title> ยาว $1 ตัวอักษร"
+  },
+  "chk_title_long_fix": {
+    "message": "Google มักตัดชื่อที่ยาวเกิน ~60 ตัวอักษร ควรย่อให้สั้นลง"
+  },
+  "chk_title_short_one": {
+    "message": "<title> สั้น ($1 ตัวอักษร)"
+  },
+  "chk_title_short_other": {
+    "message": "<title> สั้น ($1 ตัวอักษร)"
+  },
+  "chk_title_short_fix": {
+    "message": "ควรยาว 30–60 ตัวอักษร และมีคีย์เวิร์ดหลัก"
+  },
+  "chk_title_ok_one": {
+    "message": "มี <title> ($1 ตัวอักษร)"
+  },
+  "chk_title_ok_other": {
+    "message": "มี <title> ($1 ตัวอักษร)"
+  },
+  "chk_desc_missing": {
+    "message": "ไม่มี meta description"
+  },
+  "chk_desc_missing_detail": {
+    "message": "Google จะเลือกข้อความบางส่วนจากหน้ามาเป็นคำอธิบายเอง"
+  },
+  "chk_desc_missing_fix": {
+    "message": "เพิ่ม <meta name=\"description\" content=\"…\"> ยาวประมาณ 70–160 ตัวอักษร"
+  },
+  "chk_desc_long_one": {
+    "message": "meta description ยาว $1 ตัวอักษร"
+  },
+  "chk_desc_long_other": {
+    "message": "meta description ยาว $1 ตัวอักษร"
+  },
+  "chk_desc_long_detail": {
+    "message": "Google มักตัดที่ประมาณ 160 ตัวอักษร"
+  },
+  "chk_desc_long_fix": {
+    "message": "ย่อให้เหลือ 70–160 ตัวอักษร"
+  },
+  "chk_desc_short_one": {
+    "message": "meta description สั้น ($1 ตัวอักษร)"
+  },
+  "chk_desc_short_other": {
+    "message": "meta description สั้น ($1 ตัวอักษร)"
+  },
+  "chk_desc_short_fix": {
+    "message": "ควรยาว 70–160 ตัวอักษร"
+  },
+  "chk_desc_ok_one": {
+    "message": "มี meta description ($1 ตัวอักษร)"
+  },
+  "chk_desc_ok_other": {
+    "message": "มี meta description ($1 ตัวอักษร)"
+  },
+  "chk_canonical_missing": {
+    "message": "ไม่มีลิงก์ canonical"
+  },
+  "chk_canonical_missing_detail": {
+    "message": "หน้าที่เข้าถึงได้จากหลาย URL (พารามิเตอร์, http/https, www) อาจถูกมองว่าเป็นหน้าซ้ำ"
+  },
+  "chk_canonical_missing_fix": {
+    "message": "เพิ่ม <link rel=\"canonical\" href=\"https://…\">"
+  },
+  "chk_canonical_relative": {
+    "message": "canonical ไม่ใช่ URL แบบเต็ม"
+  },
+  "chk_canonical_relative_fix": {
+    "message": "ใช้ URL แบบเต็ม: $1"
+  },
+  "chk_canonical_ok": {
+    "message": "มีลิงก์ canonical"
+  },
+  "chk_robots_noindex": {
+    "message": "หน้านี้บล็อกไม่ให้ Google จัดทำดัชนี (noindex)"
+  },
+  "chk_robots_ok": {
+    "message": "เครื่องมือค้นหาจัดทำดัชนีหน้านี้ได้"
+  },
+  "chk_robots_noindex_fix": {
+    "message": "นำ \"noindex\" ออกหากต้องการให้หน้าปรากฏบน Google"
+  },
+  "chk_lang_ok": {
+    "message": "ประกาศภาษาแล้ว: lang=\"$1\""
+  },
+  "chk_lang_missing": {
+    "message": "ไม่มีแอตทริบิวต์ lang ใน <html>"
+  },
+  "chk_lang_missing_fix": {
+    "message": "เพิ่ม <html lang=\"th\"> (ใช้รหัสภาษาของหน้า)"
+  },
+  "chk_viewport_ok": {
+    "message": "มี meta viewport (แสดงผลดีบนโทรศัพท์)"
+  },
+  "chk_viewport_missing": {
+    "message": "ไม่มี meta viewport"
+  },
+  "chk_viewport_missing_fix": {
+    "message": "เพิ่ม <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+  },
+  "chk_favicon_ok": {
+    "message": "มีไอคอนเว็บไซต์ (favicon)"
+  },
+  "chk_favicon_failed": {
+    "message": "ประกาศ favicon ไว้แต่โหลดไม่ได้"
+  },
+  "chk_favicon_failed_fix": {
+    "message": "ตรวจสอบ URL ของไอคอน"
+  },
+  "chk_favicon_ico": {
+    "message": "พบ /favicon.ico"
+  },
+  "chk_favicon_missing": {
+    "message": "ไม่มีไอคอนเว็บไซต์ (favicon)"
+  },
+  "chk_favicon_ico_detail": {
+    "message": "ควรประกาศ <link rel=\"icon\"> ด้วย (ภาพสี่เหลี่ยมจัตุรัส อย่างน้อย 48×48)"
+  },
+  "chk_favicon_missing_detail": {
+    "message": "Google แสดงไอคอนเว็บไซต์ข้างผลการค้นหา"
+  },
+  "chk_favicon_missing_fix": {
+    "message": "เพิ่ม <link rel=\"icon\" href=\"/favicon.png\"> (ภาพสี่เหลี่ยมจัตุรัส อย่างน้อย 48×48)"
+  },
+  "chk_h1_count_one": {
+    "message": "พบหัวข้อ H1 $1 รายการ"
+  },
+  "chk_h1_count_other": {
+    "message": "พบหัวข้อ H1 $1 รายการ"
+  },
+  "chk_h1_missing": {
+    "message": "ไม่มีหัวข้อ H1"
+  },
+  "chk_h1_missing_fix": {
+    "message": "แต่ละหน้าควรมีหัวข้อหลัก <h1> หนึ่งรายการ"
+  },
+  "chk_jsonld_ok": {
+    "message": "พบข้อมูลที่มีโครงสร้าง (JSON-LD)"
+  },
+  "chk_jsonld_missing": {
+    "message": "ไม่มีข้อมูลที่มีโครงสร้าง (JSON-LD)"
+  },
+  "chk_jsonld_missing_detail": {
+    "message": "ช่วยให้ Google แสดงผลการค้นหาที่เป็นริชมีเดีย (คะแนน ราคา คำถามที่พบบ่อย…)"
+  },
+  "chk_jsonld_missing_fix": {
+    "message": "เพิ่มมาร์กอัป schema.org ที่เหมาะสม (Organization, Article, Product…)"
+  },
+  "chk_img_load_failed": {
+    "message": "โหลดภาพสำหรับแชร์ไม่ได้"
+  },
+  "chk_img_load_failed_fix": {
+    "message": "ตรวจสอบว่ารูปภาพเข้าถึงได้แบบสาธารณะ (ไม่ต้องลงชื่อเข้าใช้) และ URL ถูกต้อง"
+  },
+  "chk_img_load_ok": {
+    "message": "โหลดภาพสำหรับแชร์ได้"
+  },
+  "chk_img_too_large": {
+    "message": "รูปภาพใหญ่เกินไป (เกิน 20 MB)"
+  },
+  "chk_img_too_large_fix": {
+    "message": "Facebook รับรูปภาพได้ไม่เกิน 8 MB และ X ไม่เกิน 5 MB บีบอัดรูปภาพให้ต่ำกว่า 1 MB"
+  },
+  "chk_img_redirected": {
+    "message": "เปลี่ยนเส้นทาง"
+  },
+  "chk_img_svg": {
+    "message": "ไม่รองรับรูปภาพ SVG"
+  },
+  "chk_img_svg_detail": {
+    "message": "Facebook, X, LinkedIn… ไม่แสดงรูปภาพ SVG"
+  },
+  "chk_img_svg_fix": {
+    "message": "ส่งออกรูปภาพเป็น JPG หรือ PNG"
+  },
+  "chk_img_format_unknown": {
+    "message": "ไม่รู้จักรูปแบบรูปภาพ"
+  },
+  "chk_img_format_unknown_detail": {
+    "message": "เซิร์ฟเวอร์รายงานว่าเป็น $1"
+  },
+  "chk_img_use_jpg_png": {
+    "message": "ใช้ JPG หรือ PNG เพื่อความแน่นอน"
+  },
+  "chk_img_not_image": {
+    "message": "URL ของ og:image ไม่ได้ส่งคืนรูปภาพ"
+  },
+  "chk_received_unknown": {
+    "message": "ได้รับ: ไม่ทราบประเภท"
+  },
+  "chk_img_not_image_fix": {
+    "message": "ชี้ og:image ไปยังไฟล์รูปภาพจริง"
+  },
+  "chk_img_corrupt": {
+    "message": "รูปภาพเสียหายหรืออ่านไม่ได้"
+  },
+  "chk_img_corrupt_fix": {
+    "message": "ส่งออกรูปภาพใหม่เป็น JPG / PNG"
+  },
+  "chk_img_format_ok": {
+    "message": "รองรับรูปแบบ $1"
+  },
+  "chk_img_format_partial": {
+    "message": "รูปแบบ $1 ยังไม่รองรับในทุกแพลตฟอร์ม"
+  },
+  "chk_img_bytes_fb": {
+    "message": "รูปภาพมีขนาด $1: Facebook จะไม่ใช้ (สูงสุด 8 MB)"
+  },
+  "chk_img_compress": {
+    "message": "บีบอัดรูปภาพให้ต่ำกว่า 1 MB"
+  },
+  "chk_img_bytes_x": {
+    "message": "รูปภาพมีขนาด $1: X จะไม่แสดง (สูงสุด 5 MB)"
+  },
+  "chk_img_bytes_heavy": {
+    "message": "รูปภาพขนาดใหญ่ ($1)"
+  },
+  "chk_img_bytes_heavy_detail": {
+    "message": "รูปภาพขนาดใหญ่โหลดช้า และแอปรับส่งข้อความบางแอปอาจข้ามไป"
+  },
+  "chk_img_bytes_heavy_fix": {
+    "message": "บีบอัดให้ต่ำกว่า 1 MB (JPG คุณภาพ ~80%)"
+  },
+  "chk_img_bytes_ok": {
+    "message": "ขนาดรูปภาพ: $1"
+  },
+  "chk_img_dim_ok": {
+    "message": "ขนาด $1×$2 px"
+  },
+  "chk_img_dim_ok_detail": {
+    "message": "คมชัดพอสำหรับการ์ดรูปภาพขนาดใหญ่"
+  },
+  "chk_img_dim_low": {
+    "message": "รูปภาพขนาด $1×$2 px ยังไม่คมชัดพอ"
+  },
+  "chk_img_dim_low_detail": {
+    "message": "ยังแสดงเป็นรูปภาพขนาดใหญ่ แต่จะเบลอบนหน้าจอความละเอียดสูง"
+  },
+  "chk_img_dim_low_fix": {
+    "message": "ใช้ 1200×630 px"
+  },
+  "chk_img_dim_small": {
+    "message": "รูปภาพขนาด $1×$2 px เล็ก"
+  },
+  "chk_img_dim_small_detail": {
+    "message": "Facebook จะแสดงเป็นภาพขนาดย่อด้านข้างแทนรูปภาพขนาดใหญ่ (ต่ำกว่า 600×315)"
+  },
+  "chk_img_use_1200": {
+    "message": "ใช้รูปภาพขนาด 1200×630 px"
+  },
+  "chk_img_dim_tiny": {
+    "message": "รูปภาพขนาด $1×$2 px เล็กเกินไป"
+  },
+  "chk_img_dim_tiny_detail": {
+    "message": "Facebook ไม่ใช้รูปภาพที่เล็กกว่า 200×200"
+  },
+  "chk_img_ratio": {
+    "message": "สัดส่วนภาพ $1:1"
+  },
+  "chk_img_ratio_ok": {
+    "message": "ตรงกับกรอบ 1.91:1 ของการ์ดรูปภาพขนาดใหญ่"
+  },
+  "chk_img_ratio_off": {
+    "message": "การ์ดรูปภาพขนาดใหญ่ใช้กรอบประมาณ 1.91:1 รูปภาพจึงจะถูกครอบตัด (ดูตัวอย่าง)"
+  },
+  "chk_img_ratio_fix": {
+    "message": "ใช้รูปภาพขนาด 1200×630 px โดยวางเนื้อหาสำคัญไว้ตรงกลาง"
+  },
+  "chk_img_declared_missing": {
+    "message": "ไม่ได้ประกาศ og:image:width / og:image:height"
+  },
+  "chk_img_declared_missing_detail": {
+    "message": "การประกาศค่าเหล่านี้ช่วยให้ Facebook แสดงรูปภาพได้ตั้งแต่การแชร์ครั้งแรก (โดยไม่ต้องรอดาวน์โหลดรูปภาพ)"
+  },
+  "chk_img_declared_missing_fix": {
+    "message": "เพิ่ม <meta property=\"og:image:width\" content=\"$1\"> และ <meta property=\"og:image:height\" content=\"$2\">"
+  },
+  "chk_img_declared_mismatch": {
+    "message": "ขนาดที่ประกาศไม่ตรงกับรูปภาพจริง"
+  },
+  "chk_img_declared_mismatch_detail": {
+    "message": "ประกาศไว้ $1×$2 ขนาดจริง $3×$4"
+  },
+  "chk_img_declared_mismatch_fix": {
+    "message": "เปลี่ยนเป็น $1 และ $2"
+  },
+  "chk_img_declared_ok": {
+    "message": "ประกาศ og:image:width / height ถูกต้อง"
+  },
+  "chk_img_alt_ok": {
+    "message": "มีคำอธิบายรูปภาพ (alt)"
+  },
+  "chk_img_alt_missing": {
+    "message": "ไม่มีคำอธิบายรูปภาพ (og:image:alt)"
+  },
+  "chk_img_alt_missing_detail": {
+    "message": "ผู้ใช้โปรแกรมอ่านหน้าจอจะไม่รู้ว่ารูปภาพแสดงอะไร"
+  },
+  "chk_img_alt_missing_fix": {
+    "message": "เพิ่ม <meta property=\"og:image:alt\" content=\"…\">"
+  },
+  "chk_grade_great": {
+    "message": "ยอดเยี่ยม"
+  },
+  "chk_grade_good": {
+    "message": "ดี"
+  },
+  "chk_grade_fair": {
+    "message": "ควรปรับปรุง"
+  },
+  "chk_grade_poor": {
+    "message": "แย่"
+  },
+  "chk_suggest_title_placeholder": {
+    "message": "[ชื่อหน้า (30–65 ตัวอักษร)]"
+  },
+  "chk_suggest_desc_placeholder": {
+    "message": "[คำอธิบายสั้นๆ ที่น่าสนใจ (60–160 ตัวอักษร)]"
+  },
+  "chk_suggest_image_url": {
+    "message": "https://$1/share-image-1200x630.jpg"
+  },
+  "chk_suggest_domain_placeholder": {
+    "message": "example.co.th"
+  },
+  "chk_suggest_note_basic": {
+    "message": "พื้นฐาน (Google)"
+  },
+  "chk_suggest_alt_placeholder": {
+    "message": "[คำอธิบายเนื้อหาของรูปภาพ]"
+  },
+  "chk_suggest_site_placeholder": {
+    "message": "[ชื่อแบรนด์]"
+  },
+  "chk_suggest_note_x": {
+    "message": "X (Twitter): ชื่อ คำอธิบาย และรูปภาพใช้จากแท็ก og:* ด้านบน"
+  }
+}

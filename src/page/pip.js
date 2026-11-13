@@ -8,8 +8,9 @@
  */
 (() => {
   'use strict';
-  const VERSION = 2;
+  const VERSION = 3;
   if (globalThis.__CT_PIP && globalThis.__CT_PIP.version >= VERSION) return;
+  const { t } = globalThis.YTX_I18N; // src/shared/i18n.js được chèn / nạp trước file này
 
   const isYouTube = /(^|\.)youtube\.com$/.test(location.hostname);
   const listeners = globalThis.__CT_PIP ? globalThis.__CT_PIP.listeners : new Set();
@@ -45,7 +46,7 @@
   async function open(opts = {}) {
     if (isOpen()) return { ok: true, open: true, already: true };
     const video = opts.video && opts.video.isConnected && opts.video.readyState > 0 ? opts.video : pickVideo();
-    if (!video) return { ok: false, reason: 'no-video', error: 'Không thấy video nào trên trang này.' };
+    if (!video) return { ok: false, reason: 'no-video', error: t('page_pip_no_video') };
     // Một số trang cấm cửa sổ nổi cho video của họ; người dùng tự bấm thì vẫn cho mở.
     if (video.disablePictureInPicture) video.disablePictureInPicture = false;
     try {
@@ -55,8 +56,8 @@
       return {
         ok: false,
         reason: gesture ? 'gesture' : 'error',
-        error: gesture ? 'Trình duyệt chặn mở cửa sổ nổi. Hãy bấm lại nút Cửa sổ nổi.'
-          : `Không mở được cửa sổ nổi${err && err.message ? `: ${err.message}` : ''}`,
+        error: gesture ? t('page_pip_blocked')
+          : err && err.message ? t('page_pip_failed_detail', err.message) : t('page_pip_failed'),
       };
     }
     video.addEventListener('leavepictureinpicture', notify, { once: true });

@@ -37,7 +37,7 @@
       const { settings } = await storage.get('settings');
       YTX.settings = { ...SHARED.DEFAULTS, ...(settings || {}) };
     } catch (err) {
-      console.warn('[Cinema Tools] Không đọc được cài đặt', err);
+      console.warn('[Cinema Tools] Could not read settings', err);
     }
     return YTX.settings;
   };

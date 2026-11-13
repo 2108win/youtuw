@@ -1,0 +1,2036 @@
+{
+  "locale_code": {
+    "message": "tr"
+  },
+  "ext_name": {
+    "message": "YouTube için Cinema Tools"
+  },
+  "ext_desc": {
+    "message": "YouTube videolarını döndürme ve çevirme, ortam ışıklı karartma. Pencere içinde pencere, sekme sesi; video, ses ve görsel indirme."
+  },
+  "ext_name_store": {
+    "message": "Cinema Tools – Video izleme araçları"
+  },
+  "ext_desc_store": {
+    "message": "YouTube videolarını döndürme, çevirme, yakınlaştırma; ortam ışıklı karartma. Pencere içinde pencere, sekme sesi, ekran görüntüsü."
+  },
+  "cmd_toggle_pip": {
+    "message": "Geçerli sekmedeki videoyu Pencere içinde pencere modunda aç / kapat"
+  },
+  "cmd_capture_page": {
+    "message": "Geçerli sayfanın tamamının ekran görüntüsünü al"
+  },
+  "act_flip_h": {
+    "message": "Yatay çevir"
+  },
+  "act_flip_v": {
+    "message": "Dikey çevir"
+  },
+  "act_rotate_left": {
+    "message": "Sola döndür 90°"
+  },
+  "act_rotate_right": {
+    "message": "Sağa döndür 90°"
+  },
+  "act_rotate_180": {
+    "message": "180° döndür"
+  },
+  "act_reset_transform": {
+    "message": "Sıfırla"
+  },
+  "act_toggle_lights": {
+    "message": "Işıkları kapat / aç"
+  },
+  "act_toggle_cinema": {
+    "message": "Sinema modu"
+  },
+  "act_auto_crop": {
+    "message": "Siyah şeritleri otomatik kırp"
+  },
+  "act_fill_frame": {
+    "message": "Kareyi doldur"
+  },
+  "act_crop_21x9": {
+    "message": "21:9 oranına kırp"
+  },
+  "act_crop_4x3": {
+    "message": "4:3 oranına kırp"
+  },
+  "act_zoom_in": {
+    "message": "Yakınlaştır"
+  },
+  "act_zoom_out": {
+    "message": "Uzaklaştır"
+  },
+  "act_reset_zoom": {
+    "message": "Yakınlaştırmayı sıfırla"
+  },
+  "act_snapshot": {
+    "message": "Kareyi yakala"
+  },
+  "full_act_download_thumb": {
+    "message": "Küçük resmi indir"
+  },
+  "act_toggle_pip": {
+    "message": "Pencere içinde pencere"
+  },
+  "act_pip_no_video": {
+    "message": "Bu sayfada video bulunamadı."
+  },
+  "act_pip_unavailable": {
+    "message": "Pencere içinde pencere bu sayfada kullanılamıyor."
+  },
+  "full_act_stage_merge": {
+    "message": "Video ve ses birleştiriliyor…"
+  },
+  "full_act_stage_extract_audio": {
+    "message": "Ses dönüştürülüyor…"
+  },
+  "full_act_stage_metadata": {
+    "message": "Dosya bilgileri yazılıyor…"
+  },
+  "full_act_stage_move_files": {
+    "message": "Dosya kaydediliyor…"
+  },
+  "full_act_stage_convert": {
+    "message": "Biçim dönüştürülüyor…"
+  },
+  "full_act_stage_embed_thumb": {
+    "message": "Küçük resim ekleniyor…"
+  },
+  "full_act_stage_fixup": {
+    "message": "Dosya düzeltiliyor…"
+  },
+  "full_act_stage_processing": {
+    "message": "İşleniyor…"
+  },
+  "full_act_choice_audio": {
+    "message": "Ses $1"
+  },
+  "full_act_quality_best": {
+    "message": "En iyi"
+  },
+  "full_act_job_starting": {
+    "message": "Video bilgileri alınıyor…"
+  },
+  "full_act_job_part_audio": {
+    "message": "Ses"
+  },
+  "full_act_job_part_video": {
+    "message": "Video $1p"
+  },
+  "full_act_job_part_any": {
+    "message": "İndiriliyor"
+  },
+  "full_act_job_eta": {
+    "message": "$1 kaldı"
+  },
+  "full_act_job_done": {
+    "message": "Kaydedildi"
+  },
+  "full_act_job_done_size": {
+    "message": "Kaydedildi · $1"
+  },
+  "full_act_job_cancelled": {
+    "message": "İptal edildi"
+  },
+  "full_act_job_error": {
+    "message": "Hata: $1"
+  },
+  "full_act_job_error_unknown": {
+    "message": "bilinmiyor"
+  },
+  "full_popup_brand_sub": {
+    "message": "YouTube için"
+  },
+  "popup_brand_sub_store": {
+    "message": "video izleme araçları"
+  },
+  "popup_pip_title": {
+    "message": "Oynatılan videoyu tüm uygulamaların üstünde Pencere içinde pencere olarak aç (Alt+P)"
+  },
+  "popup_pip": {
+    "message": "Mini pencere"
+  },
+  "popup_pip_no_video": {
+    "message": "Video yok"
+  },
+  "popup_pip_failed": {
+    "message": "Açılamadı"
+  },
+  "popup_settings": {
+    "message": "Ayarlar"
+  },
+  "popup_sections": {
+    "message": "Bölümler"
+  },
+  "popup_tab_video": {
+    "message": "Video"
+  },
+  "popup_tab_audio": {
+    "message": "Ses"
+  },
+  "full_popup_tab_download": {
+    "message": "İndir"
+  },
+  "popup_tab_images": {
+    "message": "Görseller"
+  },
+  "popup_tab_tools": {
+    "message": "Araçlar"
+  },
+  "popup_lights_title": {
+    "message": "Işıkları kapat"
+  },
+  "popup_lights_on_title": {
+    "message": "Işıklar kapalı"
+  },
+  "popup_cinema_title": {
+    "message": "Sinema modu"
+  },
+  "popup_cinema_on_title": {
+    "message": "Sinema modu açık"
+  },
+  "popup_transform_heading": {
+    "message": "Döndür ve çevir"
+  },
+  "popup_state_flip_h": {
+    "message": "yatay çevrili"
+  },
+  "popup_state_flip_v": {
+    "message": "dikey çevrili"
+  },
+  "popup_zoom_heading": {
+    "message": "Yakınlaştır ve kırp"
+  },
+  "popup_autocrop_title": {
+    "message": "Videodaki siyah şeritleri bul ve kırp"
+  },
+  "popup_autocrop": {
+    "message": "Otomatik kırp"
+  },
+  "popup_fill_title": {
+    "message": "Görüntü oynatıcıyı dolduracak şekilde yakınlaştır"
+  },
+  "popup_fill": {
+    "message": "Doldur"
+  },
+  "popup_crop21_title": {
+    "message": "21:9 geniş ekran film"
+  },
+  "popup_crop43_title": {
+    "message": "16:9 çerçeve içinde 4:3 video"
+  },
+  "popup_notice_no_tab": {
+    "message": "Bir YouTube videosu açın. Uzantıyı yeni mi yüklediniz? YouTube sekmesini yeniden yükleyin (F5)."
+  },
+  "popup_notice_open_video": {
+    "message": "Döndürmek, çevirmek ve ışıkları kapatmak için bir YouTube videosu açın."
+  },
+  "popup_audio_heading": {
+    "message": "Sekme başına ses"
+  },
+  "popup_mute_others_title": {
+    "message": "Ses çalan diğer tüm sekmelerin sesini kapat"
+  },
+  "popup_mute_others": {
+    "message": "Yalnızca bu sekme"
+  },
+  "popup_mixer_empty": {
+    "message": "Ses çalan sekme yok."
+  },
+  "popup_shot_heading": {
+    "message": "Ekran görüntüsü"
+  },
+  "popup_shot_full": {
+    "message": "Tüm sayfa"
+  },
+  "popup_shot_full_sub": {
+    "message": "Kaydırıp birleştirir"
+  },
+  "popup_shot_visible": {
+    "message": "Görünen"
+  },
+  "popup_shot_visible_sub": {
+    "message": "Ekrandaki alan"
+  },
+  "popup_shot_region": {
+    "message": "Bölge"
+  },
+  "popup_shot_region_sub": {
+    "message": "Sürükleyip seçin"
+  },
+  "popup_shot_error": {
+    "message": "Bu sayfanın görüntüsü alınamıyor."
+  },
+  "popup_share_heading": {
+    "message": "Paylaşım önizlemesi"
+  },
+  "popup_share_btn": {
+    "message": "Bu sayfayı kontrol et"
+  },
+  "popup_share_btn_sub": {
+    "message": "Bu sayfanın bağlantısı sosyal ağlarda ve Google’da nasıl görünür: puan ve düzeltme önerileri"
+  },
+  "popup_share_http_only": {
+    "message": "Yalnızca web sayfaları (http / https) kontrol edilebilir."
+  },
+  "popup_share_incognito": {
+    "message": "Gizli pencerelerde kullanılamaz."
+  },
+  "full_popup_video_heading": {
+    "message": "Video ve ses"
+  },
+  "full_popup_setup_title": {
+    "message": "Video indirici yüklü değil"
+  },
+  "full_popup_setup_text": {
+    "message": "Video indirmek için bu bilgisayarda yt-dlp gerekir (tek seferlik, ücretsiz kurulum):"
+  },
+  "full_popup_setup_step1": {
+    "message": "Uzantı klasörü → **native-host** → **install.bat** dosyasına çift tıklayın."
+  },
+  "full_popup_setup_step2": {
+    "message": "**Hoàn tất** (tamamlandı) yazısını bekleyin, ardından **Tekrar kontrol et** düğmesine tıklayın."
+  },
+  "full_popup_copy": {
+    "message": "Kopyala"
+  },
+  "full_popup_recheck": {
+    "message": "Tekrar kontrol et"
+  },
+  "full_popup_v_idle": {
+    "message": "Sayfadaki videoları yt-dlp ile bulun (YouTube, Facebook, TikTok, X… 1000+ site)."
+  },
+  "full_popup_v_analyze": {
+    "message": "Bu sayfadaki videoları bul"
+  },
+  "full_popup_v_loading": {
+    "message": "Video analiz ediliyor…"
+  },
+  "full_popup_v_entry": {
+    "message": "Sayfada bir video seçin"
+  },
+  "full_popup_v_quality": {
+    "message": "Kalite"
+  },
+  "full_popup_v_format": {
+    "message": "Biçim"
+  },
+  "full_popup_v_download": {
+    "message": "İndir"
+  },
+  "full_popup_jobs_clear": {
+    "message": "Bitenleri temizle"
+  },
+  "full_popup_streams_heading": {
+    "message": "Dosyalar ve video akışları"
+  },
+  "popup_img_heading": {
+    "message": "Sayfadaki görseller"
+  },
+  "popup_img_format": {
+    "message": "Görselleri şu biçimde kaydet"
+  },
+  "popup_img_format_original": {
+    "message": "Orijinal"
+  },
+  "popup_img_small_title": {
+    "message": "Simgeleri ve küçük görselleri de göster"
+  },
+  "popup_img_small": {
+    "message": "Küçük"
+  },
+  "full_popup_thumb_title": {
+    "message": "Videonun küçük resmini indir (en büyük boyut)"
+  },
+  "full_popup_thumb": {
+    "message": "Küçük resim"
+  },
+  "popup_snap": {
+    "message": "Yakala"
+  },
+  "popup_img_all": {
+    "message": "Tümünü seç"
+  },
+  "popup_img_download": {
+    "message": "İndir"
+  },
+  "popup_set_lights_heading": {
+    "message": "Karartma ve ortam ışığı"
+  },
+  "popup_set_dim": {
+    "message": "Karartma"
+  },
+  "popup_set_glow": {
+    "message": "Videonun arkasında ortam ışığı"
+  },
+  "popup_set_glow_strength": {
+    "message": "Işık parlaklığı"
+  },
+  "popup_set_glow_size": {
+    "message": "Işık yayılımı"
+  },
+  "popup_set_options": {
+    "message": "Seçenekler"
+  },
+  "popup_set_keep_transform": {
+    "message": "Video değişince döndürme, çevirme ve yakınlaştırmayı koru"
+  },
+  "popup_set_player_buttons": {
+    "message": "Oynatıcıda düğmeleri göster"
+  },
+  "popup_set_shortcuts": {
+    "message": "Klavye kısayolları"
+  },
+  "popup_set_auto_pip": {
+    "message": "Sekme değiştirince otomatik Pencere içinde pencere (YouTube)"
+  },
+  "popup_keys_heading": {
+    "message": "Kısayollar"
+  },
+  "popup_keys_hint": {
+    "message": "Alt + Shift + tuş"
+  },
+  "popup_keys_customize": {
+    "message": "Kısayolları değiştir"
+  },
+  "popup_key_escape": {
+    "message": "Sinema modundan çık / ışıkları aç"
+  },
+  "popup_key_pip": {
+    "message": "Pencere içinde pencere (her sitede)"
+  },
+  "popup_key_capture": {
+    "message": "Tüm sayfanın görüntüsünü al (her sitede)"
+  },
+  "full_popup_set_download_heading": {
+    "message": "İndirmeler"
+  },
+  "full_popup_set_cookies": {
+    "message": "Video indirirken tarayıcıdaki oturumları kullan"
+  },
+  "full_popup_set_cookies_note": {
+    "message": "Facebook, Instagram, gizli videolar… için gerekir. Çerezler yalnızca bilgisayarınızdaki indiriciye gönderilir ve asla diske kaydedilmez. YouTube için kullanılmaz."
+  },
+  "popup_reset": {
+    "message": "Varsayılan ayarları geri yükle"
+  },
+  "yt_toast_snapshot_saved": {
+    "message": "Kare yakalandı $1×$2"
+  },
+  "full_yt_dl_preset_best": {
+    "message": "En iyi"
+  },
+  "full_yt_dl_preset_best_label": {
+    "message": "En iyi video · MP4"
+  },
+  "full_yt_dl_preset_video_label": {
+    "message": "Video $1 · MP4"
+  },
+  "full_yt_dl_preset_mp3_label": {
+    "message": "Yalnızca ses · MP3"
+  },
+  "full_yt_err_extension_updated": {
+    "message": "Uzantı az önce güncellendi. Sayfayı yeniden yükleyin (F5)."
+  },
+  "full_yt_dl_panel_title": {
+    "message": "İndir"
+  },
+  "full_yt_dl_panel_state": {
+    "message": "MP4 video"
+  },
+  "full_yt_dl_thumb": {
+    "message": "Küçük resim"
+  },
+  "full_yt_dl_thumb_title": {
+    "message": "Videonun küçük resmini indir (en büyük boyut)"
+  },
+  "full_yt_dl_snapshot": {
+    "message": "Yakala"
+  },
+  "full_yt_dl_snapshot_title": {
+    "message": "Geçerli kareyi yakala (Alt+Shift+S)"
+  },
+  "full_yt_dl_host_missing": {
+    "message": "Video indirici (yt-dlp) yüklü değil. Kurulum adımları için uzantı simgesine tıklayıp İndir sekmesini açın. Görseller yine de indirilebilir."
+  },
+  "full_yt_toast_watch_only": {
+    "message": "İndirme yalnızca video sayfasında çalışır"
+  },
+  "full_yt_toast_download_start_failed": {
+    "message": "İndirme başlatılamadı"
+  },
+  "full_yt_toast_download_started": {
+    "message": "İndirme başladı · $1"
+  },
+  "full_yt_dl_cancel": {
+    "message": "İndirmeyi iptal et"
+  },
+  "full_yt_dl_open_file": {
+    "message": "Dosyayı aç"
+  },
+  "full_yt_dl_show_in_folder": {
+    "message": "Klasörde göster"
+  },
+  "full_yt_toast_download_done": {
+    "message": "İndirme tamamlandı"
+  },
+  "full_yt_toast_download_failed": {
+    "message": "İndirme başarısız oldu"
+  },
+  "full_yt_toast_thumb_loading": {
+    "message": "Küçük resim indiriliyor…"
+  },
+  "full_yt_thumb_filename": {
+    "message": "$1 - küçük resim"
+  },
+  "full_yt_toast_thumb_saved": {
+    "message": "Küçük resim kaydedildi"
+  },
+  "full_yt_toast_thumb_failed_reason": {
+    "message": "Küçük resim indirilemedi: $1"
+  },
+  "full_yt_toast_thumb_failed": {
+    "message": "Küçük resim indirilemedi"
+  },
+  "yt_toast_pip_failed": {
+    "message": "Pencere içinde pencere açılamadı"
+  },
+  "yt_toast_lights_off": {
+    "message": "Işıklar kapalı · açmak için Esc"
+  },
+  "yt_toast_lights_on": {
+    "message": "Işıklar açık"
+  },
+  "yt_toast_cinema_on": {
+    "message": "Sinema modu · çıkmak için Esc"
+  },
+  "yt_toast_cinema_off": {
+    "message": "Sinema modundan çıkıldı"
+  },
+  "yt_toast_transform_reset": {
+    "message": "Video sıfırlandı"
+  },
+  "yt_toast_zoom_reset": {
+    "message": "Yakınlaştırma sıfırlandı"
+  },
+  "yt_toast_pan_hint": {
+    "message": "$1 · kaydırmak için videoyu sürükleyin"
+  },
+  "yt_toast_watch_only": {
+    "message": "Yalnızca video sayfasında kullanılabilir"
+  },
+  "full_yt_btn_download": {
+    "message": "İndir"
+  },
+  "yt_btn_pip": {
+    "message": "Pencere içinde pencere (Alt+Shift+P)"
+  },
+  "yt_btn_transform": {
+    "message": "Döndür/çevir ve yakınlaştır"
+  },
+  "yt_btn_lights_off": {
+    "message": "Işıkları kapat (Alt+Shift+L)"
+  },
+  "yt_btn_cinema": {
+    "message": "Sinema modu (Alt+Shift+C)"
+  },
+  "yt_zoom_reset_title": {
+    "message": "Yakınlaştırmayı sıfırla (%100’e dön)"
+  },
+  "yt_transform_panel_title": {
+    "message": "Döndür/çevir ve yakınlaştır"
+  },
+  "yt_panel_zoom_crop": {
+    "message": "Yakınlaştır ve kırp"
+  },
+  "yt_btn_autocrop": {
+    "message": "Otomatik kırp"
+  },
+  "yt_btn_autocrop_title": {
+    "message": "Siyah şeritleri otomatik kırp (Alt+Shift+A)"
+  },
+  "yt_btn_fill": {
+    "message": "Doldur"
+  },
+  "yt_btn_zoom_out_title": {
+    "message": "Uzaklaştır (Alt+Shift+−)"
+  },
+  "yt_btn_zoom_in_title": {
+    "message": "Yakınlaştır (Alt+Shift++)"
+  },
+  "yt_btn_lights_on": {
+    "message": "Işıkları aç (Alt+Shift+L)"
+  },
+  "yt_btn_cinema_exit": {
+    "message": "Sinema modundan çık (Esc)"
+  },
+  "yt_btn_pip_close": {
+    "message": "Pencere içinde pencereyi kapat (Alt+Shift+P)"
+  },
+  "yt_panel_state_flip_hv": {
+    "message": "$1° · yatay çevrili · dikey çevrili"
+  },
+  "yt_panel_state_flip_h": {
+    "message": "$1° · yatay çevrili"
+  },
+  "yt_panel_state_flip_v": {
+    "message": "$1° · dikey çevrili"
+  },
+  "yt_err_video_not_ready": {
+    "message": "Video henüz hazır değil, birazdan tekrar deneyin"
+  },
+  "yt_err_frame_unreadable": {
+    "message": "Bu videonun kareleri okunamıyor"
+  },
+  "yt_err_scene_too_dark": {
+    "message": "Sahne çok karanlık, daha aydınlık bir sahnede tekrar deneyin"
+  },
+  "yt_toast_no_bars": {
+    "message": "Siyah şerit bulunamadı · kare dolduruluyor %$1"
+  },
+  "yt_toast_bars_cropped": {
+    "message": "Siyah şeritler kırpıldı · %$1"
+  },
+  "yt_toast_fill": {
+    "message": "Kareyi doldur · %$1"
+  },
+  "yt_toast_crop_ratio": {
+    "message": "$1 oranında kırpıldı · %$2"
+  },
+  "full_dl_hint_mp4": {
+    "message": "MP4 her yerde oynatılır. 1080p’ye kadar H.264 tercih edilir, daha yüksek çözünürlükte VP9/AV1 kullanılır."
+  },
+  "full_dl_hint_webm": {
+    "message": "WebM (VP9 + Opus): iyi kalite, küçük boyut."
+  },
+  "full_dl_hint_mkv": {
+    "message": "MKV mevcut en iyi kodeği korur (genellikle AV1), arşivleme için uygundur."
+  },
+  "full_dl_hint_mp3": {
+    "message": "MP3 her yerde oynatılır (orijinal sesten yeniden kodlanır)."
+  },
+  "full_dl_hint_m4a": {
+    "message": "M4A (AAC): genellikle orijinal ses olduğu gibi, yeniden kodlama yok."
+  },
+  "full_dl_hint_opus": {
+    "message": "Opus: YouTube’un orijinal sesi, en küçük boyut."
+  },
+  "full_dl_host_checking": {
+    "message": "Kontrol ediliyor…"
+  },
+  "full_dl_host_connected": {
+    "message": "Bağlandı"
+  },
+  "full_dl_host_save_to": {
+    "message": "Kayıt yeri: $1"
+  },
+  "full_dl_no_ffmpeg": {
+    "message": "ffmpeg eksik: yalnızca hem görüntü hem ses içeren biçimler indirilebilir. install.bat dosyasını yeniden çalıştırın."
+  },
+  "full_dl_setup_missing_title": {
+    "message": "Video indirici yüklü değil"
+  },
+  "full_dl_setup_error_title": {
+    "message": "İndiriciye bağlanılamıyor"
+  },
+  "full_dl_setup_missing_text": {
+    "message": "Video indirmek için bilgisayarınızda yt-dlp aracı gerekir (tek seferlik, ücretsiz kurulum):"
+  },
+  "full_dl_setup_error_text": {
+    "message": "$1 Nasıl düzeltilir:"
+  },
+  "full_dl_retry": {
+    "message": "Tekrar dene"
+  },
+  "full_dl_analyzing_embed": {
+    "message": "Gömülü video analiz ediliyor…"
+  },
+  "full_dl_analyzing": {
+    "message": "Video analiz ediliyor…"
+  },
+  "full_dl_analyze_failed": {
+    "message": "Bu sayfa analiz edilemedi."
+  },
+  "full_dl_no_videos": {
+    "message": "Bu sayfada video bulunamadı."
+  },
+  "full_dl_entries_title_one": {
+    "message": "Sayfada $1 video var"
+  },
+  "full_dl_entries_title_other": {
+    "message": "Sayfada $1 video var"
+  },
+  "full_dl_live_unsupported": {
+    "message": "Canlı yayınlar henüz indirilemiyor. Yayın bittikten sonra tekrar deneyin."
+  },
+  "full_dl_max_height": {
+    "message": "en fazla $1p"
+  },
+  "full_dl_audio_only_info": {
+    "message": "yalnızca ses"
+  },
+  "full_dl_group_video": {
+    "message": "Video"
+  },
+  "full_dl_group_audio_only": {
+    "message": "Yalnızca ses"
+  },
+  "full_dl_audio_format": {
+    "message": "$1 · ses"
+  },
+  "full_dl_quality_best": {
+    "message": "En iyi ($1)"
+  },
+  "full_dl_download_audio": {
+    "message": "Sesi indir"
+  },
+  "full_dl_download_audio_size": {
+    "message": "Sesi indir · ~$1"
+  },
+  "full_dl_download_video": {
+    "message": "Videoyu indir"
+  },
+  "full_dl_download_video_size": {
+    "message": "Videoyu indir · ~$1"
+  },
+  "full_dl_job_cancel": {
+    "message": "İndirmeyi iptal et"
+  },
+  "full_dl_job_open": {
+    "message": "Dosyayı aç"
+  },
+  "full_dl_job_reveal": {
+    "message": "Klasörde göster"
+  },
+  "full_dl_stream_playing": {
+    "message": "Oynatılan video"
+  },
+  "full_dl_stream_in_post": {
+    "message": "Gönderideki video"
+  },
+  "full_dl_stream_pick": {
+    "message": "Seç"
+  },
+  "full_dl_stream_embed": {
+    "message": "Sayfaya gömülü $1 videosu"
+  },
+  "full_dl_stream_download": {
+    "message": "İndir"
+  },
+  "full_dl_stream_sent": {
+    "message": "Tarayıcı indirmelerine aktarıldı"
+  },
+  "full_dl_stream_error": {
+    "message": "Hata: $1"
+  },
+  "full_dl_stream_need_host": {
+    "message": "Önce video indiriciyi yükleyin (yukarıya bakın)"
+  },
+  "full_dl_stream_started": {
+    "message": "İndiriliyor · ilerleme yukarıda"
+  },
+  "dl_img_upgraded_tip": {
+    "message": "Bulunan en büyük sürüm indirilecek"
+  },
+  "dl_img_count_one": {
+    "message": "$1 görsel"
+  },
+  "dl_img_count_other": {
+    "message": "$1 görsel"
+  },
+  "dl_img_count_of_one": {
+    "message": "$2 / $1 görsel"
+  },
+  "dl_img_count_of_other": {
+    "message": "$2 / $1 görsel"
+  },
+  "dl_img_only_small": {
+    "message": "Yalnızca küçük görseller (simgeler) var. Göstermek için “Küçük” seçeneğini açın."
+  },
+  "dl_img_none": {
+    "message": "Bu sayfada görsel bulunamadı."
+  },
+  "dl_img_deselect": {
+    "message": "Seçimi kaldır"
+  },
+  "dl_img_select_all": {
+    "message": "Tümünü seç"
+  },
+  "dl_img_download_n_one": {
+    "message": "$1 görseli indir"
+  },
+  "dl_img_download_n_other": {
+    "message": "$1 görseli indir"
+  },
+  "dl_img_download": {
+    "message": "İndir"
+  },
+  "dl_img_downloading_one": {
+    "message": "$1 görsel indiriliyor…"
+  },
+  "dl_img_downloading_other": {
+    "message": "$1 görsel indiriliyor…"
+  },
+  "dl_img_saved_failed_folder_one": {
+    "message": "$1 görsel “$4” klasörüne kaydedildi · $2 başarısız ($3)"
+  },
+  "dl_img_saved_failed_folder_other": {
+    "message": "$1 görsel “$4” klasörüne kaydedildi · $2 başarısız ($3)"
+  },
+  "dl_img_saved_failed_one": {
+    "message": "$1 görsel kaydedildi · $2 başarısız ($3)"
+  },
+  "dl_img_saved_failed_other": {
+    "message": "$1 görsel kaydedildi · $2 başarısız ($3)"
+  },
+  "dl_img_saved_folder_one": {
+    "message": "$1 görsel “$2” klasörüne kaydedildi"
+  },
+  "dl_img_saved_folder_other": {
+    "message": "$1 görsel “$2” klasörüne kaydedildi"
+  },
+  "dl_img_saved_one": {
+    "message": "$1 görsel kaydedildi"
+  },
+  "dl_img_saved_other": {
+    "message": "$1 görsel kaydedildi"
+  },
+  "dl_img_download_failed": {
+    "message": "İndirilemedi: $1"
+  },
+  "dl_img_unknown_error": {
+    "message": "bilinmeyen hata"
+  },
+  "dl_snap_label": {
+    "message": "Yakala"
+  },
+  "dl_snap_tip": {
+    "message": "Oynatılan kareyi orijinal $1×$2 çözünürlükte yakala"
+  },
+  "dl_scan_system_page": {
+    "message": "Bu sayfa taranamıyor (tarayıcı sistem sayfası)."
+  },
+  "dl_scanning": {
+    "message": "Sayfa taranıyor…"
+  },
+  "dl_scan_failed_file": {
+    "message": "Bu sayfa taranamıyor. Uzantı için “Dosya URL'lerine erişime izin ver” seçeneğini açın."
+  },
+  "dl_scan_failed": {
+    "message": "Bu sayfa taranamıyor."
+  },
+  "full_dl_start_failed": {
+    "message": "İndirme başlatılamadı."
+  },
+  "full_dl_copied": {
+    "message": "Kopyalandı"
+  },
+  "full_dl_thumb_name": {
+    "message": "$1 - küçük resim"
+  },
+  "dl_snap_done": {
+    "message": "Yakalandı $1×$2 · $3"
+  },
+  "dl_snap_failed": {
+    "message": "Yakalanamadı"
+  },
+  "dl_snap_failed_detail": {
+    "message": "Yakalanamadı: $1"
+  },
+  "full_dl_unavailable_page": {
+    "message": "Bu sayfada kullanılamaz."
+  },
+  "full_dl_feed_hint": {
+    "message": "Bu bir akış / profil sayfası ve henüz video bulunamadı. İstediğiniz videoyu oynatın (veya o gönderiyi / reels’i açın), ardından aşağıdaki düğmeye tıklayın."
+  },
+  "full_dl_find_playing": {
+    "message": "Oynatılan videoyu bul"
+  },
+  "full_dl_feed_retry": {
+    "message": "Bu sayfada henüz video bulunamadı. İstediğiniz videoyu oynatın (veya o gönderiyi / reels’i açın), ardından tekrar deneyin."
+  },
+  "audio_volume_aria": {
+    "message": "Ses düzeyi: $1"
+  },
+  "audio_set_failed": {
+    "message": "Bu sekmenin ses düzeyi değiştirilemedi."
+  },
+  "audio_tab_switch_tip": {
+    "message": "$1\nBu sekmeye geçmek için tıklayın"
+  },
+  "audio_this_tab": {
+    "message": "Bu sekme"
+  },
+  "audio_playing": {
+    "message": "Ses çalıyor"
+  },
+  "audio_pip": {
+    "message": "Bu sekmenin videosunu Pencere içinde pencere olarak aç"
+  },
+  "audio_pip_failed": {
+    "message": "Pencere içinde pencere açılamadı."
+  },
+  "audio_unmute": {
+    "message": "Sesi aç"
+  },
+  "audio_mute": {
+    "message": "Sesi kapat"
+  },
+  "audio_boost_current_only": {
+    "message": "%100’ün üzerine güçlendirme yalnızca açılır pencereyi açtığınız sekmede çalışır. Açılır pencereyi o sekmede açıp tekrar deneyin."
+  },
+  "bg_file_name_default": {
+    "message": "dosya"
+  },
+  "full_bg_host_missing": {
+    "message": "Video indirici bu bilgisayarda yüklü değil."
+  },
+  "full_bg_host_forbidden": {
+    "message": "İndirici bu uzantıya henüz izin vermiyor (uzantı kimliği değişti). install.bat dosyasını yeniden çalıştırın."
+  },
+  "full_bg_host_crash": {
+    "message": "İndirici beklenmedik şekilde kapandı. install.bat dosyasını yeniden çalıştırın veya native-host\\host.log dosyasına bakın."
+  },
+  "full_bg_host_unreachable": {
+    "message": "İndiriciye bağlanılamadı."
+  },
+  "full_bg_host_no_reply": {
+    "message": "İndirici yanıt vermedi."
+  },
+  "full_bg_invalid_url": {
+    "message": "Geçersiz URL."
+  },
+  "full_bg_job_interrupted": {
+    "message": "Tamamlanmadan kesildi."
+  },
+  "full_bg_unknown_error": {
+    "message": "Bilinmeyen hata."
+  },
+  "full_bg_invalid_choice": {
+    "message": "Geçersiz indirme seçeneği."
+  },
+  "full_bg_host_stopped": {
+    "message": "İndirici beklenmedik şekilde durdu."
+  },
+  "bg_img_no_url": {
+    "message": "Görsel URL’si eksik"
+  },
+  "bg_img_failed": {
+    "message": "Görsel indirilemedi"
+  },
+  "bg_img_none_selected": {
+    "message": "Hiç görsel seçilmedi."
+  },
+  "bg_vol_no_tab": {
+    "message": "Sekme belirtilmedi."
+  },
+  "bg_vol_cannot_set": {
+    "message": "Bu sayfada ses düzeyi değiştirilemez."
+  },
+  "bg_vol_no_tab_info": {
+    "message": "Sekme bilgisi eksik."
+  },
+  "bg_vol_capture_failed": {
+    "message": "Sekmenin sesi yakalanamadı."
+  },
+  "bg_shot_bad_mode": {
+    "message": "Geçersiz yakalama modu."
+  },
+  "bg_shot_busy": {
+    "message": "Zaten yakalama yapılıyor, lütfen bekleyin."
+  },
+  "bg_shot_no_tab": {
+    "message": "Sekme bulunamadı."
+  },
+  "bg_shot_restricted": {
+    "message": "Bu sayfanın görüntüsü alınamaz (tarayıcı sistem sayfası)."
+  },
+  "bg_img_private_host": {
+    "message": "Yerel ağ adreslerindeki görseller indirilmez"
+  },
+  "bg_img_server_status": {
+    "message": "Sunucu hatası: $1"
+  },
+  "bg_img_too_large": {
+    "message": "Görsel çok büyük (50 MB’tan fazla)"
+  },
+  "bg_img_not_image": {
+    "message": "URL bir görsel değil"
+  },
+  "bg_img_bad_size": {
+    "message": "Geçersiz görsel boyutları"
+  },
+  "bg_img_unreadable": {
+    "message": "Görsel okunamadı"
+  },
+  "page_image_name_default": {
+    "message": "görsel"
+  },
+  "page_image_name_random": {
+    "message": "görsel-$1"
+  },
+  "page_alt_video_poster": {
+    "message": "Video kapağı"
+  },
+  "page_alt_page_image": {
+    "message": "Sayfa önizleme görseli"
+  },
+  "page_snap_no_video": {
+    "message": "Görüntülenen video yok."
+  },
+  "page_snap_failed": {
+    "message": "Görsel oluşturulamadı"
+  },
+  "page_snap_blocked": {
+    "message": "Bu sayfa video karelerinin yakalanmasına izin vermiyor (video başka bir siteden veya korumalı)."
+  },
+  "page_pip_no_video": {
+    "message": "Bu sayfada video bulunamadı."
+  },
+  "page_pip_blocked": {
+    "message": "Tarayıcı Pencere içinde pencere özelliğini engelledi. “Pencere içinde pencere” düğmesine tekrar tıklayın."
+  },
+  "page_pip_failed": {
+    "message": "Pencere içinde pencere açılamadı"
+  },
+  "page_pip_failed_detail": {
+    "message": "Pencere içinde pencere açılamadı: $1"
+  },
+  "page_shot_select_hint": {
+    "message": "Yakalanacak alanı sürükleyerek seçin · iptal için Esc"
+  },
+  "shot_page_title": {
+    "message": "Sayfa ekran görüntüsü"
+  },
+  "shot_stitching": {
+    "message": "Görüntü birleştiriliyor…"
+  },
+  "shot_save_png": {
+    "message": "PNG indir"
+  },
+  "shot_save_jpg": {
+    "message": "JPG indir"
+  },
+  "shot_copy": {
+    "message": "Kopyala"
+  },
+  "shot_file_name_default": {
+    "message": "Ekran görüntüsü"
+  },
+  "shot_file_name_page": {
+    "message": "sayfa"
+  },
+  "shot_err_read_image": {
+    "message": "Ekran görüntüsü okunamadı"
+  },
+  "shot_err_too_large": {
+    "message": "Görüntü kaydedilemeyecek kadar büyük"
+  },
+  "shot_open_folder": {
+    "message": "Klasörü aç"
+  },
+  "shot_saved": {
+    "message": "$1 dosyası İndirilenler klasörüne kaydedildi."
+  },
+  "shot_save_failed": {
+    "message": "Kaydedilemedi: $1"
+  },
+  "shot_gone_title": {
+    "message": "Ekran görüntüsü artık kullanılamıyor"
+  },
+  "shot_expired": {
+    "message": "Bu ekran görüntüsünün süresi doldu (tarayıcı veya uzantı yeniden başlatıldı). Lütfen tekrar yakalayın."
+  },
+  "shot_doc_title": {
+    "message": "Ekran görüntüsü – $1"
+  },
+  "shot_file_name": {
+    "message": "Ekran görüntüsü $1 $2"
+  },
+  "shot_stitching_progress": {
+    "message": "Görüntü birleştiriliyor… $1/$2"
+  },
+  "shot_processing": {
+    "message": "Görüntü işleniyor…"
+  },
+  "shot_err_missing_frame": {
+    "message": "Ekran görüntüsünün bir kısmı eksik. Lütfen tekrar yakalayın."
+  },
+  "shot_img_alt": {
+    "message": "Ekran görüntüsü: $1"
+  },
+  "shot_img_hint": {
+    "message": "Gerçek boyut ile ekrana sığdırma arasında geçiş yapmak için tıklayın"
+  },
+  "shot_mode_full": {
+    "message": "Tüm sayfa"
+  },
+  "shot_mode_visible": {
+    "message": "Görünen alan"
+  },
+  "shot_mode_region": {
+    "message": "Seçili alan"
+  },
+  "shot_meta_scaled": {
+    "message": "sayfa çok uzun olduğu için küçültüldü"
+  },
+  "shot_meta_truncated": {
+    "message": "yalnızca ilk $1 px yakalandı (sonsuz kaydırmalı sayfa)"
+  },
+  "shot_meta_css_size": {
+    "message": "Sayfada $1 × $2 px"
+  },
+  "shot_copied": {
+    "message": "Görüntü kopyalandı — istediğiniz yere yapıştırın (Ctrl+V)."
+  },
+  "shot_copy_failed": {
+    "message": "Kopyalanamadı (görüntü çok büyük olabilir): $1"
+  },
+  "share_title": {
+    "message": "Paylaşım önizlemesi"
+  },
+  "share_subtitle": {
+    "message": "Open Graph · Twitter Card · temel SEO"
+  },
+  "share_url_placeholder": {
+    "message": "https://siteniz.com/makale"
+  },
+  "share_url_aria": {
+    "message": "Kontrol edilecek sayfanın adresi"
+  },
+  "share_check_btn": {
+    "message": "Kontrol et"
+  },
+  "share_loading_page": {
+    "message": "Sayfa okunuyor…"
+  },
+  "share_empty_title": {
+    "message": "Sayfanız paylaşıldığında nasıl görünüyor?"
+  },
+  "share_empty_body": {
+    "message": "Bağlantının Facebook, Zalo, X, LinkedIn, Discord, Telegram ve Google’da nasıl göründüğünü önizlemek, puan ve düzeltme önerileri almak için yukarıya bir sayfa adresi girin (veya açılır pencerede **Araçlar → Bu sayfayı kontrol et** düğmesine tıklayın)."
+  },
+  "share_status_pass": {
+    "message": "Başarılı:"
+  },
+  "share_status_warn": {
+    "message": "Uyarı:"
+  },
+  "share_status_fail": {
+    "message": "Hata:"
+  },
+  "share_status_info": {
+    "message": "Bilgi:"
+  },
+  "share_platform_pass": {
+    "message": "Tamam"
+  },
+  "share_platform_warn": {
+    "message": "İyileştirilmeli"
+  },
+  "share_platform_fail": {
+    "message": "Hatalar"
+  },
+  "share_loading_raw": {
+    "message": "Ham HTML, sosyal medya botları gibi alınıyor…"
+  },
+  "share_err_unknown": {
+    "message": "Sayfa okunamadı: bilinmeyen hata."
+  },
+  "share_err_read_status": {
+    "message": "Sayfa okunamadı: sunucu yanıt kodu $1."
+  },
+  "share_err_read": {
+    "message": "Sayfa okunamadı: $1."
+  },
+  "share_loading_images": {
+    "message": "Paylaşım görselleri yükleniyor…"
+  },
+  "share_err_invalid_url": {
+    "message": "Geçersiz adres. http:// veya https:// ile başlayan bir web sayfası adresi girin"
+  },
+  "share_doc_title_score": {
+    "message": "$1/100 – Paylaşım önizlemesi"
+  },
+  "share_score_aria": {
+    "message": "100 üzerinden $1 puan – $2"
+  },
+  "share_page_untitled": {
+    "message": "(sayfanın başlığı yok)"
+  },
+  "share_count_fail_one": {
+    "message": "$1 hata"
+  },
+  "share_count_fail_other": {
+    "message": "$1 hata"
+  },
+  "share_count_warn_one": {
+    "message": "$1 uyarı"
+  },
+  "share_count_warn_other": {
+    "message": "$1 uyarı"
+  },
+  "share_count_pass_one": {
+    "message": "$1 başarılı"
+  },
+  "share_count_pass_other": {
+    "message": "$1 başarılı"
+  },
+  "share_platforms_aria": {
+    "message": "Platformlara göre durum"
+  },
+  "share_chip_issues": {
+    "message": "Hata: $1, uyarı: $2"
+  },
+  "share_chip_no_issues": {
+    "message": "Sorun yok"
+  },
+  "share_notice_private": {
+    "message": "Bu sayfa yerel bir adreste (localhost / LAN) olduğundan sosyal ağlar ona erişemez. Aşağıdaki sonuçlar, sayfa yayına girmeden önce etiketleri kontrol etmenize yardımcı olur."
+  },
+  "share_notice_no_raw": {
+    "message": "Ham HTML okunamadı (botlar da engellenmiş olabilir), bu yüzden puan en fazla 49 olabilir. Aşağıdaki öğeler sekmede gösterilen sayfadan alınmıştır ve sosyal ağların aldığından farklı olabilir."
+  },
+  "share_notice_raw_only": {
+    "message": "Yalnızca ham HTML kontrol edildi (sekmede açık sayfayla karşılaştırılmadı)."
+  },
+  "share_pv_no_image": {
+    "message": "Görsel yok"
+  },
+  "share_pv_svg": {
+    "message": "SVG görsel: gösterilmez"
+  },
+  "share_pv_bad_image": {
+    "message": "Görsel kullanılamıyor"
+  },
+  "share_pv_untitled": {
+    "message": "(başlıksız)"
+  },
+  "share_x_from": {
+    "message": "Kaynak: $1"
+  },
+  "share_google_no_desc": {
+    "message": "Meta description yok: Google sayfanın kendisinden bir kesit seçer."
+  },
+  "share_sec_preview": {
+    "message": "Önizleme"
+  },
+  "share_sec_preview_sub": {
+    "message": "Her platformun bağlantıyı nasıl gösterdiğinin yaklaşık bir simülasyonu; gerçek düzen zamanla değişebilir. Cinema Tools bu platformlarla bağlantılı değildir."
+  },
+  "share_fix_label": {
+    "message": "Nasıl düzeltilir:"
+  },
+  "share_filter_issues": {
+    "message": "Dikkat gerekenler ($1)"
+  },
+  "share_filter_fail": {
+    "message": "Hatalar ($1)"
+  },
+  "share_filter_all": {
+    "message": "Tümü ($1)"
+  },
+  "share_filter_aria": {
+    "message": "Sonuçları filtrele"
+  },
+  "share_sec_checks": {
+    "message": "Kontrol sonuçları"
+  },
+  "share_checks_none": {
+    "message": "Düzeltilecek bir şey kalmadı. Harika iş!"
+  },
+  "share_img_url": {
+    "message": "URL"
+  },
+  "share_img_size": {
+    "message": "Boyutlar"
+  },
+  "share_img_ratio": {
+    "message": "En boy oranı"
+  },
+  "share_img_ratio_value": {
+    "message": "$1 : 1 (standart 1,91 : 1)"
+  },
+  "share_img_bytes": {
+    "message": "Dosya boyutu"
+  },
+  "share_img_bytes_min": {
+    "message": "$1 veya daha fazla"
+  },
+  "share_img_format": {
+    "message": "Biçim"
+  },
+  "share_img_http": {
+    "message": "HTTP durumu"
+  },
+  "share_img_status_redirected": {
+    "message": "$1 (yönlendirildi)"
+  },
+  "share_img_cannot_view": {
+    "message": "Görsel gösterilemiyor"
+  },
+  "share_img_svg": {
+    "message": "SVG görsel: sosyal ağlar bunu göstermez, bu sayfa da göstermez."
+  },
+  "share_img_too_large": {
+    "message": "Görsel gösterilemeyecek kadar büyük."
+  },
+  "share_img_decode_error": {
+    "message": "Görsel bozuk ve kodu çözülemiyor."
+  },
+  "share_img_too_many_pixels": {
+    "message": "Görselde gösterilemeyecek kadar çok piksel var."
+  },
+  "share_img_crop_title": {
+    "message": "Büyük görsel kartında gösterilen alan (1,91:1)"
+  },
+  "share_img_crop_caption": {
+    "message": "Parlak çerçeve: 1,91:1 oranına kırpıldığında kalan alan."
+  },
+  "share_sec_image": {
+    "message": "Paylaşım görseli (og:image)"
+  },
+  "share_sec_tags": {
+    "message": "Bulunan etiketler"
+  },
+  "share_tags_none": {
+    "message": "Sayfada paylaşım meta etiketi yok."
+  },
+  "share_src_raw": {
+    "message": "Ham HTML"
+  },
+  "share_src_dom": {
+    "message": "İşlenmiş sayfa"
+  },
+  "share_src_js_only": {
+    "message": "Yalnızca JS"
+  },
+  "share_src_js_changed": {
+    "message": "JS ile değişti"
+  },
+  "share_tags_after_js": {
+    "message": "JS sonrası: $1"
+  },
+  "share_sec_tags_sub": {
+    "message": "“Yalnızca JS”: JavaScript ile eklenen, sosyal medya botlarının görmediği etiketler."
+  },
+  "share_th_tag": {
+    "message": "Etiket"
+  },
+  "share_th_value": {
+    "message": "Değer"
+  },
+  "share_th_source": {
+    "message": "Kaynak"
+  },
+  "share_copy": {
+    "message": "Kopyala"
+  },
+  "share_copied": {
+    "message": "Kopyalandı. Sayfanın <head> bölümüne yapıştırın."
+  },
+  "share_copy_failed": {
+    "message": "Kopyalanamadı: $1"
+  },
+  "share_sec_snippet": {
+    "message": "Önerilen meta etiketleri"
+  },
+  "share_snippet_changes_one": {
+    "message": "Eklenecek (+) veya düzeltilecek (~) $1 satır; diğer satırlar mevcut değerlerini korur. BÜYÜK HARFLİ metni gerçek içerikle değiştirin."
+  },
+  "share_snippet_changes_other": {
+    "message": "Eklenecek (+) veya düzeltilecek (~) $1 satır; diğer satırlar mevcut değerlerini korur. BÜYÜK HARFLİ metni gerçek içerikle değiştirin."
+  },
+  "share_snippet_complete": {
+    "message": "Sayfada tüm temel etiketler zaten var."
+  },
+  "share_tools_how": {
+    "message": "Botların gördüğünü görmek için sayfa, paylaşım görseli ve sayfanın belirttiği simgeyle birlikte bir kez daha (çerezsiz) alınır."
+  },
+  "share_tools_caveat": {
+    "message": "Her platformun gerçek botu farklı içerik alabilir (bot engelleme, botlara özel sayfalar) ve platformlar önizlemeleri önbelleğe alır. Etiketleri düzelttikten sonra doğrulamak ve yenilemek için adresi resmi araçlara yapıştırın:"
+  },
+  "share_tools_private": {
+    "message": "Bu araçlar yalnızca sayfa çevrimiçi olduğunda çalışır (localhost’ta değil)."
+  },
+  "share_tool_fb_note": {
+    "message": "– Messenger ve Instagram önizlemelerini de yeniler"
+  },
+  "share_tool_google_note": {
+    "message": "– yapılandırılmış verileri kontrol eder"
+  },
+  "share_sec_tools": {
+    "message": "Platformlarda yeniden kontrol"
+  },
+  "share_err_not_web": {
+    "message": "Yalnızca web sayfaları (http / https) kontrol edilebilir."
+  },
+  "share_err_tab_closed": {
+    "message": "Kontrol edilecek sekme kapatıldı. Sayfa adresini yukarıya girin."
+  },
+  "share_jsonld_invalid": {
+    "message": "(geçersiz JSON)"
+  },
+  "share_err_http_only": {
+    "message": "Yalnızca http / https adresleri desteklenir"
+  },
+  "share_err_redirect_private": {
+    "message": "Sosyal ağların yükleyemediği bir yerel ağ adresine yönlendirildi"
+  },
+  "share_err_timeout": {
+    "message": "Zaman aşımı ($1 saniye)"
+  },
+  "share_err_connect": {
+    "message": "Sunucuya bağlanılamadı"
+  },
+  "share_err_not_http": {
+    "message": "http / https adresi değil"
+  },
+  "share_err_image_private": {
+    "message": "Görsel yerel ağ adresinde / bu bilgisayarda olduğundan sosyal ağlar onu yükleyemez"
+  },
+  "share_err_http_status": {
+    "message": "Sunucu yanıt kodu: $1"
+  },
+  "chk_group_access": {
+    "message": "Botlar sayfayı okuyabilir"
+  },
+  "chk_group_image": {
+    "message": "Paylaşım görseli"
+  },
+  "chk_group_seo": {
+    "message": "Google ve temel SEO"
+  },
+  "chk_bytes_mb": {
+    "message": "$1 MB"
+  },
+  "chk_bytes_kb": {
+    "message": "$1 KB"
+  },
+  "chk_quoted": {
+    "message": "“$1”"
+  },
+  "chk_raw_ok": {
+    "message": "Ham HTML oturum açmadan yükleniyor"
+  },
+  "chk_raw_redirected": {
+    "message": "şuraya yönlendirildi: $1"
+  },
+  "chk_raw_not_html": {
+    "message": "Bu URL bir HTML sayfası döndürmüyor"
+  },
+  "chk_received": {
+    "message": "Alınan: $1"
+  },
+  "chk_received_empty": {
+    "message": "Alınan: boş yanıt"
+  },
+  "chk_raw_not_html_fix": {
+    "message": "Sosyal ağlar meta etiketlerini yalnızca HTML sayfalarından okur."
+  },
+  "chk_raw_status": {
+    "message": "Sunucu oturum açmamış ziyaretçilere HTTP $1 döndürüyor"
+  },
+  "chk_raw_status_detail": {
+    "message": "Sosyal ağ botları sayfayı oturum açmamış misafir olarak ziyaret eder, bu yüzden aynı hatayı alabilirler. Aşağıdaki sonuçlar sekmede şu anda gösterilen sayfadan alınmıştır."
+  },
+  "chk_raw_status_fix": {
+    "message": "Herkese açık erişime izin verin; bir güvenlik duvarının / bot korumasının (Cloudflare…) botları engelleyip engellemediğini kontrol edin."
+  },
+  "chk_raw_failed": {
+    "message": "Ham HTML yüklenemedi"
+  },
+  "chk_raw_failed_fix": {
+    "message": "Sayfa URL’sinin internetten erişilebilir olduğunu kontrol edin."
+  },
+  "chk_raw_size": {
+    "message": "Ham HTML 5 MB’tan büyük"
+  },
+  "chk_raw_size_detail": {
+    "message": "Yalnızca ilk 5 MB okundu."
+  },
+  "chk_raw_size_fix": {
+    "message": "Meta etiketlerini <head> bölümünün en üstüne koyun ve HTML boyutunu küçültün."
+  },
+  "chk_js_only_one": {
+    "message": "$1 etiket yalnızca JavaScript çalıştıktan sonra görünüyor"
+  },
+  "chk_js_only_other": {
+    "message": "$1 etiket yalnızca JavaScript çalıştıktan sonra görünüyor"
+  },
+  "chk_js_only_fix": {
+    "message": "Facebook, Zalo, X, LinkedIn, Discord ve Telegram JavaScript çalıştırmaz, bu yüzden bu etiketleri göremez. Etiketlerin sunucu tarafından HTML içinde gönderilmesini sağlayın (SSR, önceden oluşturulmuş statik sayfalar veya ön işleme). Oturum açmamış ya da çerezleri kabul etmemiş ziyaretçiler yalnızca bir engelleme sayfası görüyorsa, botlar da yalnızca o sayfayı görür."
+  },
+  "chk_js_only_ok": {
+    "message": "Paylaşım etiketleri ham HTML’de mevcut"
+  },
+  "chk_js_only_ok_detail": {
+    "message": "Yalnızca JavaScript ile eklenenler: $1 (paylaşım etiketlerini etkilemez)."
+  },
+  "chk_changed": {
+    "message": "Ham HTML, işlenmiş sayfadan farklı"
+  },
+  "chk_changed_line": {
+    "message": "$1: “$2” → “$3”"
+  },
+  "chk_changed_fix": {
+    "message": "Sosyal ağlar ham HTML’deki değerleri kullanır. Bu durum, gezinme sırasında etiketleri değiştiren tek sayfalık uygulamalarda (SPA) yaygındır: sunucu her URL için doğru etiketleri döndürmelidir."
+  },
+  "chk_og_title_missing": {
+    "message": "og:title eksik"
+  },
+  "chk_og_title_missing_fallback": {
+    "message": "Platformlar bunun yerine <title> etiketini kullanacak: “$1”."
+  },
+  "chk_og_title_missing_no_title": {
+    "message": "Sayfada <title> da yok."
+  },
+  "chk_og_title_missing_fix": {
+    "message": "<meta property=\"og:title\" content=\"…\"> ekleyin – yaklaşık 30–65 karakterlik ilgi çekici bir başlık."
+  },
+  "chk_og_title_long_one": {
+    "message": "og:title $1 karakter uzunluğunda ve kesilebilir"
+  },
+  "chk_og_title_long_other": {
+    "message": "og:title $1 karakter uzunluğunda ve kesilebilir"
+  },
+  "chk_og_title_long_fix": {
+    "message": "Yaklaşık 30–65 karakterde tutun, önemli kısmı başa koyun."
+  },
+  "chk_og_title_short_one": {
+    "message": "og:title kısa ($1 karakter)"
+  },
+  "chk_og_title_short_other": {
+    "message": "og:title kısa ($1 karakter)"
+  },
+  "chk_og_title_short_fix": {
+    "message": "Eksiksiz ve daha ilgi çekici olması için 30–65 karakter hedefleyin."
+  },
+  "chk_og_title_ok_one": {
+    "message": "og:title mevcut ($1 karakter)"
+  },
+  "chk_og_title_ok_other": {
+    "message": "og:title mevcut ($1 karakter)"
+  },
+  "chk_og_desc_missing": {
+    "message": "og:description eksik"
+  },
+  "chk_og_desc_missing_fallback": {
+    "message": "Facebook ve Zalo bunun yerine meta description’ı kullanacak."
+  },
+  "chk_og_desc_missing_no_desc": {
+    "message": "Sayfada meta description da yok: paylaşım kartında açıklama satırı olmayacak."
+  },
+  "chk_og_desc_missing_fix": {
+    "message": "<meta property=\"og:description\" content=\"…\"> ekleyin – yaklaşık 60–160 karakter."
+  },
+  "chk_og_desc_long_one": {
+    "message": "og:description $1 karakter uzunluğunda"
+  },
+  "chk_og_desc_long_other": {
+    "message": "og:description $1 karakter uzunluğunda"
+  },
+  "chk_og_desc_long_detail": {
+    "message": "Paylaşım kartları genellikle yalnızca 1–2 satır gösterir; gerisi kesilir."
+  },
+  "chk_og_desc_long_fix": {
+    "message": "Yaklaşık 60–160 karaktere kısaltın, önemli kısmı başa koyun."
+  },
+  "chk_og_desc_short_one": {
+    "message": "og:description kısa ($1 karakter)"
+  },
+  "chk_og_desc_short_other": {
+    "message": "og:description kısa ($1 karakter)"
+  },
+  "chk_og_desc_short_fix": {
+    "message": "Yeterince bilgi vermek için yaklaşık 60–160 karakter hedefleyin."
+  },
+  "chk_og_desc_ok_one": {
+    "message": "og:description mevcut ($1 karakter)"
+  },
+  "chk_og_desc_ok_other": {
+    "message": "og:description mevcut ($1 karakter)"
+  },
+  "chk_og_url_missing": {
+    "message": "og:url eksik"
+  },
+  "chk_og_url_missing_detail": {
+    "message": "Beğeniler / paylaşımlar birden çok URL’ye bölünebilir (?utm_…, #… ile)."
+  },
+  "chk_og_url_missing_fix": {
+    "message": "<meta property=\"og:url\" content=\"sayfanın kanonik URL’si\"> ekleyin."
+  },
+  "chk_og_url_relative": {
+    "message": "og:url mutlak bir URL değil"
+  },
+  "chk_og_url_relative_fix": {
+    "message": "https:// ile başlayan mutlak bir URL kullanın"
+  },
+  "chk_og_url_mismatch": {
+    "message": "og:url, canonical bağlantısından farklı"
+  },
+  "chk_og_url_mismatch_fix": {
+    "message": "İki etiket de aynı kanonik URL’yi göstermelidir."
+  },
+  "chk_og_url_ok": {
+    "message": "og:url mevcut"
+  },
+  "chk_og_type_missing": {
+    "message": "og:type eksik"
+  },
+  "chk_og_type_missing_detail": {
+    "message": "Facebook varsayılan olarak bunu \"website\" kabul eder."
+  },
+  "chk_og_type_missing_fix": {
+    "message": "<meta property=\"og:type\" content=\"website\"> ekleyin (makaleler için: \"article\")."
+  },
+  "chk_og_site_missing": {
+    "message": "og:site_name eksik"
+  },
+  "chk_og_site_missing_detail": {
+    "message": "Discord ve Telegram, kartın ilk satırında site adını gösterir; bu olmadan yalnızca alan adı gösterilir."
+  },
+  "chk_og_site_missing_fix": {
+    "message": "<meta property=\"og:site_name\" content=\"Marka adı\"> ekleyin."
+  },
+  "chk_og_locale_missing": {
+    "message": "og:locale belirtilmemiş"
+  },
+  "chk_og_locale_missing_vi": {
+    "message": "İsteğe bağlı. Vietnamca sayfalar \"vi_VN\" değerini kullanabilir."
+  },
+  "chk_og_locale_optional": {
+    "message": "İsteğe bağlı."
+  },
+  "chk_dup": {
+    "message": "Farklı değerlere sahip yinelenen etiketler: $1"
+  },
+  "chk_dup_fix": {
+    "message": "Her etiket yalnızca bir kez bulunmalıdır; aksi hâlde platformlar yanlış olanı seçebilir."
+  },
+  "chk_og_image_missing": {
+    "message": "og:image eksik"
+  },
+  "chk_og_image_missing_tw": {
+    "message": "Yalnızca twitter:image ayarlı (Facebook, Zalo ve LinkedIn bu etiketi kullanmaz)."
+  },
+  "chk_og_image_missing_detail": {
+    "message": "Paylaşılan gönderilerde görsel olmayacak veya platform sayfadan rastgele bir görsel seçecek."
+  },
+  "chk_og_image_missing_fix": {
+    "message": "<meta property=\"og:image\" content=\"https://…/gorsel-1200x630.jpg\"> ekleyin – 1200×630 px JPG / PNG görsel."
+  },
+  "chk_og_image_ok": {
+    "message": "og:image mevcut"
+  },
+  "chk_img_abs_scheme": {
+    "message": "og:image içinde https: eksik"
+  },
+  "chk_img_abs_scheme_fix": {
+    "message": "Tam https://… URL’sini yazın"
+  },
+  "chk_img_abs_relative": {
+    "message": "og:image mutlak bir URL olmalıdır"
+  },
+  "chk_img_abs_relative_detail": {
+    "message": "Şu anda: “$1”."
+  },
+  "chk_img_abs_relative_fix": {
+    "message": "Tam URL’yi kullanın: $1"
+  },
+  "chk_img_abs_ok": {
+    "message": "og:image mutlak bir URL"
+  },
+  "chk_img_https": {
+    "message": "og:image http kullanıyor (şifrelenmemiş)"
+  },
+  "chk_img_https_fix": {
+    "message": "Tüm platformların yükleyebilmesi için https:// kullanın."
+  },
+  "chk_tw_image_ok": {
+    "message": "twitter:image yükleniyor"
+  },
+  "chk_tw_image_failed": {
+    "message": "twitter:image yüklenemedi"
+  },
+  "chk_tw_image_failed_fix": {
+    "message": "Görsel URL’sini kontrol edin."
+  },
+  "chk_tw_card_missing": {
+    "message": "twitter:card eksik"
+  },
+  "chk_tw_card_missing_detail": {
+    "message": "X, bağlantı için büyük görselli kart göstermeyebilir."
+  },
+  "chk_tw_card_missing_fix": {
+    "message": "<meta name=\"twitter:card\" content=\"summary_large_image\"> ekleyin."
+  },
+  "chk_tw_card_invalid": {
+    "message": "Geçersiz twitter:card: “$1”"
+  },
+  "chk_tw_card_invalid_detail": {
+    "message": "Geçerli değerler: $1."
+  },
+  "chk_tw_card_invalid_fix": {
+    "message": "Büyük yatay görsel için \"summary_large_image\" kullanın."
+  },
+  "chk_tw_card_summary": {
+    "message": "Küçük kart (yanda kare görsel). Büyük görsel için summary_large_image kullanın."
+  },
+  "chk_tw_fallback": {
+    "message": "$1 yok"
+  },
+  "chk_tw_fallback_detail": {
+    "message": "Sorun değil: X bunun yerine og:title / og:description / og:image kullanır."
+  },
+  "chk_title_missing": {
+    "message": "<title> etiketi eksik"
+  },
+  "chk_title_missing_fix": {
+    "message": "Sayfayı doğru tanımlayan, yaklaşık 30–60 karakterlik bir <title> ekleyin."
+  },
+  "chk_title_long_one": {
+    "message": "<title> $1 karakter uzunluğunda"
+  },
+  "chk_title_long_other": {
+    "message": "<title> $1 karakter uzunluğunda"
+  },
+  "chk_title_long_fix": {
+    "message": "Google genellikle ~60 karakterden uzun başlıkları keser; kısaltın."
+  },
+  "chk_title_short_one": {
+    "message": "<title> kısa ($1 karakter)"
+  },
+  "chk_title_short_other": {
+    "message": "<title> kısa ($1 karakter)"
+  },
+  "chk_title_short_fix": {
+    "message": "Ana anahtar kelime dahil 30–60 karakter hedefleyin."
+  },
+  "chk_title_ok_one": {
+    "message": "<title> mevcut ($1 karakter)"
+  },
+  "chk_title_ok_other": {
+    "message": "<title> mevcut ($1 karakter)"
+  },
+  "chk_desc_missing": {
+    "message": "Meta description eksik"
+  },
+  "chk_desc_missing_detail": {
+    "message": "Google açıklama olarak sayfadan rastgele bir kesit seçecek."
+  },
+  "chk_desc_missing_fix": {
+    "message": "Yaklaşık 70–160 karakterlik <meta name=\"description\" content=\"…\"> ekleyin."
+  },
+  "chk_desc_long_one": {
+    "message": "Meta description $1 karakter uzunluğunda"
+  },
+  "chk_desc_long_other": {
+    "message": "Meta description $1 karakter uzunluğunda"
+  },
+  "chk_desc_long_detail": {
+    "message": "Google genellikle 160 karakter civarında keser."
+  },
+  "chk_desc_long_fix": {
+    "message": "70–160 karaktere kısaltın."
+  },
+  "chk_desc_short_one": {
+    "message": "Meta description kısa ($1 karakter)"
+  },
+  "chk_desc_short_other": {
+    "message": "Meta description kısa ($1 karakter)"
+  },
+  "chk_desc_short_fix": {
+    "message": "70–160 karakter hedefleyin."
+  },
+  "chk_desc_ok_one": {
+    "message": "Meta description mevcut ($1 karakter)"
+  },
+  "chk_desc_ok_other": {
+    "message": "Meta description mevcut ($1 karakter)"
+  },
+  "chk_canonical_missing": {
+    "message": "Canonical bağlantısı eksik"
+  },
+  "chk_canonical_missing_detail": {
+    "message": "Birden çok URL’den erişilebilen sayfalar (parametreler, http/https, www) kopya olarak değerlendirilebilir."
+  },
+  "chk_canonical_missing_fix": {
+    "message": "<link rel=\"canonical\" href=\"https://…\"> ekleyin."
+  },
+  "chk_canonical_relative": {
+    "message": "Canonical mutlak bir URL değil"
+  },
+  "chk_canonical_relative_fix": {
+    "message": "Tam URL’yi kullanın: $1"
+  },
+  "chk_canonical_ok": {
+    "message": "Canonical bağlantısı mevcut"
+  },
+  "chk_robots_noindex": {
+    "message": "Sayfa, Google’ın dizine eklemesini engelliyor (noindex)"
+  },
+  "chk_robots_ok": {
+    "message": "Arama motorlarının sayfayı dizine eklemesine izin veriliyor"
+  },
+  "chk_robots_noindex_fix": {
+    "message": "Sayfanın Google’da görünmesini istiyorsanız \"noindex\" değerini kaldırın."
+  },
+  "chk_lang_ok": {
+    "message": "Dil belirtilmiş: lang=\"$1\""
+  },
+  "chk_lang_missing": {
+    "message": "<html> öğesinde lang özniteliği eksik"
+  },
+  "chk_lang_missing_fix": {
+    "message": "<html lang=\"tr\"> ekleyin (sayfanın dil kodunu kullanın)."
+  },
+  "chk_viewport_ok": {
+    "message": "Meta viewport mevcut (telefonlarda iyi görünür)"
+  },
+  "chk_viewport_missing": {
+    "message": "Meta viewport eksik"
+  },
+  "chk_viewport_missing_fix": {
+    "message": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> ekleyin."
+  },
+  "chk_favicon_ok": {
+    "message": "Site simgesi (favicon) mevcut"
+  },
+  "chk_favicon_failed": {
+    "message": "Favicon belirtilmiş ancak yüklenemedi"
+  },
+  "chk_favicon_failed_fix": {
+    "message": "Simge URL’sini kontrol edin."
+  },
+  "chk_favicon_ico": {
+    "message": "/favicon.ico bulundu"
+  },
+  "chk_favicon_missing": {
+    "message": "Site simgesi (favicon) yok"
+  },
+  "chk_favicon_ico_detail": {
+    "message": "Ayrıca <link rel=\"icon\"> de belirtin (kare görsel, en az 48×48)."
+  },
+  "chk_favicon_missing_detail": {
+    "message": "Google, site simgesini arama sonuçlarının yanında gösterir."
+  },
+  "chk_favicon_missing_fix": {
+    "message": "<link rel=\"icon\" href=\"/favicon.png\"> ekleyin (kare görsel, en az 48×48)."
+  },
+  "chk_h1_count_one": {
+    "message": "$1 H1 başlığı bulundu"
+  },
+  "chk_h1_count_other": {
+    "message": "$1 H1 başlığı bulundu"
+  },
+  "chk_h1_missing": {
+    "message": "H1 başlığı yok"
+  },
+  "chk_h1_missing_fix": {
+    "message": "Her sayfada bir ana <h1> başlığı olmalıdır."
+  },
+  "chk_jsonld_ok": {
+    "message": "Yapılandırılmış veri (JSON-LD) bulundu"
+  },
+  "chk_jsonld_missing": {
+    "message": "Yapılandırılmış veri (JSON-LD) yok"
+  },
+  "chk_jsonld_missing_detail": {
+    "message": "Google’ın zengin sonuçlar (puanlar, fiyatlar, SSS…) göstermesine yardımcı olur."
+  },
+  "chk_jsonld_missing_fix": {
+    "message": "Uygun schema.org işaretlemesi ekleyin (Organization, Article, Product…)."
+  },
+  "chk_img_load_failed": {
+    "message": "Paylaşım görseli yüklenemedi"
+  },
+  "chk_img_load_failed_fix": {
+    "message": "Görselin herkese açık olduğunu (oturum açma gerektirmediğini) ve URL’nin doğru olduğunu kontrol edin."
+  },
+  "chk_img_load_ok": {
+    "message": "Paylaşım görseli yükleniyor"
+  },
+  "chk_img_too_large": {
+    "message": "Görsel çok büyük (20 MB’tan fazla)"
+  },
+  "chk_img_too_large_fix": {
+    "message": "Facebook en fazla 8 MB, X en fazla 5 MB görsel kabul eder. Görseli 1 MB’ın altına sıkıştırın."
+  },
+  "chk_img_redirected": {
+    "message": "yönlendirildi"
+  },
+  "chk_img_svg": {
+    "message": "SVG görseller desteklenmez"
+  },
+  "chk_img_svg_detail": {
+    "message": "Facebook, X, LinkedIn… SVG görselleri göstermez."
+  },
+  "chk_img_svg_fix": {
+    "message": "Görseli JPG veya PNG olarak dışa aktarın."
+  },
+  "chk_img_format_unknown": {
+    "message": "Tanınmayan görsel biçimi"
+  },
+  "chk_img_format_unknown_detail": {
+    "message": "Sunucunun bildirdiği: $1."
+  },
+  "chk_img_use_jpg_png": {
+    "message": "Güvenli olması için JPG veya PNG kullanın."
+  },
+  "chk_img_not_image": {
+    "message": "og:image URL’si bir görsel döndürmüyor"
+  },
+  "chk_received_unknown": {
+    "message": "Alınan: bilinmeyen tür"
+  },
+  "chk_img_not_image_fix": {
+    "message": "og:image değerini gerçek görsel dosyasına yönlendirin."
+  },
+  "chk_img_corrupt": {
+    "message": "Görsel bozuk veya okunamıyor"
+  },
+  "chk_img_corrupt_fix": {
+    "message": "Görseli JPG / PNG olarak yeniden dışa aktarın."
+  },
+  "chk_img_format_ok": {
+    "message": "$1 biçimi destekleniyor"
+  },
+  "chk_img_format_partial": {
+    "message": "$1 biçimi her platformda desteklenmiyor"
+  },
+  "chk_img_bytes_fb": {
+    "message": "Görsel boyutu $1: Facebook bunu yok sayar (en fazla 8 MB)"
+  },
+  "chk_img_compress": {
+    "message": "Görseli 1 MB’ın altına sıkıştırın."
+  },
+  "chk_img_bytes_x": {
+    "message": "Görsel boyutu $1: X bunu göstermez (en fazla 5 MB)"
+  },
+  "chk_img_bytes_heavy": {
+    "message": "Ağır görsel ($1)"
+  },
+  "chk_img_bytes_heavy_detail": {
+    "message": "Ağır görseller yavaş yüklenir ve bazı mesajlaşma uygulamaları bunları atlayabilir."
+  },
+  "chk_img_bytes_heavy_fix": {
+    "message": "1 MB’ın altına sıkıştırın (~%80 kalitede JPG)."
+  },
+  "chk_img_bytes_ok": {
+    "message": "Görsel boyutu: $1"
+  },
+  "chk_img_dim_ok": {
+    "message": "Boyutlar $1×$2 px"
+  },
+  "chk_img_dim_ok_detail": {
+    "message": "Büyük görsel kartı için yeterince net."
+  },
+  "chk_img_dim_low": {
+    "message": "Görsel $1×$2 px, yeterince net değil"
+  },
+  "chk_img_dim_low_detail": {
+    "message": "Yine büyük görsel olarak gösterilir ancak yüksek çözünürlüklü ekranlarda bulanık görünür."
+  },
+  "chk_img_dim_low_fix": {
+    "message": "1200×630 px kullanın."
+  },
+  "chk_img_dim_small": {
+    "message": "Görsel $1×$2 px, küçük"
+  },
+  "chk_img_dim_small_detail": {
+    "message": "Facebook bunu büyük görsel yerine yanda küçük bir resim olarak gösterir (600×315’ten küçük)."
+  },
+  "chk_img_use_1200": {
+    "message": "1200×630 px bir görsel kullanın."
+  },
+  "chk_img_dim_tiny": {
+    "message": "Görsel $1×$2 px, çok küçük"
+  },
+  "chk_img_dim_tiny_detail": {
+    "message": "Facebook 200×200’den küçük görselleri kullanmaz."
+  },
+  "chk_img_ratio": {
+    "message": "En boy oranı $1:1"
+  },
+  "chk_img_ratio_ok": {
+    "message": "Büyük görsel kartlarının 1,91:1 çerçevesine uyuyor."
+  },
+  "chk_img_ratio_off": {
+    "message": "Büyük görsel kartları yaklaşık 1,91:1 çerçeve kullanır, bu yüzden görsel kırpılacak (önizlemelere bakın)."
+  },
+  "chk_img_ratio_fix": {
+    "message": "Önemli içeriği ortada olan 1200×630 px bir görsel kullanın."
+  },
+  "chk_img_declared_missing": {
+    "message": "og:image:width / og:image:height belirtilmemiş"
+  },
+  "chk_img_declared_missing_detail": {
+    "message": "Bunları belirtmek, Facebook’un görseli ilk paylaşımdan itibaren (indirmeyi beklemeden) göstermesini sağlar."
+  },
+  "chk_img_declared_missing_fix": {
+    "message": "<meta property=\"og:image:width\" content=\"$1\"> ve <meta property=\"og:image:height\" content=\"$2\"> ekleyin."
+  },
+  "chk_img_declared_mismatch": {
+    "message": "Belirtilen boyut gerçek görselden farklı"
+  },
+  "chk_img_declared_mismatch_detail": {
+    "message": "Belirtilen $1×$2, gerçek $3×$4."
+  },
+  "chk_img_declared_mismatch_fix": {
+    "message": "Bunları $1 ve $2 olarak değiştirin."
+  },
+  "chk_img_declared_ok": {
+    "message": "og:image:width / height doğru belirtilmiş"
+  },
+  "chk_img_alt_ok": {
+    "message": "Görsel açıklaması (alt) mevcut"
+  },
+  "chk_img_alt_missing": {
+    "message": "Görsel açıklaması (og:image:alt) eksik"
+  },
+  "chk_img_alt_missing_detail": {
+    "message": "Ekran okuyucu kullananlar görselde ne olduğunu bilemez."
+  },
+  "chk_img_alt_missing_fix": {
+    "message": "<meta property=\"og:image:alt\" content=\"…\"> ekleyin."
+  },
+  "chk_grade_great": {
+    "message": "Mükemmel"
+  },
+  "chk_grade_good": {
+    "message": "İyi"
+  },
+  "chk_grade_fair": {
+    "message": "İyileştirilmeli"
+  },
+  "chk_grade_poor": {
+    "message": "Zayıf"
+  },
+  "chk_suggest_title_placeholder": {
+    "message": "SAYFA BAŞLIĞI (30–65 KARAKTER)"
+  },
+  "chk_suggest_desc_placeholder": {
+    "message": "KISA, İLGİ ÇEKİCİ AÇIKLAMA (60–160 KARAKTER)"
+  },
+  "chk_suggest_image_url": {
+    "message": "https://$1/paylasim-gorseli-1200x630.jpg"
+  },
+  "chk_suggest_domain_placeholder": {
+    "message": "example.com"
+  },
+  "chk_suggest_note_basic": {
+    "message": "Temel (Google)"
+  },
+  "chk_suggest_alt_placeholder": {
+    "message": "GÖRSEL İÇERİĞİNİN AÇIKLAMASI"
+  },
+  "chk_suggest_site_placeholder": {
+    "message": "MARKA ADI"
+  },
+  "chk_suggest_note_x": {
+    "message": "X (Twitter): başlık, açıklama ve görsel yukarıdaki og:* etiketlerinden alınır"
+  }
+}

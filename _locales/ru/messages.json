@@ -1,0 +1,2036 @@
+{
+  "locale_code": {
+    "message": "ru"
+  },
+  "ext_name": {
+    "message": "Cinema Tools для YouTube"
+  },
+  "ext_desc": {
+    "message": "Поворот и отражение видео YouTube, затемнение с подсветкой. Картинка в картинке, громкость вкладок, скачивание видео, звука и фото."
+  },
+  "ext_name_store": {
+    "message": "Cinema Tools – инструменты для просмотра видео"
+  },
+  "ext_desc_store": {
+    "message": "Поворот, отражение и зум видео YouTube, затемнение с подсветкой. Картинка в картинке, громкость вкладок, скриншоты, превью ссылок."
+  },
+  "cmd_toggle_pip": {
+    "message": "Открыть / закрыть видео текущей вкладки в режиме «Картинка в картинке»"
+  },
+  "cmd_capture_page": {
+    "message": "Сделать снимок всей текущей страницы"
+  },
+  "act_flip_h": {
+    "message": "Отразить по горизонтали"
+  },
+  "act_flip_v": {
+    "message": "Отразить по вертикали"
+  },
+  "act_rotate_left": {
+    "message": "Повернуть влево 90°"
+  },
+  "act_rotate_right": {
+    "message": "Повернуть вправо 90°"
+  },
+  "act_rotate_180": {
+    "message": "Повернуть на 180°"
+  },
+  "act_reset_transform": {
+    "message": "Сбросить"
+  },
+  "act_toggle_lights": {
+    "message": "Выключить / включить свет"
+  },
+  "act_toggle_cinema": {
+    "message": "Кинорежим"
+  },
+  "act_auto_crop": {
+    "message": "Обрезать чёрные полосы"
+  },
+  "act_fill_frame": {
+    "message": "Заполнить кадр"
+  },
+  "act_crop_21x9": {
+    "message": "Обрезать до 21:9"
+  },
+  "act_crop_4x3": {
+    "message": "Обрезать до 4:3"
+  },
+  "act_zoom_in": {
+    "message": "Увеличить"
+  },
+  "act_zoom_out": {
+    "message": "Уменьшить"
+  },
+  "act_reset_zoom": {
+    "message": "Сбросить масштаб"
+  },
+  "act_snapshot": {
+    "message": "Снимок кадра"
+  },
+  "full_act_download_thumb": {
+    "message": "Скачать обложку"
+  },
+  "act_toggle_pip": {
+    "message": "Картинка в картинке"
+  },
+  "act_pip_no_video": {
+    "message": "На этой странице нет видео."
+  },
+  "act_pip_unavailable": {
+    "message": "Режим «Картинка в картинке» недоступен на этой странице."
+  },
+  "full_act_stage_merge": {
+    "message": "Объединение видео и звука…"
+  },
+  "full_act_stage_extract_audio": {
+    "message": "Конвертация звука…"
+  },
+  "full_act_stage_metadata": {
+    "message": "Запись сведений о файле…"
+  },
+  "full_act_stage_move_files": {
+    "message": "Сохранение файла…"
+  },
+  "full_act_stage_convert": {
+    "message": "Конвертация формата…"
+  },
+  "full_act_stage_embed_thumb": {
+    "message": "Встраивание обложки…"
+  },
+  "full_act_stage_fixup": {
+    "message": "Исправление файла…"
+  },
+  "full_act_stage_processing": {
+    "message": "Обработка…"
+  },
+  "full_act_choice_audio": {
+    "message": "Аудио $1"
+  },
+  "full_act_quality_best": {
+    "message": "Лучшее"
+  },
+  "full_act_job_starting": {
+    "message": "Получение сведений о видео…"
+  },
+  "full_act_job_part_audio": {
+    "message": "Аудио"
+  },
+  "full_act_job_part_video": {
+    "message": "Видео $1p"
+  },
+  "full_act_job_part_any": {
+    "message": "Загрузка"
+  },
+  "full_act_job_eta": {
+    "message": "осталось $1"
+  },
+  "full_act_job_done": {
+    "message": "Сохранено"
+  },
+  "full_act_job_done_size": {
+    "message": "Сохранено · $1"
+  },
+  "full_act_job_cancelled": {
+    "message": "Отменено"
+  },
+  "full_act_job_error": {
+    "message": "Ошибка: $1"
+  },
+  "full_act_job_error_unknown": {
+    "message": "неизвестно"
+  },
+  "full_popup_brand_sub": {
+    "message": "для YouTube"
+  },
+  "popup_brand_sub_store": {
+    "message": "инструменты для видео"
+  },
+  "popup_pip_title": {
+    "message": "Открыть текущее видео в режиме «Картинка в картинке» поверх всех окон (Alt+P)"
+  },
+  "popup_pip": {
+    "message": "Мини-окно"
+  },
+  "popup_pip_no_video": {
+    "message": "Нет видео"
+  },
+  "popup_pip_failed": {
+    "message": "Не удалось"
+  },
+  "popup_settings": {
+    "message": "Настройки"
+  },
+  "popup_sections": {
+    "message": "Разделы"
+  },
+  "popup_tab_video": {
+    "message": "Видео"
+  },
+  "popup_tab_audio": {
+    "message": "Звук"
+  },
+  "full_popup_tab_download": {
+    "message": "Скачать"
+  },
+  "popup_tab_images": {
+    "message": "Картинки"
+  },
+  "popup_tab_tools": {
+    "message": "Утилиты"
+  },
+  "popup_lights_title": {
+    "message": "Выключить свет"
+  },
+  "popup_lights_on_title": {
+    "message": "Свет выключен"
+  },
+  "popup_cinema_title": {
+    "message": "Кинорежим"
+  },
+  "popup_cinema_on_title": {
+    "message": "Кинорежим включён"
+  },
+  "popup_transform_heading": {
+    "message": "Поворот и отражение"
+  },
+  "popup_state_flip_h": {
+    "message": "отраж. гориз."
+  },
+  "popup_state_flip_v": {
+    "message": "отраж. верт."
+  },
+  "popup_zoom_heading": {
+    "message": "Масштаб и обрезка"
+  },
+  "popup_autocrop_title": {
+    "message": "Найти и обрезать чёрные полосы в видео"
+  },
+  "popup_autocrop": {
+    "message": "Автообрезка"
+  },
+  "popup_fill_title": {
+    "message": "Увеличить, чтобы картинка заполнила плеер"
+  },
+  "popup_fill": {
+    "message": "Заполнить"
+  },
+  "popup_crop21_title": {
+    "message": "Широкоэкранный фильм 21:9"
+  },
+  "popup_crop43_title": {
+    "message": "Видео 4:3 в кадре 16:9"
+  },
+  "popup_notice_no_tab": {
+    "message": "Откройте видео на YouTube. Только что установили расширение? Перезагрузите вкладку YouTube (F5)."
+  },
+  "popup_notice_open_video": {
+    "message": "Откройте видео на YouTube, чтобы поворачивать и отражать его или выключать свет."
+  },
+  "popup_audio_heading": {
+    "message": "Громкость вкладок"
+  },
+  "popup_mute_others_title": {
+    "message": "Отключить звук во всех остальных вкладках, где он играет"
+  },
+  "popup_mute_others": {
+    "message": "Только эта вкладка"
+  },
+  "popup_mixer_empty": {
+    "message": "Ни в одной вкладке не играет звук."
+  },
+  "popup_shot_heading": {
+    "message": "Скриншот"
+  },
+  "popup_shot_full": {
+    "message": "Вся страница"
+  },
+  "popup_shot_full_sub": {
+    "message": "Прокрутка и склейка"
+  },
+  "popup_shot_visible": {
+    "message": "Видимое"
+  },
+  "popup_shot_visible_sub": {
+    "message": "Что на экране"
+  },
+  "popup_shot_region": {
+    "message": "Область"
+  },
+  "popup_shot_region_sub": {
+    "message": "Выделите мышью"
+  },
+  "popup_shot_error": {
+    "message": "Не удалось сделать снимок этой страницы."
+  },
+  "popup_share_heading": {
+    "message": "Превью ссылки"
+  },
+  "popup_share_btn": {
+    "message": "Проверить страницу"
+  },
+  "popup_share_btn_sub": {
+    "message": "Как ссылка на эту страницу выглядит в соцсетях и Google: оценка и советы по исправлению"
+  },
+  "popup_share_http_only": {
+    "message": "Проверять можно только веб-страницы (http / https)."
+  },
+  "popup_share_incognito": {
+    "message": "Недоступно в режиме инкогнито."
+  },
+  "full_popup_video_heading": {
+    "message": "Видео и звук"
+  },
+  "full_popup_setup_title": {
+    "message": "Загрузчик видео не установлен"
+  },
+  "full_popup_setup_text": {
+    "message": "Для скачивания видео нужен yt-dlp на этом компьютере (бесплатно, настраивается один раз):"
+  },
+  "full_popup_setup_step1": {
+    "message": "Папка расширения → **native-host** → дважды щёлкните **install.bat**."
+  },
+  "full_popup_setup_step2": {
+    "message": "Дождитесь надписи **Hoàn tất** (готово), затем нажмите **Проверить снова**."
+  },
+  "full_popup_copy": {
+    "message": "Копировать"
+  },
+  "full_popup_recheck": {
+    "message": "Проверить снова"
+  },
+  "full_popup_v_idle": {
+    "message": "Поиск видео на странице с помощью yt-dlp (YouTube, Facebook, TikTok, X… более 1000 сайтов)."
+  },
+  "full_popup_v_analyze": {
+    "message": "Найти видео на странице"
+  },
+  "full_popup_v_loading": {
+    "message": "Анализ видео…"
+  },
+  "full_popup_v_entry": {
+    "message": "Выберите видео на странице"
+  },
+  "full_popup_v_quality": {
+    "message": "Качество"
+  },
+  "full_popup_v_format": {
+    "message": "Формат"
+  },
+  "full_popup_v_download": {
+    "message": "Скачать"
+  },
+  "full_popup_jobs_clear": {
+    "message": "Убрать завершённые"
+  },
+  "full_popup_streams_heading": {
+    "message": "Файлы и видеопотоки"
+  },
+  "popup_img_heading": {
+    "message": "Изображения на странице"
+  },
+  "popup_img_format": {
+    "message": "Сохранять изображения как"
+  },
+  "popup_img_format_original": {
+    "message": "Исходный"
+  },
+  "popup_img_small_title": {
+    "message": "Показывать также значки и мелкие изображения"
+  },
+  "popup_img_small": {
+    "message": "Мелкие"
+  },
+  "full_popup_thumb_title": {
+    "message": "Скачать обложку видео (максимальный размер)"
+  },
+  "full_popup_thumb": {
+    "message": "Обложка"
+  },
+  "popup_snap": {
+    "message": "Снимок"
+  },
+  "popup_img_all": {
+    "message": "Выбрать все"
+  },
+  "popup_img_download": {
+    "message": "Скачать"
+  },
+  "popup_set_lights_heading": {
+    "message": "Затемнение и подсветка"
+  },
+  "popup_set_dim": {
+    "message": "Затемнение"
+  },
+  "popup_set_glow": {
+    "message": "Подсветка за видео"
+  },
+  "popup_set_glow_strength": {
+    "message": "Яркость подсветки"
+  },
+  "popup_set_glow_size": {
+    "message": "Размер подсветки"
+  },
+  "popup_set_options": {
+    "message": "Параметры"
+  },
+  "popup_set_keep_transform": {
+    "message": "Сохранять поворот, отражение и масштаб при смене видео"
+  },
+  "popup_set_player_buttons": {
+    "message": "Показывать кнопки в плеере"
+  },
+  "popup_set_shortcuts": {
+    "message": "Быстрые клавиши"
+  },
+  "popup_set_auto_pip": {
+    "message": "Автоматически включать режим «Картинка в картинке» при смене вкладки (YouTube)"
+  },
+  "popup_keys_heading": {
+    "message": "Сочетания клавиш"
+  },
+  "popup_keys_hint": {
+    "message": "Alt + Shift + клавиша"
+  },
+  "popup_keys_customize": {
+    "message": "Настроить клавиши"
+  },
+  "popup_key_escape": {
+    "message": "Выйти из кинорежима / включить свет"
+  },
+  "popup_key_pip": {
+    "message": "Картинка в картинке (любой сайт)"
+  },
+  "popup_key_capture": {
+    "message": "Снимок всей страницы (любой сайт)"
+  },
+  "full_popup_set_download_heading": {
+    "message": "Загрузки"
+  },
+  "full_popup_set_cookies": {
+    "message": "Использовать вход в аккаунты браузера при скачивании видео"
+  },
+  "full_popup_set_cookies_note": {
+    "message": "Нужно для Facebook, Instagram, приватных видео… Файлы cookie передаются только загрузчику на вашем компьютере и никогда не сохраняются на диск. Для YouTube не используется."
+  },
+  "popup_reset": {
+    "message": "Восстановить настройки по умолчанию"
+  },
+  "yt_toast_snapshot_saved": {
+    "message": "Снимок кадра $1×$2"
+  },
+  "full_yt_dl_preset_best": {
+    "message": "Лучшее"
+  },
+  "full_yt_dl_preset_best_label": {
+    "message": "Лучшее видео · MP4"
+  },
+  "full_yt_dl_preset_video_label": {
+    "message": "Видео $1 · MP4"
+  },
+  "full_yt_dl_preset_mp3_label": {
+    "message": "Только звук · MP3"
+  },
+  "full_yt_err_extension_updated": {
+    "message": "Расширение только что обновилось. Перезагрузите страницу (F5)."
+  },
+  "full_yt_dl_panel_title": {
+    "message": "Скачать"
+  },
+  "full_yt_dl_panel_state": {
+    "message": "видео MP4"
+  },
+  "full_yt_dl_thumb": {
+    "message": "Обложка"
+  },
+  "full_yt_dl_thumb_title": {
+    "message": "Скачать обложку видео (максимальный размер)"
+  },
+  "full_yt_dl_snapshot": {
+    "message": "Снимок"
+  },
+  "full_yt_dl_snapshot_title": {
+    "message": "Снимок текущего кадра (Alt+Shift+S)"
+  },
+  "full_yt_dl_host_missing": {
+    "message": "Загрузчик видео (yt-dlp) не установлен. Шаги установки: значок расширения → Скачать. Изображения скачиваются и без него."
+  },
+  "full_yt_toast_watch_only": {
+    "message": "Скачивание работает только на странице видео"
+  },
+  "full_yt_toast_download_start_failed": {
+    "message": "Не удалось начать скачивание"
+  },
+  "full_yt_toast_download_started": {
+    "message": "Скачивание началось · $1"
+  },
+  "full_yt_dl_cancel": {
+    "message": "Отменить скачивание"
+  },
+  "full_yt_dl_open_file": {
+    "message": "Открыть файл"
+  },
+  "full_yt_dl_show_in_folder": {
+    "message": "Показать в папке"
+  },
+  "full_yt_toast_download_done": {
+    "message": "Скачивание завершено"
+  },
+  "full_yt_toast_download_failed": {
+    "message": "Ошибка скачивания"
+  },
+  "full_yt_toast_thumb_loading": {
+    "message": "Скачивание обложки…"
+  },
+  "full_yt_thumb_filename": {
+    "message": "$1 - обложка"
+  },
+  "full_yt_toast_thumb_saved": {
+    "message": "Обложка сохранена"
+  },
+  "full_yt_toast_thumb_failed_reason": {
+    "message": "Не удалось скачать обложку: $1"
+  },
+  "full_yt_toast_thumb_failed": {
+    "message": "Не удалось скачать обложку"
+  },
+  "yt_toast_pip_failed": {
+    "message": "Не удалось включить режим «Картинка в картинке»"
+  },
+  "yt_toast_lights_off": {
+    "message": "Свет выключен · Esc — включить"
+  },
+  "yt_toast_lights_on": {
+    "message": "Свет включён"
+  },
+  "yt_toast_cinema_on": {
+    "message": "Кинорежим · Esc — выйти"
+  },
+  "yt_toast_cinema_off": {
+    "message": "Кинорежим выключен"
+  },
+  "yt_toast_transform_reset": {
+    "message": "Видео сброшено"
+  },
+  "yt_toast_zoom_reset": {
+    "message": "Масштаб сброшен"
+  },
+  "yt_toast_pan_hint": {
+    "message": "$1 · перетащите видео, чтобы сдвинуть"
+  },
+  "yt_toast_watch_only": {
+    "message": "Доступно только на странице видео"
+  },
+  "full_yt_btn_download": {
+    "message": "Скачать"
+  },
+  "yt_btn_pip": {
+    "message": "Картинка в картинке (Alt+Shift+P)"
+  },
+  "yt_btn_transform": {
+    "message": "Поворот/отражение и масштаб"
+  },
+  "yt_btn_lights_off": {
+    "message": "Выключить свет (Alt+Shift+L)"
+  },
+  "yt_btn_cinema": {
+    "message": "Кинорежим (Alt+Shift+C)"
+  },
+  "yt_zoom_reset_title": {
+    "message": "Сбросить масштаб (вернуть 100%)"
+  },
+  "yt_transform_panel_title": {
+    "message": "Поворот/отражение и масштаб"
+  },
+  "yt_panel_zoom_crop": {
+    "message": "Масштаб и обрезка"
+  },
+  "yt_btn_autocrop": {
+    "message": "Автообрезка"
+  },
+  "yt_btn_autocrop_title": {
+    "message": "Автообрезка чёрных полос (Alt+Shift+A)"
+  },
+  "yt_btn_fill": {
+    "message": "Заполнить"
+  },
+  "yt_btn_zoom_out_title": {
+    "message": "Уменьшить (Alt+Shift+−)"
+  },
+  "yt_btn_zoom_in_title": {
+    "message": "Увеличить (Alt+Shift++)"
+  },
+  "yt_btn_lights_on": {
+    "message": "Включить свет (Alt+Shift+L)"
+  },
+  "yt_btn_cinema_exit": {
+    "message": "Выйти из кинорежима (Esc)"
+  },
+  "yt_btn_pip_close": {
+    "message": "Закрыть окно «Картинка в картинке» (Alt+Shift+P)"
+  },
+  "yt_panel_state_flip_hv": {
+    "message": "$1° · отраж. гориз. · отраж. верт."
+  },
+  "yt_panel_state_flip_h": {
+    "message": "$1° · отраж. гориз."
+  },
+  "yt_panel_state_flip_v": {
+    "message": "$1° · отраж. верт."
+  },
+  "yt_err_video_not_ready": {
+    "message": "Видео ещё не готово, повторите чуть позже"
+  },
+  "yt_err_frame_unreadable": {
+    "message": "Не удаётся прочитать кадры этого видео"
+  },
+  "yt_err_scene_too_dark": {
+    "message": "Сцена слишком тёмная, попробуйте на более светлой"
+  },
+  "yt_toast_no_bars": {
+    "message": "Чёрных полос нет · заполнение кадра $1%"
+  },
+  "yt_toast_bars_cropped": {
+    "message": "Чёрные полосы обрезаны · $1%"
+  },
+  "yt_toast_fill": {
+    "message": "Заполнение кадра · $1%"
+  },
+  "yt_toast_crop_ratio": {
+    "message": "Обрезано до $1 · $2%"
+  },
+  "full_dl_hint_mp4": {
+    "message": "MP4 воспроизводится везде. До 1080p предпочтительно H.264, выше — VP9/AV1."
+  },
+  "full_dl_hint_webm": {
+    "message": "WebM (VP9 + Opus): хорошее качество, компактный размер."
+  },
+  "full_dl_hint_mkv": {
+    "message": "MKV сохраняет лучший доступный кодек (обычно AV1), подходит для архива."
+  },
+  "full_dl_hint_mp3": {
+    "message": "MP3 воспроизводится везде (перекодируется из исходного звука)."
+  },
+  "full_dl_hint_m4a": {
+    "message": "M4A (AAC): обычно исходный звук как есть, без перекодирования."
+  },
+  "full_dl_hint_opus": {
+    "message": "Opus: исходный звук YouTube, самый компактный."
+  },
+  "full_dl_host_checking": {
+    "message": "Проверка…"
+  },
+  "full_dl_host_connected": {
+    "message": "Подключено"
+  },
+  "full_dl_host_save_to": {
+    "message": "Сохраняется в: $1"
+  },
+  "full_dl_no_ffmpeg": {
+    "message": "ffmpeg не найден: можно скачать только форматы, где есть и видео, и звук. Запустите install.bat ещё раз."
+  },
+  "full_dl_setup_missing_title": {
+    "message": "Загрузчик видео не установлен"
+  },
+  "full_dl_setup_error_title": {
+    "message": "Не удаётся подключиться к загрузчику"
+  },
+  "full_dl_setup_missing_text": {
+    "message": "Для скачивания видео нужна программа yt-dlp на вашем компьютере (бесплатно, устанавливается один раз):"
+  },
+  "full_dl_setup_error_text": {
+    "message": "$1 Как исправить:"
+  },
+  "full_dl_retry": {
+    "message": "Повторить"
+  },
+  "full_dl_analyzing_embed": {
+    "message": "Анализ встроенного видео…"
+  },
+  "full_dl_analyzing": {
+    "message": "Анализ видео…"
+  },
+  "full_dl_analyze_failed": {
+    "message": "Не удалось проанализировать страницу."
+  },
+  "full_dl_no_videos": {
+    "message": "На этой странице нет видео."
+  },
+  "full_dl_entries_title_one": {
+    "message": "На странице $1 видео"
+  },
+  "full_dl_entries_title_other": {
+    "message": "На странице $1 видео"
+  },
+  "full_dl_live_unsupported": {
+    "message": "Прямые трансляции пока нельзя скачать. Попробуйте после окончания трансляции."
+  },
+  "full_dl_max_height": {
+    "message": "до $1p"
+  },
+  "full_dl_audio_only_info": {
+    "message": "только звук"
+  },
+  "full_dl_group_video": {
+    "message": "Видео"
+  },
+  "full_dl_group_audio_only": {
+    "message": "Только звук"
+  },
+  "full_dl_audio_format": {
+    "message": "$1 · звук"
+  },
+  "full_dl_quality_best": {
+    "message": "Лучшее ($1)"
+  },
+  "full_dl_download_audio": {
+    "message": "Скачать звук"
+  },
+  "full_dl_download_audio_size": {
+    "message": "Скачать звук · ~$1"
+  },
+  "full_dl_download_video": {
+    "message": "Скачать видео"
+  },
+  "full_dl_download_video_size": {
+    "message": "Скачать видео · ~$1"
+  },
+  "full_dl_job_cancel": {
+    "message": "Отменить скачивание"
+  },
+  "full_dl_job_open": {
+    "message": "Открыть файл"
+  },
+  "full_dl_job_reveal": {
+    "message": "Показать в папке"
+  },
+  "full_dl_stream_playing": {
+    "message": "Воспроизводимое видео"
+  },
+  "full_dl_stream_in_post": {
+    "message": "Видео в публикации"
+  },
+  "full_dl_stream_pick": {
+    "message": "Выбрать"
+  },
+  "full_dl_stream_embed": {
+    "message": "Видео $1, встроенное в страницу"
+  },
+  "full_dl_stream_download": {
+    "message": "Скачать"
+  },
+  "full_dl_stream_sent": {
+    "message": "Передано в загрузки браузера"
+  },
+  "full_dl_stream_error": {
+    "message": "Ошибка: $1"
+  },
+  "full_dl_stream_need_host": {
+    "message": "Сначала установите загрузчик видео (см. выше)"
+  },
+  "full_dl_stream_started": {
+    "message": "Скачивание · прогресс см. выше"
+  },
+  "dl_img_upgraded_tip": {
+    "message": "Будет скачана самая большая найденная версия"
+  },
+  "dl_img_count_one": {
+    "message": "$1 изображение"
+  },
+  "dl_img_count_other": {
+    "message": "Изображений: $1"
+  },
+  "dl_img_count_of_one": {
+    "message": "$2 / $1 изображение"
+  },
+  "dl_img_count_of_other": {
+    "message": "Изображений: $2 / $1"
+  },
+  "dl_img_only_small": {
+    "message": "Только мелкие изображения (значки). Включите «Мелкие», чтобы их показать."
+  },
+  "dl_img_none": {
+    "message": "На этой странице нет изображений."
+  },
+  "dl_img_deselect": {
+    "message": "Снять выбор"
+  },
+  "dl_img_select_all": {
+    "message": "Выбрать все"
+  },
+  "dl_img_download_n_one": {
+    "message": "Скачать $1 изображение"
+  },
+  "dl_img_download_n_other": {
+    "message": "Скачать изображения ($1)"
+  },
+  "dl_img_download": {
+    "message": "Скачать"
+  },
+  "dl_img_downloading_one": {
+    "message": "Скачивание $1 изображения…"
+  },
+  "dl_img_downloading_other": {
+    "message": "Скачивание изображений: $1…"
+  },
+  "dl_img_saved_failed_folder_one": {
+    "message": "Сохранено $1 изображение в папку «$4» · не удалось: $2 ($3)"
+  },
+  "dl_img_saved_failed_folder_other": {
+    "message": "Изображений сохранено в папку «$4»: $1 · не удалось: $2 ($3)"
+  },
+  "dl_img_saved_failed_one": {
+    "message": "Сохранено $1 изображение · не удалось: $2 ($3)"
+  },
+  "dl_img_saved_failed_other": {
+    "message": "Сохранено изображений: $1 · не удалось: $2 ($3)"
+  },
+  "dl_img_saved_folder_one": {
+    "message": "Сохранено $1 изображение в папку «$2»"
+  },
+  "dl_img_saved_folder_other": {
+    "message": "Изображений сохранено в папку «$2»: $1"
+  },
+  "dl_img_saved_one": {
+    "message": "Сохранено $1 изображение"
+  },
+  "dl_img_saved_other": {
+    "message": "Сохранено изображений: $1"
+  },
+  "dl_img_download_failed": {
+    "message": "Не удалось скачать: $1"
+  },
+  "dl_img_unknown_error": {
+    "message": "неизвестная ошибка"
+  },
+  "dl_snap_label": {
+    "message": "Снимок"
+  },
+  "dl_snap_tip": {
+    "message": "Снимок текущего кадра в исходном разрешении $1×$2"
+  },
+  "dl_scan_system_page": {
+    "message": "Не удаётся просканировать страницу (системная страница браузера)."
+  },
+  "dl_scanning": {
+    "message": "Сканирование страницы…"
+  },
+  "dl_scan_failed_file": {
+    "message": "Не удаётся просканировать страницу. Включите для расширения параметр «Разрешить открывать локальные файлы по ссылкам»."
+  },
+  "dl_scan_failed": {
+    "message": "Не удаётся просканировать страницу."
+  },
+  "full_dl_start_failed": {
+    "message": "Не удалось начать скачивание."
+  },
+  "full_dl_copied": {
+    "message": "Скопировано"
+  },
+  "full_dl_thumb_name": {
+    "message": "$1 - обложка"
+  },
+  "dl_snap_done": {
+    "message": "Снимок $1×$2 · $3"
+  },
+  "dl_snap_failed": {
+    "message": "Не удалось сделать снимок"
+  },
+  "dl_snap_failed_detail": {
+    "message": "Не удалось сделать снимок: $1"
+  },
+  "full_dl_unavailable_page": {
+    "message": "Недоступно на этой странице."
+  },
+  "full_dl_feed_hint": {
+    "message": "Это лента или страница профиля, и видео пока не найдено. Запустите нужное видео (или откройте эту публикацию / reels), затем нажмите кнопку ниже."
+  },
+  "full_dl_find_playing": {
+    "message": "Найти воспроизводимое видео"
+  },
+  "full_dl_feed_retry": {
+    "message": "На этой странице пока не найдено видео. Запустите нужное видео (или откройте эту публикацию / reels) и повторите попытку."
+  },
+  "audio_volume_aria": {
+    "message": "Громкость: $1"
+  },
+  "audio_set_failed": {
+    "message": "Не удалось изменить громкость этой вкладки."
+  },
+  "audio_tab_switch_tip": {
+    "message": "$1\nНажмите, чтобы перейти на эту вкладку"
+  },
+  "audio_this_tab": {
+    "message": "Эта вкладка"
+  },
+  "audio_playing": {
+    "message": "Воспроизводит звук"
+  },
+  "audio_pip": {
+    "message": "Открыть видео этой вкладки в режиме «Картинка в картинке»"
+  },
+  "audio_pip_failed": {
+    "message": "Не удалось включить режим «Картинка в картинке»."
+  },
+  "audio_unmute": {
+    "message": "Включить звук"
+  },
+  "audio_mute": {
+    "message": "Выключить звук"
+  },
+  "audio_boost_current_only": {
+    "message": "Усиление выше 100% работает только во вкладке, где открыто окно расширения. Откройте его на той вкладке и повторите попытку."
+  },
+  "bg_file_name_default": {
+    "message": "файл"
+  },
+  "full_bg_host_missing": {
+    "message": "Загрузчик видео не установлен на этом компьютере."
+  },
+  "full_bg_host_forbidden": {
+    "message": "Загрузчик пока не разрешает работу с этим расширением (изменился его ID). Запустите install.bat ещё раз."
+  },
+  "full_bg_host_crash": {
+    "message": "Загрузчик неожиданно завершил работу. Запустите install.bat ещё раз или проверьте native-host\\host.log."
+  },
+  "full_bg_host_unreachable": {
+    "message": "Не удалось подключиться к загрузчику."
+  },
+  "full_bg_host_no_reply": {
+    "message": "Загрузчик не ответил."
+  },
+  "full_bg_invalid_url": {
+    "message": "Недопустимый URL."
+  },
+  "full_bg_job_interrupted": {
+    "message": "Прервано до завершения."
+  },
+  "full_bg_unknown_error": {
+    "message": "Неизвестная ошибка."
+  },
+  "full_bg_invalid_choice": {
+    "message": "Недопустимый вариант скачивания."
+  },
+  "full_bg_host_stopped": {
+    "message": "Загрузчик неожиданно остановился."
+  },
+  "bg_img_no_url": {
+    "message": "Отсутствует URL изображения"
+  },
+  "bg_img_failed": {
+    "message": "Не удалось скачать изображение"
+  },
+  "bg_img_none_selected": {
+    "message": "Не выбрано ни одного изображения."
+  },
+  "bg_vol_no_tab": {
+    "message": "Вкладка не указана."
+  },
+  "bg_vol_cannot_set": {
+    "message": "На этой странице нельзя изменить громкость."
+  },
+  "bg_vol_no_tab_info": {
+    "message": "Нет сведений о вкладке."
+  },
+  "bg_vol_capture_failed": {
+    "message": "Не удалось захватить звук вкладки."
+  },
+  "bg_shot_bad_mode": {
+    "message": "Недопустимый режим снимка."
+  },
+  "bg_shot_busy": {
+    "message": "Снимок уже делается, подождите."
+  },
+  "bg_shot_no_tab": {
+    "message": "Вкладка не найдена."
+  },
+  "bg_shot_restricted": {
+    "message": "Нельзя сделать снимок этой страницы (это системная страница браузера)."
+  },
+  "bg_img_private_host": {
+    "message": "Изображения с адресов локальной сети не скачиваются"
+  },
+  "bg_img_server_status": {
+    "message": "Сервер вернул ошибку $1"
+  },
+  "bg_img_too_large": {
+    "message": "Изображение слишком большое (более 50 МБ)"
+  },
+  "bg_img_not_image": {
+    "message": "По этому URL находится не изображение"
+  },
+  "bg_img_bad_size": {
+    "message": "Недопустимые размеры изображения"
+  },
+  "bg_img_unreadable": {
+    "message": "Не удалось прочитать изображение"
+  },
+  "page_image_name_default": {
+    "message": "изображение"
+  },
+  "page_image_name_random": {
+    "message": "изображение-$1"
+  },
+  "page_alt_video_poster": {
+    "message": "Обложка видео"
+  },
+  "page_alt_page_image": {
+    "message": "Изображение для превью страницы"
+  },
+  "page_snap_no_video": {
+    "message": "Видео не отображается."
+  },
+  "page_snap_failed": {
+    "message": "Не удалось создать изображение"
+  },
+  "page_snap_blocked": {
+    "message": "Эта страница не позволяет захватывать кадры видео (видео с другого сайта или защищено)."
+  },
+  "page_pip_no_video": {
+    "message": "На этой странице нет видео."
+  },
+  "page_pip_blocked": {
+    "message": "Браузер заблокировал режим «Картинка в картинке». Нажмите кнопку «Картинка в картинке» ещё раз."
+  },
+  "page_pip_failed": {
+    "message": "Не удалось включить режим «Картинка в картинке»"
+  },
+  "page_pip_failed_detail": {
+    "message": "Не удалось включить режим «Картинка в картинке»: $1"
+  },
+  "page_shot_select_hint": {
+    "message": "Выделите область для снимка · Esc — отмена"
+  },
+  "shot_page_title": {
+    "message": "Снимок страницы"
+  },
+  "shot_stitching": {
+    "message": "Склейка изображения…"
+  },
+  "shot_save_png": {
+    "message": "Скачать PNG"
+  },
+  "shot_save_jpg": {
+    "message": "Скачать JPG"
+  },
+  "shot_copy": {
+    "message": "Копировать"
+  },
+  "shot_file_name_default": {
+    "message": "Скриншот"
+  },
+  "shot_file_name_page": {
+    "message": "страница"
+  },
+  "shot_err_read_image": {
+    "message": "Не удалось прочитать снимок"
+  },
+  "shot_err_too_large": {
+    "message": "Изображение слишком большое для сохранения"
+  },
+  "shot_open_folder": {
+    "message": "Открыть папку"
+  },
+  "shot_saved": {
+    "message": "Файл $1 сохранён в папку «Загрузки»."
+  },
+  "shot_save_failed": {
+    "message": "Не удалось сохранить: $1"
+  },
+  "shot_gone_title": {
+    "message": "Снимок больше недоступен"
+  },
+  "shot_expired": {
+    "message": "Срок хранения снимка истёк (браузер или расширение только что перезапустились). Сделайте снимок ещё раз."
+  },
+  "shot_doc_title": {
+    "message": "Скриншот – $1"
+  },
+  "shot_file_name": {
+    "message": "Скриншот $1 $2"
+  },
+  "shot_stitching_progress": {
+    "message": "Склейка изображения… $1/$2"
+  },
+  "shot_processing": {
+    "message": "Обработка изображения…"
+  },
+  "shot_err_missing_frame": {
+    "message": "Часть снимка отсутствует. Сделайте снимок ещё раз."
+  },
+  "shot_img_alt": {
+    "message": "Скриншот: $1"
+  },
+  "shot_img_hint": {
+    "message": "Нажмите, чтобы переключиться между реальным размером и размером по экрану"
+  },
+  "shot_mode_full": {
+    "message": "Вся страница"
+  },
+  "shot_mode_visible": {
+    "message": "Видимая область"
+  },
+  "shot_mode_region": {
+    "message": "Выделенная область"
+  },
+  "shot_meta_scaled": {
+    "message": "уменьшено, так как страница слишком длинная"
+  },
+  "shot_meta_truncated": {
+    "message": "сняты только первые $1 px (страница с бесконечной прокруткой)"
+  },
+  "shot_meta_css_size": {
+    "message": "$1 × $2 px на странице"
+  },
+  "shot_copied": {
+    "message": "Изображение скопировано — вставьте его (Ctrl+V) куда нужно."
+  },
+  "shot_copy_failed": {
+    "message": "Не удалось скопировать (возможно, изображение слишком большое): $1"
+  },
+  "share_title": {
+    "message": "Превью ссылки"
+  },
+  "share_subtitle": {
+    "message": "Open Graph · Twitter Card · базовое SEO"
+  },
+  "share_url_placeholder": {
+    "message": "https://vash-sait.ru/statya"
+  },
+  "share_url_aria": {
+    "message": "Адрес проверяемой страницы"
+  },
+  "share_check_btn": {
+    "message": "Проверить"
+  },
+  "share_loading_page": {
+    "message": "Чтение страницы…"
+  },
+  "share_empty_title": {
+    "message": "Как выглядит ваша страница, когда ею делятся?"
+  },
+  "share_empty_body": {
+    "message": "Введите адрес страницы выше (или нажмите **Утилиты → Проверить страницу** во всплывающем окне расширения), чтобы увидеть превью ссылки в Facebook, Zalo, X, LinkedIn, Discord, Telegram и Google, получить оценку и советы по исправлению."
+  },
+  "share_status_pass": {
+    "message": "Пройдено:"
+  },
+  "share_status_warn": {
+    "message": "Предупреждение:"
+  },
+  "share_status_fail": {
+    "message": "Ошибка:"
+  },
+  "share_status_info": {
+    "message": "Информация:"
+  },
+  "share_platform_pass": {
+    "message": "OK"
+  },
+  "share_platform_warn": {
+    "message": "Доработать"
+  },
+  "share_platform_fail": {
+    "message": "Ошибки"
+  },
+  "share_loading_raw": {
+    "message": "Получение исходного HTML, как это делает робот соцсети…"
+  },
+  "share_err_unknown": {
+    "message": "Не удалось прочитать страницу: неизвестная ошибка."
+  },
+  "share_err_read_status": {
+    "message": "Не удалось прочитать страницу: сервер вернул статус $1."
+  },
+  "share_err_read": {
+    "message": "Не удалось прочитать страницу: $1."
+  },
+  "share_loading_images": {
+    "message": "Загрузка изображений для превью…"
+  },
+  "share_err_invalid_url": {
+    "message": "Неверный адрес. Введите адрес веб-страницы, начинающийся с http:// или https://"
+  },
+  "share_doc_title_score": {
+    "message": "$1/100 – Превью ссылки"
+  },
+  "share_score_aria": {
+    "message": "$1 из 100 баллов – $2"
+  },
+  "share_page_untitled": {
+    "message": "(у страницы нет заголовка)"
+  },
+  "share_count_fail_one": {
+    "message": "$1 ошибка"
+  },
+  "share_count_fail_other": {
+    "message": "Ошибок: $1"
+  },
+  "share_count_warn_one": {
+    "message": "$1 предупреждение"
+  },
+  "share_count_warn_other": {
+    "message": "Предупреждений: $1"
+  },
+  "share_count_pass_one": {
+    "message": "Пройдено: $1"
+  },
+  "share_count_pass_other": {
+    "message": "Пройдено: $1"
+  },
+  "share_platforms_aria": {
+    "message": "Статус по платформам"
+  },
+  "share_chip_issues": {
+    "message": "Ошибок: $1, предупреждений: $2"
+  },
+  "share_chip_no_issues": {
+    "message": "Нет проблем"
+  },
+  "share_notice_private": {
+    "message": "Эта страница находится по локальному адресу (localhost / LAN), поэтому соцсети не могут её открыть. Результаты ниже помогут проверить теги до публикации страницы."
+  },
+  "share_notice_no_raw": {
+    "message": "Не удалось прочитать исходный HTML (роботы тоже могут быть заблокированы), поэтому оценка ограничена 49 баллами. Пункты ниже взяты со страницы, открытой во вкладке, и могут отличаться от того, что получают соцсети."
+  },
+  "share_notice_raw_only": {
+    "message": "Проверен только исходный HTML (без сравнения со страницей, открытой во вкладке)."
+  },
+  "share_pv_no_image": {
+    "message": "Нет изображения"
+  },
+  "share_pv_svg": {
+    "message": "Изображение SVG: не показывается"
+  },
+  "share_pv_bad_image": {
+    "message": "Изображение нельзя использовать"
+  },
+  "share_pv_untitled": {
+    "message": "(без заголовка)"
+  },
+  "share_x_from": {
+    "message": "Источник: $1"
+  },
+  "share_google_no_desc": {
+    "message": "Нет meta description: Google выберет фрагмент из самой страницы."
+  },
+  "share_sec_preview": {
+    "message": "Превью"
+  },
+  "share_sec_preview_sub": {
+    "message": "Примерная симуляция того, как каждая платформа показывает ссылку; реальный вид может со временем меняться. Cinema Tools не связан с этими платформами."
+  },
+  "share_fix_label": {
+    "message": "Как исправить:"
+  },
+  "share_filter_issues": {
+    "message": "Требуют внимания ($1)"
+  },
+  "share_filter_fail": {
+    "message": "Ошибки ($1)"
+  },
+  "share_filter_all": {
+    "message": "Все ($1)"
+  },
+  "share_filter_aria": {
+    "message": "Фильтр результатов"
+  },
+  "share_sec_checks": {
+    "message": "Результаты проверки"
+  },
+  "share_checks_none": {
+    "message": "Исправлять больше нечего. Отличная работа!"
+  },
+  "share_img_url": {
+    "message": "URL"
+  },
+  "share_img_size": {
+    "message": "Размеры"
+  },
+  "share_img_ratio": {
+    "message": "Соотношение сторон"
+  },
+  "share_img_ratio_value": {
+    "message": "$1 : 1 (стандарт 1,91 : 1)"
+  },
+  "share_img_bytes": {
+    "message": "Размер файла"
+  },
+  "share_img_bytes_min": {
+    "message": "$1 или больше"
+  },
+  "share_img_format": {
+    "message": "Формат"
+  },
+  "share_img_http": {
+    "message": "Статус HTTP"
+  },
+  "share_img_status_redirected": {
+    "message": "$1 (перенаправление)"
+  },
+  "share_img_cannot_view": {
+    "message": "Не удаётся показать изображение"
+  },
+  "share_img_svg": {
+    "message": "Изображение SVG: соцсети его не показывают, и эта страница тоже."
+  },
+  "share_img_too_large": {
+    "message": "Изображение слишком большое для показа."
+  },
+  "share_img_decode_error": {
+    "message": "Изображение повреждено и не может быть декодировано."
+  },
+  "share_img_too_many_pixels": {
+    "message": "В изображении слишком много пикселей для показа."
+  },
+  "share_img_crop_title": {
+    "message": "Область, видимая в большой карточке (1,91:1)"
+  },
+  "share_img_crop_caption": {
+    "message": "Светлая рамка: что останется после обрезки до 1,91:1."
+  },
+  "share_sec_image": {
+    "message": "Изображение для превью (og:image)"
+  },
+  "share_sec_tags": {
+    "message": "Найденные теги"
+  },
+  "share_tags_none": {
+    "message": "На странице нет мета-тегов для соцсетей."
+  },
+  "share_src_raw": {
+    "message": "Исходный HTML"
+  },
+  "share_src_dom": {
+    "message": "Отрисованная страница"
+  },
+  "share_src_js_only": {
+    "message": "Только JS"
+  },
+  "share_src_js_changed": {
+    "message": "Изменён JS"
+  },
+  "share_tags_after_js": {
+    "message": "После JS: $1"
+  },
+  "share_sec_tags_sub": {
+    "message": "«Только JS»: теги, добавленные JavaScript, — роботы соцсетей их не видят."
+  },
+  "share_th_tag": {
+    "message": "Тег"
+  },
+  "share_th_value": {
+    "message": "Значение"
+  },
+  "share_th_source": {
+    "message": "Источник"
+  },
+  "share_copy": {
+    "message": "Копировать"
+  },
+  "share_copied": {
+    "message": "Скопировано. Вставьте в <head> страницы."
+  },
+  "share_copy_failed": {
+    "message": "Не удалось скопировать: $1"
+  },
+  "share_sec_snippet": {
+    "message": "Рекомендуемые мета-теги"
+  },
+  "share_snippet_changes_one": {
+    "message": "$1 строка для добавления (+) или исправления (~); остальные строки сохраняют текущие значения. Замените текст ЗАГЛАВНЫМИ БУКВАМИ реальным содержимым."
+  },
+  "share_snippet_changes_other": {
+    "message": "Строк для добавления (+) или исправления (~): $1; остальные строки сохраняют текущие значения. Замените текст ЗАГЛАВНЫМИ БУКВАМИ реальным содержимым."
+  },
+  "share_snippet_complete": {
+    "message": "На странице уже есть все базовые теги."
+  },
+  "share_tools_how": {
+    "message": "Чтобы увидеть то же, что видят роботы, страница загружается ещё раз (без cookie) вместе с изображением для превью и значком, указанным на странице."
+  },
+  "share_tools_caveat": {
+    "message": "Реальный робот каждой платформы может получить другое содержимое (блокировка ботов, отдельные страницы для роботов), а платформы кэшируют превью. После исправления тегов вставьте адрес в официальные инструменты, чтобы проверить и обновить превью:"
+  },
+  "share_tools_private": {
+    "message": "Эти инструменты работают, только когда страница доступна в интернете (не на localhost)."
+  },
+  "share_tool_fb_note": {
+    "message": "– также обновляет превью для Messenger и Instagram"
+  },
+  "share_tool_google_note": {
+    "message": "– проверяет структурированные данные"
+  },
+  "share_sec_tools": {
+    "message": "Перепроверка на платформах"
+  },
+  "share_err_not_web": {
+    "message": "Проверять можно только веб-страницы (http / https)."
+  },
+  "share_err_tab_closed": {
+    "message": "Проверяемая вкладка закрыта. Введите адрес страницы выше."
+  },
+  "share_jsonld_invalid": {
+    "message": "(недопустимый JSON)"
+  },
+  "share_err_http_only": {
+    "message": "Поддерживаются только адреса http / https"
+  },
+  "share_err_redirect_private": {
+    "message": "Перенаправление на адрес локальной сети, который соцсети не могут загрузить"
+  },
+  "share_err_timeout": {
+    "message": "Время ожидания истекло ($1 с)"
+  },
+  "share_err_connect": {
+    "message": "Не удалось подключиться к серверу"
+  },
+  "share_err_not_http": {
+    "message": "Не адрес http / https"
+  },
+  "share_err_image_private": {
+    "message": "Изображение находится в локальной сети / на этом компьютере, поэтому соцсети не могут его загрузить"
+  },
+  "share_err_http_status": {
+    "message": "Сервер вернул статус $1"
+  },
+  "chk_group_access": {
+    "message": "Роботы могут прочитать страницу"
+  },
+  "chk_group_image": {
+    "message": "Изображение для превью"
+  },
+  "chk_group_seo": {
+    "message": "Google и базовое SEO"
+  },
+  "chk_bytes_mb": {
+    "message": "$1 МБ"
+  },
+  "chk_bytes_kb": {
+    "message": "$1 КБ"
+  },
+  "chk_quoted": {
+    "message": "«$1»"
+  },
+  "chk_raw_ok": {
+    "message": "Исходный HTML загружается без входа в аккаунт"
+  },
+  "chk_raw_redirected": {
+    "message": "перенаправлено на $1"
+  },
+  "chk_raw_not_html": {
+    "message": "Этот URL возвращает не HTML-страницу"
+  },
+  "chk_received": {
+    "message": "Получено: $1"
+  },
+  "chk_received_empty": {
+    "message": "Получено: пустой ответ"
+  },
+  "chk_raw_not_html_fix": {
+    "message": "Соцсети читают мета-теги только из HTML-страниц."
+  },
+  "chk_raw_status": {
+    "message": "Сервер возвращает HTTP $1 посетителям без входа"
+  },
+  "chk_raw_status_detail": {
+    "message": "Роботы соцсетей заходят на страницу как гости без входа, поэтому тоже могут получить эту ошибку. Результаты ниже взяты со страницы, открытой во вкладке."
+  },
+  "chk_raw_status_fix": {
+    "message": "Откройте публичный доступ; проверьте, не блокирует ли роботов файрвол / защита от ботов (Cloudflare…)."
+  },
+  "chk_raw_failed": {
+    "message": "Не удалось загрузить исходный HTML"
+  },
+  "chk_raw_failed_fix": {
+    "message": "Проверьте, что URL страницы доступен из интернета."
+  },
+  "chk_raw_size": {
+    "message": "Исходный HTML больше 5 МБ"
+  },
+  "chk_raw_size_detail": {
+    "message": "Прочитаны только первые 5 МБ."
+  },
+  "chk_raw_size_fix": {
+    "message": "Разместите мета-теги в начале <head> и уменьшите размер HTML."
+  },
+  "chk_js_only_one": {
+    "message": "$1 тег появляется только после выполнения JavaScript"
+  },
+  "chk_js_only_other": {
+    "message": "Тегов, появляющихся только после выполнения JavaScript: $1"
+  },
+  "chk_js_only_fix": {
+    "message": "Facebook, Zalo, X, LinkedIn, Discord и Telegram не выполняют JavaScript, поэтому не видят эти теги. Настройте сервер так, чтобы теги были в HTML (SSR, заранее собранные статические страницы или пререндеринг). Если посетители без входа или не принявшие cookie видят только страницу-заглушку, роботы тоже видят только её."
+  },
+  "chk_js_only_ok": {
+    "message": "Теги для соцсетей есть в исходном HTML"
+  },
+  "chk_js_only_ok_detail": {
+    "message": "Добавлены только через JavaScript: $1 (не влияет на теги для соцсетей)."
+  },
+  "chk_changed": {
+    "message": "Исходный HTML отличается от отрисованной страницы"
+  },
+  "chk_changed_line": {
+    "message": "$1: «$2» → «$3»"
+  },
+  "chk_changed_fix": {
+    "message": "Соцсети используют значения из исходного HTML. Это часто бывает в одностраничных приложениях (SPA), которые меняют теги при навигации: сервер должен отдавать правильные теги для каждого URL."
+  },
+  "chk_og_title_missing": {
+    "message": "Нет og:title"
+  },
+  "chk_og_title_missing_fallback": {
+    "message": "Платформы используют вместо него тег <title>: «$1»."
+  },
+  "chk_og_title_missing_no_title": {
+    "message": "У страницы нет и <title>."
+  },
+  "chk_og_title_missing_fix": {
+    "message": "Добавьте <meta property=\"og:title\" content=\"…\"> – привлекательный заголовок примерно из 30–65 символов."
+  },
+  "chk_og_title_long_one": {
+    "message": "Длина og:title — $1 символ, возможна обрезка"
+  },
+  "chk_og_title_long_other": {
+    "message": "Длина og:title — $1 симв., возможна обрезка"
+  },
+  "chk_og_title_long_fix": {
+    "message": "Уложитесь примерно в 30–65 символов, главное — в начале."
+  },
+  "chk_og_title_short_one": {
+    "message": "og:title короткий ($1 символ)"
+  },
+  "chk_og_title_short_other": {
+    "message": "og:title короткий ($1 симв.)"
+  },
+  "chk_og_title_short_fix": {
+    "message": "Стремитесь к 30–65 символам, чтобы заголовок был полным и привлекательным."
+  },
+  "chk_og_title_ok_one": {
+    "message": "og:title задан ($1 символ)"
+  },
+  "chk_og_title_ok_other": {
+    "message": "og:title задан ($1 симв.)"
+  },
+  "chk_og_desc_missing": {
+    "message": "Нет og:description"
+  },
+  "chk_og_desc_missing_fallback": {
+    "message": "Facebook и Zalo используют вместо него meta description."
+  },
+  "chk_og_desc_missing_no_desc": {
+    "message": "На странице нет и meta description: в карточке не будет строки описания."
+  },
+  "chk_og_desc_missing_fix": {
+    "message": "Добавьте <meta property=\"og:description\" content=\"…\"> – примерно 60–160 символов."
+  },
+  "chk_og_desc_long_one": {
+    "message": "Длина og:description — $1 символ"
+  },
+  "chk_og_desc_long_other": {
+    "message": "Длина og:description — $1 симв."
+  },
+  "chk_og_desc_long_detail": {
+    "message": "Карточки обычно показывают только 1–2 строки, остальное обрезается."
+  },
+  "chk_og_desc_long_fix": {
+    "message": "Сократите примерно до 60–160 символов, главное — в начале."
+  },
+  "chk_og_desc_short_one": {
+    "message": "og:description короткий ($1 символ)"
+  },
+  "chk_og_desc_short_other": {
+    "message": "og:description короткий ($1 симв.)"
+  },
+  "chk_og_desc_short_fix": {
+    "message": "Стремитесь примерно к 60–160 символам, чтобы описание было достаточно полным."
+  },
+  "chk_og_desc_ok_one": {
+    "message": "og:description задан ($1 символ)"
+  },
+  "chk_og_desc_ok_other": {
+    "message": "og:description задан ($1 симв.)"
+  },
+  "chk_og_url_missing": {
+    "message": "Нет og:url"
+  },
+  "chk_og_url_missing_detail": {
+    "message": "Лайки / репосты могут распределиться между несколькими URL (с ?utm_…, #…)."
+  },
+  "chk_og_url_missing_fix": {
+    "message": "Добавьте <meta property=\"og:url\" content=\"канонический URL страницы\">."
+  },
+  "chk_og_url_relative": {
+    "message": "og:url — не абсолютный URL"
+  },
+  "chk_og_url_relative_fix": {
+    "message": "Используйте абсолютный URL, начинающийся с https://"
+  },
+  "chk_og_url_mismatch": {
+    "message": "og:url отличается от ссылки canonical"
+  },
+  "chk_og_url_mismatch_fix": {
+    "message": "Оба тега должны указывать на один и тот же канонический URL."
+  },
+  "chk_og_url_ok": {
+    "message": "og:url задан"
+  },
+  "chk_og_type_missing": {
+    "message": "Нет og:type"
+  },
+  "chk_og_type_missing_detail": {
+    "message": "Facebook по умолчанию считает его равным \"website\"."
+  },
+  "chk_og_type_missing_fix": {
+    "message": "Добавьте <meta property=\"og:type\" content=\"website\"> (для статей — \"article\")."
+  },
+  "chk_og_site_missing": {
+    "message": "Нет og:site_name"
+  },
+  "chk_og_site_missing_detail": {
+    "message": "Discord и Telegram показывают название сайта в первой строке карточки; без него показывается только домен."
+  },
+  "chk_og_site_missing_fix": {
+    "message": "Добавьте <meta property=\"og:site_name\" content=\"Название бренда\">."
+  },
+  "chk_og_locale_missing": {
+    "message": "og:locale не указан"
+  },
+  "chk_og_locale_missing_vi": {
+    "message": "Необязательно. Для страниц на вьетнамском можно указать \"vi_VN\"."
+  },
+  "chk_og_locale_optional": {
+    "message": "Необязательно."
+  },
+  "chk_dup": {
+    "message": "Дублирующиеся теги с разными значениями: $1"
+  },
+  "chk_dup_fix": {
+    "message": "Каждый тег должен встречаться только один раз, иначе платформы могут выбрать не тот."
+  },
+  "chk_og_image_missing": {
+    "message": "Нет og:image"
+  },
+  "chk_og_image_missing_tw": {
+    "message": "Задан только twitter:image (Facebook, Zalo и LinkedIn этот тег не используют)."
+  },
+  "chk_og_image_missing_detail": {
+    "message": "Публикации будут без изображения, или платформа выберет любое изображение со страницы."
+  },
+  "chk_og_image_missing_fix": {
+    "message": "Добавьте <meta property=\"og:image\" content=\"https://…/image-1200x630.jpg\"> – изображение JPG / PNG 1200×630 px."
+  },
+  "chk_og_image_ok": {
+    "message": "og:image задан"
+  },
+  "chk_img_abs_scheme": {
+    "message": "В og:image нет https:"
+  },
+  "chk_img_abs_scheme_fix": {
+    "message": "Укажите полный URL https://…"
+  },
+  "chk_img_abs_relative": {
+    "message": "og:image должен быть абсолютным URL"
+  },
+  "chk_img_abs_relative_detail": {
+    "message": "Сейчас: «$1»."
+  },
+  "chk_img_abs_relative_fix": {
+    "message": "Используйте полный URL: $1"
+  },
+  "chk_img_abs_ok": {
+    "message": "og:image — абсолютный URL"
+  },
+  "chk_img_https": {
+    "message": "og:image использует http (без шифрования)"
+  },
+  "chk_img_https_fix": {
+    "message": "Используйте https://, чтобы изображение могли загрузить все платформы."
+  },
+  "chk_tw_image_ok": {
+    "message": "twitter:image загружается"
+  },
+  "chk_tw_image_failed": {
+    "message": "Не удалось загрузить twitter:image"
+  },
+  "chk_tw_image_failed_fix": {
+    "message": "Проверьте URL изображения."
+  },
+  "chk_tw_card_missing": {
+    "message": "Нет twitter:card"
+  },
+  "chk_tw_card_missing_detail": {
+    "message": "X может не показать для ссылки карточку с большим изображением."
+  },
+  "chk_tw_card_missing_fix": {
+    "message": "Добавьте <meta name=\"twitter:card\" content=\"summary_large_image\">."
+  },
+  "chk_tw_card_invalid": {
+    "message": "Недопустимый twitter:card: «$1»"
+  },
+  "chk_tw_card_invalid_detail": {
+    "message": "Допустимые значения: $1."
+  },
+  "chk_tw_card_invalid_fix": {
+    "message": "Используйте \"summary_large_image\" для большого горизонтального изображения."
+  },
+  "chk_tw_card_summary": {
+    "message": "Маленькая карточка (квадратное изображение сбоку). Для большого изображения используйте summary_large_image."
+  },
+  "chk_tw_fallback": {
+    "message": "Нет $1"
+  },
+  "chk_tw_fallback_detail": {
+    "message": "Это нормально: X использует вместо них og:title / og:description / og:image."
+  },
+  "chk_title_missing": {
+    "message": "Нет тега <title>"
+  },
+  "chk_title_missing_fix": {
+    "message": "Добавьте <title>, точно описывающий страницу, примерно из 30–60 символов."
+  },
+  "chk_title_long_one": {
+    "message": "Длина <title> — $1 символ"
+  },
+  "chk_title_long_other": {
+    "message": "Длина <title> — $1 симв."
+  },
+  "chk_title_long_fix": {
+    "message": "Google обычно обрезает заголовки длиннее ~60 символов; сократите его."
+  },
+  "chk_title_short_one": {
+    "message": "<title> короткий ($1 символ)"
+  },
+  "chk_title_short_other": {
+    "message": "<title> короткий ($1 симв.)"
+  },
+  "chk_title_short_fix": {
+    "message": "Стремитесь к 30–60 символам, включая главное ключевое слово."
+  },
+  "chk_title_ok_one": {
+    "message": "<title> задан ($1 символ)"
+  },
+  "chk_title_ok_other": {
+    "message": "<title> задан ($1 симв.)"
+  },
+  "chk_desc_missing": {
+    "message": "Нет meta description"
+  },
+  "chk_desc_missing_detail": {
+    "message": "Google выберет в качестве описания произвольный фрагмент страницы."
+  },
+  "chk_desc_missing_fix": {
+    "message": "Добавьте <meta name=\"description\" content=\"…\"> примерно из 70–160 символов."
+  },
+  "chk_desc_long_one": {
+    "message": "Длина meta description — $1 символ"
+  },
+  "chk_desc_long_other": {
+    "message": "Длина meta description — $1 симв."
+  },
+  "chk_desc_long_detail": {
+    "message": "Google обычно обрезает описание примерно на 160 символах."
+  },
+  "chk_desc_long_fix": {
+    "message": "Сократите до 70–160 символов."
+  },
+  "chk_desc_short_one": {
+    "message": "Meta description короткий ($1 символ)"
+  },
+  "chk_desc_short_other": {
+    "message": "Meta description короткий ($1 симв.)"
+  },
+  "chk_desc_short_fix": {
+    "message": "Стремитесь к 70–160 символам."
+  },
+  "chk_desc_ok_one": {
+    "message": "Meta description задан ($1 символ)"
+  },
+  "chk_desc_ok_other": {
+    "message": "Meta description задан ($1 симв.)"
+  },
+  "chk_canonical_missing": {
+    "message": "Нет ссылки canonical"
+  },
+  "chk_canonical_missing_detail": {
+    "message": "Страницы, доступные по нескольким URL (параметры, http/https, www), могут считаться дублями."
+  },
+  "chk_canonical_missing_fix": {
+    "message": "Добавьте <link rel=\"canonical\" href=\"https://…\">."
+  },
+  "chk_canonical_relative": {
+    "message": "Canonical — не абсолютный URL"
+  },
+  "chk_canonical_relative_fix": {
+    "message": "Используйте полный URL: $1"
+  },
+  "chk_canonical_ok": {
+    "message": "Ссылка canonical задана"
+  },
+  "chk_robots_noindex": {
+    "message": "Страница запрещает Google индексировать её (noindex)"
+  },
+  "chk_robots_ok": {
+    "message": "Поисковым системам разрешено индексировать страницу"
+  },
+  "chk_robots_noindex_fix": {
+    "message": "Удалите \"noindex\", если хотите, чтобы страница появлялась в Google."
+  },
+  "chk_lang_ok": {
+    "message": "Язык указан: lang=\"$1\""
+  },
+  "chk_lang_missing": {
+    "message": "Нет атрибута lang у <html>"
+  },
+  "chk_lang_missing_fix": {
+    "message": "Добавьте <html lang=\"ru\"> (укажите код языка страницы)."
+  },
+  "chk_viewport_ok": {
+    "message": "Meta viewport задан (страница хорошо выглядит на телефонах)"
+  },
+  "chk_viewport_missing": {
+    "message": "Нет meta viewport"
+  },
+  "chk_viewport_missing_fix": {
+    "message": "Добавьте <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">."
+  },
+  "chk_favicon_ok": {
+    "message": "Значок сайта (favicon) задан"
+  },
+  "chk_favicon_failed": {
+    "message": "Favicon указан, но не загружается"
+  },
+  "chk_favicon_failed_fix": {
+    "message": "Проверьте URL значка."
+  },
+  "chk_favicon_ico": {
+    "message": "Найден /favicon.ico"
+  },
+  "chk_favicon_missing": {
+    "message": "Нет значка сайта (favicon)"
+  },
+  "chk_favicon_ico_detail": {
+    "message": "Также укажите <link rel=\"icon\"> (квадратное изображение, не меньше 48×48)."
+  },
+  "chk_favicon_missing_detail": {
+    "message": "Google показывает значок сайта рядом с результатами поиска."
+  },
+  "chk_favicon_missing_fix": {
+    "message": "Добавьте <link rel=\"icon\" href=\"/favicon.png\"> (квадратное изображение, не меньше 48×48)."
+  },
+  "chk_h1_count_one": {
+    "message": "Найден $1 заголовок H1"
+  },
+  "chk_h1_count_other": {
+    "message": "Заголовков H1: $1"
+  },
+  "chk_h1_missing": {
+    "message": "Нет заголовка H1"
+  },
+  "chk_h1_missing_fix": {
+    "message": "На каждой странице должен быть один главный заголовок <h1>."
+  },
+  "chk_jsonld_ok": {
+    "message": "Найдены структурированные данные (JSON-LD)"
+  },
+  "chk_jsonld_missing": {
+    "message": "Нет структурированных данных (JSON-LD)"
+  },
+  "chk_jsonld_missing_detail": {
+    "message": "Помогает Google показывать расширенные результаты (рейтинги, цены, FAQ…)."
+  },
+  "chk_jsonld_missing_fix": {
+    "message": "Добавьте подходящую разметку schema.org (Organization, Article, Product…)."
+  },
+  "chk_img_load_failed": {
+    "message": "Не удалось загрузить изображение для превью"
+  },
+  "chk_img_load_failed_fix": {
+    "message": "Проверьте, что изображение общедоступно (без входа) и URL указан верно."
+  },
+  "chk_img_load_ok": {
+    "message": "Изображение для превью загружается"
+  },
+  "chk_img_too_large": {
+    "message": "Изображение слишком большое (более 20 МБ)"
+  },
+  "chk_img_too_large_fix": {
+    "message": "Facebook принимает изображения до 8 МБ, X — до 5 МБ. Сожмите изображение до размера меньше 1 МБ."
+  },
+  "chk_img_redirected": {
+    "message": "перенаправление"
+  },
+  "chk_img_svg": {
+    "message": "Изображения SVG не поддерживаются"
+  },
+  "chk_img_svg_detail": {
+    "message": "Facebook, X, LinkedIn… не показывают изображения SVG."
+  },
+  "chk_img_svg_fix": {
+    "message": "Экспортируйте изображение в JPG или PNG."
+  },
+  "chk_img_format_unknown": {
+    "message": "Нераспознанный формат изображения"
+  },
+  "chk_img_format_unknown_detail": {
+    "message": "Сервер сообщает: $1."
+  },
+  "chk_img_use_jpg_png": {
+    "message": "Для надёжности используйте JPG или PNG."
+  },
+  "chk_img_not_image": {
+    "message": "URL из og:image возвращает не изображение"
+  },
+  "chk_received_unknown": {
+    "message": "Получено: неизвестный тип"
+  },
+  "chk_img_not_image_fix": {
+    "message": "Укажите в og:image ссылку на сам файл изображения."
+  },
+  "chk_img_corrupt": {
+    "message": "Изображение повреждено или не читается"
+  },
+  "chk_img_corrupt_fix": {
+    "message": "Заново экспортируйте изображение в JPG / PNG."
+  },
+  "chk_img_format_ok": {
+    "message": "Формат $1 поддерживается"
+  },
+  "chk_img_format_partial": {
+    "message": "Формат $1 поддерживается не всеми платформами"
+  },
+  "chk_img_bytes_fb": {
+    "message": "Размер изображения $1: Facebook его игнорирует (макс. 8 МБ)"
+  },
+  "chk_img_compress": {
+    "message": "Сожмите изображение до размера меньше 1 МБ."
+  },
+  "chk_img_bytes_x": {
+    "message": "Размер изображения $1: X не покажет его (макс. 5 МБ)"
+  },
+  "chk_img_bytes_heavy": {
+    "message": "Тяжёлое изображение ($1)"
+  },
+  "chk_img_bytes_heavy_detail": {
+    "message": "Тяжёлые изображения загружаются медленно, а некоторые мессенджеры могут их пропускать."
+  },
+  "chk_img_bytes_heavy_fix": {
+    "message": "Сожмите до размера меньше 1 МБ (JPG с качеством ~80%)."
+  },
+  "chk_img_bytes_ok": {
+    "message": "Размер изображения: $1"
+  },
+  "chk_img_dim_ok": {
+    "message": "Размеры $1×$2 px"
+  },
+  "chk_img_dim_ok_detail": {
+    "message": "Достаточно чёткое для большой карточки."
+  },
+  "chk_img_dim_low": {
+    "message": "Изображение $1×$2 px — недостаточно чёткое"
+  },
+  "chk_img_dim_low_detail": {
+    "message": "Всё равно показывается крупно, но размыто на экранах высокой чёткости."
+  },
+  "chk_img_dim_low_fix": {
+    "message": "Используйте 1200×630 px."
+  },
+  "chk_img_dim_small": {
+    "message": "Изображение $1×$2 px — маленькое"
+  },
+  "chk_img_dim_small_detail": {
+    "message": "Facebook покажет его маленькой миниатюрой сбоку вместо большого изображения (меньше 600×315)."
+  },
+  "chk_img_use_1200": {
+    "message": "Используйте изображение 1200×630 px."
+  },
+  "chk_img_dim_tiny": {
+    "message": "Изображение $1×$2 px — слишком маленькое"
+  },
+  "chk_img_dim_tiny_detail": {
+    "message": "Facebook не использует изображения меньше 200×200."
+  },
+  "chk_img_ratio": {
+    "message": "Соотношение сторон $1:1"
+  },
+  "chk_img_ratio_ok": {
+    "message": "Совпадает с рамкой 1,91:1 больших карточек."
+  },
+  "chk_img_ratio_off": {
+    "message": "Большие карточки используют рамку примерно 1,91:1, поэтому изображение будет обрезано (см. превью)."
+  },
+  "chk_img_ratio_fix": {
+    "message": "Используйте изображение 1200×630 px с важным содержимым по центру."
+  },
+  "chk_img_declared_missing": {
+    "message": "og:image:width / og:image:height не указаны"
+  },
+  "chk_img_declared_missing_detail": {
+    "message": "Если их указать, Facebook покажет изображение уже при первой публикации (не дожидаясь его загрузки)."
+  },
+  "chk_img_declared_missing_fix": {
+    "message": "Добавьте <meta property=\"og:image:width\" content=\"$1\"> и <meta property=\"og:image:height\" content=\"$2\">."
+  },
+  "chk_img_declared_mismatch": {
+    "message": "Указанный размер не совпадает с реальным"
+  },
+  "chk_img_declared_mismatch_detail": {
+    "message": "Указано $1×$2, на самом деле $3×$4."
+  },
+  "chk_img_declared_mismatch_fix": {
+    "message": "Измените их на $1 и $2."
+  },
+  "chk_img_declared_ok": {
+    "message": "og:image:width / height указаны верно"
+  },
+  "chk_img_alt_ok": {
+    "message": "Описание изображения (alt) задано"
+  },
+  "chk_img_alt_missing": {
+    "message": "Нет описания изображения (og:image:alt)"
+  },
+  "chk_img_alt_missing_detail": {
+    "message": "Пользователи программ чтения с экрана не узнают, что на изображении."
+  },
+  "chk_img_alt_missing_fix": {
+    "message": "Добавьте <meta property=\"og:image:alt\" content=\"…\">."
+  },
+  "chk_grade_great": {
+    "message": "Отлично"
+  },
+  "chk_grade_good": {
+    "message": "Хорошо"
+  },
+  "chk_grade_fair": {
+    "message": "Нужны улучшения"
+  },
+  "chk_grade_poor": {
+    "message": "Плохо"
+  },
+  "chk_suggest_title_placeholder": {
+    "message": "ЗАГОЛОВОК СТРАНИЦЫ (30–65 СИМВОЛОВ)"
+  },
+  "chk_suggest_desc_placeholder": {
+    "message": "КОРОТКОЕ ПРИВЛЕКАТЕЛЬНОЕ ОПИСАНИЕ (60–160 СИМВОЛОВ)"
+  },
+  "chk_suggest_image_url": {
+    "message": "https://$1/share-image-1200x630.jpg"
+  },
+  "chk_suggest_domain_placeholder": {
+    "message": "example.com"
+  },
+  "chk_suggest_note_basic": {
+    "message": "Основное (Google)"
+  },
+  "chk_suggest_alt_placeholder": {
+    "message": "ОПИСАНИЕ СОДЕРЖИМОГО ИЗОБРАЖЕНИЯ"
+  },
+  "chk_suggest_site_placeholder": {
+    "message": "НАЗВАНИЕ БРЕНДА"
+  },
+  "chk_suggest_note_x": {
+    "message": "X (Twitter): заголовок, описание и изображение берутся из тегов og:* выше"
+  }
+}

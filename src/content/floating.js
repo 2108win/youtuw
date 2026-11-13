@@ -16,7 +16,7 @@
   F.toggle = async () => {
     if (!pip()) return { ok: false };
     const res = await pip().toggle({ video: YTX.getVideo() });
-    if (!res.ok && YTX.ui) YTX.ui.toast(res.error || 'Không mở được cửa sổ nổi');
+    if (!res.ok && YTX.ui) YTX.ui.toast(res.error || globalThis.YTX_I18N.t('yt_toast_pip_failed'));
     YTX.emit('state');
     return res;
   };

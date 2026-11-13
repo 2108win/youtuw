@@ -1,19 +1,20 @@
 {
   "manifest_version": 3,
-  "name": "Cinema Tools for YouTube",
+  "name": "__MSG_ext_name__",
   "short_name": "Cinema Tools",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "minimum_chrome_version": "116",
-  "description": "Xoay, lật video YouTube, tắt đèn có đèn nền. Cửa sổ nổi cho video, chỉnh âm lượng từng tab, tải video / âm thanh / ảnh trên mọi trang.",
+  "description": "__MSG_ext_desc__",
+  "default_locale": "en",
   "permissions": ["storage", "downloads", "nativeMessaging", "scripting", "offscreen", "webRequest", "cookies", "tabCapture", "activeTab"],
   "commands": {
     "toggle-pip": {
       "suggested_key": { "default": "Alt+P" },
-      "description": "Mở / đóng cửa sổ nổi cho video của tab đang xem"
+      "description": "__MSG_cmd_toggle_pip__"
     },
     "capture-page": {
       "suggested_key": { "default": "Alt+S" },
-      "description": "Chụp cả trang đang xem"
+      "description": "__MSG_cmd_capture_page__"
     }
   },
   "host_permissions": ["<all_urls>"],
@@ -39,6 +40,7 @@
     {
       "matches": ["https://www.youtube.com/*"],
       "js": [
+        "src/shared/i18n.js",
         "src/shared/shared.js",
         "src/page/agent.js",
         "src/page/pip.js",

@@ -11,9 +11,11 @@
  *              /* #store-start … #store-end *\/        (chỉ có ở bản Store; ở mã nguồn là chú thích)
  *   HTML:      <!-- #full-start --> … <!-- #full-end -->
  *              <!-- #store-start … #store-end -->
+ *   _locales:  khoá bắt đầu bằng "full_" chỉ có ở bản đầy đủ (bản Store xoá đi).
  * Thư mục gốc chạy thẳng được (Load unpacked) như bản đầy đủ.
  * Chỉ dùng thư viện có sẵn của Node.js (>= 22), không cần npm install.
  */
+import { spawnSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { dirname, join, relative, resolve, sep } from 'node:path';
@@ -30,7 +32,7 @@ const ZIP = flags.includes('--zip');
 
 // Bản Store: chỉ các phần của extension. Bản đầy đủ: thêm bộ tải trên máy (không gồm các tệp riêng tư
 // config.json, host.bat, com.cinematools.downloader.json, host.log mà install.bat tự tạo) và tài liệu.
-const EXTENSION_FILES = ['manifest.json', 'icons', 'popup', 'src', 'LICENSE'];
+const EXTENSION_FILES = ['manifest.json', '_locales', 'icons', 'popup', 'src', 'LICENSE'];
 const INCLUDE = {
   store: EXTENSION_FILES,
   full: [
@@ -42,16 +44,19 @@ const INCLUDE = {
 
 // Bản Store: bỏ quyền chỉ dùng cho tải video / âm thanh.
 const STORE_DROP_PERMISSIONS = new Set(['nativeMessaging', 'cookies', 'webRequest']);
+// Tên / mô tả theo ngôn ngữ: khoá ext_name_store, ext_desc_store trong _locales.
 const STORE_MANIFEST = {
-  name: 'Cinema Tools – Công cụ xem video',
+  name: '__MSG_ext_name_store__',
   short_name: 'Cinema Tools',
-  description: 'Xoay, lật, phóng to video YouTube, tắt đèn có đèn nền. Cửa sổ nổi, âm lượng từng tab, chụp màn hình và lưu ảnh.',
+  description: '__MSG_ext_desc_store__',
 };
 // Bản Store không được còn sót những thứ này (chính sách Store cấm tải video YouTube).
 const STORE_FORBIDDEN = [
   /yt-dlp/i, /nativeMessaging/, /connectNative/, /sendNativeMessage/, /chrome\.cookies/, /chrome\.webRequest/,
   /i\.ytimg\.com/, /com\.cinematools\.downloader/, /#full-(start|end)/, /#store-(start|end)/,
 ];
+// Mã / HTML của bản Store không được dùng chuỗi chỉ có ở bản đầy đủ (đã bị xoá khỏi _locales).
+const STORE_FORBIDDEN_CODE = [/(['"`])full_[a-z0-9_]+\1/, /data-i18n[a-z-]*="full_/];
 
 const out = join(ROOT, 'dist', edition);
 
@@ -99,7 +104,7 @@ for (const file of walk(out)) {
   const after = strip(before, rel);
   if (after !== before) writeFileSync(file, after);
   if (edition === 'store') {
-    for (const re of STORE_FORBIDDEN) if (re.test(after)) problems.push(`${rel}: còn "${re.source}"`);
+    for (const re of [...STORE_FORBIDDEN, ...STORE_FORBIDDEN_CODE]) if (re.test(after)) problems.push(`${rel}: còn "${re.source}"`);
   }
 }
 
@@ -108,12 +113,49 @@ const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
 if (edition === 'store') {
   Object.assign(manifest, STORE_MANIFEST);
   manifest.permissions = manifest.permissions.filter((p) => !STORE_DROP_PERMISSIONS.has(p));
-  if (manifest.description.length > 132) problems.push(`manifest.description dài ${manifest.description.length} > 132 ký tự`);
-  if (manifest.name.length > 75) problems.push(`manifest.name dài ${manifest.name.length} > 75 ký tự`);
   const text = JSON.stringify(manifest);
   for (const re of STORE_FORBIDDEN) if (re.test(text)) problems.push(`manifest.json: còn "${re.source}"`);
 }
 writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
+
+// ---- Bản dịch (_locales) -------------------------------------------------------------------
+const localesDir = join(out, '_locales');
+const locales = existsSync(localesDir) ? readdirSync(localesDir).sort() : [];
+if (manifest.default_locale && !locales.includes(manifest.default_locale)) {
+  problems.push(`thiếu _locales/${manifest.default_locale} (default_locale)`);
+}
+const catalogs = {};
+for (const loc of locales) {
+  const p = join(localesDir, loc, 'messages.json');
+  const messages = JSON.parse(readFileSync(p, 'utf8'));
+  if (edition === 'store') {
+    for (const key of Object.keys(messages)) if (key.startsWith('full_')) delete messages[key];
+    const json = JSON.stringify(messages);
+    for (const re of STORE_FORBIDDEN) if (re.test(json)) problems.push(`_locales/${loc}: còn "${re.source}"`);
+    writeFileSync(p, `${JSON.stringify(messages, null, 2)}\n`);
+  }
+  catalogs[loc] = messages;
+}
+// Giới hạn của Chrome / Cửa hàng áp cho chữ thật của từng ngôn ngữ, không phải cho "__MSG_…__".
+const resolveMsg = (value, loc) => String(value || '').replace(/__MSG_(\w+)__/g, (_, k) => {
+  const m = catalogs[loc][k] || (catalogs[manifest.default_locale] || {})[k];
+  if (!m) problems.push(`_locales/${loc}: thiếu "${k}" mà manifest cần`);
+  return m ? m.message : '';
+});
+for (const loc of locales) {
+  const name = [...resolveMsg(manifest.name, loc)].length;
+  const desc = [...resolveMsg(manifest.description, loc)].length;
+  // Giới hạn của Chrome Web Store (bản đầy đủ không lên Store nên chỉ cảnh báo).
+  const over = [name > 75 && `tên dài ${name} > 75 ký tự`, desc > 132 && `mô tả dài ${desc} > 132 ký tự`].filter(Boolean);
+  for (const msg of over) {
+    if (edition === 'store') problems.push(`_locales/${loc}: ${msg}`);
+    else console.warn(`Cảnh báo: _locales/${loc}: ${msg}`);
+  }
+  for (const cmd of Object.values(manifest.commands || {})) resolveMsg(cmd.description, loc);
+}
+// Mọi khoá mà mã / HTML / manifest của bản này dùng phải có; các ngôn ngữ phải đủ khoá như nhau.
+const check = spawnSync(process.execPath, [join(ROOT, 'tools', 'i18n-check.mjs'), '--root', out, '--quiet'], { encoding: 'utf8' });
+if (check.status !== 0) problems.push(`kiểm tra bản dịch:\n${(check.stderr || check.stdout).trim()}`);
 
 // Mọi tệp manifest nhắc tới phải có trong bản build.
 const referenced = [

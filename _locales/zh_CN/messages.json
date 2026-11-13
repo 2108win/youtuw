@@ -1,0 +1,2036 @@
+{
+  "locale_code": {
+    "message": "zh-CN"
+  },
+  "ext_name": {
+    "message": "适用于 YouTube 的 Cinema Tools"
+  },
+  "ext_desc": {
+    "message": "旋转、翻转 YouTube 视频，关灯观影并带氛围光。画中画、按标签页调节音量，下载视频、音频和图片。"
+  },
+  "ext_name_store": {
+    "message": "Cinema Tools – 视频观看工具"
+  },
+  "ext_desc_store": {
+    "message": "旋转、翻转、缩放 YouTube 视频，关灯观影并带氛围光。画中画、按标签页调节音量、截图、分享预览。"
+  },
+  "cmd_toggle_pip": {
+    "message": "为当前标签页的视频打开 / 关闭画中画"
+  },
+  "cmd_capture_page": {
+    "message": "截取当前整个页面"
+  },
+  "act_flip_h": {
+    "message": "水平翻转"
+  },
+  "act_flip_v": {
+    "message": "垂直翻转"
+  },
+  "act_rotate_left": {
+    "message": "向左旋转 90°"
+  },
+  "act_rotate_right": {
+    "message": "向右旋转 90°"
+  },
+  "act_rotate_180": {
+    "message": "旋转 180°"
+  },
+  "act_reset_transform": {
+    "message": "重置"
+  },
+  "act_toggle_lights": {
+    "message": "关灯 / 开灯"
+  },
+  "act_toggle_cinema": {
+    "message": "电影模式"
+  },
+  "act_auto_crop": {
+    "message": "自动裁剪黑边"
+  },
+  "act_fill_frame": {
+    "message": "填满画面"
+  },
+  "act_crop_21x9": {
+    "message": "裁剪为 21:9"
+  },
+  "act_crop_4x3": {
+    "message": "裁剪为 4:3"
+  },
+  "act_zoom_in": {
+    "message": "放大"
+  },
+  "act_zoom_out": {
+    "message": "缩小"
+  },
+  "act_reset_zoom": {
+    "message": "重置缩放"
+  },
+  "act_snapshot": {
+    "message": "截取当前画面"
+  },
+  "full_act_download_thumb": {
+    "message": "下载缩略图"
+  },
+  "act_toggle_pip": {
+    "message": "画中画"
+  },
+  "act_pip_no_video": {
+    "message": "此页面上未找到视频。"
+  },
+  "act_pip_unavailable": {
+    "message": "此页面无法使用画中画。"
+  },
+  "full_act_stage_merge": {
+    "message": "正在合并视频和音频…"
+  },
+  "full_act_stage_extract_audio": {
+    "message": "正在转换音频…"
+  },
+  "full_act_stage_metadata": {
+    "message": "正在写入文件信息…"
+  },
+  "full_act_stage_move_files": {
+    "message": "正在保存文件…"
+  },
+  "full_act_stage_convert": {
+    "message": "正在转换格式…"
+  },
+  "full_act_stage_embed_thumb": {
+    "message": "正在嵌入缩略图…"
+  },
+  "full_act_stage_fixup": {
+    "message": "正在修复文件…"
+  },
+  "full_act_stage_processing": {
+    "message": "正在处理…"
+  },
+  "full_act_choice_audio": {
+    "message": "音频 $1"
+  },
+  "full_act_quality_best": {
+    "message": "最佳"
+  },
+  "full_act_job_starting": {
+    "message": "正在获取视频信息…"
+  },
+  "full_act_job_part_audio": {
+    "message": "音频"
+  },
+  "full_act_job_part_video": {
+    "message": "视频 $1p"
+  },
+  "full_act_job_part_any": {
+    "message": "正在下载"
+  },
+  "full_act_job_eta": {
+    "message": "剩余 $1"
+  },
+  "full_act_job_done": {
+    "message": "已保存"
+  },
+  "full_act_job_done_size": {
+    "message": "已保存 · $1"
+  },
+  "full_act_job_cancelled": {
+    "message": "已取消"
+  },
+  "full_act_job_error": {
+    "message": "错误：$1"
+  },
+  "full_act_job_error_unknown": {
+    "message": "未知"
+  },
+  "full_popup_brand_sub": {
+    "message": "适用于 YouTube"
+  },
+  "popup_brand_sub_store": {
+    "message": "视频观看工具"
+  },
+  "popup_pip_title": {
+    "message": "将正在播放的视频弹出为画中画，置于所有应用上方（Alt+P）"
+  },
+  "popup_pip": {
+    "message": "画中画"
+  },
+  "popup_pip_no_video": {
+    "message": "无视频"
+  },
+  "popup_pip_failed": {
+    "message": "无法打开"
+  },
+  "popup_settings": {
+    "message": "设置"
+  },
+  "popup_sections": {
+    "message": "功能分区"
+  },
+  "popup_tab_video": {
+    "message": "视频"
+  },
+  "popup_tab_audio": {
+    "message": "音频"
+  },
+  "full_popup_tab_download": {
+    "message": "下载"
+  },
+  "popup_tab_images": {
+    "message": "图片"
+  },
+  "popup_tab_tools": {
+    "message": "工具"
+  },
+  "popup_lights_title": {
+    "message": "关灯"
+  },
+  "popup_lights_on_title": {
+    "message": "已关灯"
+  },
+  "popup_cinema_title": {
+    "message": "电影模式"
+  },
+  "popup_cinema_on_title": {
+    "message": "电影模式已开启"
+  },
+  "popup_transform_heading": {
+    "message": "旋转和翻转"
+  },
+  "popup_state_flip_h": {
+    "message": "已水平翻转"
+  },
+  "popup_state_flip_v": {
+    "message": "已垂直翻转"
+  },
+  "popup_zoom_heading": {
+    "message": "缩放和裁剪"
+  },
+  "popup_autocrop_title": {
+    "message": "检测并裁剪视频中的黑边"
+  },
+  "popup_autocrop": {
+    "message": "自动裁剪"
+  },
+  "popup_fill_title": {
+    "message": "放大画面以填满播放器"
+  },
+  "popup_fill": {
+    "message": "填满"
+  },
+  "popup_crop21_title": {
+    "message": "21:9 宽银幕电影"
+  },
+  "popup_crop43_title": {
+    "message": "嵌在 16:9 画面中的 4:3 视频"
+  },
+  "popup_notice_no_tab": {
+    "message": "请打开一个 YouTube 视频。刚安装？请刷新 YouTube 标签页（F5）。"
+  },
+  "popup_notice_open_video": {
+    "message": "打开一个 YouTube 视频，即可旋转、翻转和关灯。"
+  },
+  "popup_audio_heading": {
+    "message": "各标签页音量"
+  },
+  "popup_mute_others_title": {
+    "message": "将其他所有正在播放的标签页静音"
+  },
+  "popup_mute_others": {
+    "message": "仅此标签页"
+  },
+  "popup_mixer_empty": {
+    "message": "没有标签页正在播放音频。"
+  },
+  "popup_shot_heading": {
+    "message": "截图"
+  },
+  "popup_shot_full": {
+    "message": "整页"
+  },
+  "popup_shot_full_sub": {
+    "message": "自动滚动拼接"
+  },
+  "popup_shot_visible": {
+    "message": "可见区域"
+  },
+  "popup_shot_visible_sub": {
+    "message": "当前屏幕内容"
+  },
+  "popup_shot_region": {
+    "message": "选区"
+  },
+  "popup_shot_region_sub": {
+    "message": "拖动选择"
+  },
+  "popup_shot_error": {
+    "message": "无法截取此页面。"
+  },
+  "popup_share_heading": {
+    "message": "分享预览"
+  },
+  "popup_share_btn": {
+    "message": "检查此页面"
+  },
+  "popup_share_btn_sub": {
+    "message": "查看此页面链接在社交平台和 Google 上的显示效果：评分及修改建议"
+  },
+  "popup_share_http_only": {
+    "message": "只能检查网页（http / https）。"
+  },
+  "popup_share_incognito": {
+    "message": "无痕式窗口中不可用。"
+  },
+  "full_popup_video_heading": {
+    "message": "视频和音频"
+  },
+  "full_popup_setup_title": {
+    "message": "未安装视频下载器"
+  },
+  "full_popup_setup_text": {
+    "message": "下载视频需要在本机安装 yt-dlp（只需安装一次，免费）："
+  },
+  "full_popup_setup_step1": {
+    "message": "扩展程序文件夹 → **native-host** → 双击 **install.bat**。"
+  },
+  "full_popup_setup_step2": {
+    "message": "等待出现 **Hoàn tất**（完成），然后点击 **重新检查**。"
+  },
+  "full_popup_copy": {
+    "message": "复制"
+  },
+  "full_popup_recheck": {
+    "message": "重新检查"
+  },
+  "full_popup_v_idle": {
+    "message": "使用 yt-dlp 查找页面上的视频（YouTube、Facebook、TikTok、X… 1000 多个网站）。"
+  },
+  "full_popup_v_analyze": {
+    "message": "查找此页面上的视频"
+  },
+  "full_popup_v_loading": {
+    "message": "正在分析视频…"
+  },
+  "full_popup_v_entry": {
+    "message": "选择页面上的视频"
+  },
+  "full_popup_v_quality": {
+    "message": "画质"
+  },
+  "full_popup_v_format": {
+    "message": "格式"
+  },
+  "full_popup_v_download": {
+    "message": "下载"
+  },
+  "full_popup_jobs_clear": {
+    "message": "清除已完成"
+  },
+  "full_popup_streams_heading": {
+    "message": "文件和视频流"
+  },
+  "popup_img_heading": {
+    "message": "页面中的图片"
+  },
+  "popup_img_format": {
+    "message": "图片保存格式"
+  },
+  "popup_img_format_original": {
+    "message": "原格式"
+  },
+  "popup_img_small_title": {
+    "message": "同时显示图标和小图片"
+  },
+  "popup_img_small": {
+    "message": "小图"
+  },
+  "full_popup_thumb_title": {
+    "message": "下载视频缩略图（最大尺寸）"
+  },
+  "full_popup_thumb": {
+    "message": "缩略图"
+  },
+  "popup_snap": {
+    "message": "截图"
+  },
+  "popup_img_all": {
+    "message": "全选"
+  },
+  "popup_img_download": {
+    "message": "下载"
+  },
+  "popup_set_lights_heading": {
+    "message": "关灯和氛围光"
+  },
+  "popup_set_dim": {
+    "message": "遮罩暗度"
+  },
+  "popup_set_glow": {
+    "message": "视频后方的氛围光"
+  },
+  "popup_set_glow_strength": {
+    "message": "氛围光亮度"
+  },
+  "popup_set_glow_size": {
+    "message": "氛围光范围"
+  },
+  "popup_set_options": {
+    "message": "选项"
+  },
+  "popup_set_keep_transform": {
+    "message": "切换视频时保留旋转、翻转和缩放"
+  },
+  "popup_set_player_buttons": {
+    "message": "在播放器上显示按钮"
+  },
+  "popup_set_shortcuts": {
+    "message": "键盘快捷键"
+  },
+  "popup_set_auto_pip": {
+    "message": "切换标签页时自动开启画中画（YouTube）"
+  },
+  "popup_keys_heading": {
+    "message": "快捷键"
+  },
+  "popup_keys_hint": {
+    "message": "Alt + Shift + 按键"
+  },
+  "popup_keys_customize": {
+    "message": "更改快捷键"
+  },
+  "popup_key_escape": {
+    "message": "退出电影模式 / 开灯"
+  },
+  "popup_key_pip": {
+    "message": "画中画（任意网站）"
+  },
+  "popup_key_capture": {
+    "message": "截取整页（任意网站）"
+  },
+  "full_popup_set_download_heading": {
+    "message": "下载"
+  },
+  "full_popup_set_cookies": {
+    "message": "下载视频时使用浏览器的登录状态"
+  },
+  "full_popup_set_cookies_note": {
+    "message": "Facebook、Instagram、私密视频等需要此项。Cookie 只会发送给你电脑上的下载器，绝不会保存到磁盘。不用于 YouTube。"
+  },
+  "popup_reset": {
+    "message": "恢复默认设置"
+  },
+  "yt_toast_snapshot_saved": {
+    "message": "已截取画面 $1×$2"
+  },
+  "full_yt_dl_preset_best": {
+    "message": "最佳"
+  },
+  "full_yt_dl_preset_best_label": {
+    "message": "最佳视频 · MP4"
+  },
+  "full_yt_dl_preset_video_label": {
+    "message": "视频 $1 · MP4"
+  },
+  "full_yt_dl_preset_mp3_label": {
+    "message": "仅音频 · MP3"
+  },
+  "full_yt_err_extension_updated": {
+    "message": "扩展程序刚刚已更新，请刷新页面（F5）。"
+  },
+  "full_yt_dl_panel_title": {
+    "message": "下载"
+  },
+  "full_yt_dl_panel_state": {
+    "message": "MP4 视频"
+  },
+  "full_yt_dl_thumb": {
+    "message": "缩略图"
+  },
+  "full_yt_dl_thumb_title": {
+    "message": "下载视频缩略图（最大尺寸）"
+  },
+  "full_yt_dl_snapshot": {
+    "message": "截图"
+  },
+  "full_yt_dl_snapshot_title": {
+    "message": "截取当前画面（Alt+Shift+S）"
+  },
+  "full_yt_dl_host_missing": {
+    "message": "未安装视频下载器（yt-dlp）。点击扩展程序图标 → 下载，查看安装步骤。图片仍可下载。"
+  },
+  "full_yt_toast_watch_only": {
+    "message": "仅可在视频页面下载"
+  },
+  "full_yt_toast_download_start_failed": {
+    "message": "无法开始下载"
+  },
+  "full_yt_toast_download_started": {
+    "message": "已开始下载 · $1"
+  },
+  "full_yt_dl_cancel": {
+    "message": "取消下载"
+  },
+  "full_yt_dl_open_file": {
+    "message": "打开文件"
+  },
+  "full_yt_dl_show_in_folder": {
+    "message": "在文件夹中显示"
+  },
+  "full_yt_toast_download_done": {
+    "message": "下载完成"
+  },
+  "full_yt_toast_download_failed": {
+    "message": "下载失败"
+  },
+  "full_yt_toast_thumb_loading": {
+    "message": "正在下载缩略图…"
+  },
+  "full_yt_thumb_filename": {
+    "message": "$1 - 缩略图"
+  },
+  "full_yt_toast_thumb_saved": {
+    "message": "已保存缩略图"
+  },
+  "full_yt_toast_thumb_failed_reason": {
+    "message": "无法下载缩略图：$1"
+  },
+  "full_yt_toast_thumb_failed": {
+    "message": "无法下载缩略图"
+  },
+  "yt_toast_pip_failed": {
+    "message": "无法打开画中画"
+  },
+  "yt_toast_lights_off": {
+    "message": "已关灯 · 按 Esc 重新开灯"
+  },
+  "yt_toast_lights_on": {
+    "message": "已开灯"
+  },
+  "yt_toast_cinema_on": {
+    "message": "电影模式 · 按 Esc 退出"
+  },
+  "yt_toast_cinema_off": {
+    "message": "已退出电影模式"
+  },
+  "yt_toast_transform_reset": {
+    "message": "已重置视频"
+  },
+  "yt_toast_zoom_reset": {
+    "message": "已重置缩放"
+  },
+  "yt_toast_pan_hint": {
+    "message": "$1 · 拖动视频即可平移画面"
+  },
+  "yt_toast_watch_only": {
+    "message": "仅可在视频页面使用"
+  },
+  "full_yt_btn_download": {
+    "message": "下载"
+  },
+  "yt_btn_pip": {
+    "message": "画中画（Alt+Shift+P）"
+  },
+  "yt_btn_transform": {
+    "message": "旋转/翻转和缩放"
+  },
+  "yt_btn_lights_off": {
+    "message": "关灯（Alt+Shift+L）"
+  },
+  "yt_btn_cinema": {
+    "message": "电影模式（Alt+Shift+C）"
+  },
+  "yt_zoom_reset_title": {
+    "message": "重置缩放（恢复到 100%）"
+  },
+  "yt_transform_panel_title": {
+    "message": "旋转/翻转和缩放"
+  },
+  "yt_panel_zoom_crop": {
+    "message": "缩放和裁剪"
+  },
+  "yt_btn_autocrop": {
+    "message": "自动裁剪"
+  },
+  "yt_btn_autocrop_title": {
+    "message": "自动裁剪黑边（Alt+Shift+A）"
+  },
+  "yt_btn_fill": {
+    "message": "填满"
+  },
+  "yt_btn_zoom_out_title": {
+    "message": "缩小（Alt+Shift+−）"
+  },
+  "yt_btn_zoom_in_title": {
+    "message": "放大（Alt+Shift++）"
+  },
+  "yt_btn_lights_on": {
+    "message": "开灯（Alt+Shift+L）"
+  },
+  "yt_btn_cinema_exit": {
+    "message": "退出电影模式（Esc）"
+  },
+  "yt_btn_pip_close": {
+    "message": "关闭画中画（Alt+Shift+P）"
+  },
+  "yt_panel_state_flip_hv": {
+    "message": "$1° · 已水平翻转 · 已垂直翻转"
+  },
+  "yt_panel_state_flip_h": {
+    "message": "$1° · 已水平翻转"
+  },
+  "yt_panel_state_flip_v": {
+    "message": "$1° · 已垂直翻转"
+  },
+  "yt_err_video_not_ready": {
+    "message": "视频尚未就绪，请稍后再试"
+  },
+  "yt_err_frame_unreadable": {
+    "message": "无法读取此视频的画面"
+  },
+  "yt_err_scene_too_dark": {
+    "message": "画面太暗，请在较亮的场景再试"
+  },
+  "yt_toast_no_bars": {
+    "message": "未发现黑边 · 填满画面 $1%"
+  },
+  "yt_toast_bars_cropped": {
+    "message": "已裁剪黑边 · $1%"
+  },
+  "yt_toast_fill": {
+    "message": "填满画面 · $1%"
+  },
+  "yt_toast_crop_ratio": {
+    "message": "已裁剪为 $1 · $2%"
+  },
+  "full_dl_hint_mp4": {
+    "message": "MP4 兼容性最好。1080p 及以下优先使用 H.264，更高分辨率使用 VP9/AV1。"
+  },
+  "full_dl_hint_webm": {
+    "message": "WebM（VP9 + Opus）：画质好，体积小。"
+  },
+  "full_dl_hint_mkv": {
+    "message": "MKV 保留可用的最佳编码（通常为 AV1），适合存档。"
+  },
+  "full_dl_hint_mp3": {
+    "message": "MP3 兼容性最好（由原始音频重新编码）。"
+  },
+  "full_dl_hint_m4a": {
+    "message": "M4A（AAC）：通常直接使用原始音频，无需重新编码。"
+  },
+  "full_dl_hint_opus": {
+    "message": "Opus：YouTube 的原始音频，体积最小。"
+  },
+  "full_dl_host_checking": {
+    "message": "正在检查…"
+  },
+  "full_dl_host_connected": {
+    "message": "已连接"
+  },
+  "full_dl_host_save_to": {
+    "message": "保存到：$1"
+  },
+  "full_dl_no_ffmpeg": {
+    "message": "缺少 ffmpeg：只能下载同时包含画面和声音的格式。请重新运行 install.bat。"
+  },
+  "full_dl_setup_missing_title": {
+    "message": "未安装视频下载器"
+  },
+  "full_dl_setup_error_title": {
+    "message": "无法连接到下载器"
+  },
+  "full_dl_setup_missing_text": {
+    "message": "下载视频需要在你的电脑上安装 yt-dlp 工具（只需安装一次，免费）："
+  },
+  "full_dl_setup_error_text": {
+    "message": "$1 修复方法："
+  },
+  "full_dl_retry": {
+    "message": "重试"
+  },
+  "full_dl_analyzing_embed": {
+    "message": "正在分析嵌入的视频…"
+  },
+  "full_dl_analyzing": {
+    "message": "正在分析视频…"
+  },
+  "full_dl_analyze_failed": {
+    "message": "无法分析此页面。"
+  },
+  "full_dl_no_videos": {
+    "message": "此页面上未找到视频。"
+  },
+  "full_dl_entries_title_one": {
+    "message": "页面中有 $1 个视频"
+  },
+  "full_dl_entries_title_other": {
+    "message": "页面中有 $1 个视频"
+  },
+  "full_dl_live_unsupported": {
+    "message": "暂不支持下载直播。请在直播结束后再试。"
+  },
+  "full_dl_max_height": {
+    "message": "最高 $1p"
+  },
+  "full_dl_audio_only_info": {
+    "message": "仅音频"
+  },
+  "full_dl_group_video": {
+    "message": "视频"
+  },
+  "full_dl_group_audio_only": {
+    "message": "仅音频"
+  },
+  "full_dl_audio_format": {
+    "message": "$1 · 音频"
+  },
+  "full_dl_quality_best": {
+    "message": "最佳（$1）"
+  },
+  "full_dl_download_audio": {
+    "message": "下载音频"
+  },
+  "full_dl_download_audio_size": {
+    "message": "下载音频 · 约 $1"
+  },
+  "full_dl_download_video": {
+    "message": "下载视频"
+  },
+  "full_dl_download_video_size": {
+    "message": "下载视频 · 约 $1"
+  },
+  "full_dl_job_cancel": {
+    "message": "取消下载"
+  },
+  "full_dl_job_open": {
+    "message": "打开文件"
+  },
+  "full_dl_job_reveal": {
+    "message": "在文件夹中显示"
+  },
+  "full_dl_stream_playing": {
+    "message": "正在播放的视频"
+  },
+  "full_dl_stream_in_post": {
+    "message": "帖子中的视频"
+  },
+  "full_dl_stream_pick": {
+    "message": "选择"
+  },
+  "full_dl_stream_embed": {
+    "message": "页面中嵌入的 $1 视频"
+  },
+  "full_dl_stream_download": {
+    "message": "下载"
+  },
+  "full_dl_stream_sent": {
+    "message": "已交给浏览器下载"
+  },
+  "full_dl_stream_error": {
+    "message": "错误：$1"
+  },
+  "full_dl_stream_need_host": {
+    "message": "请先安装视频下载器（见上方）"
+  },
+  "full_dl_stream_started": {
+    "message": "正在下载 · 进度见上方"
+  },
+  "dl_img_upgraded_tip": {
+    "message": "将下载找到的最大版本"
+  },
+  "dl_img_count_one": {
+    "message": "$1 张图片"
+  },
+  "dl_img_count_other": {
+    "message": "$1 张图片"
+  },
+  "dl_img_count_of_one": {
+    "message": "$2 / $1 张图片"
+  },
+  "dl_img_count_of_other": {
+    "message": "$2 / $1 张图片"
+  },
+  "dl_img_only_small": {
+    "message": "只有小图片（图标）。开启“小图”即可显示。"
+  },
+  "dl_img_none": {
+    "message": "此页面上未找到图片。"
+  },
+  "dl_img_deselect": {
+    "message": "取消全选"
+  },
+  "dl_img_select_all": {
+    "message": "全选"
+  },
+  "dl_img_download_n_one": {
+    "message": "下载 $1 张图片"
+  },
+  "dl_img_download_n_other": {
+    "message": "下载 $1 张图片"
+  },
+  "dl_img_download": {
+    "message": "下载"
+  },
+  "dl_img_downloading_one": {
+    "message": "正在下载 $1 张图片…"
+  },
+  "dl_img_downloading_other": {
+    "message": "正在下载 $1 张图片…"
+  },
+  "dl_img_saved_failed_folder_one": {
+    "message": "已将 $1 张图片保存到文件夹“$4” · $2 张失败（$3）"
+  },
+  "dl_img_saved_failed_folder_other": {
+    "message": "已将 $1 张图片保存到文件夹“$4” · $2 张失败（$3）"
+  },
+  "dl_img_saved_failed_one": {
+    "message": "已保存 $1 张图片 · $2 张失败（$3）"
+  },
+  "dl_img_saved_failed_other": {
+    "message": "已保存 $1 张图片 · $2 张失败（$3）"
+  },
+  "dl_img_saved_folder_one": {
+    "message": "已将 $1 张图片保存到文件夹“$2”"
+  },
+  "dl_img_saved_folder_other": {
+    "message": "已将 $1 张图片保存到文件夹“$2”"
+  },
+  "dl_img_saved_one": {
+    "message": "已保存 $1 张图片"
+  },
+  "dl_img_saved_other": {
+    "message": "已保存 $1 张图片"
+  },
+  "dl_img_download_failed": {
+    "message": "下载失败：$1"
+  },
+  "dl_img_unknown_error": {
+    "message": "未知错误"
+  },
+  "dl_snap_label": {
+    "message": "截图"
+  },
+  "dl_snap_tip": {
+    "message": "以原始分辨率 $1×$2 截取正在播放的画面"
+  },
+  "dl_scan_system_page": {
+    "message": "无法扫描此页面（浏览器系统页面）。"
+  },
+  "dl_scanning": {
+    "message": "正在扫描页面…"
+  },
+  "dl_scan_failed_file": {
+    "message": "无法扫描此页面。请为此扩展程序开启“允许访问文件网址”。"
+  },
+  "dl_scan_failed": {
+    "message": "无法扫描此页面。"
+  },
+  "full_dl_start_failed": {
+    "message": "无法开始下载。"
+  },
+  "full_dl_copied": {
+    "message": "已复制"
+  },
+  "full_dl_thumb_name": {
+    "message": "$1 - 缩略图"
+  },
+  "dl_snap_done": {
+    "message": "已截取 $1×$2 · $3"
+  },
+  "dl_snap_failed": {
+    "message": "无法截图"
+  },
+  "dl_snap_failed_detail": {
+    "message": "无法截图：$1"
+  },
+  "full_dl_unavailable_page": {
+    "message": "此页面不可用。"
+  },
+  "full_dl_feed_hint": {
+    "message": "这是信息流 / 个人主页，尚未找到视频。请播放你想下载的视频（或打开该帖子 / Reel），然后点击下方按钮。"
+  },
+  "full_dl_find_playing": {
+    "message": "查找正在播放的视频"
+  },
+  "full_dl_feed_retry": {
+    "message": "此页面上尚未找到视频。请播放你想下载的视频（或打开该帖子 / Reel），然后重试。"
+  },
+  "audio_volume_aria": {
+    "message": "音量：$1"
+  },
+  "audio_set_failed": {
+    "message": "无法调整此标签页的音量。"
+  },
+  "audio_tab_switch_tip": {
+    "message": "$1\n点击切换到此标签页"
+  },
+  "audio_this_tab": {
+    "message": "此标签页"
+  },
+  "audio_playing": {
+    "message": "正在播放音频"
+  },
+  "audio_pip": {
+    "message": "将此标签页的视频弹出为画中画"
+  },
+  "audio_pip_failed": {
+    "message": "无法打开画中画。"
+  },
+  "audio_unmute": {
+    "message": "取消静音"
+  },
+  "audio_mute": {
+    "message": "静音"
+  },
+  "audio_boost_current_only": {
+    "message": "只有在打开弹出窗口的那个标签页上，音量才能增强到 100% 以上。请在该标签页上打开弹出窗口，然后重试。"
+  },
+  "bg_file_name_default": {
+    "message": "文件"
+  },
+  "full_bg_host_missing": {
+    "message": "此电脑上未安装视频下载器。"
+  },
+  "full_bg_host_forbidden": {
+    "message": "下载器尚未允许此扩展程序（其 ID 已更改）。请重新运行 install.bat。"
+  },
+  "full_bg_host_crash": {
+    "message": "下载器意外退出。请重新运行 install.bat，或查看 native-host\\host.log。"
+  },
+  "full_bg_host_unreachable": {
+    "message": "无法连接到下载器。"
+  },
+  "full_bg_host_no_reply": {
+    "message": "下载器没有响应。"
+  },
+  "full_bg_invalid_url": {
+    "message": "网址无效。"
+  },
+  "full_bg_job_interrupted": {
+    "message": "在完成前被中断。"
+  },
+  "full_bg_unknown_error": {
+    "message": "未知错误。"
+  },
+  "full_bg_invalid_choice": {
+    "message": "下载选项无效。"
+  },
+  "full_bg_host_stopped": {
+    "message": "下载器意外停止。"
+  },
+  "bg_img_no_url": {
+    "message": "缺少图片网址"
+  },
+  "bg_img_failed": {
+    "message": "无法下载图片"
+  },
+  "bg_img_none_selected": {
+    "message": "未选择任何图片。"
+  },
+  "bg_vol_no_tab": {
+    "message": "未指定标签页。"
+  },
+  "bg_vol_cannot_set": {
+    "message": "无法调整此页面的音量。"
+  },
+  "bg_vol_no_tab_info": {
+    "message": "缺少标签页信息。"
+  },
+  "bg_vol_capture_failed": {
+    "message": "无法捕获标签页的音频。"
+  },
+  "bg_shot_bad_mode": {
+    "message": "截图模式无效。"
+  },
+  "bg_shot_busy": {
+    "message": "正在截图，请稍候。"
+  },
+  "bg_shot_no_tab": {
+    "message": "找不到标签页。"
+  },
+  "bg_shot_restricted": {
+    "message": "无法截取此页面（浏览器系统页面）。"
+  },
+  "bg_img_private_host": {
+    "message": "不下载来自本地网络地址的图片"
+  },
+  "bg_img_server_status": {
+    "message": "服务器返回错误 $1"
+  },
+  "bg_img_too_large": {
+    "message": "图片过大（超过 50 MB）"
+  },
+  "bg_img_not_image": {
+    "message": "该网址不是图片"
+  },
+  "bg_img_bad_size": {
+    "message": "图片尺寸无效"
+  },
+  "bg_img_unreadable": {
+    "message": "无法读取图片"
+  },
+  "page_image_name_default": {
+    "message": "图片"
+  },
+  "page_image_name_random": {
+    "message": "图片-$1"
+  },
+  "page_alt_video_poster": {
+    "message": "视频封面"
+  },
+  "page_alt_page_image": {
+    "message": "页面预览图"
+  },
+  "page_snap_no_video": {
+    "message": "当前没有显示任何视频。"
+  },
+  "page_snap_failed": {
+    "message": "无法生成图片"
+  },
+  "page_snap_blocked": {
+    "message": "此页面不允许截取视频画面（视频来自其他网站或受保护）。"
+  },
+  "page_pip_no_video": {
+    "message": "此页面上未找到视频。"
+  },
+  "page_pip_blocked": {
+    "message": "浏览器阻止了画中画。请再次点击“画中画”按钮。"
+  },
+  "page_pip_failed": {
+    "message": "无法打开画中画"
+  },
+  "page_pip_failed_detail": {
+    "message": "无法打开画中画：$1"
+  },
+  "page_shot_select_hint": {
+    "message": "拖动以选择要截取的区域 · 按 Esc 取消"
+  },
+  "shot_page_title": {
+    "message": "页面截图"
+  },
+  "shot_stitching": {
+    "message": "正在拼接图片…"
+  },
+  "shot_save_png": {
+    "message": "下载 PNG"
+  },
+  "shot_save_jpg": {
+    "message": "下载 JPG"
+  },
+  "shot_copy": {
+    "message": "复制"
+  },
+  "shot_file_name_default": {
+    "message": "截图"
+  },
+  "shot_file_name_page": {
+    "message": "页面"
+  },
+  "shot_err_read_image": {
+    "message": "无法读取截图"
+  },
+  "shot_err_too_large": {
+    "message": "图片过大，无法保存"
+  },
+  "shot_open_folder": {
+    "message": "打开文件夹"
+  },
+  "shot_saved": {
+    "message": "已将 $1 保存到“下载”文件夹。"
+  },
+  "shot_save_failed": {
+    "message": "无法保存：$1"
+  },
+  "shot_gone_title": {
+    "message": "截图已不可用"
+  },
+  "shot_expired": {
+    "message": "此截图已过期（浏览器或扩展程序刚刚重启）。请重新截图。"
+  },
+  "shot_doc_title": {
+    "message": "截图 – $1"
+  },
+  "shot_file_name": {
+    "message": "截图 $1 $2"
+  },
+  "shot_stitching_progress": {
+    "message": "正在拼接图片… $1/$2"
+  },
+  "shot_processing": {
+    "message": "正在处理图片…"
+  },
+  "shot_err_missing_frame": {
+    "message": "截图缺少部分内容。请重新截图。"
+  },
+  "shot_img_alt": {
+    "message": "截图 $1"
+  },
+  "shot_img_hint": {
+    "message": "点击可在实际大小和适应屏幕之间切换"
+  },
+  "shot_mode_full": {
+    "message": "整页"
+  },
+  "shot_mode_visible": {
+    "message": "可见区域"
+  },
+  "shot_mode_region": {
+    "message": "所选区域"
+  },
+  "shot_meta_scaled": {
+    "message": "因页面过长已缩小"
+  },
+  "shot_meta_truncated": {
+    "message": "仅截取了前 $1 px（无限滚动页面）"
+  },
+  "shot_meta_css_size": {
+    "message": "页面上的 $1 × $2 px"
+  },
+  "shot_copied": {
+    "message": "图片已复制——按 Ctrl+V 即可粘贴到需要的地方。"
+  },
+  "shot_copy_failed": {
+    "message": "无法复制（图片可能过大）：$1"
+  },
+  "share_title": {
+    "message": "分享预览"
+  },
+  "share_subtitle": {
+    "message": "Open Graph · Twitter Card · 基础 SEO"
+  },
+  "share_url_placeholder": {
+    "message": "https://www.example.cn/article"
+  },
+  "share_url_aria": {
+    "message": "要检查的页面地址"
+  },
+  "share_check_btn": {
+    "message": "检查"
+  },
+  "share_loading_page": {
+    "message": "正在读取页面…"
+  },
+  "share_empty_title": {
+    "message": "你的页面分享出去是什么样子？"
+  },
+  "share_empty_body": {
+    "message": "在上方输入页面地址（或在弹出窗口中点击 **工具 → 检查此页面**），即可预览链接在 Facebook、Zalo、X、LinkedIn、Discord、Telegram 和 Google 上的显示效果，并获得评分和修改建议。"
+  },
+  "share_status_pass": {
+    "message": "通过："
+  },
+  "share_status_warn": {
+    "message": "警告："
+  },
+  "share_status_fail": {
+    "message": "错误："
+  },
+  "share_status_info": {
+    "message": "信息："
+  },
+  "share_platform_pass": {
+    "message": "正常"
+  },
+  "share_platform_warn": {
+    "message": "需改进"
+  },
+  "share_platform_fail": {
+    "message": "有错误"
+  },
+  "share_loading_raw": {
+    "message": "正在像社交平台爬虫一样获取原始 HTML…"
+  },
+  "share_err_unknown": {
+    "message": "无法读取页面：未知错误。"
+  },
+  "share_err_read_status": {
+    "message": "无法读取页面：服务器返回状态码 $1。"
+  },
+  "share_err_read": {
+    "message": "无法读取页面：$1。"
+  },
+  "share_loading_images": {
+    "message": "正在加载分享图片…"
+  },
+  "share_err_invalid_url": {
+    "message": "地址无效。请输入以 http:// 或 https:// 开头的网页地址"
+  },
+  "share_doc_title_score": {
+    "message": "$1/100 – 分享预览"
+  },
+  "share_score_aria": {
+    "message": "$1 分（满分 100）– $2"
+  },
+  "share_page_untitled": {
+    "message": "（页面没有标题）"
+  },
+  "share_count_fail_one": {
+    "message": "$1 个错误"
+  },
+  "share_count_fail_other": {
+    "message": "$1 个错误"
+  },
+  "share_count_warn_one": {
+    "message": "$1 个警告"
+  },
+  "share_count_warn_other": {
+    "message": "$1 个警告"
+  },
+  "share_count_pass_one": {
+    "message": "$1 项通过"
+  },
+  "share_count_pass_other": {
+    "message": "$1 项通过"
+  },
+  "share_platforms_aria": {
+    "message": "各平台状态"
+  },
+  "share_chip_issues": {
+    "message": "错误：$1，警告：$2"
+  },
+  "share_chip_no_issues": {
+    "message": "没有问题"
+  },
+  "share_notice_private": {
+    "message": "此页面位于本地地址（localhost / 局域网），社交平台无法访问。以下结果可帮助你在页面上线前检查标签。"
+  },
+  "share_notice_no_raw": {
+    "message": "无法读取原始 HTML（爬虫可能也被拦截），因此评分上限为 49。以下各项来自标签页中显示的页面，可能与社交平台获取到的内容不同。"
+  },
+  "share_notice_raw_only": {
+    "message": "仅检查了原始 HTML（未与标签页中打开的页面进行比较）。"
+  },
+  "share_pv_no_image": {
+    "message": "无图片"
+  },
+  "share_pv_svg": {
+    "message": "SVG 图片：不显示"
+  },
+  "share_pv_bad_image": {
+    "message": "图片无法使用"
+  },
+  "share_pv_untitled": {
+    "message": "（无标题）"
+  },
+  "share_x_from": {
+    "message": "来自 $1"
+  },
+  "share_google_no_desc": {
+    "message": "没有 meta description：Google 会从页面中自行选取摘要。"
+  },
+  "share_sec_preview": {
+    "message": "预览"
+  },
+  "share_sec_preview_sub": {
+    "message": "大致模拟各平台显示链接的方式，实际布局可能随时间变化。Cinema Tools 与这些平台无关联。"
+  },
+  "share_fix_label": {
+    "message": "修复方法："
+  },
+  "share_filter_issues": {
+    "message": "需处理（$1）"
+  },
+  "share_filter_fail": {
+    "message": "错误（$1）"
+  },
+  "share_filter_all": {
+    "message": "全部（$1）"
+  },
+  "share_filter_aria": {
+    "message": "筛选结果"
+  },
+  "share_sec_checks": {
+    "message": "检查结果"
+  },
+  "share_checks_none": {
+    "message": "没有需要修复的项目了，干得好！"
+  },
+  "share_img_url": {
+    "message": "网址"
+  },
+  "share_img_size": {
+    "message": "尺寸"
+  },
+  "share_img_ratio": {
+    "message": "宽高比"
+  },
+  "share_img_ratio_value": {
+    "message": "$1 : 1（标准为 1.91 : 1）"
+  },
+  "share_img_bytes": {
+    "message": "文件大小"
+  },
+  "share_img_bytes_min": {
+    "message": "$1 或更大"
+  },
+  "share_img_format": {
+    "message": "格式"
+  },
+  "share_img_http": {
+    "message": "HTTP 状态"
+  },
+  "share_img_status_redirected": {
+    "message": "$1（已重定向）"
+  },
+  "share_img_cannot_view": {
+    "message": "无法显示图片"
+  },
+  "share_img_svg": {
+    "message": "SVG 图片：社交平台不会显示，本页面也不会显示。"
+  },
+  "share_img_too_large": {
+    "message": "图片过大，无法显示。"
+  },
+  "share_img_decode_error": {
+    "message": "图片已损坏，无法解码。"
+  },
+  "share_img_too_many_pixels": {
+    "message": "图片像素过多，无法显示。"
+  },
+  "share_img_crop_title": {
+    "message": "大图卡片中显示的区域（1.91:1）"
+  },
+  "share_img_crop_caption": {
+    "message": "亮框：裁剪为 1.91:1 后保留的部分。"
+  },
+  "share_sec_image": {
+    "message": "分享图片（og:image）"
+  },
+  "share_sec_tags": {
+    "message": "找到的标签"
+  },
+  "share_tags_none": {
+    "message": "页面没有任何用于分享的 meta 标签。"
+  },
+  "share_src_raw": {
+    "message": "原始 HTML"
+  },
+  "share_src_dom": {
+    "message": "渲染后页面"
+  },
+  "share_src_js_only": {
+    "message": "仅 JS"
+  },
+  "share_src_js_changed": {
+    "message": "被 JS 修改"
+  },
+  "share_tags_after_js": {
+    "message": "JS 执行后：$1"
+  },
+  "share_sec_tags_sub": {
+    "message": "“仅 JS”：由 JavaScript 添加的标签，社交平台爬虫看不到。"
+  },
+  "share_th_tag": {
+    "message": "标签"
+  },
+  "share_th_value": {
+    "message": "值"
+  },
+  "share_th_source": {
+    "message": "来源"
+  },
+  "share_copy": {
+    "message": "复制"
+  },
+  "share_copied": {
+    "message": "已复制。请粘贴到页面的 <head> 中。"
+  },
+  "share_copy_failed": {
+    "message": "无法复制：$1"
+  },
+  "share_sec_snippet": {
+    "message": "建议的 meta 标签"
+  },
+  "share_snippet_changes_one": {
+    "message": "需要添加（+）或修改（~）$1 行；其他行保留现有值。请将【】中的占位文字替换为实际内容。"
+  },
+  "share_snippet_changes_other": {
+    "message": "需要添加（+）或修改（~）$1 行；其他行保留现有值。请将【】中的占位文字替换为实际内容。"
+  },
+  "share_snippet_complete": {
+    "message": "页面已包含所有基本标签。"
+  },
+  "share_tools_how": {
+    "message": "为了查看爬虫看到的内容，会再获取一次页面（不带 Cookie），同时获取分享图片和页面声明的图标。"
+  },
+  "share_tools_caveat": {
+    "message": "各平台真实的爬虫可能收到不同的内容（拦截机器人、为爬虫提供专用页面），且平台会缓存预览。修改标签后，请将地址粘贴到官方工具中进行确认和刷新："
+  },
+  "share_tools_private": {
+    "message": "这些工具仅在页面上线后可用（不支持 localhost）。"
+  },
+  "share_tool_fb_note": {
+    "message": "– 同时刷新 Messenger 和 Instagram 的预览"
+  },
+  "share_tool_google_note": {
+    "message": "– 检查结构化数据"
+  },
+  "share_sec_tools": {
+    "message": "在各平台上重新检查"
+  },
+  "share_err_not_web": {
+    "message": "只能检查网页（http / https）。"
+  },
+  "share_err_tab_closed": {
+    "message": "要检查的标签页已关闭。请在上方输入页面地址。"
+  },
+  "share_jsonld_invalid": {
+    "message": "（无效 JSON）"
+  },
+  "share_err_http_only": {
+    "message": "仅支持 http / https 地址"
+  },
+  "share_err_redirect_private": {
+    "message": "被重定向到社交平台无法加载的本地网络地址"
+  },
+  "share_err_timeout": {
+    "message": "超时（$1 秒）"
+  },
+  "share_err_connect": {
+    "message": "无法连接到服务器"
+  },
+  "share_err_not_http": {
+    "message": "不是 http / https 地址"
+  },
+  "share_err_image_private": {
+    "message": "图片位于本地网络地址 / 本机，社交平台无法加载"
+  },
+  "share_err_http_status": {
+    "message": "服务器返回状态码 $1"
+  },
+  "chk_group_access": {
+    "message": "爬虫可读取页面"
+  },
+  "chk_group_image": {
+    "message": "分享图片"
+  },
+  "chk_group_seo": {
+    "message": "Google 和基础 SEO"
+  },
+  "chk_bytes_mb": {
+    "message": "$1 MB"
+  },
+  "chk_bytes_kb": {
+    "message": "$1 KB"
+  },
+  "chk_quoted": {
+    "message": "“$1”"
+  },
+  "chk_raw_ok": {
+    "message": "未登录也能加载原始 HTML"
+  },
+  "chk_raw_redirected": {
+    "message": "已重定向到 $1"
+  },
+  "chk_raw_not_html": {
+    "message": "此网址未返回 HTML 页面"
+  },
+  "chk_received": {
+    "message": "收到：$1"
+  },
+  "chk_received_empty": {
+    "message": "收到：空响应"
+  },
+  "chk_raw_not_html_fix": {
+    "message": "社交平台只会读取 HTML 页面中的 meta 标签。"
+  },
+  "chk_raw_status": {
+    "message": "服务器向未登录访客返回 HTTP $1"
+  },
+  "chk_raw_status_detail": {
+    "message": "社交平台爬虫以未登录访客的身份访问页面，因此也可能遇到此错误。以下结果来自标签页中当前显示的页面。"
+  },
+  "chk_raw_status_fix": {
+    "message": "允许公开访问；检查防火墙 / 机器人防护（Cloudflare…）是否拦截了爬虫。"
+  },
+  "chk_raw_failed": {
+    "message": "无法加载原始 HTML"
+  },
+  "chk_raw_failed_fix": {
+    "message": "检查页面网址能否从互联网访问。"
+  },
+  "chk_raw_size": {
+    "message": "原始 HTML 超过 5 MB"
+  },
+  "chk_raw_size_detail": {
+    "message": "仅读取了前 5 MB。"
+  },
+  "chk_raw_size_fix": {
+    "message": "将 meta 标签放在 <head> 的最前面，并减小 HTML 大小。"
+  },
+  "chk_js_only_one": {
+    "message": "$1 个标签仅在 JavaScript 运行后出现"
+  },
+  "chk_js_only_other": {
+    "message": "$1 个标签仅在 JavaScript 运行后出现"
+  },
+  "chk_js_only_fix": {
+    "message": "Facebook、Zalo、X、LinkedIn、Discord 和 Telegram 不运行 JavaScript，因此看不到这些标签。请让服务器直接在 HTML 中输出标签（SSR、预构建的静态页面或预渲染）。如果未登录或未接受 Cookie 的访客只能看到拦截页面，爬虫也只能看到该页面。"
+  },
+  "chk_js_only_ok": {
+    "message": "原始 HTML 中已包含分享标签"
+  },
+  "chk_js_only_ok_detail": {
+    "message": "仅由 JavaScript 添加：$1（不影响分享标签）。"
+  },
+  "chk_changed": {
+    "message": "原始 HTML 与渲染后页面不同"
+  },
+  "chk_changed_line": {
+    "message": "$1：“$2” → “$3”"
+  },
+  "chk_changed_fix": {
+    "message": "社交平台使用原始 HTML 中的值。这在切换页面时修改标签的单页应用（SPA）中很常见：服务器必须为每个网址返回正确的标签。"
+  },
+  "chk_og_title_missing": {
+    "message": "缺少 og:title"
+  },
+  "chk_og_title_missing_fallback": {
+    "message": "各平台将改用 <title> 标签：“$1”。"
+  },
+  "chk_og_title_missing_no_title": {
+    "message": "页面也没有 <title>。"
+  },
+  "chk_og_title_missing_fix": {
+    "message": "添加 <meta property=\"og:title\" content=\"…\"> – 吸引人的标题，约 30–65 个字符。"
+  },
+  "chk_og_title_long_one": {
+    "message": "og:title 长度为 $1 个字符，可能会被截断"
+  },
+  "chk_og_title_long_other": {
+    "message": "og:title 长度为 $1 个字符，可能会被截断"
+  },
+  "chk_og_title_long_fix": {
+    "message": "控制在约 30–65 个字符，并把重点放在前面。"
+  },
+  "chk_og_title_short_one": {
+    "message": "og:title 过短（$1 个字符）"
+  },
+  "chk_og_title_short_other": {
+    "message": "og:title 过短（$1 个字符）"
+  },
+  "chk_og_title_short_fix": {
+    "message": "建议 30–65 个字符，使内容更完整、更吸引人。"
+  },
+  "chk_og_title_ok_one": {
+    "message": "已设置 og:title（$1 个字符）"
+  },
+  "chk_og_title_ok_other": {
+    "message": "已设置 og:title（$1 个字符）"
+  },
+  "chk_og_desc_missing": {
+    "message": "缺少 og:description"
+  },
+  "chk_og_desc_missing_fallback": {
+    "message": "Facebook 和 Zalo 将改用 meta description。"
+  },
+  "chk_og_desc_missing_no_desc": {
+    "message": "页面也没有 meta description：分享卡片将没有描述行。"
+  },
+  "chk_og_desc_missing_fix": {
+    "message": "添加 <meta property=\"og:description\" content=\"…\"> – 约 60–160 个字符。"
+  },
+  "chk_og_desc_long_one": {
+    "message": "og:description 长度为 $1 个字符"
+  },
+  "chk_og_desc_long_other": {
+    "message": "og:description 长度为 $1 个字符"
+  },
+  "chk_og_desc_long_detail": {
+    "message": "分享卡片通常只显示 1–2 行，其余部分会被截断。"
+  },
+  "chk_og_desc_long_fix": {
+    "message": "缩短到约 60–160 个字符，并把重点放在前面。"
+  },
+  "chk_og_desc_short_one": {
+    "message": "og:description 过短（$1 个字符）"
+  },
+  "chk_og_desc_short_other": {
+    "message": "og:description 过短（$1 个字符）"
+  },
+  "chk_og_desc_short_fix": {
+    "message": "建议约 60–160 个字符，把内容说清楚。"
+  },
+  "chk_og_desc_ok_one": {
+    "message": "已设置 og:description（$1 个字符）"
+  },
+  "chk_og_desc_ok_other": {
+    "message": "已设置 og:description（$1 个字符）"
+  },
+  "chk_og_url_missing": {
+    "message": "缺少 og:url"
+  },
+  "chk_og_url_missing_detail": {
+    "message": "点赞 / 分享数可能会分散到多个网址（带 ?utm_…、#…）。"
+  },
+  "chk_og_url_missing_fix": {
+    "message": "添加 <meta property=\"og:url\" content=\"页面的规范网址\">。"
+  },
+  "chk_og_url_relative": {
+    "message": "og:url 不是绝对网址"
+  },
+  "chk_og_url_relative_fix": {
+    "message": "使用以 https:// 开头的绝对网址"
+  },
+  "chk_og_url_mismatch": {
+    "message": "og:url 与 canonical 链接不一致"
+  },
+  "chk_og_url_mismatch_fix": {
+    "message": "两个标签应指向同一个规范网址。"
+  },
+  "chk_og_url_ok": {
+    "message": "已设置 og:url"
+  },
+  "chk_og_type_missing": {
+    "message": "缺少 og:type"
+  },
+  "chk_og_type_missing_detail": {
+    "message": "Facebook 默认将其视为 \"website\"。"
+  },
+  "chk_og_type_missing_fix": {
+    "message": "添加 <meta property=\"og:type\" content=\"website\">（文章使用 \"article\"）。"
+  },
+  "chk_og_site_missing": {
+    "message": "缺少 og:site_name"
+  },
+  "chk_og_site_missing_detail": {
+    "message": "Discord 和 Telegram 会在卡片第一行显示网站名称；如果没有，则只显示域名。"
+  },
+  "chk_og_site_missing_fix": {
+    "message": "添加 <meta property=\"og:site_name\" content=\"品牌名称\">。"
+  },
+  "chk_og_locale_missing": {
+    "message": "未声明 og:locale"
+  },
+  "chk_og_locale_missing_vi": {
+    "message": "可选。越南语页面可以设置为 \"vi_VN\"。"
+  },
+  "chk_og_locale_optional": {
+    "message": "可选。"
+  },
+  "chk_dup": {
+    "message": "存在值不同的重复标签：$1"
+  },
+  "chk_dup_fix": {
+    "message": "每个标签只应出现一次，否则平台可能会选错。"
+  },
+  "chk_og_image_missing": {
+    "message": "缺少 og:image"
+  },
+  "chk_og_image_missing_tw": {
+    "message": "仅设置了 twitter:image（Facebook、Zalo 和 LinkedIn 不使用此标签）。"
+  },
+  "chk_og_image_missing_detail": {
+    "message": "分享的帖子将没有图片，或者平台会从页面中随意选取一张图片。"
+  },
+  "chk_og_image_missing_fix": {
+    "message": "添加 <meta property=\"og:image\" content=\"https://…/image-1200x630.jpg\"> – 1200×630 px 的 JPG / PNG 图片。"
+  },
+  "chk_og_image_ok": {
+    "message": "已设置 og:image"
+  },
+  "chk_img_abs_scheme": {
+    "message": "og:image 缺少 https:"
+  },
+  "chk_img_abs_scheme_fix": {
+    "message": "写出完整的 https://… 网址"
+  },
+  "chk_img_abs_relative": {
+    "message": "og:image 必须是绝对网址"
+  },
+  "chk_img_abs_relative_detail": {
+    "message": "当前为“$1”。"
+  },
+  "chk_img_abs_relative_fix": {
+    "message": "使用完整网址：$1"
+  },
+  "chk_img_abs_ok": {
+    "message": "og:image 是绝对网址"
+  },
+  "chk_img_https": {
+    "message": "og:image 使用 http（未加密）"
+  },
+  "chk_img_https_fix": {
+    "message": "使用 https://，确保所有平台都能加载。"
+  },
+  "chk_tw_image_ok": {
+    "message": "twitter:image 可以加载"
+  },
+  "chk_tw_image_failed": {
+    "message": "无法加载 twitter:image"
+  },
+  "chk_tw_image_failed_fix": {
+    "message": "请检查图片网址。"
+  },
+  "chk_tw_card_missing": {
+    "message": "缺少 twitter:card"
+  },
+  "chk_tw_card_missing_detail": {
+    "message": "X 可能不会为该链接显示大图卡片。"
+  },
+  "chk_tw_card_missing_fix": {
+    "message": "添加 <meta name=\"twitter:card\" content=\"summary_large_image\">。"
+  },
+  "chk_tw_card_invalid": {
+    "message": "twitter:card 无效：“$1”"
+  },
+  "chk_tw_card_invalid_detail": {
+    "message": "有效值：$1。"
+  },
+  "chk_tw_card_invalid_fix": {
+    "message": "如需横向大图，请使用 \"summary_large_image\"。"
+  },
+  "chk_tw_card_summary": {
+    "message": "小卡片（方形图片位于侧边）。如需大图，请使用 summary_large_image。"
+  },
+  "chk_tw_fallback": {
+    "message": "没有 $1"
+  },
+  "chk_tw_fallback_detail": {
+    "message": "没关系：X 会改用 og:title / og:description / og:image。"
+  },
+  "chk_title_missing": {
+    "message": "缺少 <title> 标签"
+  },
+  "chk_title_missing_fix": {
+    "message": "添加能准确描述页面内容的 <title>，约 30–60 个字符。"
+  },
+  "chk_title_long_one": {
+    "message": "<title> 长度为 $1 个字符"
+  },
+  "chk_title_long_other": {
+    "message": "<title> 长度为 $1 个字符"
+  },
+  "chk_title_long_fix": {
+    "message": "Google 通常会截断超过约 60 个字符的标题，请缩短。"
+  },
+  "chk_title_short_one": {
+    "message": "<title> 过短（$1 个字符）"
+  },
+  "chk_title_short_other": {
+    "message": "<title> 过短（$1 个字符）"
+  },
+  "chk_title_short_fix": {
+    "message": "建议 30–60 个字符，并包含主要关键词。"
+  },
+  "chk_title_ok_one": {
+    "message": "已设置 <title>（$1 个字符）"
+  },
+  "chk_title_ok_other": {
+    "message": "已设置 <title>（$1 个字符）"
+  },
+  "chk_desc_missing": {
+    "message": "缺少 meta description"
+  },
+  "chk_desc_missing_detail": {
+    "message": "Google 会从页面中任意选取一段文字作为描述。"
+  },
+  "chk_desc_missing_fix": {
+    "message": "添加约 70–160 个字符的 <meta name=\"description\" content=\"…\">。"
+  },
+  "chk_desc_long_one": {
+    "message": "Meta description 长度为 $1 个字符"
+  },
+  "chk_desc_long_other": {
+    "message": "Meta description 长度为 $1 个字符"
+  },
+  "chk_desc_long_detail": {
+    "message": "Google 通常会在约 160 个字符处截断。"
+  },
+  "chk_desc_long_fix": {
+    "message": "缩短到 70–160 个字符。"
+  },
+  "chk_desc_short_one": {
+    "message": "Meta description 过短（$1 个字符）"
+  },
+  "chk_desc_short_other": {
+    "message": "Meta description 过短（$1 个字符）"
+  },
+  "chk_desc_short_fix": {
+    "message": "建议 70–160 个字符。"
+  },
+  "chk_desc_ok_one": {
+    "message": "已设置 meta description（$1 个字符）"
+  },
+  "chk_desc_ok_other": {
+    "message": "已设置 meta description（$1 个字符）"
+  },
+  "chk_canonical_missing": {
+    "message": "缺少 canonical 链接"
+  },
+  "chk_canonical_missing_detail": {
+    "message": "可通过多个网址访问的页面（参数、http/https、www）可能会被视为重复内容。"
+  },
+  "chk_canonical_missing_fix": {
+    "message": "添加 <link rel=\"canonical\" href=\"https://…\">。"
+  },
+  "chk_canonical_relative": {
+    "message": "Canonical 不是绝对网址"
+  },
+  "chk_canonical_relative_fix": {
+    "message": "使用完整网址：$1"
+  },
+  "chk_canonical_ok": {
+    "message": "已设置 canonical 链接"
+  },
+  "chk_robots_noindex": {
+    "message": "页面禁止 Google 将其编入索引（noindex）"
+  },
+  "chk_robots_ok": {
+    "message": "允许搜索引擎将页面编入索引"
+  },
+  "chk_robots_noindex_fix": {
+    "message": "如果希望页面出现在 Google 上，请移除 \"noindex\"。"
+  },
+  "chk_lang_ok": {
+    "message": "已声明语言：lang=\"$1\""
+  },
+  "chk_lang_missing": {
+    "message": "<html> 缺少 lang 属性"
+  },
+  "chk_lang_missing_fix": {
+    "message": "添加 <html lang=\"zh-CN\">（使用页面的语言代码）。"
+  },
+  "chk_viewport_ok": {
+    "message": "已设置 meta viewport（在手机上显示良好）"
+  },
+  "chk_viewport_missing": {
+    "message": "缺少 meta viewport"
+  },
+  "chk_viewport_missing_fix": {
+    "message": "添加 <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">。"
+  },
+  "chk_favicon_ok": {
+    "message": "已设置网站图标（favicon）"
+  },
+  "chk_favicon_failed": {
+    "message": "已声明 favicon，但无法加载"
+  },
+  "chk_favicon_failed_fix": {
+    "message": "请检查图标网址。"
+  },
+  "chk_favicon_ico": {
+    "message": "找到 /favicon.ico"
+  },
+  "chk_favicon_missing": {
+    "message": "没有网站图标（favicon）"
+  },
+  "chk_favicon_ico_detail": {
+    "message": "建议同时声明 <link rel=\"icon\">（方形图片，至少 48×48）。"
+  },
+  "chk_favicon_missing_detail": {
+    "message": "Google 会在搜索结果旁显示网站图标。"
+  },
+  "chk_favicon_missing_fix": {
+    "message": "添加 <link rel=\"icon\" href=\"/favicon.png\">（方形图片，至少 48×48）。"
+  },
+  "chk_h1_count_one": {
+    "message": "找到 $1 个 H1 标题"
+  },
+  "chk_h1_count_other": {
+    "message": "找到 $1 个 H1 标题"
+  },
+  "chk_h1_missing": {
+    "message": "没有 H1 标题"
+  },
+  "chk_h1_missing_fix": {
+    "message": "每个页面都应有一个主要的 <h1> 标题。"
+  },
+  "chk_jsonld_ok": {
+    "message": "找到结构化数据（JSON-LD）"
+  },
+  "chk_jsonld_missing": {
+    "message": "没有结构化数据（JSON-LD）"
+  },
+  "chk_jsonld_missing_detail": {
+    "message": "有助于 Google 显示富媒体搜索结果（评分、价格、常见问题…）。"
+  },
+  "chk_jsonld_missing_fix": {
+    "message": "添加合适的 schema.org 标记（Organization、Article、Product…）。"
+  },
+  "chk_img_load_failed": {
+    "message": "无法加载分享图片"
+  },
+  "chk_img_load_failed_fix": {
+    "message": "请检查图片是否可公开访问（无需登录），以及网址是否正确。"
+  },
+  "chk_img_load_ok": {
+    "message": "分享图片可以加载"
+  },
+  "chk_img_too_large": {
+    "message": "图片过大（超过 20 MB）"
+  },
+  "chk_img_too_large_fix": {
+    "message": "Facebook 接受最大 8 MB 的图片，X 最大 5 MB。请将图片压缩到 1 MB 以下。"
+  },
+  "chk_img_redirected": {
+    "message": "已重定向"
+  },
+  "chk_img_svg": {
+    "message": "不支持 SVG 图片"
+  },
+  "chk_img_svg_detail": {
+    "message": "Facebook、X、LinkedIn… 不显示 SVG 图片。"
+  },
+  "chk_img_svg_fix": {
+    "message": "将图片导出为 JPG 或 PNG。"
+  },
+  "chk_img_format_unknown": {
+    "message": "无法识别的图片格式"
+  },
+  "chk_img_format_unknown_detail": {
+    "message": "服务器报告的类型为 $1。"
+  },
+  "chk_img_use_jpg_png": {
+    "message": "稳妥起见，请使用 JPG 或 PNG。"
+  },
+  "chk_img_not_image": {
+    "message": "og:image 网址未返回图片"
+  },
+  "chk_received_unknown": {
+    "message": "收到：未知类型"
+  },
+  "chk_img_not_image_fix": {
+    "message": "让 og:image 指向实际的图片文件。"
+  },
+  "chk_img_corrupt": {
+    "message": "图片已损坏或无法读取"
+  },
+  "chk_img_corrupt_fix": {
+    "message": "重新将图片导出为 JPG / PNG。"
+  },
+  "chk_img_format_ok": {
+    "message": "支持 $1 格式"
+  },
+  "chk_img_format_partial": {
+    "message": "并非所有平台都支持 $1 格式"
+  },
+  "chk_img_bytes_fb": {
+    "message": "图片大小为 $1：Facebook 会忽略（最大 8 MB）"
+  },
+  "chk_img_compress": {
+    "message": "请将图片压缩到 1 MB 以下。"
+  },
+  "chk_img_bytes_x": {
+    "message": "图片大小为 $1：X 不会显示（最大 5 MB）"
+  },
+  "chk_img_bytes_heavy": {
+    "message": "图片文件较大（$1）"
+  },
+  "chk_img_bytes_heavy_detail": {
+    "message": "大图片加载缓慢，部分即时通讯应用可能会跳过。"
+  },
+  "chk_img_bytes_heavy_fix": {
+    "message": "压缩到 1 MB 以下（JPG 质量约 80%）。"
+  },
+  "chk_img_bytes_ok": {
+    "message": "图片大小：$1"
+  },
+  "chk_img_dim_ok": {
+    "message": "尺寸 $1×$2 px"
+  },
+  "chk_img_dim_ok_detail": {
+    "message": "清晰度足以用于大图卡片。"
+  },
+  "chk_img_dim_low": {
+    "message": "图片为 $1×$2 px，不够清晰"
+  },
+  "chk_img_dim_low_detail": {
+    "message": "仍会显示为大图，但在高分辨率屏幕上会模糊。"
+  },
+  "chk_img_dim_low_fix": {
+    "message": "请使用 1200×630 px。"
+  },
+  "chk_img_dim_small": {
+    "message": "图片为 $1×$2 px，偏小"
+  },
+  "chk_img_dim_small_detail": {
+    "message": "Facebook 会将其显示为侧边小缩略图，而不是大图（低于 600×315 时）。"
+  },
+  "chk_img_use_1200": {
+    "message": "请使用 1200×630 px 的图片。"
+  },
+  "chk_img_dim_tiny": {
+    "message": "图片为 $1×$2 px，太小"
+  },
+  "chk_img_dim_tiny_detail": {
+    "message": "Facebook 不使用小于 200×200 的图片。"
+  },
+  "chk_img_ratio": {
+    "message": "宽高比 $1:1"
+  },
+  "chk_img_ratio_ok": {
+    "message": "符合大图卡片的 1.91:1 画框。"
+  },
+  "chk_img_ratio_off": {
+    "message": "大图卡片使用约 1.91:1 的画框，因此图片会被裁剪（见预览）。"
+  },
+  "chk_img_ratio_fix": {
+    "message": "使用 1200×630 px 的图片，并将重要内容放在中间。"
+  },
+  "chk_img_declared_missing": {
+    "message": "未声明 og:image:width / og:image:height"
+  },
+  "chk_img_declared_missing_detail": {
+    "message": "声明后，Facebook 在首次分享时就能显示图片（无需等待下载）。"
+  },
+  "chk_img_declared_missing_fix": {
+    "message": "添加 <meta property=\"og:image:width\" content=\"$1\"> 和 <meta property=\"og:image:height\" content=\"$2\">。"
+  },
+  "chk_img_declared_mismatch": {
+    "message": "声明的尺寸与实际图片不符"
+  },
+  "chk_img_declared_mismatch_detail": {
+    "message": "声明为 $1×$2，实际为 $3×$4。"
+  },
+  "chk_img_declared_mismatch_fix": {
+    "message": "请改为 $1 和 $2。"
+  },
+  "chk_img_declared_ok": {
+    "message": "og:image:width / height 声明正确"
+  },
+  "chk_img_alt_ok": {
+    "message": "已设置图片描述（alt）"
+  },
+  "chk_img_alt_missing": {
+    "message": "缺少图片描述（og:image:alt）"
+  },
+  "chk_img_alt_missing_detail": {
+    "message": "使用屏幕阅读器的用户将无法得知图片内容。"
+  },
+  "chk_img_alt_missing_fix": {
+    "message": "添加 <meta property=\"og:image:alt\" content=\"…\">。"
+  },
+  "chk_grade_great": {
+    "message": "优秀"
+  },
+  "chk_grade_good": {
+    "message": "良好"
+  },
+  "chk_grade_fair": {
+    "message": "有待改进"
+  },
+  "chk_grade_poor": {
+    "message": "较差"
+  },
+  "chk_suggest_title_placeholder": {
+    "message": "【页面标题（30–65 个字符）】"
+  },
+  "chk_suggest_desc_placeholder": {
+    "message": "【简短而吸引人的描述（60–160 个字符）】"
+  },
+  "chk_suggest_image_url": {
+    "message": "https://$1/share-image-1200x630.jpg"
+  },
+  "chk_suggest_domain_placeholder": {
+    "message": "example.com"
+  },
+  "chk_suggest_note_basic": {
+    "message": "基础（Google）"
+  },
+  "chk_suggest_alt_placeholder": {
+    "message": "【图片内容描述】"
+  },
+  "chk_suggest_site_placeholder": {
+    "message": "【品牌名称】"
+  },
+  "chk_suggest_note_x": {
+    "message": "X（Twitter）：标题、描述和图片取自上方的 og:* 标签"
+  }
+}

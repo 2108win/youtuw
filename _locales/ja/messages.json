@@ -1,0 +1,2036 @@
+{
+  "locale_code": {
+    "message": "ja"
+  },
+  "ext_name": {
+    "message": "Cinema Tools (YouTube 用)"
+  },
+  "ext_desc": {
+    "message": "YouTube 動画の回転・反転、アンビエント光付きのライトオフ。ピクチャー イン ピクチャー、タブごとの音量、動画・音声・画像のダウンロード。"
+  },
+  "ext_name_store": {
+    "message": "Cinema Tools – 動画視聴ツール"
+  },
+  "ext_desc_store": {
+    "message": "YouTube 動画の回転・反転・ズーム、アンビエント光付きのライトオフ。ピクチャー イン ピクチャー、タブごとの音量、スクリーンショット、共有プレビュー。"
+  },
+  "cmd_toggle_pip": {
+    "message": "現在のタブの動画をピクチャー イン ピクチャーで開く / 閉じる"
+  },
+  "cmd_capture_page": {
+    "message": "現在のページ全体をキャプチャ"
+  },
+  "act_flip_h": {
+    "message": "左右反転"
+  },
+  "act_flip_v": {
+    "message": "上下反転"
+  },
+  "act_rotate_left": {
+    "message": "左回転 90°"
+  },
+  "act_rotate_right": {
+    "message": "右回転 90°"
+  },
+  "act_rotate_180": {
+    "message": "180° 回転"
+  },
+  "act_reset_transform": {
+    "message": "リセット"
+  },
+  "act_toggle_lights": {
+    "message": "ライトオフ / オン"
+  },
+  "act_toggle_cinema": {
+    "message": "シネマモード"
+  },
+  "act_auto_crop": {
+    "message": "黒帯を自動トリミング"
+  },
+  "act_fill_frame": {
+    "message": "画面いっぱいに拡大"
+  },
+  "act_crop_21x9": {
+    "message": "21:9 にトリミング"
+  },
+  "act_crop_4x3": {
+    "message": "4:3 にトリミング"
+  },
+  "act_zoom_in": {
+    "message": "拡大"
+  },
+  "act_zoom_out": {
+    "message": "縮小"
+  },
+  "act_reset_zoom": {
+    "message": "ズームをリセット"
+  },
+  "act_snapshot": {
+    "message": "フレームをキャプチャ"
+  },
+  "full_act_download_thumb": {
+    "message": "サムネイルをダウンロード"
+  },
+  "act_toggle_pip": {
+    "message": "ピクチャー イン ピクチャー"
+  },
+  "act_pip_no_video": {
+    "message": "このページに動画が見つかりません。"
+  },
+  "act_pip_unavailable": {
+    "message": "このページではピクチャー イン ピクチャーを使用できません。"
+  },
+  "full_act_stage_merge": {
+    "message": "映像と音声を結合中…"
+  },
+  "full_act_stage_extract_audio": {
+    "message": "音声を変換中…"
+  },
+  "full_act_stage_metadata": {
+    "message": "ファイル情報を書き込み中…"
+  },
+  "full_act_stage_move_files": {
+    "message": "ファイルを保存中…"
+  },
+  "full_act_stage_convert": {
+    "message": "形式を変換中…"
+  },
+  "full_act_stage_embed_thumb": {
+    "message": "サムネイルを埋め込み中…"
+  },
+  "full_act_stage_fixup": {
+    "message": "ファイルを修復中…"
+  },
+  "full_act_stage_processing": {
+    "message": "処理中…"
+  },
+  "full_act_choice_audio": {
+    "message": "音声 $1"
+  },
+  "full_act_quality_best": {
+    "message": "最高画質"
+  },
+  "full_act_job_starting": {
+    "message": "動画情報を取得中…"
+  },
+  "full_act_job_part_audio": {
+    "message": "音声"
+  },
+  "full_act_job_part_video": {
+    "message": "映像 $1p"
+  },
+  "full_act_job_part_any": {
+    "message": "ダウンロード中"
+  },
+  "full_act_job_eta": {
+    "message": "残り $1"
+  },
+  "full_act_job_done": {
+    "message": "保存しました"
+  },
+  "full_act_job_done_size": {
+    "message": "保存しました · $1"
+  },
+  "full_act_job_cancelled": {
+    "message": "キャンセルしました"
+  },
+  "full_act_job_error": {
+    "message": "エラー: $1"
+  },
+  "full_act_job_error_unknown": {
+    "message": "不明"
+  },
+  "full_popup_brand_sub": {
+    "message": "YouTube 用"
+  },
+  "popup_brand_sub_store": {
+    "message": "動画視聴ツール"
+  },
+  "popup_pip_title": {
+    "message": "再生中の動画をピクチャー イン ピクチャーで表示し、すべてのアプリの前面に固定します (Alt+P)"
+  },
+  "popup_pip": {
+    "message": "小窓"
+  },
+  "popup_pip_no_video": {
+    "message": "動画なし"
+  },
+  "popup_pip_failed": {
+    "message": "開けません"
+  },
+  "popup_settings": {
+    "message": "設定"
+  },
+  "popup_sections": {
+    "message": "セクション"
+  },
+  "popup_tab_video": {
+    "message": "動画"
+  },
+  "popup_tab_audio": {
+    "message": "音声"
+  },
+  "full_popup_tab_download": {
+    "message": "ダウンロード"
+  },
+  "popup_tab_images": {
+    "message": "画像"
+  },
+  "popup_tab_tools": {
+    "message": "ツール"
+  },
+  "popup_lights_title": {
+    "message": "ライトオフ"
+  },
+  "popup_lights_on_title": {
+    "message": "ライトオフ中"
+  },
+  "popup_cinema_title": {
+    "message": "シネマ"
+  },
+  "popup_cinema_on_title": {
+    "message": "シネマモード中"
+  },
+  "popup_transform_heading": {
+    "message": "回転・反転"
+  },
+  "popup_state_flip_h": {
+    "message": "左右反転"
+  },
+  "popup_state_flip_v": {
+    "message": "上下反転"
+  },
+  "popup_zoom_heading": {
+    "message": "ズーム・トリミング"
+  },
+  "popup_autocrop_title": {
+    "message": "動画の黒帯を検出してトリミングします"
+  },
+  "popup_autocrop": {
+    "message": "自動トリム"
+  },
+  "popup_fill_title": {
+    "message": "映像がプレーヤー全体を埋めるように拡大します"
+  },
+  "popup_fill": {
+    "message": "全面表示"
+  },
+  "popup_crop21_title": {
+    "message": "21:9 のワイドスクリーン映画"
+  },
+  "popup_crop43_title": {
+    "message": "16:9 の枠に収まった 4:3 の動画"
+  },
+  "popup_notice_no_tab": {
+    "message": "YouTube の動画を開いてください。インストール直後の場合は、YouTube のタブを再読み込み (F5) してください。"
+  },
+  "popup_notice_open_video": {
+    "message": "YouTube の動画を開くと、回転・反転・ライトオフが使えます。"
+  },
+  "popup_audio_heading": {
+    "message": "タブごとの音量"
+  },
+  "popup_mute_others_title": {
+    "message": "再生中の他のタブをすべてミュート"
+  },
+  "popup_mute_others": {
+    "message": "このタブだけ"
+  },
+  "popup_mixer_empty": {
+    "message": "音声を再生中のタブはありません。"
+  },
+  "popup_shot_heading": {
+    "message": "スクリーンショット"
+  },
+  "popup_shot_full": {
+    "message": "ページ全体"
+  },
+  "popup_shot_full_sub": {
+    "message": "スクロールして結合"
+  },
+  "popup_shot_visible": {
+    "message": "表示範囲"
+  },
+  "popup_shot_visible_sub": {
+    "message": "画面に見える部分"
+  },
+  "popup_shot_region": {
+    "message": "範囲指定"
+  },
+  "popup_shot_region_sub": {
+    "message": "ドラッグで選択"
+  },
+  "popup_shot_error": {
+    "message": "このページはキャプチャできません。"
+  },
+  "popup_share_heading": {
+    "message": "共有プレビュー"
+  },
+  "popup_share_btn": {
+    "message": "このページをチェック"
+  },
+  "popup_share_btn_sub": {
+    "message": "このページのリンクが SNS や Google でどう見えるか: スコアと改善のヒント"
+  },
+  "popup_share_http_only": {
+    "message": "チェックできるのはウェブページ (http / https) のみです。"
+  },
+  "popup_share_incognito": {
+    "message": "シークレット ウィンドウでは使用できません。"
+  },
+  "full_popup_video_heading": {
+    "message": "動画と音声"
+  },
+  "full_popup_setup_title": {
+    "message": "動画ダウンローダーが未インストールです"
+  },
+  "full_popup_setup_text": {
+    "message": "動画のダウンロードには、このパソコンに yt-dlp が必要です (1 回だけの無料セットアップ):"
+  },
+  "full_popup_setup_step1": {
+    "message": "拡張機能のフォルダ → **native-host** → **install.bat** をダブルクリック。"
+  },
+  "full_popup_setup_step2": {
+    "message": "**Hoàn tất** (完了) と表示されたら、**再確認** をクリック。"
+  },
+  "full_popup_copy": {
+    "message": "コピー"
+  },
+  "full_popup_recheck": {
+    "message": "再確認"
+  },
+  "full_popup_v_idle": {
+    "message": "yt-dlp でページ内の動画を検索します (YouTube、Facebook、TikTok、X… 1000 以上のサイト)。"
+  },
+  "full_popup_v_analyze": {
+    "message": "このページの動画を検索"
+  },
+  "full_popup_v_loading": {
+    "message": "動画を解析中…"
+  },
+  "full_popup_v_entry": {
+    "message": "ページ内の動画を選択"
+  },
+  "full_popup_v_quality": {
+    "message": "画質"
+  },
+  "full_popup_v_format": {
+    "message": "形式"
+  },
+  "full_popup_v_download": {
+    "message": "ダウンロード"
+  },
+  "full_popup_jobs_clear": {
+    "message": "完了分を消去"
+  },
+  "full_popup_streams_heading": {
+    "message": "ファイルと動画ストリーム"
+  },
+  "popup_img_heading": {
+    "message": "ページ内の画像"
+  },
+  "popup_img_format": {
+    "message": "画像の保存形式"
+  },
+  "popup_img_format_original": {
+    "message": "元の形式"
+  },
+  "popup_img_small_title": {
+    "message": "アイコンや小さな画像も表示"
+  },
+  "popup_img_small": {
+    "message": "小画像"
+  },
+  "full_popup_thumb_title": {
+    "message": "動画のサムネイルをダウンロード (最大サイズ)"
+  },
+  "full_popup_thumb": {
+    "message": "サムネイル"
+  },
+  "popup_snap": {
+    "message": "キャプチャ"
+  },
+  "popup_img_all": {
+    "message": "すべて選択"
+  },
+  "popup_img_download": {
+    "message": "ダウンロード"
+  },
+  "popup_set_lights_heading": {
+    "message": "ライトオフとアンビエント光"
+  },
+  "popup_set_dim": {
+    "message": "暗さ"
+  },
+  "popup_set_glow": {
+    "message": "動画の背後にアンビエント光"
+  },
+  "popup_set_glow_strength": {
+    "message": "光の明るさ"
+  },
+  "popup_set_glow_size": {
+    "message": "光の広がり"
+  },
+  "popup_set_options": {
+    "message": "オプション"
+  },
+  "popup_set_keep_transform": {
+    "message": "動画を切り替えても回転・反転・ズームを維持"
+  },
+  "popup_set_player_buttons": {
+    "message": "プレーヤーにボタンを表示"
+  },
+  "popup_set_shortcuts": {
+    "message": "キーボード ショートカット"
+  },
+  "popup_set_auto_pip": {
+    "message": "タブ切り替え時に自動でピクチャー イン ピクチャー (YouTube)"
+  },
+  "popup_keys_heading": {
+    "message": "ショートカット"
+  },
+  "popup_keys_hint": {
+    "message": "Alt + Shift + キー"
+  },
+  "popup_keys_customize": {
+    "message": "ショートカットを変更"
+  },
+  "popup_key_escape": {
+    "message": "シネマモード終了 / ライトオン"
+  },
+  "popup_key_pip": {
+    "message": "ピクチャー イン ピクチャー (全サイト)"
+  },
+  "popup_key_capture": {
+    "message": "ページ全体をキャプチャ (全サイト)"
+  },
+  "full_popup_set_download_heading": {
+    "message": "ダウンロード"
+  },
+  "full_popup_set_cookies": {
+    "message": "動画のダウンロード時にブラウザのログイン情報を使用"
+  },
+  "full_popup_set_cookies_note": {
+    "message": "Facebook、Instagram、非公開動画などで必要です。Cookie はこのパソコン上のダウンローダーにのみ渡され、ディスクには保存されません。YouTube では使用しません。"
+  },
+  "popup_reset": {
+    "message": "設定をデフォルトに戻す"
+  },
+  "yt_toast_snapshot_saved": {
+    "message": "フレームをキャプチャしました $1×$2"
+  },
+  "full_yt_dl_preset_best": {
+    "message": "最高画質"
+  },
+  "full_yt_dl_preset_best_label": {
+    "message": "最高画質の動画 · MP4"
+  },
+  "full_yt_dl_preset_video_label": {
+    "message": "動画 $1 · MP4"
+  },
+  "full_yt_dl_preset_mp3_label": {
+    "message": "音声のみ · MP3"
+  },
+  "full_yt_err_extension_updated": {
+    "message": "拡張機能が更新されました。ページを再読み込み (F5) してください。"
+  },
+  "full_yt_dl_panel_title": {
+    "message": "ダウンロード"
+  },
+  "full_yt_dl_panel_state": {
+    "message": "MP4 動画"
+  },
+  "full_yt_dl_thumb": {
+    "message": "サムネイル"
+  },
+  "full_yt_dl_thumb_title": {
+    "message": "動画のサムネイルをダウンロード (最大サイズ)"
+  },
+  "full_yt_dl_snapshot": {
+    "message": "キャプチャ"
+  },
+  "full_yt_dl_snapshot_title": {
+    "message": "現在のフレームをキャプチャ (Alt+Shift+S)"
+  },
+  "full_yt_dl_host_missing": {
+    "message": "動画ダウンローダー (yt-dlp) がインストールされていません。拡張機能アイコン → ダウンロード でセットアップ手順を確認してください。画像は引き続きダウンロードできます。"
+  },
+  "full_yt_toast_watch_only": {
+    "message": "ダウンロードは動画ページでのみ使えます"
+  },
+  "full_yt_toast_download_start_failed": {
+    "message": "ダウンロードを開始できませんでした"
+  },
+  "full_yt_toast_download_started": {
+    "message": "ダウンロード開始 · $1"
+  },
+  "full_yt_dl_cancel": {
+    "message": "ダウンロードをキャンセル"
+  },
+  "full_yt_dl_open_file": {
+    "message": "ファイルを開く"
+  },
+  "full_yt_dl_show_in_folder": {
+    "message": "フォルダを開く"
+  },
+  "full_yt_toast_download_done": {
+    "message": "ダウンロード完了"
+  },
+  "full_yt_toast_download_failed": {
+    "message": "ダウンロードに失敗しました"
+  },
+  "full_yt_toast_thumb_loading": {
+    "message": "サムネイルをダウンロード中…"
+  },
+  "full_yt_thumb_filename": {
+    "message": "$1 - サムネイル"
+  },
+  "full_yt_toast_thumb_saved": {
+    "message": "サムネイルを保存しました"
+  },
+  "full_yt_toast_thumb_failed_reason": {
+    "message": "サムネイルをダウンロードできませんでした: $1"
+  },
+  "full_yt_toast_thumb_failed": {
+    "message": "サムネイルをダウンロードできませんでした"
+  },
+  "yt_toast_pip_failed": {
+    "message": "ピクチャー イン ピクチャーを開けませんでした"
+  },
+  "yt_toast_lights_off": {
+    "message": "ライトオフ · Esc で元に戻す"
+  },
+  "yt_toast_lights_on": {
+    "message": "ライトオン"
+  },
+  "yt_toast_cinema_on": {
+    "message": "シネマモード · Esc で終了"
+  },
+  "yt_toast_cinema_off": {
+    "message": "シネマモードを終了しました"
+  },
+  "yt_toast_transform_reset": {
+    "message": "動画をリセットしました"
+  },
+  "yt_toast_zoom_reset": {
+    "message": "ズームをリセットしました"
+  },
+  "yt_toast_pan_hint": {
+    "message": "$1 · 動画をドラッグして移動"
+  },
+  "yt_toast_watch_only": {
+    "message": "動画ページでのみ使用できます"
+  },
+  "full_yt_btn_download": {
+    "message": "ダウンロード"
+  },
+  "yt_btn_pip": {
+    "message": "ピクチャー イン ピクチャー (Alt+Shift+P)"
+  },
+  "yt_btn_transform": {
+    "message": "回転・反転・ズーム"
+  },
+  "yt_btn_lights_off": {
+    "message": "ライトオフ (Alt+Shift+L)"
+  },
+  "yt_btn_cinema": {
+    "message": "シネマモード (Alt+Shift+C)"
+  },
+  "yt_zoom_reset_title": {
+    "message": "ズームをリセット (100% に戻す)"
+  },
+  "yt_transform_panel_title": {
+    "message": "回転・反転・ズーム"
+  },
+  "yt_panel_zoom_crop": {
+    "message": "ズーム・トリミング"
+  },
+  "yt_btn_autocrop": {
+    "message": "自動トリミング"
+  },
+  "yt_btn_autocrop_title": {
+    "message": "黒帯を自動トリミング (Alt+Shift+A)"
+  },
+  "yt_btn_fill": {
+    "message": "全面表示"
+  },
+  "yt_btn_zoom_out_title": {
+    "message": "縮小 (Alt+Shift+−)"
+  },
+  "yt_btn_zoom_in_title": {
+    "message": "拡大 (Alt+Shift++)"
+  },
+  "yt_btn_lights_on": {
+    "message": "ライトオン (Alt+Shift+L)"
+  },
+  "yt_btn_cinema_exit": {
+    "message": "シネマモードを終了 (Esc)"
+  },
+  "yt_btn_pip_close": {
+    "message": "ピクチャー イン ピクチャーを閉じる (Alt+Shift+P)"
+  },
+  "yt_panel_state_flip_hv": {
+    "message": "$1° · 左右反転 · 上下反転"
+  },
+  "yt_panel_state_flip_h": {
+    "message": "$1° · 左右反転"
+  },
+  "yt_panel_state_flip_v": {
+    "message": "$1° · 上下反転"
+  },
+  "yt_err_video_not_ready": {
+    "message": "動画の準備ができていません。少し待ってからお試しください"
+  },
+  "yt_err_frame_unreadable": {
+    "message": "この動画のフレームを読み取れません"
+  },
+  "yt_err_scene_too_dark": {
+    "message": "シーンが暗すぎます。明るいシーンでもう一度お試しください"
+  },
+  "yt_toast_no_bars": {
+    "message": "黒帯なし · 画面いっぱいに拡大 $1%"
+  },
+  "yt_toast_bars_cropped": {
+    "message": "黒帯をトリミングしました · $1%"
+  },
+  "yt_toast_fill": {
+    "message": "画面いっぱいに拡大 · $1%"
+  },
+  "yt_toast_crop_ratio": {
+    "message": "$1 にトリミング · $2%"
+  },
+  "full_dl_hint_mp4": {
+    "message": "MP4 はどこでも再生できます。1080p 以下は H.264 を優先し、それより高い画質では VP9/AV1 を使用します。"
+  },
+  "full_dl_hint_webm": {
+    "message": "WebM (VP9 + Opus): 高画質で、ファイルサイズも小さめです。"
+  },
+  "full_dl_hint_mkv": {
+    "message": "MKV は利用できる最良のコーデック (通常は AV1) をそのまま保持します。保存用に最適です。"
+  },
+  "full_dl_hint_mp3": {
+    "message": "MP3 はどこでも再生できます (元の音声から再エンコード)。"
+  },
+  "full_dl_hint_m4a": {
+    "message": "M4A (AAC): 通常は元の音声そのままで、再エンコードしません。"
+  },
+  "full_dl_hint_opus": {
+    "message": "Opus: YouTube の元の音声で、サイズが最も小さい形式です。"
+  },
+  "full_dl_host_checking": {
+    "message": "確認中…"
+  },
+  "full_dl_host_connected": {
+    "message": "接続済み"
+  },
+  "full_dl_host_save_to": {
+    "message": "保存先: $1"
+  },
+  "full_dl_no_ffmpeg": {
+    "message": "ffmpeg がありません: 映像と音声が一体になった形式のみダウンロードできます。install.bat をもう一度実行してください。"
+  },
+  "full_dl_setup_missing_title": {
+    "message": "動画ダウンローダーが未インストールです"
+  },
+  "full_dl_setup_error_title": {
+    "message": "ダウンローダーに接続できません"
+  },
+  "full_dl_setup_missing_text": {
+    "message": "動画のダウンロードには、パソコンに yt-dlp ツールが必要です (1 回だけの無料インストール):"
+  },
+  "full_dl_setup_error_text": {
+    "message": "$1 対処方法:"
+  },
+  "full_dl_retry": {
+    "message": "再試行"
+  },
+  "full_dl_analyzing_embed": {
+    "message": "埋め込み動画を解析中…"
+  },
+  "full_dl_analyzing": {
+    "message": "動画を解析中…"
+  },
+  "full_dl_analyze_failed": {
+    "message": "このページを解析できませんでした。"
+  },
+  "full_dl_no_videos": {
+    "message": "このページに動画が見つかりませんでした。"
+  },
+  "full_dl_entries_title_one": {
+    "message": "ページ内の動画: $1 本"
+  },
+  "full_dl_entries_title_other": {
+    "message": "ページ内の動画: $1 本"
+  },
+  "full_dl_live_unsupported": {
+    "message": "ライブ配信はまだダウンロードできません。配信終了後にもう一度お試しください。"
+  },
+  "full_dl_max_height": {
+    "message": "最大 $1p"
+  },
+  "full_dl_audio_only_info": {
+    "message": "音声のみ"
+  },
+  "full_dl_group_video": {
+    "message": "動画"
+  },
+  "full_dl_group_audio_only": {
+    "message": "音声のみ"
+  },
+  "full_dl_audio_format": {
+    "message": "$1 · 音声"
+  },
+  "full_dl_quality_best": {
+    "message": "最高画質 ($1)"
+  },
+  "full_dl_download_audio": {
+    "message": "音声をダウンロード"
+  },
+  "full_dl_download_audio_size": {
+    "message": "音声をダウンロード · 約 $1"
+  },
+  "full_dl_download_video": {
+    "message": "動画をダウンロード"
+  },
+  "full_dl_download_video_size": {
+    "message": "動画をダウンロード · 約 $1"
+  },
+  "full_dl_job_cancel": {
+    "message": "ダウンロードをキャンセル"
+  },
+  "full_dl_job_open": {
+    "message": "ファイルを開く"
+  },
+  "full_dl_job_reveal": {
+    "message": "フォルダを開く"
+  },
+  "full_dl_stream_playing": {
+    "message": "再生中の動画"
+  },
+  "full_dl_stream_in_post": {
+    "message": "投稿内の動画"
+  },
+  "full_dl_stream_pick": {
+    "message": "選択"
+  },
+  "full_dl_stream_embed": {
+    "message": "ページに埋め込まれた $1 の動画"
+  },
+  "full_dl_stream_download": {
+    "message": "保存"
+  },
+  "full_dl_stream_sent": {
+    "message": "ブラウザのダウンロードに渡しました"
+  },
+  "full_dl_stream_error": {
+    "message": "エラー: $1"
+  },
+  "full_dl_stream_need_host": {
+    "message": "先に動画ダウンローダーをインストールしてください (上記参照)"
+  },
+  "full_dl_stream_started": {
+    "message": "ダウンロード中 · 進行状況は上に表示"
+  },
+  "dl_img_upgraded_tip": {
+    "message": "見つかった最大サイズの画像をダウンロードします"
+  },
+  "dl_img_count_one": {
+    "message": "画像 $1 枚"
+  },
+  "dl_img_count_other": {
+    "message": "画像 $1 枚"
+  },
+  "dl_img_count_of_one": {
+    "message": "画像 $2 / $1 枚"
+  },
+  "dl_img_count_of_other": {
+    "message": "画像 $2 / $1 枚"
+  },
+  "dl_img_only_small": {
+    "message": "小さい画像 (アイコン) のみです。「小画像」をオンにすると表示されます。"
+  },
+  "dl_img_none": {
+    "message": "このページに画像が見つかりませんでした。"
+  },
+  "dl_img_deselect": {
+    "message": "すべて選択解除"
+  },
+  "dl_img_select_all": {
+    "message": "すべて選択"
+  },
+  "dl_img_download_n_one": {
+    "message": "$1 枚をダウンロード"
+  },
+  "dl_img_download_n_other": {
+    "message": "$1 枚をダウンロード"
+  },
+  "dl_img_download": {
+    "message": "ダウンロード"
+  },
+  "dl_img_downloading_one": {
+    "message": "$1 枚をダウンロード中…"
+  },
+  "dl_img_downloading_other": {
+    "message": "$1 枚をダウンロード中…"
+  },
+  "dl_img_saved_failed_folder_one": {
+    "message": "$1 枚をフォルダ「$4」に保存 · $2 枚失敗 ($3)"
+  },
+  "dl_img_saved_failed_folder_other": {
+    "message": "$1 枚をフォルダ「$4」に保存 · $2 枚失敗 ($3)"
+  },
+  "dl_img_saved_failed_one": {
+    "message": "$1 枚を保存 · $2 枚失敗 ($3)"
+  },
+  "dl_img_saved_failed_other": {
+    "message": "$1 枚を保存 · $2 枚失敗 ($3)"
+  },
+  "dl_img_saved_folder_one": {
+    "message": "$1 枚をフォルダ「$2」に保存しました"
+  },
+  "dl_img_saved_folder_other": {
+    "message": "$1 枚をフォルダ「$2」に保存しました"
+  },
+  "dl_img_saved_one": {
+    "message": "$1 枚を保存しました"
+  },
+  "dl_img_saved_other": {
+    "message": "$1 枚を保存しました"
+  },
+  "dl_img_download_failed": {
+    "message": "ダウンロード失敗: $1"
+  },
+  "dl_img_unknown_error": {
+    "message": "不明なエラー"
+  },
+  "dl_snap_label": {
+    "message": "キャプチャ"
+  },
+  "dl_snap_tip": {
+    "message": "再生中のフレームを元の解像度 $1×$2 でキャプチャ"
+  },
+  "dl_scan_system_page": {
+    "message": "このページはスキャンできません (ブラウザのシステムページ)。"
+  },
+  "dl_scanning": {
+    "message": "ページをスキャン中…"
+  },
+  "dl_scan_failed_file": {
+    "message": "このページはスキャンできません。拡張機能の「ファイルの URL へのアクセスを許可する」をオンにしてください。"
+  },
+  "dl_scan_failed": {
+    "message": "このページはスキャンできません。"
+  },
+  "full_dl_start_failed": {
+    "message": "ダウンロードを開始できませんでした。"
+  },
+  "full_dl_copied": {
+    "message": "コピーしました"
+  },
+  "full_dl_thumb_name": {
+    "message": "$1 - サムネイル"
+  },
+  "dl_snap_done": {
+    "message": "キャプチャしました $1×$2 · $3"
+  },
+  "dl_snap_failed": {
+    "message": "キャプチャできませんでした"
+  },
+  "dl_snap_failed_detail": {
+    "message": "キャプチャできませんでした: $1"
+  },
+  "full_dl_unavailable_page": {
+    "message": "このページでは使用できません。"
+  },
+  "full_dl_feed_hint": {
+    "message": "フィードまたはプロフィールのページで、まだ動画が見つかっていません。目的の動画を再生 (またはその投稿 / リールを開いて) から、下のボタンをクリックしてください。"
+  },
+  "full_dl_find_playing": {
+    "message": "再生中の動画を検索"
+  },
+  "full_dl_feed_retry": {
+    "message": "このページではまだ動画が見つかりません。目的の動画を再生 (またはその投稿 / リールを開いて) から、もう一度お試しください。"
+  },
+  "audio_volume_aria": {
+    "message": "音量: $1"
+  },
+  "audio_set_failed": {
+    "message": "このタブの音量を変更できませんでした。"
+  },
+  "audio_tab_switch_tip": {
+    "message": "$1\nクリックでこのタブに移動"
+  },
+  "audio_this_tab": {
+    "message": "このタブ"
+  },
+  "audio_playing": {
+    "message": "音声を再生中"
+  },
+  "audio_pip": {
+    "message": "このタブの動画をピクチャー イン ピクチャーで表示"
+  },
+  "audio_pip_failed": {
+    "message": "ピクチャー イン ピクチャーを開けませんでした。"
+  },
+  "audio_unmute": {
+    "message": "ミュート解除"
+  },
+  "audio_mute": {
+    "message": "ミュート"
+  },
+  "audio_boost_current_only": {
+    "message": "100% を超えるブーストは、ポップアップを開いたタブでのみ使えます。そのタブでポップアップを開いてから、もう一度お試しください。"
+  },
+  "bg_file_name_default": {
+    "message": "ファイル"
+  },
+  "full_bg_host_missing": {
+    "message": "このパソコンに動画ダウンローダーがインストールされていません。"
+  },
+  "full_bg_host_forbidden": {
+    "message": "ダウンローダーがこの拡張機能をまだ許可していません (ID が変わりました)。install.bat をもう一度実行してください。"
+  },
+  "full_bg_host_crash": {
+    "message": "ダウンローダーが予期せず終了しました。install.bat をもう一度実行するか、native-host\\host.log を確認してください。"
+  },
+  "full_bg_host_unreachable": {
+    "message": "ダウンローダーに接続できませんでした。"
+  },
+  "full_bg_host_no_reply": {
+    "message": "ダウンローダーから応答がありません。"
+  },
+  "full_bg_invalid_url": {
+    "message": "無効な URL です。"
+  },
+  "full_bg_job_interrupted": {
+    "message": "完了前に中断されました。"
+  },
+  "full_bg_unknown_error": {
+    "message": "不明なエラーです。"
+  },
+  "full_bg_invalid_choice": {
+    "message": "無効なダウンロード オプションです。"
+  },
+  "full_bg_host_stopped": {
+    "message": "ダウンローダーが予期せず停止しました。"
+  },
+  "bg_img_no_url": {
+    "message": "画像の URL がありません"
+  },
+  "bg_img_failed": {
+    "message": "画像をダウンロードできませんでした"
+  },
+  "bg_img_none_selected": {
+    "message": "画像が選択されていません。"
+  },
+  "bg_vol_no_tab": {
+    "message": "タブが指定されていません。"
+  },
+  "bg_vol_cannot_set": {
+    "message": "このページの音量は変更できません。"
+  },
+  "bg_vol_no_tab_info": {
+    "message": "タブの情報がありません。"
+  },
+  "bg_vol_capture_failed": {
+    "message": "タブの音声をキャプチャできませんでした。"
+  },
+  "bg_shot_bad_mode": {
+    "message": "無効なキャプチャ モードです。"
+  },
+  "bg_shot_busy": {
+    "message": "キャプチャ中です。しばらくお待ちください。"
+  },
+  "bg_shot_no_tab": {
+    "message": "タブが見つかりません。"
+  },
+  "bg_shot_restricted": {
+    "message": "このページはキャプチャできません (ブラウザのシステムページです)。"
+  },
+  "bg_img_private_host": {
+    "message": "ローカル ネットワーク アドレスの画像はダウンロードしません"
+  },
+  "bg_img_server_status": {
+    "message": "サーバーがエラー $1 を返しました"
+  },
+  "bg_img_too_large": {
+    "message": "画像が大きすぎます (50 MB 超)"
+  },
+  "bg_img_not_image": {
+    "message": "この URL は画像ではありません"
+  },
+  "bg_img_bad_size": {
+    "message": "画像のサイズが無効です"
+  },
+  "bg_img_unreadable": {
+    "message": "画像を読み込めませんでした"
+  },
+  "page_image_name_default": {
+    "message": "画像"
+  },
+  "page_image_name_random": {
+    "message": "画像-$1"
+  },
+  "page_alt_video_poster": {
+    "message": "動画のポスター"
+  },
+  "page_alt_page_image": {
+    "message": "ページのプレビュー画像"
+  },
+  "page_snap_no_video": {
+    "message": "表示中の動画がありません。"
+  },
+  "page_snap_failed": {
+    "message": "画像を作成できませんでした"
+  },
+  "page_snap_blocked": {
+    "message": "このページでは動画のフレームをキャプチャできません (他のサイトの動画か、保護された動画です)。"
+  },
+  "page_pip_no_video": {
+    "message": "このページに動画が見つかりません。"
+  },
+  "page_pip_blocked": {
+    "message": "ブラウザがピクチャー イン ピクチャーをブロックしました。「ピクチャー イン ピクチャー」ボタンをもう一度クリックしてください。"
+  },
+  "page_pip_failed": {
+    "message": "ピクチャー イン ピクチャーを開けませんでした"
+  },
+  "page_pip_failed_detail": {
+    "message": "ピクチャー イン ピクチャーを開けませんでした: $1"
+  },
+  "page_shot_select_hint": {
+    "message": "ドラッグしてキャプチャする範囲を選択 · Esc でキャンセル"
+  },
+  "shot_page_title": {
+    "message": "ページのスクリーンショット"
+  },
+  "shot_stitching": {
+    "message": "画像を結合中…"
+  },
+  "shot_save_png": {
+    "message": "PNG をダウンロード"
+  },
+  "shot_save_jpg": {
+    "message": "JPG をダウンロード"
+  },
+  "shot_copy": {
+    "message": "コピー"
+  },
+  "shot_file_name_default": {
+    "message": "スクリーンショット"
+  },
+  "shot_file_name_page": {
+    "message": "ページ"
+  },
+  "shot_err_read_image": {
+    "message": "スクリーンショットを読み込めませんでした"
+  },
+  "shot_err_too_large": {
+    "message": "画像が大きすぎて保存できません"
+  },
+  "shot_open_folder": {
+    "message": "フォルダを開く"
+  },
+  "shot_saved": {
+    "message": "$1 を「ダウンロード」フォルダに保存しました。"
+  },
+  "shot_save_failed": {
+    "message": "保存できませんでした: $1"
+  },
+  "shot_gone_title": {
+    "message": "スクリーンショットは利用できなくなりました"
+  },
+  "shot_expired": {
+    "message": "このスクリーンショットは期限切れです (ブラウザまたは拡張機能が再起動されました)。もう一度キャプチャしてください。"
+  },
+  "shot_doc_title": {
+    "message": "スクリーンショット – $1"
+  },
+  "shot_file_name": {
+    "message": "スクリーンショット $1 $2"
+  },
+  "shot_stitching_progress": {
+    "message": "画像を結合中… $1/$2"
+  },
+  "shot_processing": {
+    "message": "画像を処理中…"
+  },
+  "shot_err_missing_frame": {
+    "message": "スクリーンショットの一部が欠けています。もう一度キャプチャしてください。"
+  },
+  "shot_img_alt": {
+    "message": "$1 のスクリーンショット"
+  },
+  "shot_img_hint": {
+    "message": "クリックで実寸表示と画面に合わせた表示を切り替え"
+  },
+  "shot_mode_full": {
+    "message": "ページ全体"
+  },
+  "shot_mode_visible": {
+    "message": "表示範囲"
+  },
+  "shot_mode_region": {
+    "message": "選択範囲"
+  },
+  "shot_meta_scaled": {
+    "message": "ページが長すぎるため縮小"
+  },
+  "shot_meta_truncated": {
+    "message": "最初の $1 px のみキャプチャ (無限スクロールのページ)"
+  },
+  "shot_meta_css_size": {
+    "message": "ページ上で $1 × $2 px"
+  },
+  "shot_copied": {
+    "message": "画像をコピーしました — 必要な場所に貼り付けてください (Ctrl+V)。"
+  },
+  "shot_copy_failed": {
+    "message": "コピーできませんでした (画像が大きすぎる可能性があります): $1"
+  },
+  "share_title": {
+    "message": "共有プレビュー"
+  },
+  "share_subtitle": {
+    "message": "Open Graph · Twitter Card · 基本的な SEO"
+  },
+  "share_url_placeholder": {
+    "message": "https://your-site.jp/article"
+  },
+  "share_url_aria": {
+    "message": "チェックするページのアドレス"
+  },
+  "share_check_btn": {
+    "message": "チェック"
+  },
+  "share_loading_page": {
+    "message": "ページを読み込み中…"
+  },
+  "share_empty_title": {
+    "message": "ページを共有するとどう見える？"
+  },
+  "share_empty_body": {
+    "message": "上にページのアドレスを入力すると (またはポップアップで **ツール → このページをチェック** をクリック)、Facebook、Zalo、X、LinkedIn、Discord、Telegram、Google でのリンクの表示をプレビューし、スコアと改善案を確認できます。"
+  },
+  "share_status_pass": {
+    "message": "合格:"
+  },
+  "share_status_warn": {
+    "message": "警告:"
+  },
+  "share_status_fail": {
+    "message": "エラー:"
+  },
+  "share_status_info": {
+    "message": "情報:"
+  },
+  "share_platform_pass": {
+    "message": "OK"
+  },
+  "share_platform_warn": {
+    "message": "要改善"
+  },
+  "share_platform_fail": {
+    "message": "エラー"
+  },
+  "share_loading_raw": {
+    "message": "SNS のクローラーと同じように元の HTML を取得中…"
+  },
+  "share_err_unknown": {
+    "message": "ページを読み込めませんでした: 不明なエラーです。"
+  },
+  "share_err_read_status": {
+    "message": "ページを読み込めませんでした: サーバーがステータス $1 を返しました。"
+  },
+  "share_err_read": {
+    "message": "ページを読み込めませんでした: $1。"
+  },
+  "share_loading_images": {
+    "message": "共有画像を読み込み中…"
+  },
+  "share_err_invalid_url": {
+    "message": "無効なアドレスです。http:// または https:// で始まるウェブページのアドレスを入力してください"
+  },
+  "share_doc_title_score": {
+    "message": "$1/100 – 共有プレビュー"
+  },
+  "share_score_aria": {
+    "message": "100 点中 $1 点 – $2"
+  },
+  "share_page_untitled": {
+    "message": "(ページにタイトルがありません)"
+  },
+  "share_count_fail_one": {
+    "message": "エラー $1 件"
+  },
+  "share_count_fail_other": {
+    "message": "エラー $1 件"
+  },
+  "share_count_warn_one": {
+    "message": "警告 $1 件"
+  },
+  "share_count_warn_other": {
+    "message": "警告 $1 件"
+  },
+  "share_count_pass_one": {
+    "message": "合格 $1 件"
+  },
+  "share_count_pass_other": {
+    "message": "合格 $1 件"
+  },
+  "share_platforms_aria": {
+    "message": "プラットフォーム別の状態"
+  },
+  "share_chip_issues": {
+    "message": "エラー: $1、警告: $2"
+  },
+  "share_chip_no_issues": {
+    "message": "問題なし"
+  },
+  "share_notice_private": {
+    "message": "このページはローカル アドレス (localhost / LAN) にあるため、SNS からはアクセスできません。以下の結果は、公開前にタグを確認するのに役立ちます。"
+  },
+  "share_notice_no_raw": {
+    "message": "元の HTML を読み込めなかったため (クローラーもブロックされている可能性があります)、スコアの上限は 49 です。以下の項目はタブに表示中のページに基づくもので、SNS が受け取る内容とは異なる場合があります。"
+  },
+  "share_notice_raw_only": {
+    "message": "元の HTML のみをチェックしました (タブで開いているページとは比較していません)。"
+  },
+  "share_pv_no_image": {
+    "message": "画像なし"
+  },
+  "share_pv_svg": {
+    "message": "SVG 画像: 表示されません"
+  },
+  "share_pv_bad_image": {
+    "message": "画像を使用できません"
+  },
+  "share_pv_untitled": {
+    "message": "(タイトルなし)"
+  },
+  "share_x_from": {
+    "message": "$1 から"
+  },
+  "share_google_no_desc": {
+    "message": "meta description がありません: Google はページ内から抜粋を選びます。"
+  },
+  "share_sec_preview": {
+    "message": "プレビュー"
+  },
+  "share_sec_preview_sub": {
+    "message": "各プラットフォームでのリンクの表示をおおまかに再現したもので、実際のレイアウトは変わることがあります。Cinema Tools はこれらのプラットフォームとは関係ありません。"
+  },
+  "share_fix_label": {
+    "message": "対処方法:"
+  },
+  "share_filter_issues": {
+    "message": "要対応 ($1)"
+  },
+  "share_filter_fail": {
+    "message": "エラー ($1)"
+  },
+  "share_filter_all": {
+    "message": "すべて ($1)"
+  },
+  "share_filter_aria": {
+    "message": "結果を絞り込む"
+  },
+  "share_sec_checks": {
+    "message": "チェック結果"
+  },
+  "share_checks_none": {
+    "message": "修正が必要な項目はありません。お見事です！"
+  },
+  "share_img_url": {
+    "message": "URL"
+  },
+  "share_img_size": {
+    "message": "画像サイズ"
+  },
+  "share_img_ratio": {
+    "message": "アスペクト比"
+  },
+  "share_img_ratio_value": {
+    "message": "$1 : 1 (標準 1.91 : 1)"
+  },
+  "share_img_bytes": {
+    "message": "ファイルサイズ"
+  },
+  "share_img_bytes_min": {
+    "message": "$1 以上"
+  },
+  "share_img_format": {
+    "message": "形式"
+  },
+  "share_img_http": {
+    "message": "HTTP ステータス"
+  },
+  "share_img_status_redirected": {
+    "message": "$1 (リダイレクトあり)"
+  },
+  "share_img_cannot_view": {
+    "message": "画像を表示できません"
+  },
+  "share_img_svg": {
+    "message": "SVG 画像: SNS では表示されず、このページでも表示しません。"
+  },
+  "share_img_too_large": {
+    "message": "画像が大きすぎて表示できません。"
+  },
+  "share_img_decode_error": {
+    "message": "画像が破損していてデコードできません。"
+  },
+  "share_img_too_many_pixels": {
+    "message": "画像のピクセル数が多すぎて表示できません。"
+  },
+  "share_img_crop_title": {
+    "message": "大きな画像カードに表示される範囲 (1.91:1)"
+  },
+  "share_img_crop_caption": {
+    "message": "明るい枠: 1.91:1 にトリミングしたときに残る部分。"
+  },
+  "share_sec_image": {
+    "message": "共有画像 (og:image)"
+  },
+  "share_sec_tags": {
+    "message": "検出されたタグ"
+  },
+  "share_tags_none": {
+    "message": "このページには共有用の meta タグがありません。"
+  },
+  "share_src_raw": {
+    "message": "元の HTML"
+  },
+  "share_src_dom": {
+    "message": "表示ページ"
+  },
+  "share_src_js_only": {
+    "message": "JS のみ"
+  },
+  "share_src_js_changed": {
+    "message": "JS で変更"
+  },
+  "share_tags_after_js": {
+    "message": "JS 実行後: $1"
+  },
+  "share_sec_tags_sub": {
+    "message": "「JS のみ」: JavaScript で追加されたタグ。SNS のクローラーには見えません。"
+  },
+  "share_th_tag": {
+    "message": "タグ"
+  },
+  "share_th_value": {
+    "message": "値"
+  },
+  "share_th_source": {
+    "message": "ソース"
+  },
+  "share_copy": {
+    "message": "コピー"
+  },
+  "share_copied": {
+    "message": "コピーしました。ページの <head> に貼り付けてください。"
+  },
+  "share_copy_failed": {
+    "message": "コピーできませんでした: $1"
+  },
+  "share_sec_snippet": {
+    "message": "おすすめの meta タグ"
+  },
+  "share_snippet_changes_one": {
+    "message": "追加 (+) または修正 (~) が必要な行: $1 行。その他の行は現在の値のままです。【 】で囲まれた部分を実際の内容に置き換えてください。"
+  },
+  "share_snippet_changes_other": {
+    "message": "追加 (+) または修正 (~) が必要な行: $1 行。その他の行は現在の値のままです。【 】で囲まれた部分を実際の内容に置き換えてください。"
+  },
+  "share_snippet_complete": {
+    "message": "このページには基本的なタグがすべてそろっています。"
+  },
+  "share_tools_how": {
+    "message": "クローラーから見える内容を確認するため、ページを (Cookie なしで) もう一度取得し、共有画像とページが指定するアイコンも取得します。"
+  },
+  "share_tools_caveat": {
+    "message": "各プラットフォームの実際のクローラーは、異なる内容を受け取ることがあります (ボットのブロック、クローラー専用ページなど)。また、プラットフォームはプレビューをキャッシュします。タグを修正したら、公式ツールにアドレスを貼り付けて確認・更新してください:"
+  },
+  "share_tools_private": {
+    "message": "これらのツールは、ページが公開されてから使えます (localhost では使用できません)。"
+  },
+  "share_tool_fb_note": {
+    "message": "– Messenger と Instagram のプレビューも更新されます"
+  },
+  "share_tool_google_note": {
+    "message": "– 構造化データをチェック"
+  },
+  "share_sec_tools": {
+    "message": "各プラットフォームで再確認"
+  },
+  "share_err_not_web": {
+    "message": "チェックできるのはウェブページ (http / https) のみです。"
+  },
+  "share_err_tab_closed": {
+    "message": "チェック対象のタブは閉じられました。上にページのアドレスを入力してください。"
+  },
+  "share_jsonld_invalid": {
+    "message": "(無効な JSON)"
+  },
+  "share_err_http_only": {
+    "message": "http / https のアドレスのみ対応しています"
+  },
+  "share_err_redirect_private": {
+    "message": "SNS が読み込めないローカル ネットワーク アドレスにリダイレクトされました"
+  },
+  "share_err_timeout": {
+    "message": "タイムアウトしました ($1 秒)"
+  },
+  "share_err_connect": {
+    "message": "サーバーに接続できませんでした"
+  },
+  "share_err_not_http": {
+    "message": "http / https のアドレスではありません"
+  },
+  "share_err_image_private": {
+    "message": "画像がローカル ネットワーク アドレス / このパソコン上にあるため、SNS は読み込めません"
+  },
+  "share_err_http_status": {
+    "message": "サーバーがステータス $1 を返しました"
+  },
+  "chk_group_access": {
+    "message": "クローラーによる読み取り"
+  },
+  "chk_group_image": {
+    "message": "共有画像"
+  },
+  "chk_group_seo": {
+    "message": "Google と基本的な SEO"
+  },
+  "chk_bytes_mb": {
+    "message": "$1 MB"
+  },
+  "chk_bytes_kb": {
+    "message": "$1 KB"
+  },
+  "chk_quoted": {
+    "message": "「$1」"
+  },
+  "chk_raw_ok": {
+    "message": "ログインなしで元の HTML を読み込めます"
+  },
+  "chk_raw_redirected": {
+    "message": "$1 にリダイレクト"
+  },
+  "chk_raw_not_html": {
+    "message": "この URL は HTML ページを返しません"
+  },
+  "chk_received": {
+    "message": "受信: $1"
+  },
+  "chk_received_empty": {
+    "message": "受信: 空のレスポンス"
+  },
+  "chk_raw_not_html_fix": {
+    "message": "SNS は HTML ページの meta タグしか読み取りません。"
+  },
+  "chk_raw_status": {
+    "message": "ログインしていない訪問者にサーバーが HTTP $1 を返します"
+  },
+  "chk_raw_status_detail": {
+    "message": "SNS のクローラーはログインしていないゲストとしてページにアクセスするため、同じエラーになる可能性があります。以下の結果は、タブに表示中のページに基づいています。"
+  },
+  "chk_raw_status_fix": {
+    "message": "公開アクセスを許可してください。ファイアウォールやボット対策 (Cloudflare…) がクローラーをブロックしていないか確認してください。"
+  },
+  "chk_raw_failed": {
+    "message": "元の HTML を読み込めませんでした"
+  },
+  "chk_raw_failed_fix": {
+    "message": "ページの URL にインターネットからアクセスできるか確認してください。"
+  },
+  "chk_raw_size": {
+    "message": "元の HTML が 5 MB を超えています"
+  },
+  "chk_raw_size_detail": {
+    "message": "最初の 5 MB のみ読み込みました。"
+  },
+  "chk_raw_size_fix": {
+    "message": "meta タグを <head> の先頭に置き、HTML のサイズを減らしてください。"
+  },
+  "chk_js_only_one": {
+    "message": "$1 個のタグが JavaScript の実行後にしか現れません"
+  },
+  "chk_js_only_other": {
+    "message": "$1 個のタグが JavaScript の実行後にしか現れません"
+  },
+  "chk_js_only_fix": {
+    "message": "Facebook、Zalo、X、LinkedIn、Discord、Telegram は JavaScript を実行しないため、これらのタグを認識できません。サーバーが HTML にタグを含めて返すようにしてください (SSR、事前生成された静的ページ、プリレンダリング)。ログインしていない訪問者や Cookie に同意していない訪問者にブロック画面しか表示されない場合、クローラーにもその画面しか見えません。"
+  },
+  "chk_js_only_ok": {
+    "message": "共有タグは元の HTML に含まれています"
+  },
+  "chk_js_only_ok_detail": {
+    "message": "JavaScript でのみ追加: $1 (共有タグには影響しません)。"
+  },
+  "chk_changed": {
+    "message": "元の HTML と表示ページの内容が異なります"
+  },
+  "chk_changed_line": {
+    "message": "$1: 「$2」→「$3」"
+  },
+  "chk_changed_fix": {
+    "message": "SNS は元の HTML の値を使用します。これはページ遷移時にタグを変更するシングルページ アプリ (SPA) でよく起こります。サーバーは URL ごとに正しいタグを返す必要があります。"
+  },
+  "chk_og_title_missing": {
+    "message": "og:title がありません"
+  },
+  "chk_og_title_missing_fallback": {
+    "message": "プラットフォームは代わりに <title> タグを使用します: 「$1」。"
+  },
+  "chk_og_title_missing_no_title": {
+    "message": "このページには <title> もありません。"
+  },
+  "chk_og_title_missing_fix": {
+    "message": "<meta property=\"og:title\" content=\"…\"> を追加してください – 30〜65 文字程度の魅力的なタイトル。"
+  },
+  "chk_og_title_long_one": {
+    "message": "og:title が $1 文字あり、途中で切れる可能性があります"
+  },
+  "chk_og_title_long_other": {
+    "message": "og:title が $1 文字あり、途中で切れる可能性があります"
+  },
+  "chk_og_title_long_fix": {
+    "message": "30〜65 文字程度にし、要点を先頭に置いてください。"
+  },
+  "chk_og_title_short_one": {
+    "message": "og:title が短すぎます ($1 文字)"
+  },
+  "chk_og_title_short_other": {
+    "message": "og:title が短すぎます ($1 文字)"
+  },
+  "chk_og_title_short_fix": {
+    "message": "内容が十分に伝わり、より魅力的になるよう 30〜65 文字を目安にしてください。"
+  },
+  "chk_og_title_ok_one": {
+    "message": "og:title が設定されています ($1 文字)"
+  },
+  "chk_og_title_ok_other": {
+    "message": "og:title が設定されています ($1 文字)"
+  },
+  "chk_og_desc_missing": {
+    "message": "og:description がありません"
+  },
+  "chk_og_desc_missing_fallback": {
+    "message": "Facebook と Zalo は代わりに meta description を使用します。"
+  },
+  "chk_og_desc_missing_no_desc": {
+    "message": "このページには meta description もないため、共有カードに説明文が表示されません。"
+  },
+  "chk_og_desc_missing_fix": {
+    "message": "<meta property=\"og:description\" content=\"…\"> を追加してください – 60〜160 文字程度。"
+  },
+  "chk_og_desc_long_one": {
+    "message": "og:description が $1 文字あります"
+  },
+  "chk_og_desc_long_other": {
+    "message": "og:description が $1 文字あります"
+  },
+  "chk_og_desc_long_detail": {
+    "message": "共有カードには通常 1〜2 行しか表示されず、残りは切り捨てられます。"
+  },
+  "chk_og_desc_long_fix": {
+    "message": "60〜160 文字程度に短くし、要点を先頭に置いてください。"
+  },
+  "chk_og_desc_short_one": {
+    "message": "og:description が短すぎます ($1 文字)"
+  },
+  "chk_og_desc_short_other": {
+    "message": "og:description が短すぎます ($1 文字)"
+  },
+  "chk_og_desc_short_fix": {
+    "message": "十分に伝わるよう 60〜160 文字程度を目安にしてください。"
+  },
+  "chk_og_desc_ok_one": {
+    "message": "og:description が設定されています ($1 文字)"
+  },
+  "chk_og_desc_ok_other": {
+    "message": "og:description が設定されています ($1 文字)"
+  },
+  "chk_og_url_missing": {
+    "message": "og:url がありません"
+  },
+  "chk_og_url_missing_detail": {
+    "message": "「いいね」やシェアが複数の URL (?utm_…、#… 付き) に分散する可能性があります。"
+  },
+  "chk_og_url_missing_fix": {
+    "message": "<meta property=\"og:url\" content=\"ページの正規 URL\"> を追加してください。"
+  },
+  "chk_og_url_relative": {
+    "message": "og:url が絶対 URL ではありません"
+  },
+  "chk_og_url_relative_fix": {
+    "message": "https:// で始まる絶対 URL を使用してください"
+  },
+  "chk_og_url_mismatch": {
+    "message": "og:url が canonical リンクと異なります"
+  },
+  "chk_og_url_mismatch_fix": {
+    "message": "両方のタグが同じ正規 URL を指すようにしてください。"
+  },
+  "chk_og_url_ok": {
+    "message": "og:url が設定されています"
+  },
+  "chk_og_type_missing": {
+    "message": "og:type がありません"
+  },
+  "chk_og_type_missing_detail": {
+    "message": "Facebook はデフォルトで \"website\" として扱います。"
+  },
+  "chk_og_type_missing_fix": {
+    "message": "<meta property=\"og:type\" content=\"website\"> を追加してください (記事の場合は \"article\")。"
+  },
+  "chk_og_site_missing": {
+    "message": "og:site_name がありません"
+  },
+  "chk_og_site_missing_detail": {
+    "message": "Discord と Telegram はカードの 1 行目にサイト名を表示します。ない場合はドメインのみが表示されます。"
+  },
+  "chk_og_site_missing_fix": {
+    "message": "<meta property=\"og:site_name\" content=\"ブランド名\"> を追加してください。"
+  },
+  "chk_og_locale_missing": {
+    "message": "og:locale が宣言されていません"
+  },
+  "chk_og_locale_missing_vi": {
+    "message": "任意です。ベトナム語のページでは \"vi_VN\" を設定できます。"
+  },
+  "chk_og_locale_optional": {
+    "message": "任意です。"
+  },
+  "chk_dup": {
+    "message": "値の異なる重複タグ: $1"
+  },
+  "chk_dup_fix": {
+    "message": "各タグは 1 回だけ記述してください。プラットフォームが意図しない方を選ぶ可能性があります。"
+  },
+  "chk_og_image_missing": {
+    "message": "og:image がありません"
+  },
+  "chk_og_image_missing_tw": {
+    "message": "twitter:image のみ設定されています (Facebook、Zalo、LinkedIn はこのタグを使用しません)。"
+  },
+  "chk_og_image_missing_detail": {
+    "message": "共有した投稿に画像が表示されないか、プラットフォームがページ内の任意の画像を選びます。"
+  },
+  "chk_og_image_missing_fix": {
+    "message": "<meta property=\"og:image\" content=\"https://…/image-1200x630.jpg\"> を追加してください – 1200×630 px の JPG / PNG 画像。"
+  },
+  "chk_og_image_ok": {
+    "message": "og:image が設定されています"
+  },
+  "chk_img_abs_scheme": {
+    "message": "og:image に https: がありません"
+  },
+  "chk_img_abs_scheme_fix": {
+    "message": "https://… から始まる完全な URL を記述してください"
+  },
+  "chk_img_abs_relative": {
+    "message": "og:image は絶対 URL である必要があります"
+  },
+  "chk_img_abs_relative_detail": {
+    "message": "現在の値: 「$1」。"
+  },
+  "chk_img_abs_relative_fix": {
+    "message": "完全な URL を使用してください: $1"
+  },
+  "chk_img_abs_ok": {
+    "message": "og:image は絶対 URL です"
+  },
+  "chk_img_https": {
+    "message": "og:image が http (暗号化なし) を使用しています"
+  },
+  "chk_img_https_fix": {
+    "message": "すべてのプラットフォームで読み込めるよう https:// を使用してください。"
+  },
+  "chk_tw_image_ok": {
+    "message": "twitter:image を読み込めます"
+  },
+  "chk_tw_image_failed": {
+    "message": "twitter:image を読み込めませんでした"
+  },
+  "chk_tw_image_failed_fix": {
+    "message": "画像の URL を確認してください。"
+  },
+  "chk_tw_card_missing": {
+    "message": "twitter:card がありません"
+  },
+  "chk_tw_card_missing_detail": {
+    "message": "X でリンクに大きな画像カードが表示されない可能性があります。"
+  },
+  "chk_tw_card_missing_fix": {
+    "message": "<meta name=\"twitter:card\" content=\"summary_large_image\"> を追加してください。"
+  },
+  "chk_tw_card_invalid": {
+    "message": "無効な twitter:card: 「$1」"
+  },
+  "chk_tw_card_invalid_detail": {
+    "message": "有効な値: $1。"
+  },
+  "chk_tw_card_invalid_fix": {
+    "message": "大きな横長画像には \"summary_large_image\" を使用してください。"
+  },
+  "chk_tw_card_summary": {
+    "message": "小さなカード (横に正方形の画像) です。大きな画像にするには summary_large_image を使用してください。"
+  },
+  "chk_tw_fallback": {
+    "message": "$1 なし"
+  },
+  "chk_tw_fallback_detail": {
+    "message": "問題ありません: X は og:title / og:description / og:image で代用します。"
+  },
+  "chk_title_missing": {
+    "message": "<title> タグがありません"
+  },
+  "chk_title_missing_fix": {
+    "message": "ページの内容を正確に表す <title> を追加してください (30〜60 文字程度)。"
+  },
+  "chk_title_long_one": {
+    "message": "<title> が $1 文字あります"
+  },
+  "chk_title_long_other": {
+    "message": "<title> が $1 文字あります"
+  },
+  "chk_title_long_fix": {
+    "message": "Google は通常 60 文字程度を超えるタイトルを切り捨てます。短くしてください。"
+  },
+  "chk_title_short_one": {
+    "message": "<title> が短すぎます ($1 文字)"
+  },
+  "chk_title_short_other": {
+    "message": "<title> が短すぎます ($1 文字)"
+  },
+  "chk_title_short_fix": {
+    "message": "メインのキーワードを含め、30〜60 文字を目安にしてください。"
+  },
+  "chk_title_ok_one": {
+    "message": "<title> が設定されています ($1 文字)"
+  },
+  "chk_title_ok_other": {
+    "message": "<title> が設定されています ($1 文字)"
+  },
+  "chk_desc_missing": {
+    "message": "meta description がありません"
+  },
+  "chk_desc_missing_detail": {
+    "message": "Google がページ内から任意の抜粋を選んで説明文にします。"
+  },
+  "chk_desc_missing_fix": {
+    "message": "70〜160 文字程度の <meta name=\"description\" content=\"…\"> を追加してください。"
+  },
+  "chk_desc_long_one": {
+    "message": "meta description が $1 文字あります"
+  },
+  "chk_desc_long_other": {
+    "message": "meta description が $1 文字あります"
+  },
+  "chk_desc_long_detail": {
+    "message": "Google は通常 160 文字程度で切り捨てます。"
+  },
+  "chk_desc_long_fix": {
+    "message": "70〜160 文字に短くしてください。"
+  },
+  "chk_desc_short_one": {
+    "message": "meta description が短すぎます ($1 文字)"
+  },
+  "chk_desc_short_other": {
+    "message": "meta description が短すぎます ($1 文字)"
+  },
+  "chk_desc_short_fix": {
+    "message": "70〜160 文字を目安にしてください。"
+  },
+  "chk_desc_ok_one": {
+    "message": "meta description が設定されています ($1 文字)"
+  },
+  "chk_desc_ok_other": {
+    "message": "meta description が設定されています ($1 文字)"
+  },
+  "chk_canonical_missing": {
+    "message": "canonical リンクがありません"
+  },
+  "chk_canonical_missing_detail": {
+    "message": "複数の URL (パラメーター、http/https、www) でアクセスできるページは、重複と見なされる可能性があります。"
+  },
+  "chk_canonical_missing_fix": {
+    "message": "<link rel=\"canonical\" href=\"https://…\"> を追加してください。"
+  },
+  "chk_canonical_relative": {
+    "message": "canonical が絶対 URL ではありません"
+  },
+  "chk_canonical_relative_fix": {
+    "message": "完全な URL を使用してください: $1"
+  },
+  "chk_canonical_ok": {
+    "message": "canonical リンクが設定されています"
+  },
+  "chk_robots_noindex": {
+    "message": "このページは Google のインデックス登録をブロックしています (noindex)"
+  },
+  "chk_robots_ok": {
+    "message": "検索エンジンによるインデックス登録が許可されています"
+  },
+  "chk_robots_noindex_fix": {
+    "message": "Google に表示させたい場合は \"noindex\" を削除してください。"
+  },
+  "chk_lang_ok": {
+    "message": "言語の宣言: lang=\"$1\""
+  },
+  "chk_lang_missing": {
+    "message": "<html> に lang 属性がありません"
+  },
+  "chk_lang_missing_fix": {
+    "message": "<html lang=\"ja\"> を追加してください (ページの言語コードを使用)。"
+  },
+  "chk_viewport_ok": {
+    "message": "meta viewport が設定されています (スマートフォンで適切に表示)"
+  },
+  "chk_viewport_missing": {
+    "message": "meta viewport がありません"
+  },
+  "chk_viewport_missing_fix": {
+    "message": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"> を追加してください。"
+  },
+  "chk_favicon_ok": {
+    "message": "サイトアイコン (favicon) が設定されています"
+  },
+  "chk_favicon_failed": {
+    "message": "favicon が宣言されていますが、読み込めませんでした"
+  },
+  "chk_favicon_failed_fix": {
+    "message": "アイコンの URL を確認してください。"
+  },
+  "chk_favicon_ico": {
+    "message": "/favicon.ico が見つかりました"
+  },
+  "chk_favicon_missing": {
+    "message": "サイトアイコン (favicon) がありません"
+  },
+  "chk_favicon_ico_detail": {
+    "message": "<link rel=\"icon\"> も宣言してください (正方形の画像、48×48 以上)。"
+  },
+  "chk_favicon_missing_detail": {
+    "message": "Google は検索結果の横にサイトアイコンを表示します。"
+  },
+  "chk_favicon_missing_fix": {
+    "message": "<link rel=\"icon\" href=\"/favicon.png\"> を追加してください (正方形の画像、48×48 以上)。"
+  },
+  "chk_h1_count_one": {
+    "message": "H1 見出しが $1 個あります"
+  },
+  "chk_h1_count_other": {
+    "message": "H1 見出しが $1 個あります"
+  },
+  "chk_h1_missing": {
+    "message": "H1 見出しがありません"
+  },
+  "chk_h1_missing_fix": {
+    "message": "各ページにはメインの <h1> 見出しを 1 つ置いてください。"
+  },
+  "chk_jsonld_ok": {
+    "message": "構造化データ (JSON-LD) が見つかりました"
+  },
+  "chk_jsonld_missing": {
+    "message": "構造化データ (JSON-LD) がありません"
+  },
+  "chk_jsonld_missing_detail": {
+    "message": "Google でリッチリザルト (評価、価格、よくある質問など) が表示されやすくなります。"
+  },
+  "chk_jsonld_missing_fix": {
+    "message": "適切な schema.org マークアップを追加してください (Organization、Article、Product…)。"
+  },
+  "chk_img_load_failed": {
+    "message": "共有画像を読み込めませんでした"
+  },
+  "chk_img_load_failed_fix": {
+    "message": "画像が一般公開されていて (ログイン不要)、URL が正しいか確認してください。"
+  },
+  "chk_img_load_ok": {
+    "message": "共有画像を読み込めます"
+  },
+  "chk_img_too_large": {
+    "message": "画像が大きすぎます (20 MB 超)"
+  },
+  "chk_img_too_large_fix": {
+    "message": "Facebook は 8 MB まで、X は 5 MB までの画像に対応しています。画像を 1 MB 未満に圧縮してください。"
+  },
+  "chk_img_redirected": {
+    "message": "リダイレクトあり"
+  },
+  "chk_img_svg": {
+    "message": "SVG 画像には対応していません"
+  },
+  "chk_img_svg_detail": {
+    "message": "Facebook、X、LinkedIn などは SVG 画像を表示しません。"
+  },
+  "chk_img_svg_fix": {
+    "message": "画像を JPG または PNG で書き出してください。"
+  },
+  "chk_img_format_unknown": {
+    "message": "認識できない画像形式です"
+  },
+  "chk_img_format_unknown_detail": {
+    "message": "サーバーの応答: $1。"
+  },
+  "chk_img_use_jpg_png": {
+    "message": "確実に表示させるには JPG または PNG を使用してください。"
+  },
+  "chk_img_not_image": {
+    "message": "og:image の URL が画像を返しません"
+  },
+  "chk_received_unknown": {
+    "message": "受信: 不明な形式"
+  },
+  "chk_img_not_image_fix": {
+    "message": "og:image が実際の画像ファイルを指すようにしてください。"
+  },
+  "chk_img_corrupt": {
+    "message": "画像が破損しているか、読み取れません"
+  },
+  "chk_img_corrupt_fix": {
+    "message": "画像を JPG / PNG で書き出し直してください。"
+  },
+  "chk_img_format_ok": {
+    "message": "$1 形式に対応しています"
+  },
+  "chk_img_format_partial": {
+    "message": "$1 形式はすべてのプラットフォームで対応しているわけではありません"
+  },
+  "chk_img_bytes_fb": {
+    "message": "画像が $1 あります: Facebook では無視されます (最大 8 MB)"
+  },
+  "chk_img_compress": {
+    "message": "画像を 1 MB 未満に圧縮してください。"
+  },
+  "chk_img_bytes_x": {
+    "message": "画像が $1 あります: X では表示されません (最大 5 MB)"
+  },
+  "chk_img_bytes_heavy": {
+    "message": "画像が重い ($1)"
+  },
+  "chk_img_bytes_heavy_detail": {
+    "message": "重い画像は読み込みが遅く、一部のメッセージ アプリでは表示されないことがあります。"
+  },
+  "chk_img_bytes_heavy_fix": {
+    "message": "1 MB 未満に圧縮してください (JPG で品質 80% 程度)。"
+  },
+  "chk_img_bytes_ok": {
+    "message": "ファイルサイズ: $1"
+  },
+  "chk_img_dim_ok": {
+    "message": "画像サイズ $1×$2 px"
+  },
+  "chk_img_dim_ok_detail": {
+    "message": "大きな画像カードに十分な解像度です。"
+  },
+  "chk_img_dim_low": {
+    "message": "画像は $1×$2 px で、解像度が不足しています"
+  },
+  "chk_img_dim_low_detail": {
+    "message": "大きな画像として表示されますが、高解像度の画面ではぼやけます。"
+  },
+  "chk_img_dim_low_fix": {
+    "message": "1200×630 px を使用してください。"
+  },
+  "chk_img_dim_small": {
+    "message": "画像は $1×$2 px で、小さめです"
+  },
+  "chk_img_dim_small_detail": {
+    "message": "Facebook では大きな画像ではなく、横に小さなサムネイルとして表示されます (600×315 未満)。"
+  },
+  "chk_img_use_1200": {
+    "message": "1200×630 px の画像を使用してください。"
+  },
+  "chk_img_dim_tiny": {
+    "message": "画像は $1×$2 px で、小さすぎます"
+  },
+  "chk_img_dim_tiny_detail": {
+    "message": "Facebook は 200×200 未満の画像を使用しません。"
+  },
+  "chk_img_ratio": {
+    "message": "アスペクト比 $1:1"
+  },
+  "chk_img_ratio_ok": {
+    "message": "大きな画像カードの 1.91:1 の枠に一致しています。"
+  },
+  "chk_img_ratio_off": {
+    "message": "大きな画像カードの枠は約 1.91:1 のため、画像はトリミングされます (プレビューを参照)。"
+  },
+  "chk_img_ratio_fix": {
+    "message": "重要な内容を中央に配置した 1200×630 px の画像を使用してください。"
+  },
+  "chk_img_declared_missing": {
+    "message": "og:image:width / og:image:height が宣言されていません"
+  },
+  "chk_img_declared_missing_detail": {
+    "message": "宣言しておくと、Facebook は最初の共有時から (画像のダウンロードを待たずに) 画像を表示できます。"
+  },
+  "chk_img_declared_missing_fix": {
+    "message": "<meta property=\"og:image:width\" content=\"$1\"> と <meta property=\"og:image:height\" content=\"$2\"> を追加してください。"
+  },
+  "chk_img_declared_mismatch": {
+    "message": "宣言されたサイズが実際の画像と異なります"
+  },
+  "chk_img_declared_mismatch_detail": {
+    "message": "宣言 $1×$2、実際 $3×$4。"
+  },
+  "chk_img_declared_mismatch_fix": {
+    "message": "$1 と $2 に変更してください。"
+  },
+  "chk_img_declared_ok": {
+    "message": "og:image:width / height が正しく宣言されています"
+  },
+  "chk_img_alt_ok": {
+    "message": "画像の説明 (alt) が設定されています"
+  },
+  "chk_img_alt_missing": {
+    "message": "画像の説明 (og:image:alt) がありません"
+  },
+  "chk_img_alt_missing_detail": {
+    "message": "スクリーン リーダーの利用者に画像の内容が伝わりません。"
+  },
+  "chk_img_alt_missing_fix": {
+    "message": "<meta property=\"og:image:alt\" content=\"…\"> を追加してください。"
+  },
+  "chk_grade_great": {
+    "message": "優秀"
+  },
+  "chk_grade_good": {
+    "message": "良好"
+  },
+  "chk_grade_fair": {
+    "message": "要改善"
+  },
+  "chk_grade_poor": {
+    "message": "不十分"
+  },
+  "chk_suggest_title_placeholder": {
+    "message": "【ページのタイトル (30〜65 文字)】"
+  },
+  "chk_suggest_desc_placeholder": {
+    "message": "【簡潔で魅力的な説明 (60〜160 文字)】"
+  },
+  "chk_suggest_image_url": {
+    "message": "https://$1/share-image-1200x630.jpg"
+  },
+  "chk_suggest_domain_placeholder": {
+    "message": "example.com"
+  },
+  "chk_suggest_note_basic": {
+    "message": "基本 (Google)"
+  },
+  "chk_suggest_alt_placeholder": {
+    "message": "【画像の内容の説明】"
+  },
+  "chk_suggest_site_placeholder": {
+    "message": "【ブランド名】"
+  },
+  "chk_suggest_note_x": {
+    "message": "X (Twitter): タイトル、説明、画像は上の og:* タグから取得されます"
+  }
+}

@@ -1,0 +1,2036 @@
+{
+  "locale_code": {
+    "message": "vi"
+  },
+  "ext_name": {
+    "message": "Cinema Tools for YouTube"
+  },
+  "ext_desc": {
+    "message": "Xoay, lật video YouTube, tắt đèn có đèn nền. Cửa sổ nổi cho video, chỉnh âm lượng từng tab, tải video / âm thanh / ảnh trên mọi trang."
+  },
+  "ext_name_store": {
+    "message": "Cinema Tools – Công cụ xem video"
+  },
+  "ext_desc_store": {
+    "message": "Xoay, lật, phóng to video YouTube, tắt đèn có đèn nền. Cửa sổ nổi, âm lượng từng tab, chụp màn hình, lưu ảnh, xem trước chia sẻ."
+  },
+  "cmd_toggle_pip": {
+    "message": "Mở / đóng cửa sổ nổi cho video của tab đang xem"
+  },
+  "cmd_capture_page": {
+    "message": "Chụp cả trang đang xem"
+  },
+  "act_flip_h": {
+    "message": "Lật ngang"
+  },
+  "act_flip_v": {
+    "message": "Lật dọc"
+  },
+  "act_rotate_left": {
+    "message": "Xoay trái 90°"
+  },
+  "act_rotate_right": {
+    "message": "Xoay phải 90°"
+  },
+  "act_rotate_180": {
+    "message": "Xoay 180°"
+  },
+  "act_reset_transform": {
+    "message": "Đặt lại"
+  },
+  "act_toggle_lights": {
+    "message": "Tắt / bật đèn"
+  },
+  "act_toggle_cinema": {
+    "message": "Rạp phim"
+  },
+  "act_auto_crop": {
+    "message": "Tự cắt viền đen"
+  },
+  "act_fill_frame": {
+    "message": "Lấp đầy khung"
+  },
+  "act_crop_21x9": {
+    "message": "Cắt theo 21:9"
+  },
+  "act_crop_4x3": {
+    "message": "Cắt theo 4:3"
+  },
+  "act_zoom_in": {
+    "message": "Phóng to"
+  },
+  "act_zoom_out": {
+    "message": "Thu nhỏ"
+  },
+  "act_reset_zoom": {
+    "message": "Bỏ phóng to"
+  },
+  "act_snapshot": {
+    "message": "Chụp khung hình"
+  },
+  "full_act_download_thumb": {
+    "message": "Tải ảnh bìa"
+  },
+  "act_toggle_pip": {
+    "message": "Cửa sổ nổi"
+  },
+  "act_pip_no_video": {
+    "message": "Không thấy video nào trên trang này."
+  },
+  "act_pip_unavailable": {
+    "message": "Không dùng được cửa sổ nổi ở trang này."
+  },
+  "full_act_stage_merge": {
+    "message": "Đang ghép hình và tiếng…"
+  },
+  "full_act_stage_extract_audio": {
+    "message": "Đang chuyển định dạng âm thanh…"
+  },
+  "full_act_stage_metadata": {
+    "message": "Đang ghi thông tin vào tệp…"
+  },
+  "full_act_stage_move_files": {
+    "message": "Đang lưu tệp…"
+  },
+  "full_act_stage_convert": {
+    "message": "Đang đổi định dạng…"
+  },
+  "full_act_stage_embed_thumb": {
+    "message": "Đang gắn ảnh bìa…"
+  },
+  "full_act_stage_fixup": {
+    "message": "Đang sửa tệp…"
+  },
+  "full_act_stage_processing": {
+    "message": "Đang xử lý…"
+  },
+  "full_act_choice_audio": {
+    "message": "Âm thanh $1"
+  },
+  "full_act_quality_best": {
+    "message": "Tốt nhất"
+  },
+  "full_act_job_starting": {
+    "message": "Đang lấy thông tin video…"
+  },
+  "full_act_job_part_audio": {
+    "message": "Âm thanh"
+  },
+  "full_act_job_part_video": {
+    "message": "Hình $1p"
+  },
+  "full_act_job_part_any": {
+    "message": "Đang tải"
+  },
+  "full_act_job_eta": {
+    "message": "còn $1"
+  },
+  "full_act_job_done": {
+    "message": "Đã lưu"
+  },
+  "full_act_job_done_size": {
+    "message": "Đã lưu · $1"
+  },
+  "full_act_job_cancelled": {
+    "message": "Đã huỷ"
+  },
+  "full_act_job_error": {
+    "message": "Lỗi: $1"
+  },
+  "full_act_job_error_unknown": {
+    "message": "không rõ"
+  },
+  "full_popup_brand_sub": {
+    "message": "cho YouTube"
+  },
+  "popup_brand_sub_store": {
+    "message": "công cụ xem video"
+  },
+  "popup_pip_title": {
+    "message": "Đưa video đang phát ra cửa sổ nổi, nằm trên mọi ứng dụng (Alt+P)"
+  },
+  "popup_pip": {
+    "message": "Cửa sổ nổi"
+  },
+  "popup_pip_no_video": {
+    "message": "Không có video"
+  },
+  "popup_pip_failed": {
+    "message": "Không mở được"
+  },
+  "popup_settings": {
+    "message": "Cài đặt"
+  },
+  "popup_sections": {
+    "message": "Các mục"
+  },
+  "popup_tab_video": {
+    "message": "Video"
+  },
+  "popup_tab_audio": {
+    "message": "Âm thanh"
+  },
+  "full_popup_tab_download": {
+    "message": "Tải về"
+  },
+  "popup_tab_images": {
+    "message": "Ảnh"
+  },
+  "popup_tab_tools": {
+    "message": "Tiện ích"
+  },
+  "popup_lights_title": {
+    "message": "Tắt đèn"
+  },
+  "popup_lights_on_title": {
+    "message": "Đang tắt đèn"
+  },
+  "popup_cinema_title": {
+    "message": "Rạp phim"
+  },
+  "popup_cinema_on_title": {
+    "message": "Đang Rạp phim"
+  },
+  "popup_transform_heading": {
+    "message": "Xoay & lật video"
+  },
+  "popup_state_flip_h": {
+    "message": "lật ngang"
+  },
+  "popup_state_flip_v": {
+    "message": "lật dọc"
+  },
+  "popup_zoom_heading": {
+    "message": "Phóng to & cắt viền"
+  },
+  "popup_autocrop_title": {
+    "message": "Tự dò và cắt viền đen trong video"
+  },
+  "popup_autocrop": {
+    "message": "Tự cắt viền"
+  },
+  "popup_fill_title": {
+    "message": "Phóng cho hình lấp kín khung trình phát"
+  },
+  "popup_fill": {
+    "message": "Lấp đầy"
+  },
+  "popup_crop21_title": {
+    "message": "Phim màn ảnh rộng 21:9"
+  },
+  "popup_crop43_title": {
+    "message": "Video 4:3 đóng khung 16:9"
+  },
+  "popup_notice_no_tab": {
+    "message": "Hãy mở một video YouTube. Vừa cài extension? Tải lại tab YouTube (F5)."
+  },
+  "popup_notice_open_video": {
+    "message": "Hãy mở một video YouTube để dùng xoay, lật và tắt đèn."
+  },
+  "popup_audio_heading": {
+    "message": "Âm lượng từng tab"
+  },
+  "popup_mute_others_title": {
+    "message": "Tắt tiếng mọi tab khác đang phát"
+  },
+  "popup_mute_others": {
+    "message": "Chỉ nghe tab này"
+  },
+  "popup_mixer_empty": {
+    "message": "Chưa có tab nào đang phát âm thanh."
+  },
+  "popup_shot_heading": {
+    "message": "Chụp màn hình"
+  },
+  "popup_shot_full": {
+    "message": "Cả trang"
+  },
+  "popup_shot_full_sub": {
+    "message": "Tự cuộn và ghép"
+  },
+  "popup_shot_visible": {
+    "message": "Đang thấy"
+  },
+  "popup_shot_visible_sub": {
+    "message": "Đúng màn hình"
+  },
+  "popup_shot_region": {
+    "message": "Chọn vùng"
+  },
+  "popup_shot_region_sub": {
+    "message": "Kéo chuột"
+  },
+  "popup_shot_error": {
+    "message": "Không chụp được trang này."
+  },
+  "popup_share_heading": {
+    "message": "Xem trước khi chia sẻ"
+  },
+  "popup_share_btn": {
+    "message": "Kiểm tra trang này"
+  },
+  "popup_share_btn_sub": {
+    "message": "Liên kết của trang hiện ra sao trên mạng xã hội và Google: chấm điểm, gợi ý sửa"
+  },
+  "popup_share_http_only": {
+    "message": "Chỉ kiểm tra được trang web (http / https)."
+  },
+  "popup_share_incognito": {
+    "message": "Không dùng được trong cửa sổ ẩn danh."
+  },
+  "full_popup_video_heading": {
+    "message": "Video & âm thanh"
+  },
+  "full_popup_setup_title": {
+    "message": "Chưa cài bộ tải video"
+  },
+  "full_popup_setup_text": {
+    "message": "Tải video cần yt-dlp chạy trên máy (cài một lần, miễn phí):"
+  },
+  "full_popup_setup_step1": {
+    "message": "Thư mục extension → **native-host** → bấm đúp **install.bat**."
+  },
+  "full_popup_setup_step2": {
+    "message": "Chờ báo **Hoàn tất** rồi bấm **Kiểm tra lại**."
+  },
+  "full_popup_copy": {
+    "message": "Sao chép"
+  },
+  "full_popup_recheck": {
+    "message": "Kiểm tra lại"
+  },
+  "full_popup_v_idle": {
+    "message": "Tìm video trên trang bằng yt-dlp (YouTube, Facebook, TikTok, X… hơn 1000 trang)."
+  },
+  "full_popup_v_analyze": {
+    "message": "Tìm video trên trang này"
+  },
+  "full_popup_v_loading": {
+    "message": "Đang phân tích video…"
+  },
+  "full_popup_v_entry": {
+    "message": "Chọn video trên trang"
+  },
+  "full_popup_v_quality": {
+    "message": "Chất lượng"
+  },
+  "full_popup_v_format": {
+    "message": "Định dạng"
+  },
+  "full_popup_v_download": {
+    "message": "Tải về"
+  },
+  "full_popup_jobs_clear": {
+    "message": "Xoá các mục đã xong"
+  },
+  "full_popup_streams_heading": {
+    "message": "Tệp & luồng video"
+  },
+  "popup_img_heading": {
+    "message": "Ảnh trên trang"
+  },
+  "popup_img_format": {
+    "message": "Lưu ảnh dạng"
+  },
+  "popup_img_format_original": {
+    "message": "Gốc"
+  },
+  "popup_img_small_title": {
+    "message": "Hiện cả biểu tượng và ảnh nhỏ"
+  },
+  "popup_img_small": {
+    "message": "Ảnh nhỏ"
+  },
+  "full_popup_thumb_title": {
+    "message": "Tải ảnh bìa video (bản lớn nhất)"
+  },
+  "full_popup_thumb": {
+    "message": "Ảnh bìa"
+  },
+  "popup_snap": {
+    "message": "Chụp"
+  },
+  "popup_img_all": {
+    "message": "Chọn tất cả"
+  },
+  "popup_img_download": {
+    "message": "Tải ảnh"
+  },
+  "popup_set_lights_heading": {
+    "message": "Tắt đèn & đèn nền"
+  },
+  "popup_set_dim": {
+    "message": "Độ tối màn che"
+  },
+  "popup_set_glow": {
+    "message": "Đèn nền phía sau video"
+  },
+  "popup_set_glow_strength": {
+    "message": "Độ sáng đèn nền"
+  },
+  "popup_set_glow_size": {
+    "message": "Độ lan đèn nền"
+  },
+  "popup_set_options": {
+    "message": "Tuỳ chọn"
+  },
+  "popup_set_keep_transform": {
+    "message": "Giữ xoay, lật, phóng to khi chuyển video"
+  },
+  "popup_set_player_buttons": {
+    "message": "Hiện nút trên trình phát"
+  },
+  "popup_set_shortcuts": {
+    "message": "Phím tắt bàn phím"
+  },
+  "popup_set_auto_pip": {
+    "message": "Tự mở cửa sổ nổi khi chuyển tab (YouTube)"
+  },
+  "popup_keys_heading": {
+    "message": "Phím tắt"
+  },
+  "popup_keys_hint": {
+    "message": "Alt + Shift + phím"
+  },
+  "popup_keys_customize": {
+    "message": "Đổi phím tắt"
+  },
+  "popup_key_escape": {
+    "message": "Thoát Rạp phim / bật đèn"
+  },
+  "popup_key_pip": {
+    "message": "Cửa sổ nổi (mọi trang)"
+  },
+  "popup_key_capture": {
+    "message": "Chụp cả trang (mọi trang)"
+  },
+  "full_popup_set_download_heading": {
+    "message": "Tải về"
+  },
+  "full_popup_set_cookies": {
+    "message": "Dùng phiên đăng nhập của trình duyệt khi tải video"
+  },
+  "full_popup_set_cookies_note": {
+    "message": "Cần cho Facebook, Instagram, video riêng tư… Cookie chỉ gửi tới bộ tải trên máy bạn, không lưu ra ổ đĩa. Không áp dụng cho YouTube."
+  },
+  "popup_reset": {
+    "message": "Khôi phục cài đặt mặc định"
+  },
+  "yt_toast_snapshot_saved": {
+    "message": "Đã chụp khung hình $1×$2"
+  },
+  "full_yt_dl_preset_best": {
+    "message": "Tốt nhất"
+  },
+  "full_yt_dl_preset_best_label": {
+    "message": "Video tốt nhất · MP4"
+  },
+  "full_yt_dl_preset_video_label": {
+    "message": "Video $1 · MP4"
+  },
+  "full_yt_dl_preset_mp3_label": {
+    "message": "Chỉ âm thanh · MP3"
+  },
+  "full_yt_err_extension_updated": {
+    "message": "Extension vừa được cập nhật, hãy tải lại trang (F5)."
+  },
+  "full_yt_dl_panel_title": {
+    "message": "Tải về"
+  },
+  "full_yt_dl_panel_state": {
+    "message": "video MP4"
+  },
+  "full_yt_dl_thumb": {
+    "message": "Ảnh bìa"
+  },
+  "full_yt_dl_thumb_title": {
+    "message": "Tải ảnh bìa video (bản lớn nhất)"
+  },
+  "full_yt_dl_snapshot": {
+    "message": "Chụp"
+  },
+  "full_yt_dl_snapshot_title": {
+    "message": "Chụp khung hình đang phát (Alt+Shift+S)"
+  },
+  "full_yt_dl_host_missing": {
+    "message": "Chưa cài bộ tải video (yt-dlp). Bấm biểu tượng extension → Tải về để xem cách cài. Ảnh vẫn tải được."
+  },
+  "full_yt_toast_watch_only": {
+    "message": "Chỉ tải được ở trang xem video"
+  },
+  "full_yt_toast_download_start_failed": {
+    "message": "Không bắt đầu tải được"
+  },
+  "full_yt_toast_download_started": {
+    "message": "Bắt đầu tải · $1"
+  },
+  "full_yt_dl_cancel": {
+    "message": "Huỷ tải"
+  },
+  "full_yt_dl_open_file": {
+    "message": "Mở tệp"
+  },
+  "full_yt_dl_show_in_folder": {
+    "message": "Mở thư mục chứa tệp"
+  },
+  "full_yt_toast_download_done": {
+    "message": "Đã tải xong"
+  },
+  "full_yt_toast_download_failed": {
+    "message": "Tải không thành công"
+  },
+  "full_yt_toast_thumb_loading": {
+    "message": "Đang tải ảnh bìa…"
+  },
+  "full_yt_thumb_filename": {
+    "message": "$1 - ảnh bìa"
+  },
+  "full_yt_toast_thumb_saved": {
+    "message": "Đã lưu ảnh bìa"
+  },
+  "full_yt_toast_thumb_failed_reason": {
+    "message": "Không tải được ảnh bìa: $1"
+  },
+  "full_yt_toast_thumb_failed": {
+    "message": "Không tải được ảnh bìa"
+  },
+  "yt_toast_pip_failed": {
+    "message": "Không mở được cửa sổ nổi"
+  },
+  "yt_toast_lights_off": {
+    "message": "Đã tắt đèn · Esc để bật lại"
+  },
+  "yt_toast_lights_on": {
+    "message": "Đã bật đèn"
+  },
+  "yt_toast_cinema_on": {
+    "message": "Rạp phim · Esc để thoát"
+  },
+  "yt_toast_cinema_off": {
+    "message": "Đã thoát Rạp phim"
+  },
+  "yt_toast_transform_reset": {
+    "message": "Đã đặt lại video"
+  },
+  "yt_toast_zoom_reset": {
+    "message": "Đã bỏ phóng to"
+  },
+  "yt_toast_pan_hint": {
+    "message": "$1 · kéo video để di chuyển"
+  },
+  "yt_toast_watch_only": {
+    "message": "Chỉ dùng được ở trang xem video"
+  },
+  "full_yt_btn_download": {
+    "message": "Tải về"
+  },
+  "yt_btn_pip": {
+    "message": "Cửa sổ nổi (Alt+Shift+P)"
+  },
+  "yt_btn_transform": {
+    "message": "Xoay, lật & phóng to"
+  },
+  "yt_btn_lights_off": {
+    "message": "Tắt đèn (Alt+Shift+L)"
+  },
+  "yt_btn_cinema": {
+    "message": "Rạp phim (Alt+Shift+C)"
+  },
+  "yt_zoom_reset_title": {
+    "message": "Bỏ phóng to (về 100%)"
+  },
+  "yt_transform_panel_title": {
+    "message": "Xoay, lật & phóng to"
+  },
+  "yt_panel_zoom_crop": {
+    "message": "Phóng to & cắt viền"
+  },
+  "yt_btn_autocrop": {
+    "message": "Tự cắt viền"
+  },
+  "yt_btn_autocrop_title": {
+    "message": "Tự cắt viền đen (Alt+Shift+A)"
+  },
+  "yt_btn_fill": {
+    "message": "Lấp đầy"
+  },
+  "yt_btn_zoom_out_title": {
+    "message": "Thu nhỏ (Alt+Shift+−)"
+  },
+  "yt_btn_zoom_in_title": {
+    "message": "Phóng to (Alt+Shift++)"
+  },
+  "yt_btn_lights_on": {
+    "message": "Bật đèn (Alt+Shift+L)"
+  },
+  "yt_btn_cinema_exit": {
+    "message": "Thoát Rạp phim (Esc)"
+  },
+  "yt_btn_pip_close": {
+    "message": "Đóng cửa sổ nổi (Alt+Shift+P)"
+  },
+  "yt_panel_state_flip_hv": {
+    "message": "$1° · lật ngang · lật dọc"
+  },
+  "yt_panel_state_flip_h": {
+    "message": "$1° · lật ngang"
+  },
+  "yt_panel_state_flip_v": {
+    "message": "$1° · lật dọc"
+  },
+  "yt_err_video_not_ready": {
+    "message": "Video chưa sẵn sàng, thử lại sau giây lát"
+  },
+  "yt_err_frame_unreadable": {
+    "message": "Không đọc được khung hình của video này"
+  },
+  "yt_err_scene_too_dark": {
+    "message": "Cảnh quá tối, hãy thử lại ở cảnh sáng hơn"
+  },
+  "yt_toast_no_bars": {
+    "message": "Không thấy viền đen trong video · lấp đầy khung $1%"
+  },
+  "yt_toast_bars_cropped": {
+    "message": "Đã cắt viền đen · $1%"
+  },
+  "yt_toast_fill": {
+    "message": "Lấp đầy khung · $1%"
+  },
+  "yt_toast_crop_ratio": {
+    "message": "Cắt theo tỉ lệ $1 · $2%"
+  },
+  "full_dl_hint_mp4": {
+    "message": "MP4 mở được ở mọi nơi. Từ 1080p trở xuống ưu tiên H.264; cao hơn dùng VP9/AV1."
+  },
+  "full_dl_hint_webm": {
+    "message": "WebM (VP9 + Opus): chất lượng tốt, dung lượng gọn."
+  },
+  "full_dl_hint_mkv": {
+    "message": "MKV giữ codec tốt nhất có sẵn (thường là AV1), hợp để lưu trữ."
+  },
+  "full_dl_hint_mp3": {
+    "message": "MP3 mở được ở mọi nơi (được nén lại từ âm thanh gốc)."
+  },
+  "full_dl_hint_m4a": {
+    "message": "M4A (AAC): thường lấy thẳng âm thanh gốc, không phải nén lại."
+  },
+  "full_dl_hint_opus": {
+    "message": "Opus: âm thanh gốc của YouTube, nhẹ nhất."
+  },
+  "full_dl_host_checking": {
+    "message": "Đang kiểm tra…"
+  },
+  "full_dl_host_connected": {
+    "message": "Đã kết nối"
+  },
+  "full_dl_host_save_to": {
+    "message": "Lưu vào: $1"
+  },
+  "full_dl_no_ffmpeg": {
+    "message": "Thiếu ffmpeg: chỉ tải được bản có sẵn cả hình và tiếng. Chạy lại install.bat."
+  },
+  "full_dl_setup_missing_title": {
+    "message": "Chưa cài bộ tải video"
+  },
+  "full_dl_setup_error_title": {
+    "message": "Không kết nối được bộ tải"
+  },
+  "full_dl_setup_missing_text": {
+    "message": "Tải video cần công cụ yt-dlp chạy trên máy (cài một lần, miễn phí):"
+  },
+  "full_dl_setup_error_text": {
+    "message": "$1 Cách sửa:"
+  },
+  "full_dl_retry": {
+    "message": "Thử lại"
+  },
+  "full_dl_analyzing_embed": {
+    "message": "Đang phân tích video nhúng…"
+  },
+  "full_dl_analyzing": {
+    "message": "Đang phân tích video…"
+  },
+  "full_dl_analyze_failed": {
+    "message": "Không phân tích được trang này."
+  },
+  "full_dl_no_videos": {
+    "message": "Không tìm thấy video nào trên trang này."
+  },
+  "full_dl_entries_title_one": {
+    "message": "Trang có $1 video"
+  },
+  "full_dl_entries_title_other": {
+    "message": "Trang có $1 video"
+  },
+  "full_dl_live_unsupported": {
+    "message": "Video đang phát trực tiếp: chưa hỗ trợ tải. Hãy tải sau khi buổi phát kết thúc."
+  },
+  "full_dl_max_height": {
+    "message": "tối đa $1p"
+  },
+  "full_dl_audio_only_info": {
+    "message": "chỉ có âm thanh"
+  },
+  "full_dl_group_video": {
+    "message": "Video"
+  },
+  "full_dl_group_audio_only": {
+    "message": "Chỉ âm thanh"
+  },
+  "full_dl_audio_format": {
+    "message": "$1 · âm thanh"
+  },
+  "full_dl_quality_best": {
+    "message": "Tốt nhất ($1)"
+  },
+  "full_dl_download_audio": {
+    "message": "Tải âm thanh"
+  },
+  "full_dl_download_audio_size": {
+    "message": "Tải âm thanh · ~$1"
+  },
+  "full_dl_download_video": {
+    "message": "Tải video"
+  },
+  "full_dl_download_video_size": {
+    "message": "Tải video · ~$1"
+  },
+  "full_dl_job_cancel": {
+    "message": "Huỷ tải"
+  },
+  "full_dl_job_open": {
+    "message": "Mở tệp"
+  },
+  "full_dl_job_reveal": {
+    "message": "Mở thư mục chứa tệp"
+  },
+  "full_dl_stream_playing": {
+    "message": "Video đang phát"
+  },
+  "full_dl_stream_in_post": {
+    "message": "Video trong bài viết"
+  },
+  "full_dl_stream_pick": {
+    "message": "Chọn"
+  },
+  "full_dl_stream_embed": {
+    "message": "Video $1 nhúng trong trang"
+  },
+  "full_dl_stream_download": {
+    "message": "Tải"
+  },
+  "full_dl_stream_sent": {
+    "message": "Đã chuyển cho trình duyệt tải"
+  },
+  "full_dl_stream_error": {
+    "message": "Lỗi: $1"
+  },
+  "full_dl_stream_need_host": {
+    "message": "Cần cài bộ tải video (xem phía trên)"
+  },
+  "full_dl_stream_started": {
+    "message": "Đang tải · xem tiến độ phía trên"
+  },
+  "dl_img_upgraded_tip": {
+    "message": "Sẽ tải bản lớn nhất tìm được"
+  },
+  "dl_img_count_one": {
+    "message": "$1 ảnh"
+  },
+  "dl_img_count_other": {
+    "message": "$1 ảnh"
+  },
+  "dl_img_count_of_one": {
+    "message": "$2 / $1 ảnh"
+  },
+  "dl_img_count_of_other": {
+    "message": "$2 / $1 ảnh"
+  },
+  "dl_img_only_small": {
+    "message": "Chỉ có ảnh nhỏ (biểu tượng). Bật \"Hiện ảnh nhỏ\" để xem."
+  },
+  "dl_img_none": {
+    "message": "Không tìm thấy ảnh nào trên trang."
+  },
+  "dl_img_deselect": {
+    "message": "Bỏ chọn"
+  },
+  "dl_img_select_all": {
+    "message": "Chọn tất cả"
+  },
+  "dl_img_download_n_one": {
+    "message": "Tải $1 ảnh"
+  },
+  "dl_img_download_n_other": {
+    "message": "Tải $1 ảnh"
+  },
+  "dl_img_download": {
+    "message": "Tải ảnh"
+  },
+  "dl_img_downloading_one": {
+    "message": "Đang tải $1 ảnh…"
+  },
+  "dl_img_downloading_other": {
+    "message": "Đang tải $1 ảnh…"
+  },
+  "dl_img_saved_failed_folder_one": {
+    "message": "Đã lưu $1 ảnh · $2 ảnh lỗi ($3) vào thư mục \"$4\""
+  },
+  "dl_img_saved_failed_folder_other": {
+    "message": "Đã lưu $1 ảnh · $2 ảnh lỗi ($3) vào thư mục \"$4\""
+  },
+  "dl_img_saved_failed_one": {
+    "message": "Đã lưu $1 ảnh · $2 ảnh lỗi ($3)"
+  },
+  "dl_img_saved_failed_other": {
+    "message": "Đã lưu $1 ảnh · $2 ảnh lỗi ($3)"
+  },
+  "dl_img_saved_folder_one": {
+    "message": "Đã lưu $1 ảnh vào thư mục \"$2\""
+  },
+  "dl_img_saved_folder_other": {
+    "message": "Đã lưu $1 ảnh vào thư mục \"$2\""
+  },
+  "dl_img_saved_one": {
+    "message": "Đã lưu $1 ảnh"
+  },
+  "dl_img_saved_other": {
+    "message": "Đã lưu $1 ảnh"
+  },
+  "dl_img_download_failed": {
+    "message": "Không tải được: $1"
+  },
+  "dl_img_unknown_error": {
+    "message": "lỗi không rõ"
+  },
+  "dl_snap_label": {
+    "message": "Chụp"
+  },
+  "dl_snap_tip": {
+    "message": "Chụp khung hình đang phát ở độ phân giải gốc $1×$2"
+  },
+  "dl_scan_system_page": {
+    "message": "Không quét được trang này (trang hệ thống của trình duyệt)."
+  },
+  "dl_scanning": {
+    "message": "Đang quét trang…"
+  },
+  "dl_scan_failed_file": {
+    "message": "Không quét được trang này. Cần bật \"Cho phép truy cập URL tệp\" cho extension."
+  },
+  "dl_scan_failed": {
+    "message": "Không quét được trang này."
+  },
+  "full_dl_start_failed": {
+    "message": "Không bắt đầu tải được."
+  },
+  "full_dl_copied": {
+    "message": "Đã chép"
+  },
+  "full_dl_thumb_name": {
+    "message": "$1 - ảnh bìa"
+  },
+  "dl_snap_done": {
+    "message": "Đã chụp $1×$2 · $3"
+  },
+  "dl_snap_failed": {
+    "message": "Không chụp được"
+  },
+  "dl_snap_failed_detail": {
+    "message": "Không chụp được: $1"
+  },
+  "full_dl_unavailable_page": {
+    "message": "Không dùng được ở trang này."
+  },
+  "full_dl_feed_hint": {
+    "message": "Đây là trang bảng tin / trang cá nhân, chưa thấy video nào. Bấm phát video bạn muốn tải (hoặc mở bài viết / reel đó) rồi bấm nút bên dưới."
+  },
+  "full_dl_find_playing": {
+    "message": "Tìm video đang xem"
+  },
+  "full_dl_feed_retry": {
+    "message": "Chưa thấy video nào trên trang. Hãy bấm phát video muốn tải (hoặc mở bài viết / reel đó) rồi thử lại."
+  },
+  "audio_volume_aria": {
+    "message": "Âm lượng $1"
+  },
+  "audio_set_failed": {
+    "message": "Không chỉnh được âm lượng tab này."
+  },
+  "audio_tab_switch_tip": {
+    "message": "$1\nBấm để chuyển tới tab này"
+  },
+  "audio_this_tab": {
+    "message": "Tab này"
+  },
+  "audio_playing": {
+    "message": "Đang phát âm thanh"
+  },
+  "audio_pip": {
+    "message": "Đưa video tab này ra cửa sổ nổi"
+  },
+  "audio_pip_failed": {
+    "message": "Không mở được cửa sổ nổi."
+  },
+  "audio_unmute": {
+    "message": "Bật tiếng"
+  },
+  "audio_mute": {
+    "message": "Tắt tiếng"
+  },
+  "audio_boost_current_only": {
+    "message": "Chỉ tăng quá 100% được ở tab đang mở popup. Mở popup khi đang ở tab đó rồi thử lại."
+  },
+  "bg_file_name_default": {
+    "message": "tep"
+  },
+  "full_bg_host_missing": {
+    "message": "Chưa cài bộ tải video trên máy."
+  },
+  "full_bg_host_forbidden": {
+    "message": "Bộ tải chưa cho phép extension này (ID đã đổi). Chạy lại install.bat."
+  },
+  "full_bg_host_crash": {
+    "message": "Bộ tải bị thoát đột ngột. Chạy lại install.bat hoặc xem native-host\\host.log."
+  },
+  "full_bg_host_unreachable": {
+    "message": "Không kết nối được bộ tải."
+  },
+  "full_bg_host_no_reply": {
+    "message": "Bộ tải không trả lời."
+  },
+  "full_bg_invalid_url": {
+    "message": "Địa chỉ không hợp lệ."
+  },
+  "full_bg_job_interrupted": {
+    "message": "Bị ngắt giữa chừng."
+  },
+  "full_bg_unknown_error": {
+    "message": "Lỗi không rõ."
+  },
+  "full_bg_invalid_choice": {
+    "message": "Lựa chọn tải không hợp lệ."
+  },
+  "full_bg_host_stopped": {
+    "message": "Bộ tải dừng bất ngờ."
+  },
+  "bg_img_no_url": {
+    "message": "Thiếu địa chỉ ảnh"
+  },
+  "bg_img_failed": {
+    "message": "Không tải được ảnh"
+  },
+  "bg_img_none_selected": {
+    "message": "Chưa chọn ảnh nào."
+  },
+  "bg_vol_no_tab": {
+    "message": "Thiếu tab."
+  },
+  "bg_vol_cannot_set": {
+    "message": "Không chỉnh được âm lượng trang này."
+  },
+  "bg_vol_no_tab_info": {
+    "message": "Thiếu thông tin tab."
+  },
+  "bg_vol_capture_failed": {
+    "message": "Không bắt được âm thanh tab."
+  },
+  "bg_shot_bad_mode": {
+    "message": "Kiểu chụp không hợp lệ."
+  },
+  "bg_shot_busy": {
+    "message": "Đang chụp, chờ một chút."
+  },
+  "bg_shot_no_tab": {
+    "message": "Không tìm thấy tab."
+  },
+  "bg_shot_restricted": {
+    "message": "Không chụp được trang này (trang hệ thống của trình duyệt)."
+  },
+  "bg_img_private_host": {
+    "message": "Không tải ảnh từ địa chỉ mạng nội bộ"
+  },
+  "bg_img_server_status": {
+    "message": "Máy chủ trả lỗi $1"
+  },
+  "bg_img_too_large": {
+    "message": "Ảnh quá lớn (trên 50 MB)"
+  },
+  "bg_img_not_image": {
+    "message": "Địa chỉ không phải ảnh"
+  },
+  "bg_img_bad_size": {
+    "message": "Kích thước ảnh không hợp lệ"
+  },
+  "bg_img_unreadable": {
+    "message": "Không đọc được ảnh"
+  },
+  "page_image_name_default": {
+    "message": "anh"
+  },
+  "page_image_name_random": {
+    "message": "anh-$1"
+  },
+  "page_alt_video_poster": {
+    "message": "Ảnh bìa video"
+  },
+  "page_alt_page_image": {
+    "message": "Ảnh đại diện trang"
+  },
+  "page_snap_no_video": {
+    "message": "Không có video nào đang hiển thị."
+  },
+  "page_snap_failed": {
+    "message": "Không tạo được ảnh"
+  },
+  "page_snap_blocked": {
+    "message": "Trang này không cho chụp khung hình video (video từ nguồn khác hoặc có bảo vệ)."
+  },
+  "page_pip_no_video": {
+    "message": "Không thấy video nào trên trang này."
+  },
+  "page_pip_blocked": {
+    "message": "Trình duyệt chặn mở cửa sổ nổi. Hãy bấm lại nút Cửa sổ nổi."
+  },
+  "page_pip_failed": {
+    "message": "Không mở được cửa sổ nổi"
+  },
+  "page_pip_failed_detail": {
+    "message": "Không mở được cửa sổ nổi: $1"
+  },
+  "page_shot_select_hint": {
+    "message": "Kéo chuột để chọn vùng cần chụp · Esc để huỷ"
+  },
+  "shot_page_title": {
+    "message": "Ảnh chụp trang"
+  },
+  "shot_stitching": {
+    "message": "Đang ghép ảnh…"
+  },
+  "shot_save_png": {
+    "message": "Tải PNG"
+  },
+  "shot_save_jpg": {
+    "message": "Tải JPG"
+  },
+  "shot_copy": {
+    "message": "Sao chép"
+  },
+  "shot_file_name_default": {
+    "message": "Chup man hinh"
+  },
+  "shot_file_name_page": {
+    "message": "trang"
+  },
+  "shot_err_read_image": {
+    "message": "Không đọc được ảnh chụp"
+  },
+  "shot_err_too_large": {
+    "message": "Ảnh quá lớn để lưu"
+  },
+  "shot_open_folder": {
+    "message": "Mở thư mục"
+  },
+  "shot_saved": {
+    "message": "Đã lưu $1 vào thư mục Tải về."
+  },
+  "shot_save_failed": {
+    "message": "Không lưu được: $1"
+  },
+  "shot_gone_title": {
+    "message": "Không còn ảnh chụp"
+  },
+  "shot_expired": {
+    "message": "Ảnh chụp đã hết hạn (trình duyệt hoặc extension vừa khởi động lại). Hãy chụp lại."
+  },
+  "shot_doc_title": {
+    "message": "Ảnh chụp – $1"
+  },
+  "shot_file_name": {
+    "message": "Chụp $1 $2"
+  },
+  "shot_stitching_progress": {
+    "message": "Đang ghép ảnh… $1/$2"
+  },
+  "shot_processing": {
+    "message": "Đang xử lý ảnh…"
+  },
+  "shot_err_missing_frame": {
+    "message": "Thiếu một phần ảnh chụp, hãy chụp lại."
+  },
+  "shot_img_alt": {
+    "message": "Ảnh chụp $1"
+  },
+  "shot_img_hint": {
+    "message": "Bấm để xem cỡ thật / vừa màn hình"
+  },
+  "shot_mode_full": {
+    "message": "Cả trang"
+  },
+  "shot_mode_visible": {
+    "message": "Phần đang thấy"
+  },
+  "shot_mode_region": {
+    "message": "Vùng chọn"
+  },
+  "shot_meta_scaled": {
+    "message": "đã thu nhỏ vì trang quá dài"
+  },
+  "shot_meta_truncated": {
+    "message": "chỉ chụp $1 px đầu (trang cuộn vô tận)"
+  },
+  "shot_meta_css_size": {
+    "message": "$1 × $2 px trên trang"
+  },
+  "shot_copied": {
+    "message": "Đã chép ảnh — dán (Ctrl+V) vào chỗ cần dùng."
+  },
+  "shot_copy_failed": {
+    "message": "Không chép được (ảnh có thể quá lớn): $1"
+  },
+  "share_title": {
+    "message": "Xem trước khi chia sẻ"
+  },
+  "share_subtitle": {
+    "message": "Open Graph · Twitter Card · SEO cơ bản"
+  },
+  "share_url_placeholder": {
+    "message": "https://trang-cua-ban.vn/bai-viet"
+  },
+  "share_url_aria": {
+    "message": "Địa chỉ trang cần kiểm tra"
+  },
+  "share_check_btn": {
+    "message": "Kiểm tra"
+  },
+  "share_loading_page": {
+    "message": "Đang đọc trang…"
+  },
+  "share_empty_title": {
+    "message": "Thẻ chia sẻ của trang trông ra sao?"
+  },
+  "share_empty_body": {
+    "message": "Nhập địa chỉ trang ở trên (hoặc bấm **Tiện ích → Kiểm tra trang này** trong popup) để xem trước liên kết trên Facebook, Zalo, X, LinkedIn, Discord, Telegram, Google, chấm điểm và nhận gợi ý sửa."
+  },
+  "share_status_pass": {
+    "message": "Đạt:"
+  },
+  "share_status_warn": {
+    "message": "Cần chỉnh:"
+  },
+  "share_status_fail": {
+    "message": "Lỗi:"
+  },
+  "share_status_info": {
+    "message": "Thông tin:"
+  },
+  "share_platform_pass": {
+    "message": "Ổn"
+  },
+  "share_platform_warn": {
+    "message": "Cần chỉnh"
+  },
+  "share_platform_fail": {
+    "message": "Lỗi"
+  },
+  "share_loading_raw": {
+    "message": "Đang tải HTML gốc như máy quét mạng xã hội…"
+  },
+  "share_err_unknown": {
+    "message": "Không đọc được trang: lỗi không rõ."
+  },
+  "share_err_read_status": {
+    "message": "Không đọc được trang: máy chủ trả mã $1."
+  },
+  "share_err_read": {
+    "message": "Không đọc được trang: $1."
+  },
+  "share_loading_images": {
+    "message": "Đang tải ảnh chia sẻ…"
+  },
+  "share_err_invalid_url": {
+    "message": "Địa chỉ không hợp lệ. Nhập địa chỉ trang web bắt đầu bằng http:// hoặc https://"
+  },
+  "share_doc_title_score": {
+    "message": "$1/100 – Xem trước khi chia sẻ"
+  },
+  "share_score_aria": {
+    "message": "$1 trên 100 điểm – $2"
+  },
+  "share_page_untitled": {
+    "message": "(trang không có tiêu đề)"
+  },
+  "share_count_fail_one": {
+    "message": "$1 lỗi"
+  },
+  "share_count_fail_other": {
+    "message": "$1 lỗi"
+  },
+  "share_count_warn_one": {
+    "message": "$1 cần chỉnh"
+  },
+  "share_count_warn_other": {
+    "message": "$1 cần chỉnh"
+  },
+  "share_count_pass_one": {
+    "message": "$1 đạt"
+  },
+  "share_count_pass_other": {
+    "message": "$1 đạt"
+  },
+  "share_platforms_aria": {
+    "message": "Tình trạng theo nền tảng"
+  },
+  "share_chip_issues": {
+    "message": "$1 lỗi, $2 cần chỉnh"
+  },
+  "share_chip_no_issues": {
+    "message": "Không có vấn đề"
+  },
+  "share_notice_private": {
+    "message": "Trang đang ở địa chỉ nội bộ (localhost / mạng LAN): mạng xã hội không vào được. Kết quả dưới đây giúp kiểm tra thẻ trước khi đưa trang lên mạng."
+  },
+  "share_notice_no_raw": {
+    "message": "Không đọc được HTML gốc (máy quét có thể cũng bị chặn) nên điểm tối đa 49. Các mục bên dưới lấy từ trang đang hiển thị trong tab, có thể khác thứ mạng xã hội nhận được."
+  },
+  "share_notice_raw_only": {
+    "message": "Chỉ kiểm tra HTML gốc (không so với trang đang mở trong tab)."
+  },
+  "share_pv_no_image": {
+    "message": "Không có ảnh"
+  },
+  "share_pv_svg": {
+    "message": "Ảnh SVG: không hiển thị"
+  },
+  "share_pv_bad_image": {
+    "message": "Ảnh không dùng được"
+  },
+  "share_pv_untitled": {
+    "message": "(không có tiêu đề)"
+  },
+  "share_x_from": {
+    "message": "Từ $1"
+  },
+  "share_google_no_desc": {
+    "message": "Không có meta description: Google tự lấy một đoạn trong trang."
+  },
+  "share_sec_preview": {
+    "message": "Xem trước"
+  },
+  "share_sec_preview_sub": {
+    "message": "Mô phỏng gần đúng cách từng nền tảng hiện liên kết; giao diện thật có thể thay đổi theo thời gian. Cinema Tools không liên kết với các nền tảng này."
+  },
+  "share_fix_label": {
+    "message": "Cách sửa:"
+  },
+  "share_filter_issues": {
+    "message": "Cần xử lý ($1)"
+  },
+  "share_filter_fail": {
+    "message": "Lỗi ($1)"
+  },
+  "share_filter_all": {
+    "message": "Tất cả ($1)"
+  },
+  "share_filter_aria": {
+    "message": "Lọc kết quả"
+  },
+  "share_sec_checks": {
+    "message": "Kết quả kiểm tra"
+  },
+  "share_checks_none": {
+    "message": "Không còn mục nào cần xử lý. Tuyệt vời!"
+  },
+  "share_img_url": {
+    "message": "Địa chỉ"
+  },
+  "share_img_size": {
+    "message": "Kích thước"
+  },
+  "share_img_ratio": {
+    "message": "Tỉ lệ"
+  },
+  "share_img_ratio_value": {
+    "message": "$1 : 1 (chuẩn 1,91 : 1)"
+  },
+  "share_img_bytes": {
+    "message": "Dung lượng"
+  },
+  "share_img_bytes_min": {
+    "message": "$1 trở lên"
+  },
+  "share_img_format": {
+    "message": "Định dạng"
+  },
+  "share_img_http": {
+    "message": "Mã HTTP"
+  },
+  "share_img_status_redirected": {
+    "message": "$1 (có chuyển hướng)"
+  },
+  "share_img_cannot_view": {
+    "message": "Không xem được ảnh"
+  },
+  "share_img_svg": {
+    "message": "Ảnh SVG: mạng xã hội không hiển thị, trang này cũng không hiện."
+  },
+  "share_img_too_large": {
+    "message": "Ảnh quá lớn, không hiển thị."
+  },
+  "share_img_decode_error": {
+    "message": "Ảnh hỏng, không giải mã được."
+  },
+  "share_img_too_many_pixels": {
+    "message": "Ảnh quá nhiều điểm ảnh, không hiển thị."
+  },
+  "share_img_crop_title": {
+    "message": "Phần hiện trong thẻ ảnh lớn (1,91:1)"
+  },
+  "share_img_crop_caption": {
+    "message": "Khung sáng: phần còn lại khi cắt về 1,91:1."
+  },
+  "share_sec_image": {
+    "message": "Ảnh chia sẻ (og:image)"
+  },
+  "share_sec_tags": {
+    "message": "Thẻ tìm thấy"
+  },
+  "share_tags_none": {
+    "message": "Trang không có thẻ meta chia sẻ nào."
+  },
+  "share_src_raw": {
+    "message": "HTML gốc"
+  },
+  "share_src_dom": {
+    "message": "Trang hiển thị"
+  },
+  "share_src_js_only": {
+    "message": "Chỉ sau JS"
+  },
+  "share_src_js_changed": {
+    "message": "Khác sau JS"
+  },
+  "share_tags_after_js": {
+    "message": "Sau JS: $1"
+  },
+  "share_sec_tags_sub": {
+    "message": "\"Chỉ sau JS\": thẻ do JavaScript thêm vào, máy quét mạng xã hội không thấy."
+  },
+  "share_th_tag": {
+    "message": "Thẻ"
+  },
+  "share_th_value": {
+    "message": "Giá trị"
+  },
+  "share_th_source": {
+    "message": "Nguồn"
+  },
+  "share_copy": {
+    "message": "Sao chép"
+  },
+  "share_copied": {
+    "message": "Đã chép, dán vào <head> của trang."
+  },
+  "share_copy_failed": {
+    "message": "Không chép được: $1"
+  },
+  "share_sec_snippet": {
+    "message": "Bộ thẻ meta gợi ý"
+  },
+  "share_snippet_changes_one": {
+    "message": "$1 dòng cần thêm (+) hoặc sửa (~); các dòng khác giữ nguyên giá trị đang có. Thay chữ IN HOA bằng nội dung thật."
+  },
+  "share_snippet_changes_other": {
+    "message": "$1 dòng cần thêm (+) hoặc sửa (~); các dòng khác giữ nguyên giá trị đang có. Thay chữ IN HOA bằng nội dung thật."
+  },
+  "share_snippet_complete": {
+    "message": "Trang đã có đủ thẻ cơ bản."
+  },
+  "share_tools_how": {
+    "message": "Để xem như máy quét, trang được tải lại một lần (không kèm cookie), cùng ảnh chia sẻ và biểu tượng trang khai báo."
+  },
+  "share_tools_caveat": {
+    "message": "Máy quét thật của từng nền tảng có thể nhận nội dung khác (chặn bot, trang riêng cho máy quét), và các nền tảng lưu đệm bản xem trước. Sửa thẻ xong, dán địa chỉ vào công cụ chính thức để xác nhận và làm mới:"
+  },
+  "share_tools_private": {
+    "message": "Các công cụ này chỉ dùng được khi trang đã lên mạng (không phải localhost)."
+  },
+  "share_tool_fb_note": {
+    "message": "– cũng làm mới bản xem trước cho Messenger, Instagram"
+  },
+  "share_tool_google_note": {
+    "message": "– kiểm tra dữ liệu có cấu trúc"
+  },
+  "share_sec_tools": {
+    "message": "Kiểm tra lại trên nền tảng"
+  },
+  "share_err_not_web": {
+    "message": "Chỉ kiểm tra được trang web (http / https)."
+  },
+  "share_err_tab_closed": {
+    "message": "Tab cần kiểm tra đã đóng. Nhập địa chỉ trang ở trên."
+  },
+  "share_jsonld_invalid": {
+    "message": "(JSON lỗi)"
+  },
+  "share_err_http_only": {
+    "message": "Chỉ hỗ trợ địa chỉ http / https"
+  },
+  "share_err_redirect_private": {
+    "message": "Bị chuyển hướng tới địa chỉ mạng nội bộ, mạng xã hội không tải được"
+  },
+  "share_err_timeout": {
+    "message": "Hết thời gian chờ ($1 giây)"
+  },
+  "share_err_connect": {
+    "message": "Không kết nối được tới máy chủ"
+  },
+  "share_err_not_http": {
+    "message": "Không phải địa chỉ http / https"
+  },
+  "share_err_image_private": {
+    "message": "Ảnh nằm ở địa chỉ mạng nội bộ / máy này, mạng xã hội không tải được"
+  },
+  "share_err_http_status": {
+    "message": "Máy chủ trả mã $1"
+  },
+  "chk_group_access": {
+    "message": "Máy quét đọc được trang"
+  },
+  "chk_group_image": {
+    "message": "Ảnh chia sẻ"
+  },
+  "chk_group_seo": {
+    "message": "Google & SEO cơ bản"
+  },
+  "chk_bytes_mb": {
+    "message": "$1 MB"
+  },
+  "chk_bytes_kb": {
+    "message": "$1 KB"
+  },
+  "chk_quoted": {
+    "message": "«$1»"
+  },
+  "chk_raw_ok": {
+    "message": "Tải được HTML gốc khi chưa đăng nhập"
+  },
+  "chk_raw_redirected": {
+    "message": "đã chuyển hướng tới $1"
+  },
+  "chk_raw_not_html": {
+    "message": "Địa chỉ này không trả về trang HTML"
+  },
+  "chk_received": {
+    "message": "Nhận được: $1"
+  },
+  "chk_received_empty": {
+    "message": "Nhận được: nội dung trống"
+  },
+  "chk_raw_not_html_fix": {
+    "message": "Mạng xã hội chỉ đọc thẻ meta trong trang HTML."
+  },
+  "chk_raw_status": {
+    "message": "Máy chủ trả mã $1 khi chưa đăng nhập"
+  },
+  "chk_raw_status_detail": {
+    "message": "Máy quét của mạng xã hội vào trang như khách chưa đăng nhập, nên cũng có thể nhận lỗi này. Kết quả bên dưới lấy từ trang đang hiển thị trong tab."
+  },
+  "chk_raw_status_fix": {
+    "message": "Cho phép truy cập công khai; kiểm tra tường lửa / chống bot (Cloudflare…) có chặn máy quét không."
+  },
+  "chk_raw_failed": {
+    "message": "Không tải được HTML gốc"
+  },
+  "chk_raw_failed_fix": {
+    "message": "Kiểm tra địa chỉ trang có truy cập được từ Internet không."
+  },
+  "chk_raw_size": {
+    "message": "HTML gốc nặng hơn 5 MB"
+  },
+  "chk_raw_size_detail": {
+    "message": "Chỉ đọc 5 MB đầu."
+  },
+  "chk_raw_size_fix": {
+    "message": "Đặt các thẻ meta ở đầu <head> và giảm dung lượng HTML."
+  },
+  "chk_js_only_one": {
+    "message": "$1 thẻ chỉ có sau khi JavaScript chạy"
+  },
+  "chk_js_only_other": {
+    "message": "$1 thẻ chỉ có sau khi JavaScript chạy"
+  },
+  "chk_js_only_fix": {
+    "message": "Facebook, Zalo, X, LinkedIn, Discord, Telegram không chạy JavaScript nên không thấy các thẻ này. Hãy để máy chủ trả sẵn thẻ trong HTML (SSR, trang tĩnh dựng sẵn hoặc prerender). Nếu khách chưa đăng nhập / chưa đồng ý cookie chỉ thấy một trang chắn, máy quét cũng chỉ thấy trang đó."
+  },
+  "chk_js_only_ok": {
+    "message": "Thẻ chia sẻ có sẵn trong HTML gốc"
+  },
+  "chk_js_only_ok_detail": {
+    "message": "Chỉ $1 được thêm bằng JavaScript (không ảnh hưởng thẻ chia sẻ)."
+  },
+  "chk_changed": {
+    "message": "HTML gốc khác trang đang hiển thị"
+  },
+  "chk_changed_line": {
+    "message": "$1: «$2» → «$3»"
+  },
+  "chk_changed_fix": {
+    "message": "Mạng xã hội dùng giá trị trong HTML gốc. Hay gặp ở web một trang (SPA) đổi thẻ khi chuyển trang: máy chủ cần trả đúng thẻ cho từng địa chỉ."
+  },
+  "chk_og_title_missing": {
+    "message": "Thiếu og:title"
+  },
+  "chk_og_title_missing_fallback": {
+    "message": "Các nền tảng sẽ lấy tạm thẻ <title>: «$1»."
+  },
+  "chk_og_title_missing_no_title": {
+    "message": "Trang cũng không có <title>."
+  },
+  "chk_og_title_missing_fix": {
+    "message": "Thêm <meta property=\"og:title\" content=\"…\"> – tiêu đề hấp dẫn, khoảng 30–65 ký tự."
+  },
+  "chk_og_title_long_one": {
+    "message": "og:title dài $1 ký tự, dễ bị cắt"
+  },
+  "chk_og_title_long_other": {
+    "message": "og:title dài $1 ký tự, dễ bị cắt"
+  },
+  "chk_og_title_long_fix": {
+    "message": "Nên giữ trong khoảng 30–65 ký tự; ý chính đặt ở đầu."
+  },
+  "chk_og_title_short_one": {
+    "message": "og:title ngắn ($1 ký tự)"
+  },
+  "chk_og_title_short_other": {
+    "message": "og:title ngắn ($1 ký tự)"
+  },
+  "chk_og_title_short_fix": {
+    "message": "Nên 30–65 ký tự để đủ ý và hấp dẫn hơn."
+  },
+  "chk_og_title_ok_one": {
+    "message": "Có og:title ($1 ký tự)"
+  },
+  "chk_og_title_ok_other": {
+    "message": "Có og:title ($1 ký tự)"
+  },
+  "chk_og_desc_missing": {
+    "message": "Thiếu og:description"
+  },
+  "chk_og_desc_missing_fallback": {
+    "message": "Facebook, Zalo sẽ lấy tạm thẻ meta description."
+  },
+  "chk_og_desc_missing_no_desc": {
+    "message": "Trang cũng không có meta description: thẻ chia sẻ sẽ không có dòng mô tả."
+  },
+  "chk_og_desc_missing_fix": {
+    "message": "Thêm <meta property=\"og:description\" content=\"…\"> – khoảng 60–160 ký tự."
+  },
+  "chk_og_desc_long_one": {
+    "message": "og:description dài $1 ký tự"
+  },
+  "chk_og_desc_long_other": {
+    "message": "og:description dài $1 ký tự"
+  },
+  "chk_og_desc_long_detail": {
+    "message": "Thẻ chia sẻ thường chỉ hiện 1–2 dòng, phần sau bị cắt."
+  },
+  "chk_og_desc_long_fix": {
+    "message": "Rút gọn còn khoảng 60–160 ký tự, ý chính đặt ở đầu."
+  },
+  "chk_og_desc_short_one": {
+    "message": "og:description ngắn ($1 ký tự)"
+  },
+  "chk_og_desc_short_other": {
+    "message": "og:description ngắn ($1 ký tự)"
+  },
+  "chk_og_desc_short_fix": {
+    "message": "Nên khoảng 60–160 ký tự để đủ ý."
+  },
+  "chk_og_desc_ok_one": {
+    "message": "Có og:description ($1 ký tự)"
+  },
+  "chk_og_desc_ok_other": {
+    "message": "Có og:description ($1 ký tự)"
+  },
+  "chk_og_url_missing": {
+    "message": "Thiếu og:url"
+  },
+  "chk_og_url_missing_detail": {
+    "message": "Lượt thích / chia sẻ có thể bị tách theo nhiều địa chỉ (có ?utm_…, #…)."
+  },
+  "chk_og_url_missing_fix": {
+    "message": "Thêm <meta property=\"og:url\" content=\"địa chỉ chuẩn của trang\">."
+  },
+  "chk_og_url_relative": {
+    "message": "og:url chưa là địa chỉ đầy đủ"
+  },
+  "chk_og_url_relative_fix": {
+    "message": "Dùng địa chỉ đầy đủ, bắt đầu bằng https://"
+  },
+  "chk_og_url_mismatch": {
+    "message": "og:url khác link canonical"
+  },
+  "chk_og_url_mismatch_fix": {
+    "message": "Hai thẻ nên trỏ cùng một địa chỉ chuẩn."
+  },
+  "chk_og_url_ok": {
+    "message": "Có og:url"
+  },
+  "chk_og_type_missing": {
+    "message": "Thiếu og:type"
+  },
+  "chk_og_type_missing_detail": {
+    "message": "Facebook mặc định coi là \"website\"."
+  },
+  "chk_og_type_missing_fix": {
+    "message": "Thêm <meta property=\"og:type\" content=\"website\"> (bài viết: \"article\")."
+  },
+  "chk_og_site_missing": {
+    "message": "Thiếu og:site_name"
+  },
+  "chk_og_site_missing_detail": {
+    "message": "Discord, Telegram hiện tên trang ở dòng đầu thẻ; thiếu thì chỉ hiện tên miền."
+  },
+  "chk_og_site_missing_fix": {
+    "message": "Thêm <meta property=\"og:site_name\" content=\"Tên thương hiệu\">."
+  },
+  "chk_og_locale_missing": {
+    "message": "Không khai báo og:locale"
+  },
+  "chk_og_locale_missing_vi": {
+    "message": "Không bắt buộc. Trang tiếng Việt có thể đặt \"vi_VN\"."
+  },
+  "chk_og_locale_optional": {
+    "message": "Không bắt buộc."
+  },
+  "chk_dup": {
+    "message": "Thẻ bị lặp với giá trị khác nhau: $1"
+  },
+  "chk_dup_fix": {
+    "message": "Mỗi thẻ chỉ nên có một lần; nền tảng có thể lấy nhầm bản không mong muốn."
+  },
+  "chk_og_image_missing": {
+    "message": "Thiếu og:image"
+  },
+  "chk_og_image_missing_tw": {
+    "message": "Chỉ có twitter:image (Facebook, Zalo, LinkedIn không dùng thẻ này)."
+  },
+  "chk_og_image_missing_detail": {
+    "message": "Bài chia sẻ sẽ không có ảnh, hoặc nền tảng tự chọn một ảnh bất kỳ trên trang."
+  },
+  "chk_og_image_missing_fix": {
+    "message": "Thêm <meta property=\"og:image\" content=\"https://…/anh-1200x630.jpg\"> – ảnh JPG / PNG 1200×630 px."
+  },
+  "chk_og_image_ok": {
+    "message": "Có og:image"
+  },
+  "chk_img_abs_scheme": {
+    "message": "og:image thiếu https:"
+  },
+  "chk_img_abs_scheme_fix": {
+    "message": "Ghi đầy đủ https://…"
+  },
+  "chk_img_abs_relative": {
+    "message": "og:image phải là địa chỉ đầy đủ"
+  },
+  "chk_img_abs_relative_detail": {
+    "message": "Đang là «$1»."
+  },
+  "chk_img_abs_relative_fix": {
+    "message": "Ghi đầy đủ: $1"
+  },
+  "chk_img_abs_ok": {
+    "message": "og:image là địa chỉ đầy đủ"
+  },
+  "chk_img_https": {
+    "message": "og:image dùng http (không mã hoá)"
+  },
+  "chk_img_https_fix": {
+    "message": "Dùng https:// để mọi nền tảng tải được."
+  },
+  "chk_tw_image_ok": {
+    "message": "twitter:image tải được"
+  },
+  "chk_tw_image_failed": {
+    "message": "Không tải được twitter:image"
+  },
+  "chk_tw_image_failed_fix": {
+    "message": "Kiểm tra địa chỉ ảnh."
+  },
+  "chk_tw_card_missing": {
+    "message": "Thiếu twitter:card"
+  },
+  "chk_tw_card_missing_detail": {
+    "message": "X có thể không hiện thẻ ảnh lớn cho liên kết."
+  },
+  "chk_tw_card_missing_fix": {
+    "message": "Thêm <meta name=\"twitter:card\" content=\"summary_large_image\">."
+  },
+  "chk_tw_card_invalid": {
+    "message": "twitter:card không hợp lệ: «$1»"
+  },
+  "chk_tw_card_invalid_detail": {
+    "message": "Giá trị đúng: $1."
+  },
+  "chk_tw_card_invalid_fix": {
+    "message": "Dùng \"summary_large_image\" cho ảnh ngang lớn."
+  },
+  "chk_tw_card_summary": {
+    "message": "Thẻ nhỏ (ảnh vuông bên cạnh). Muốn ảnh lớn thì dùng summary_large_image."
+  },
+  "chk_tw_fallback": {
+    "message": "Không có $1"
+  },
+  "chk_tw_fallback_detail": {
+    "message": "Không sao: X dùng og:title / og:description / og:image thay thế."
+  },
+  "chk_title_missing": {
+    "message": "Thiếu thẻ <title>"
+  },
+  "chk_title_missing_fix": {
+    "message": "Thêm <title> mô tả đúng nội dung trang, khoảng 30–60 ký tự."
+  },
+  "chk_title_long_one": {
+    "message": "<title> dài $1 ký tự"
+  },
+  "chk_title_long_other": {
+    "message": "<title> dài $1 ký tự"
+  },
+  "chk_title_long_fix": {
+    "message": "Google thường cắt tiêu đề dài hơn ~60 ký tự; nên rút gọn."
+  },
+  "chk_title_short_one": {
+    "message": "<title> ngắn ($1 ký tự)"
+  },
+  "chk_title_short_other": {
+    "message": "<title> ngắn ($1 ký tự)"
+  },
+  "chk_title_short_fix": {
+    "message": "Nên 30–60 ký tự, có từ khoá chính."
+  },
+  "chk_title_ok_one": {
+    "message": "Có <title> ($1 ký tự)"
+  },
+  "chk_title_ok_other": {
+    "message": "Có <title> ($1 ký tự)"
+  },
+  "chk_desc_missing": {
+    "message": "Thiếu meta description"
+  },
+  "chk_desc_missing_detail": {
+    "message": "Google sẽ tự cắt một đoạn bất kỳ trong trang làm mô tả."
+  },
+  "chk_desc_missing_fix": {
+    "message": "Thêm <meta name=\"description\" content=\"…\"> khoảng 70–160 ký tự."
+  },
+  "chk_desc_long_one": {
+    "message": "Meta description dài $1 ký tự"
+  },
+  "chk_desc_long_other": {
+    "message": "Meta description dài $1 ký tự"
+  },
+  "chk_desc_long_detail": {
+    "message": "Google thường cắt ở khoảng 160 ký tự."
+  },
+  "chk_desc_long_fix": {
+    "message": "Rút gọn còn 70–160 ký tự."
+  },
+  "chk_desc_short_one": {
+    "message": "Meta description ngắn ($1 ký tự)"
+  },
+  "chk_desc_short_other": {
+    "message": "Meta description ngắn ($1 ký tự)"
+  },
+  "chk_desc_short_fix": {
+    "message": "Nên 70–160 ký tự."
+  },
+  "chk_desc_ok_one": {
+    "message": "Có meta description ($1 ký tự)"
+  },
+  "chk_desc_ok_other": {
+    "message": "Có meta description ($1 ký tự)"
+  },
+  "chk_canonical_missing": {
+    "message": "Thiếu link canonical"
+  },
+  "chk_canonical_missing_detail": {
+    "message": "Trang có nhiều địa chỉ (tham số, http/https, www) dễ bị coi là trùng lặp."
+  },
+  "chk_canonical_missing_fix": {
+    "message": "Thêm <link rel=\"canonical\" href=\"https://…\">."
+  },
+  "chk_canonical_relative": {
+    "message": "Canonical chưa là địa chỉ đầy đủ"
+  },
+  "chk_canonical_relative_fix": {
+    "message": "Nên ghi đầy đủ: $1"
+  },
+  "chk_canonical_ok": {
+    "message": "Có link canonical"
+  },
+  "chk_robots_noindex": {
+    "message": "Trang đang chặn Google lập chỉ mục (noindex)"
+  },
+  "chk_robots_ok": {
+    "message": "Cho phép công cụ tìm kiếm lập chỉ mục"
+  },
+  "chk_robots_noindex_fix": {
+    "message": "Bỏ \"noindex\" nếu muốn trang xuất hiện trên Google."
+  },
+  "chk_lang_ok": {
+    "message": "Khai báo ngôn ngữ: lang=\"$1\""
+  },
+  "chk_lang_missing": {
+    "message": "Thiếu thuộc tính lang trên <html>"
+  },
+  "chk_lang_missing_fix": {
+    "message": "Thêm <html lang=\"vi\">."
+  },
+  "chk_viewport_ok": {
+    "message": "Có meta viewport (hiển thị tốt trên điện thoại)"
+  },
+  "chk_viewport_missing": {
+    "message": "Thiếu meta viewport"
+  },
+  "chk_viewport_missing_fix": {
+    "message": "Thêm <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">."
+  },
+  "chk_favicon_ok": {
+    "message": "Có biểu tượng trang (favicon)"
+  },
+  "chk_favicon_failed": {
+    "message": "Khai báo favicon nhưng không tải được"
+  },
+  "chk_favicon_failed_fix": {
+    "message": "Kiểm tra địa chỉ biểu tượng."
+  },
+  "chk_favicon_ico": {
+    "message": "Có /favicon.ico"
+  },
+  "chk_favicon_missing": {
+    "message": "Không có biểu tượng trang (favicon)"
+  },
+  "chk_favicon_ico_detail": {
+    "message": "Nên khai báo thêm <link rel=\"icon\"> (ảnh vuông, tối thiểu 48×48)."
+  },
+  "chk_favicon_missing_detail": {
+    "message": "Google hiện biểu tượng trang bên cạnh kết quả tìm kiếm."
+  },
+  "chk_favicon_missing_fix": {
+    "message": "Thêm <link rel=\"icon\" href=\"/favicon.png\"> (ảnh vuông, tối thiểu 48×48)."
+  },
+  "chk_h1_count_one": {
+    "message": "Có $1 thẻ H1"
+  },
+  "chk_h1_count_other": {
+    "message": "Có $1 thẻ H1"
+  },
+  "chk_h1_missing": {
+    "message": "Không có thẻ H1"
+  },
+  "chk_h1_missing_fix": {
+    "message": "Mỗi trang nên có một tiêu đề chính <h1>."
+  },
+  "chk_jsonld_ok": {
+    "message": "Có dữ liệu có cấu trúc (JSON-LD)"
+  },
+  "chk_jsonld_missing": {
+    "message": "Chưa có dữ liệu có cấu trúc (JSON-LD)"
+  },
+  "chk_jsonld_missing_detail": {
+    "message": "Giúp Google hiện kết quả nổi bật (đánh giá, giá, câu hỏi thường gặp…)."
+  },
+  "chk_jsonld_missing_fix": {
+    "message": "Thêm schema.org phù hợp (Organization, Article, Product…)."
+  },
+  "chk_img_load_failed": {
+    "message": "Không tải được ảnh chia sẻ"
+  },
+  "chk_img_load_failed_fix": {
+    "message": "Kiểm tra ảnh mở được công khai (không cần đăng nhập), đúng địa chỉ."
+  },
+  "chk_img_load_ok": {
+    "message": "Tải được ảnh chia sẻ"
+  },
+  "chk_img_too_large": {
+    "message": "Ảnh quá lớn (trên 20 MB)"
+  },
+  "chk_img_too_large_fix": {
+    "message": "Facebook chỉ nhận ảnh tới 8 MB, X tới 5 MB. Nén ảnh xuống dưới 1 MB."
+  },
+  "chk_img_redirected": {
+    "message": "có chuyển hướng"
+  },
+  "chk_img_svg": {
+    "message": "Ảnh dạng SVG không được hỗ trợ"
+  },
+  "chk_img_svg_detail": {
+    "message": "Facebook, X, LinkedIn… không hiện ảnh SVG."
+  },
+  "chk_img_svg_fix": {
+    "message": "Xuất ảnh ra JPG hoặc PNG."
+  },
+  "chk_img_format_unknown": {
+    "message": "Không nhận ra định dạng ảnh"
+  },
+  "chk_img_format_unknown_detail": {
+    "message": "Máy chủ báo $1."
+  },
+  "chk_img_use_jpg_png": {
+    "message": "Dùng JPG hoặc PNG cho chắc chắn."
+  },
+  "chk_img_not_image": {
+    "message": "Địa chỉ og:image không trả về ảnh"
+  },
+  "chk_received_unknown": {
+    "message": "Nhận được: không rõ"
+  },
+  "chk_img_not_image_fix": {
+    "message": "Trỏ og:image tới đúng tệp ảnh."
+  },
+  "chk_img_corrupt": {
+    "message": "Ảnh hỏng hoặc không đọc được"
+  },
+  "chk_img_corrupt_fix": {
+    "message": "Xuất lại ảnh JPG / PNG."
+  },
+  "chk_img_format_ok": {
+    "message": "Định dạng $1 được hỗ trợ"
+  },
+  "chk_img_format_partial": {
+    "message": "Định dạng $1 chưa được mọi nền tảng hỗ trợ"
+  },
+  "chk_img_bytes_fb": {
+    "message": "Ảnh nặng $1: Facebook bỏ qua (tối đa 8 MB)"
+  },
+  "chk_img_compress": {
+    "message": "Nén ảnh xuống dưới 1 MB."
+  },
+  "chk_img_bytes_x": {
+    "message": "Ảnh nặng $1: X không hiện (tối đa 5 MB)"
+  },
+  "chk_img_bytes_heavy": {
+    "message": "Ảnh nặng $1"
+  },
+  "chk_img_bytes_heavy_detail": {
+    "message": "Ảnh nặng hiện chậm, một số ứng dụng nhắn tin có thể bỏ qua."
+  },
+  "chk_img_bytes_heavy_fix": {
+    "message": "Nên nén xuống dưới 1 MB (JPG chất lượng ~80%)."
+  },
+  "chk_img_bytes_ok": {
+    "message": "Dung lượng ảnh $1"
+  },
+  "chk_img_dim_ok": {
+    "message": "Kích thước $1×$2 px"
+  },
+  "chk_img_dim_ok_detail": {
+    "message": "Đủ nét cho thẻ ảnh lớn."
+  },
+  "chk_img_dim_low": {
+    "message": "Ảnh $1×$2 px, chưa đủ nét"
+  },
+  "chk_img_dim_low_detail": {
+    "message": "Vẫn hiện ảnh lớn nhưng mờ trên màn hình nét cao."
+  },
+  "chk_img_dim_low_fix": {
+    "message": "Nên dùng 1200×630 px."
+  },
+  "chk_img_dim_small": {
+    "message": "Ảnh $1×$2 px, nhỏ"
+  },
+  "chk_img_dim_small_detail": {
+    "message": "Facebook hiện thành ảnh nhỏ bên cạnh thay vì ảnh lớn (dưới 600×315)."
+  },
+  "chk_img_use_1200": {
+    "message": "Dùng ảnh 1200×630 px."
+  },
+  "chk_img_dim_tiny": {
+    "message": "Ảnh $1×$2 px, quá nhỏ"
+  },
+  "chk_img_dim_tiny_detail": {
+    "message": "Facebook không dùng ảnh nhỏ hơn 200×200."
+  },
+  "chk_img_ratio": {
+    "message": "Tỉ lệ ảnh $1:1"
+  },
+  "chk_img_ratio_ok": {
+    "message": "Đúng khung 1,91:1 của thẻ ảnh lớn."
+  },
+  "chk_img_ratio_off": {
+    "message": "Thẻ ảnh lớn có khung khoảng 1,91:1 nên ảnh sẽ bị cắt bớt (xem các khung xem trước)."
+  },
+  "chk_img_ratio_fix": {
+    "message": "Dùng ảnh 1200×630 px, nội dung quan trọng đặt ở giữa."
+  },
+  "chk_img_declared_missing": {
+    "message": "Chưa khai báo og:image:width / og:image:height"
+  },
+  "chk_img_declared_missing_detail": {
+    "message": "Khai báo giúp Facebook hiện ảnh ngay từ lần chia sẻ đầu tiên (không phải chờ tải ảnh)."
+  },
+  "chk_img_declared_missing_fix": {
+    "message": "Thêm <meta property=\"og:image:width\" content=\"$1\"> và <meta property=\"og:image:height\" content=\"$2\">."
+  },
+  "chk_img_declared_mismatch": {
+    "message": "Kích thước khai báo khác ảnh thật"
+  },
+  "chk_img_declared_mismatch_detail": {
+    "message": "Khai báo $1×$2, ảnh thật $3×$4."
+  },
+  "chk_img_declared_mismatch_fix": {
+    "message": "Sửa thành $1 và $2."
+  },
+  "chk_img_declared_ok": {
+    "message": "Khai báo đúng og:image:width / height"
+  },
+  "chk_img_alt_ok": {
+    "message": "Có mô tả ảnh (alt)"
+  },
+  "chk_img_alt_missing": {
+    "message": "Thiếu mô tả ảnh (og:image:alt)"
+  },
+  "chk_img_alt_missing_detail": {
+    "message": "Người dùng trình đọc màn hình sẽ không biết ảnh nói gì."
+  },
+  "chk_img_alt_missing_fix": {
+    "message": "Thêm <meta property=\"og:image:alt\" content=\"…\">."
+  },
+  "chk_grade_great": {
+    "message": "Tuyệt vời"
+  },
+  "chk_grade_good": {
+    "message": "Tốt"
+  },
+  "chk_grade_fair": {
+    "message": "Cần cải thiện"
+  },
+  "chk_grade_poor": {
+    "message": "Kém"
+  },
+  "chk_suggest_title_placeholder": {
+    "message": "TIÊU ĐỀ TRANG (30–65 KÝ TỰ)"
+  },
+  "chk_suggest_desc_placeholder": {
+    "message": "MÔ TẢ NGẮN GỌN, HẤP DẪN (60–160 KÝ TỰ)"
+  },
+  "chk_suggest_image_url": {
+    "message": "https://$1/anh-chia-se-1200x630.jpg"
+  },
+  "chk_suggest_domain_placeholder": {
+    "message": "ten-mien.vn"
+  },
+  "chk_suggest_note_basic": {
+    "message": "Cơ bản (Google)"
+  },
+  "chk_suggest_alt_placeholder": {
+    "message": "MÔ TẢ NỘI DUNG ẢNH"
+  },
+  "chk_suggest_site_placeholder": {
+    "message": "TÊN THƯƠNG HIỆU"
+  },
+  "chk_suggest_note_x": {
+    "message": "X (Twitter): tiêu đề, mô tả, ảnh lấy từ og:* ở trên"
+  }
+}

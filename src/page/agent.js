@@ -2,15 +2,16 @@
  * Chạy trong trang web (popup chèn vào khi cần; trên YouTube có sẵn qua manifest):
  *  - scan():     liệt kê ảnh trên trang; đoán địa chỉ ảnh lớn nhất.
  *  - snapshot(): chụp khung hình video đang phát ở độ phân giải gốc và lưu về máy.
- * Không phụ thuộc file khác; tạo phần tử bằng DOM API (không innerHTML).
+ * Chỉ cần src/shared/i18n.js nạp trước (chuỗi giao diện); tạo phần tử bằng DOM API (không innerHTML).
  */
 // #full-start
 // Bản đầy đủ: scan() còn liệt kê tệp video, video nhúng, bài viết có video (cho bộ tải yt-dlp).
 // #full-end
 (() => {
   'use strict';
-  const VERSION = 2; // tăng khi sửa: popup chèn bản mới đè bản cũ còn trong trang
+  const VERSION = 3; // tăng khi sửa: popup chèn bản mới đè bản cũ còn trong trang
   if (globalThis.__CT_AGENT && globalThis.__CT_AGENT.version >= VERSION) return;
+  const { t } = globalThis.YTX_I18N; // src/shared/i18n.js được chèn / nạp trước file này
 
   const IMG_EXT = /\.(jpe?g|jfif|png|gif|webp|avif|bmp|svg|tiff?|heic)$/i;
   // #full-start
@@ -150,7 +151,7 @@
   function guessName(url, alt) {
     let m;
     if ((m = url.match(/ytimg\.com\/(?:vi|vi_webp)\/([\w-]{11})\//))) return alt || `youtube-${m[1]}`;
-    if (url.startsWith('data:')) return alt || 'anh';
+    if (url.startsWith('data:')) return alt || t('page_image_name_default');
     let base = '';
     try {
       base = decodeURIComponent(pathOf(url).split('/').filter(Boolean).pop() || '');
@@ -161,8 +162,8 @@
     const random = /^[\w-]{24,}$/.test(base) || /^[0-9a-f_-]{16,}$/i.test(base); // mã ngẫu nhiên của CDN
     const meaningless = !base || base.length < 3 || random || /^(image|img|photo|picture|default|maxresdefault|hqdefault)$/i.test(base);
     if (meaningless && alt) return alt.slice(0, 80);
-    if (random) return `anh-${base.slice(0, 10)}`;
-    return base.slice(0, 100) || 'anh';
+    if (random) return t('page_image_name_random', base.slice(0, 10));
+    return base.slice(0, 100) || t('page_image_name_default');
   }
 
   // #full-start
@@ -387,7 +388,7 @@
         else if (parent === 'VIDEO' || parent === 'AUDIO') addMedia(el.getAttribute('src') && el.src, { audio: parent === 'AUDIO' });
         // #full-end
       } else if (tag === 'VIDEO' || tag === 'AUDIO') {
-        if (tag === 'VIDEO' && el.poster) addImage(el.poster, { kind: 'poster', alt: 'Ảnh bìa video' });
+        if (tag === 'VIDEO' && el.poster) addImage(el.poster, { kind: 'poster', alt: t('page_alt_video_poster') });
         // #full-start
         const src = el.currentSrc || (el.getAttribute('src') ? el.src : '');
         if (isHttp(src)) {
@@ -414,7 +415,7 @@
       } else if (tag === 'META') {
         const key = (el.getAttribute('property') || el.getAttribute('name') || el.getAttribute('itemprop') || '').toLowerCase();
         if (/^(og:image(:secure_url|:url)?|twitter:image(:src)?|image|thumbnailurl)$/.test(key)) {
-          addImage(el.content, { kind: 'meta', alt: 'Ảnh đại diện trang' });
+          addImage(el.content, { kind: 'meta', alt: t('page_alt_page_image') });
         // #full-start
         } else if (/^(og:video(:secure_url|:url)?|twitter:player:stream)$/.test(key) && isHttp(abs(el.content))) {
           const v = abs(el.content);
@@ -487,7 +488,7 @@
   async function snapshot(format = 'png', quality = 0.95, video = null) {
     if (!SNAP_MIME[format]) format = 'png';
     const v = video || pickVideo();
-    if (!v) return { ok: false, error: 'Không có video nào đang hiển thị.' };
+    if (!v) return { ok: false, error: t('page_snap_no_video') };
     const canvas = document.createElement('canvas');
     canvas.width = v.videoWidth;
     canvas.height = v.videoHeight;
@@ -500,11 +501,11 @@
     let blob;
     try {
       blob = await new Promise((resolve, reject) => {
-        canvas.toBlob((b) => (b ? resolve(b) : reject(new Error('Không tạo được ảnh'))), SNAP_MIME[format], quality);
+        canvas.toBlob((b) => (b ? resolve(b) : reject(new Error(t('page_snap_failed')))), SNAP_MIME[format], quality);
       });
     } catch (err) {
       if (err && err.name === 'SecurityError') {
-        return { ok: false, error: 'Trang này không cho chụp khung hình video (video từ nguồn khác hoặc có bảo vệ).' };
+        return { ok: false, error: t('page_snap_blocked') };
       }
       return { ok: false, error: String(err && err.message) };
     }

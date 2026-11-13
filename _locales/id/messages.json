@@ -1,0 +1,2036 @@
+{
+  "locale_code": {
+    "message": "id"
+  },
+  "ext_name": {
+    "message": "Cinema Tools untuk YouTube"
+  },
+  "ext_desc": {
+    "message": "Rotasi & balik video YouTube, matikan lampu dengan cahaya ambien. Picture-in-picture, volume per tab, unduh video, audio, gambar."
+  },
+  "ext_name_store": {
+    "message": "Cinema Tools – Alat Menonton Video"
+  },
+  "ext_desc_store": {
+    "message": "Rotasi, balik & zoom video YouTube, lampu mati + cahaya ambien. Picture-in-picture, volume per tab, screenshot, pratinjau berbagi."
+  },
+  "cmd_toggle_pip": {
+    "message": "Buka / tutup Picture-in-picture untuk video di tab saat ini"
+  },
+  "cmd_capture_page": {
+    "message": "Tangkap seluruh halaman saat ini"
+  },
+  "act_flip_h": {
+    "message": "Balik horizontal"
+  },
+  "act_flip_v": {
+    "message": "Balik vertikal"
+  },
+  "act_rotate_left": {
+    "message": "Putar ke kiri 90°"
+  },
+  "act_rotate_right": {
+    "message": "Putar ke kanan 90°"
+  },
+  "act_rotate_180": {
+    "message": "Putar 180°"
+  },
+  "act_reset_transform": {
+    "message": "Reset"
+  },
+  "act_toggle_lights": {
+    "message": "Matikan / nyalakan lampu"
+  },
+  "act_toggle_cinema": {
+    "message": "Mode bioskop"
+  },
+  "act_auto_crop": {
+    "message": "Pangkas otomatis bilah hitam"
+  },
+  "act_fill_frame": {
+    "message": "Penuhi bingkai"
+  },
+  "act_crop_21x9": {
+    "message": "Pangkas ke 21:9"
+  },
+  "act_crop_4x3": {
+    "message": "Pangkas ke 4:3"
+  },
+  "act_zoom_in": {
+    "message": "Perbesar"
+  },
+  "act_zoom_out": {
+    "message": "Perkecil"
+  },
+  "act_reset_zoom": {
+    "message": "Reset zoom"
+  },
+  "act_snapshot": {
+    "message": "Tangkap frame"
+  },
+  "full_act_download_thumb": {
+    "message": "Unduh thumbnail"
+  },
+  "act_toggle_pip": {
+    "message": "Picture-in-picture"
+  },
+  "act_pip_no_video": {
+    "message": "Tidak ada video di halaman ini."
+  },
+  "act_pip_unavailable": {
+    "message": "Picture-in-picture tidak dapat digunakan di halaman ini."
+  },
+  "full_act_stage_merge": {
+    "message": "Menggabungkan video dan audio…"
+  },
+  "full_act_stage_extract_audio": {
+    "message": "Mengonversi audio…"
+  },
+  "full_act_stage_metadata": {
+    "message": "Menulis info file…"
+  },
+  "full_act_stage_move_files": {
+    "message": "Menyimpan file…"
+  },
+  "full_act_stage_convert": {
+    "message": "Mengonversi format…"
+  },
+  "full_act_stage_embed_thumb": {
+    "message": "Menyematkan thumbnail…"
+  },
+  "full_act_stage_fixup": {
+    "message": "Memperbaiki file…"
+  },
+  "full_act_stage_processing": {
+    "message": "Memproses…"
+  },
+  "full_act_choice_audio": {
+    "message": "Audio $1"
+  },
+  "full_act_quality_best": {
+    "message": "Terbaik"
+  },
+  "full_act_job_starting": {
+    "message": "Mengambil info video…"
+  },
+  "full_act_job_part_audio": {
+    "message": "Audio"
+  },
+  "full_act_job_part_video": {
+    "message": "Video $1p"
+  },
+  "full_act_job_part_any": {
+    "message": "Mengunduh"
+  },
+  "full_act_job_eta": {
+    "message": "sisa $1"
+  },
+  "full_act_job_done": {
+    "message": "Tersimpan"
+  },
+  "full_act_job_done_size": {
+    "message": "Tersimpan · $1"
+  },
+  "full_act_job_cancelled": {
+    "message": "Dibatalkan"
+  },
+  "full_act_job_error": {
+    "message": "Kesalahan: $1"
+  },
+  "full_act_job_error_unknown": {
+    "message": "tidak diketahui"
+  },
+  "full_popup_brand_sub": {
+    "message": "untuk YouTube"
+  },
+  "popup_brand_sub_store": {
+    "message": "alat menonton video"
+  },
+  "popup_pip_title": {
+    "message": "Tampilkan video yang sedang diputar dalam Picture-in-picture, di atas semua aplikasi (Alt+P)"
+  },
+  "popup_pip": {
+    "message": "PiP"
+  },
+  "popup_pip_no_video": {
+    "message": "Tidak ada video"
+  },
+  "popup_pip_failed": {
+    "message": "Gagal dibuka"
+  },
+  "popup_settings": {
+    "message": "Setelan"
+  },
+  "popup_sections": {
+    "message": "Bagian"
+  },
+  "popup_tab_video": {
+    "message": "Video"
+  },
+  "popup_tab_audio": {
+    "message": "Audio"
+  },
+  "full_popup_tab_download": {
+    "message": "Unduh"
+  },
+  "popup_tab_images": {
+    "message": "Gambar"
+  },
+  "popup_tab_tools": {
+    "message": "Alat"
+  },
+  "popup_lights_title": {
+    "message": "Matikan lampu"
+  },
+  "popup_lights_on_title": {
+    "message": "Lampu mati"
+  },
+  "popup_cinema_title": {
+    "message": "Bioskop"
+  },
+  "popup_cinema_on_title": {
+    "message": "Mode bioskop aktif"
+  },
+  "popup_transform_heading": {
+    "message": "Rotasi & balik"
+  },
+  "popup_state_flip_h": {
+    "message": "dibalik H"
+  },
+  "popup_state_flip_v": {
+    "message": "dibalik V"
+  },
+  "popup_zoom_heading": {
+    "message": "Zoom & pangkas"
+  },
+  "popup_autocrop_title": {
+    "message": "Deteksi dan pangkas bilah hitam di video"
+  },
+  "popup_autocrop": {
+    "message": "Pangkas otomatis"
+  },
+  "popup_fill_title": {
+    "message": "Zoom agar gambar memenuhi pemutar"
+  },
+  "popup_fill": {
+    "message": "Penuhi"
+  },
+  "popup_crop21_title": {
+    "message": "Film layar lebar 21:9"
+  },
+  "popup_crop43_title": {
+    "message": "Video 4:3 dalam bingkai 16:9"
+  },
+  "popup_notice_no_tab": {
+    "message": "Buka video YouTube. Baru dipasang? Muat ulang tab YouTube (F5)."
+  },
+  "popup_notice_open_video": {
+    "message": "Buka video YouTube untuk merotasi, membalik, dan mematikan lampu."
+  },
+  "popup_audio_heading": {
+    "message": "Volume per tab"
+  },
+  "popup_mute_others_title": {
+    "message": "Bisukan semua tab lain yang sedang memutar suara"
+  },
+  "popup_mute_others": {
+    "message": "Hanya tab ini"
+  },
+  "popup_mixer_empty": {
+    "message": "Tidak ada tab yang memutar audio."
+  },
+  "popup_shot_heading": {
+    "message": "Tangkapan layar"
+  },
+  "popup_shot_full": {
+    "message": "Halaman penuh"
+  },
+  "popup_shot_full_sub": {
+    "message": "Gulir & gabung"
+  },
+  "popup_shot_visible": {
+    "message": "Terlihat"
+  },
+  "popup_shot_visible_sub": {
+    "message": "Yang ada di layar"
+  },
+  "popup_shot_region": {
+    "message": "Area"
+  },
+  "popup_shot_region_sub": {
+    "message": "Seret untuk memilih"
+  },
+  "popup_shot_error": {
+    "message": "Tidak dapat menangkap halaman ini."
+  },
+  "popup_share_heading": {
+    "message": "Pratinjau berbagi"
+  },
+  "popup_share_btn": {
+    "message": "Periksa halaman ini"
+  },
+  "popup_share_btn_sub": {
+    "message": "Tampilan tautan halaman ini di media sosial dan Google: skor dan tips perbaikan"
+  },
+  "popup_share_http_only": {
+    "message": "Hanya halaman web (http / https) yang dapat diperiksa."
+  },
+  "popup_share_incognito": {
+    "message": "Tidak tersedia di jendela Samaran."
+  },
+  "full_popup_video_heading": {
+    "message": "Video & audio"
+  },
+  "full_popup_setup_title": {
+    "message": "Pengunduh video belum dipasang"
+  },
+  "full_popup_setup_text": {
+    "message": "Mengunduh video memerlukan yt-dlp di komputer ini (sekali pasang, gratis):"
+  },
+  "full_popup_setup_step1": {
+    "message": "Folder ekstensi → **native-host** → klik dua kali **install.bat**."
+  },
+  "full_popup_setup_step2": {
+    "message": "Tunggu **Hoàn tất** (selesai), lalu klik **Periksa lagi**."
+  },
+  "full_popup_copy": {
+    "message": "Salin"
+  },
+  "full_popup_recheck": {
+    "message": "Periksa lagi"
+  },
+  "full_popup_v_idle": {
+    "message": "Cari video di halaman dengan yt-dlp (YouTube, Facebook, TikTok, X… 1.000+ situs)."
+  },
+  "full_popup_v_analyze": {
+    "message": "Cari video di halaman ini"
+  },
+  "full_popup_v_loading": {
+    "message": "Menganalisis video…"
+  },
+  "full_popup_v_entry": {
+    "message": "Pilih video di halaman"
+  },
+  "full_popup_v_quality": {
+    "message": "Kualitas"
+  },
+  "full_popup_v_format": {
+    "message": "Format"
+  },
+  "full_popup_v_download": {
+    "message": "Unduh"
+  },
+  "full_popup_jobs_clear": {
+    "message": "Hapus yang selesai"
+  },
+  "full_popup_streams_heading": {
+    "message": "File & stream video"
+  },
+  "popup_img_heading": {
+    "message": "Gambar di halaman"
+  },
+  "popup_img_format": {
+    "message": "Simpan gambar sebagai"
+  },
+  "popup_img_format_original": {
+    "message": "Asli"
+  },
+  "popup_img_small_title": {
+    "message": "Tampilkan juga ikon dan gambar kecil"
+  },
+  "popup_img_small": {
+    "message": "Kecil"
+  },
+  "full_popup_thumb_title": {
+    "message": "Unduh thumbnail video (ukuran terbesar)"
+  },
+  "full_popup_thumb": {
+    "message": "Thumbnail"
+  },
+  "popup_snap": {
+    "message": "Tangkap"
+  },
+  "popup_img_all": {
+    "message": "Pilih semua"
+  },
+  "popup_img_download": {
+    "message": "Unduh"
+  },
+  "popup_set_lights_heading": {
+    "message": "Matikan lampu & cahaya ambien"
+  },
+  "popup_set_dim": {
+    "message": "Peredupan"
+  },
+  "popup_set_glow": {
+    "message": "Cahaya ambien di belakang video"
+  },
+  "popup_set_glow_strength": {
+    "message": "Kecerahan cahaya"
+  },
+  "popup_set_glow_size": {
+    "message": "Sebaran cahaya"
+  },
+  "popup_set_options": {
+    "message": "Opsi"
+  },
+  "popup_set_keep_transform": {
+    "message": "Pertahankan rotasi, balik, dan zoom saat berganti video"
+  },
+  "popup_set_player_buttons": {
+    "message": "Tampilkan tombol di pemutar"
+  },
+  "popup_set_shortcuts": {
+    "message": "Pintasan keyboard"
+  },
+  "popup_set_auto_pip": {
+    "message": "Picture-in-picture otomatis saat berpindah tab (YouTube)"
+  },
+  "popup_keys_heading": {
+    "message": "Pintasan"
+  },
+  "popup_keys_hint": {
+    "message": "Alt + Shift + tombol"
+  },
+  "popup_keys_customize": {
+    "message": "Ubah pintasan"
+  },
+  "popup_key_escape": {
+    "message": "Keluar mode bioskop / nyalakan lampu"
+  },
+  "popup_key_pip": {
+    "message": "Picture-in-picture (situs mana pun)"
+  },
+  "popup_key_capture": {
+    "message": "Tangkap seluruh halaman (situs mana pun)"
+  },
+  "full_popup_set_download_heading": {
+    "message": "Unduhan"
+  },
+  "full_popup_set_cookies": {
+    "message": "Gunakan login browser saat mengunduh video"
+  },
+  "full_popup_set_cookies_note": {
+    "message": "Diperlukan untuk Facebook, Instagram, video pribadi… Cookie hanya dikirim ke pengunduh di komputer Anda dan tidak pernah disimpan ke disk. Tidak digunakan untuk YouTube."
+  },
+  "popup_reset": {
+    "message": "Pulihkan setelan default"
+  },
+  "yt_toast_snapshot_saved": {
+    "message": "Frame ditangkap $1×$2"
+  },
+  "full_yt_dl_preset_best": {
+    "message": "Terbaik"
+  },
+  "full_yt_dl_preset_best_label": {
+    "message": "Video terbaik · MP4"
+  },
+  "full_yt_dl_preset_video_label": {
+    "message": "Video $1 · MP4"
+  },
+  "full_yt_dl_preset_mp3_label": {
+    "message": "Audio saja · MP3"
+  },
+  "full_yt_err_extension_updated": {
+    "message": "Ekstensi baru saja diperbarui. Muat ulang halaman (F5)."
+  },
+  "full_yt_dl_panel_title": {
+    "message": "Unduh"
+  },
+  "full_yt_dl_panel_state": {
+    "message": "video MP4"
+  },
+  "full_yt_dl_thumb": {
+    "message": "Thumbnail"
+  },
+  "full_yt_dl_thumb_title": {
+    "message": "Unduh thumbnail video (ukuran terbesar)"
+  },
+  "full_yt_dl_snapshot": {
+    "message": "Tangkap"
+  },
+  "full_yt_dl_snapshot_title": {
+    "message": "Tangkap frame saat ini (Alt+Shift+S)"
+  },
+  "full_yt_dl_host_missing": {
+    "message": "Pengunduh video (yt-dlp) belum dipasang. Klik ikon ekstensi → Unduh untuk langkah pemasangan. Gambar tetap bisa diunduh."
+  },
+  "full_yt_toast_watch_only": {
+    "message": "Unduhan hanya berfungsi di halaman video"
+  },
+  "full_yt_toast_download_start_failed": {
+    "message": "Tidak dapat memulai unduhan"
+  },
+  "full_yt_toast_download_started": {
+    "message": "Unduhan dimulai · $1"
+  },
+  "full_yt_dl_cancel": {
+    "message": "Batalkan unduhan"
+  },
+  "full_yt_dl_open_file": {
+    "message": "Buka file"
+  },
+  "full_yt_dl_show_in_folder": {
+    "message": "Tampilkan di folder"
+  },
+  "full_yt_toast_download_done": {
+    "message": "Unduhan selesai"
+  },
+  "full_yt_toast_download_failed": {
+    "message": "Unduhan gagal"
+  },
+  "full_yt_toast_thumb_loading": {
+    "message": "Mengunduh thumbnail…"
+  },
+  "full_yt_thumb_filename": {
+    "message": "$1 - thumbnail"
+  },
+  "full_yt_toast_thumb_saved": {
+    "message": "Thumbnail tersimpan"
+  },
+  "full_yt_toast_thumb_failed_reason": {
+    "message": "Tidak dapat mengunduh thumbnail: $1"
+  },
+  "full_yt_toast_thumb_failed": {
+    "message": "Tidak dapat mengunduh thumbnail"
+  },
+  "yt_toast_pip_failed": {
+    "message": "Tidak dapat membuka Picture-in-picture"
+  },
+  "yt_toast_lights_off": {
+    "message": "Lampu mati · Esc untuk menyalakan lagi"
+  },
+  "yt_toast_lights_on": {
+    "message": "Lampu menyala"
+  },
+  "yt_toast_cinema_on": {
+    "message": "Mode bioskop · Esc untuk keluar"
+  },
+  "yt_toast_cinema_off": {
+    "message": "Keluar dari mode bioskop"
+  },
+  "yt_toast_transform_reset": {
+    "message": "Video direset"
+  },
+  "yt_toast_zoom_reset": {
+    "message": "Zoom direset"
+  },
+  "yt_toast_pan_hint": {
+    "message": "$1 · seret video untuk menggeser"
+  },
+  "yt_toast_watch_only": {
+    "message": "Hanya tersedia di halaman video"
+  },
+  "full_yt_btn_download": {
+    "message": "Unduh"
+  },
+  "yt_btn_pip": {
+    "message": "Picture-in-picture (Alt+Shift+P)"
+  },
+  "yt_btn_transform": {
+    "message": "Rotasi/balik & zoom"
+  },
+  "yt_btn_lights_off": {
+    "message": "Matikan lampu (Alt+Shift+L)"
+  },
+  "yt_btn_cinema": {
+    "message": "Mode bioskop (Alt+Shift+C)"
+  },
+  "yt_zoom_reset_title": {
+    "message": "Reset zoom (kembali ke 100%)"
+  },
+  "yt_transform_panel_title": {
+    "message": "Rotasi/balik & zoom"
+  },
+  "yt_panel_zoom_crop": {
+    "message": "Zoom & pangkas"
+  },
+  "yt_btn_autocrop": {
+    "message": "Pangkas otomatis"
+  },
+  "yt_btn_autocrop_title": {
+    "message": "Pangkas otomatis bilah hitam (Alt+Shift+A)"
+  },
+  "yt_btn_fill": {
+    "message": "Penuhi"
+  },
+  "yt_btn_zoom_out_title": {
+    "message": "Perkecil (Alt+Shift+−)"
+  },
+  "yt_btn_zoom_in_title": {
+    "message": "Perbesar (Alt+Shift++)"
+  },
+  "yt_btn_lights_on": {
+    "message": "Nyalakan lampu (Alt+Shift+L)"
+  },
+  "yt_btn_cinema_exit": {
+    "message": "Keluar dari mode bioskop (Esc)"
+  },
+  "yt_btn_pip_close": {
+    "message": "Tutup Picture-in-picture (Alt+Shift+P)"
+  },
+  "yt_panel_state_flip_hv": {
+    "message": "$1° · dibalik H · dibalik V"
+  },
+  "yt_panel_state_flip_h": {
+    "message": "$1° · dibalik H"
+  },
+  "yt_panel_state_flip_v": {
+    "message": "$1° · dibalik V"
+  },
+  "yt_err_video_not_ready": {
+    "message": "Video belum siap, coba lagi sebentar lagi"
+  },
+  "yt_err_frame_unreadable": {
+    "message": "Tidak dapat membaca frame dari video ini"
+  },
+  "yt_err_scene_too_dark": {
+    "message": "Adegan terlalu gelap, coba lagi di adegan yang lebih terang"
+  },
+  "yt_toast_no_bars": {
+    "message": "Tidak ada bilah hitam · memenuhi bingkai $1%"
+  },
+  "yt_toast_bars_cropped": {
+    "message": "Bilah hitam dipangkas · $1%"
+  },
+  "yt_toast_fill": {
+    "message": "Penuhi bingkai · $1%"
+  },
+  "yt_toast_crop_ratio": {
+    "message": "Dipangkas ke $1 · $2%"
+  },
+  "full_dl_hint_mp4": {
+    "message": "MP4 dapat diputar di mana saja. Hingga 1080p mengutamakan H.264; di atasnya memakai VP9/AV1."
+  },
+  "full_dl_hint_webm": {
+    "message": "WebM (VP9 + Opus): kualitas bagus, ukuran ringkas."
+  },
+  "full_dl_hint_mkv": {
+    "message": "MKV mempertahankan codec terbaik yang tersedia (biasanya AV1), cocok untuk arsip."
+  },
+  "full_dl_hint_mp3": {
+    "message": "MP3 dapat diputar di mana saja (di-encode ulang dari audio asli)."
+  },
+  "full_dl_hint_m4a": {
+    "message": "M4A (AAC): biasanya audio asli apa adanya, tanpa encode ulang."
+  },
+  "full_dl_hint_opus": {
+    "message": "Opus: audio asli YouTube, paling kecil."
+  },
+  "full_dl_host_checking": {
+    "message": "Memeriksa…"
+  },
+  "full_dl_host_connected": {
+    "message": "Terhubung"
+  },
+  "full_dl_host_save_to": {
+    "message": "Disimpan ke: $1"
+  },
+  "full_dl_no_ffmpeg": {
+    "message": "ffmpeg tidak ada: hanya format yang sudah berisi video dan suara yang dapat diunduh. Jalankan install.bat lagi."
+  },
+  "full_dl_setup_missing_title": {
+    "message": "Pengunduh video belum dipasang"
+  },
+  "full_dl_setup_error_title": {
+    "message": "Tidak dapat terhubung ke pengunduh"
+  },
+  "full_dl_setup_missing_text": {
+    "message": "Mengunduh video memerlukan alat yt-dlp di komputer Anda (sekali pasang, gratis):"
+  },
+  "full_dl_setup_error_text": {
+    "message": "$1 Cara memperbaiki:"
+  },
+  "full_dl_retry": {
+    "message": "Coba lagi"
+  },
+  "full_dl_analyzing_embed": {
+    "message": "Menganalisis video sematan…"
+  },
+  "full_dl_analyzing": {
+    "message": "Menganalisis video…"
+  },
+  "full_dl_analyze_failed": {
+    "message": "Tidak dapat menganalisis halaman ini."
+  },
+  "full_dl_no_videos": {
+    "message": "Tidak ada video di halaman ini."
+  },
+  "full_dl_entries_title_one": {
+    "message": "Halaman berisi $1 video"
+  },
+  "full_dl_entries_title_other": {
+    "message": "Halaman berisi $1 video"
+  },
+  "full_dl_live_unsupported": {
+    "message": "Siaran langsung belum dapat diunduh. Coba lagi setelah siaran berakhir."
+  },
+  "full_dl_max_height": {
+    "message": "hingga $1p"
+  },
+  "full_dl_audio_only_info": {
+    "message": "audio saja"
+  },
+  "full_dl_group_video": {
+    "message": "Video"
+  },
+  "full_dl_group_audio_only": {
+    "message": "Audio saja"
+  },
+  "full_dl_audio_format": {
+    "message": "$1 · audio"
+  },
+  "full_dl_quality_best": {
+    "message": "Terbaik ($1)"
+  },
+  "full_dl_download_audio": {
+    "message": "Unduh audio"
+  },
+  "full_dl_download_audio_size": {
+    "message": "Unduh audio · ~$1"
+  },
+  "full_dl_download_video": {
+    "message": "Unduh video"
+  },
+  "full_dl_download_video_size": {
+    "message": "Unduh video · ~$1"
+  },
+  "full_dl_job_cancel": {
+    "message": "Batalkan unduhan"
+  },
+  "full_dl_job_open": {
+    "message": "Buka file"
+  },
+  "full_dl_job_reveal": {
+    "message": "Tampilkan di folder"
+  },
+  "full_dl_stream_playing": {
+    "message": "Video yang diputar"
+  },
+  "full_dl_stream_in_post": {
+    "message": "Video dalam postingan"
+  },
+  "full_dl_stream_pick": {
+    "message": "Pilih"
+  },
+  "full_dl_stream_embed": {
+    "message": "Video $1 yang disematkan di halaman"
+  },
+  "full_dl_stream_download": {
+    "message": "Unduh"
+  },
+  "full_dl_stream_sent": {
+    "message": "Diteruskan ke unduhan browser"
+  },
+  "full_dl_stream_error": {
+    "message": "Kesalahan: $1"
+  },
+  "full_dl_stream_need_host": {
+    "message": "Pasang pengunduh video terlebih dahulu (lihat di atas)"
+  },
+  "full_dl_stream_started": {
+    "message": "Mengunduh · lihat progres di atas"
+  },
+  "dl_img_upgraded_tip": {
+    "message": "Akan mengunduh versi terbesar yang ditemukan"
+  },
+  "dl_img_count_one": {
+    "message": "$1 gambar"
+  },
+  "dl_img_count_other": {
+    "message": "$1 gambar"
+  },
+  "dl_img_count_of_one": {
+    "message": "$2 / $1 gambar"
+  },
+  "dl_img_count_of_other": {
+    "message": "$2 / $1 gambar"
+  },
+  "dl_img_only_small": {
+    "message": "Hanya ada gambar kecil (ikon). Aktifkan \"Kecil\" untuk menampilkannya."
+  },
+  "dl_img_none": {
+    "message": "Tidak ada gambar di halaman ini."
+  },
+  "dl_img_deselect": {
+    "message": "Batalkan pilihan"
+  },
+  "dl_img_select_all": {
+    "message": "Pilih semua"
+  },
+  "dl_img_download_n_one": {
+    "message": "Unduh $1 gambar"
+  },
+  "dl_img_download_n_other": {
+    "message": "Unduh $1 gambar"
+  },
+  "dl_img_download": {
+    "message": "Unduh"
+  },
+  "dl_img_downloading_one": {
+    "message": "Mengunduh $1 gambar…"
+  },
+  "dl_img_downloading_other": {
+    "message": "Mengunduh $1 gambar…"
+  },
+  "dl_img_saved_failed_folder_one": {
+    "message": "$1 gambar disimpan ke folder \"$4\" · $2 gagal ($3)"
+  },
+  "dl_img_saved_failed_folder_other": {
+    "message": "$1 gambar disimpan ke folder \"$4\" · $2 gagal ($3)"
+  },
+  "dl_img_saved_failed_one": {
+    "message": "$1 gambar disimpan · $2 gagal ($3)"
+  },
+  "dl_img_saved_failed_other": {
+    "message": "$1 gambar disimpan · $2 gagal ($3)"
+  },
+  "dl_img_saved_folder_one": {
+    "message": "$1 gambar disimpan ke folder \"$2\""
+  },
+  "dl_img_saved_folder_other": {
+    "message": "$1 gambar disimpan ke folder \"$2\""
+  },
+  "dl_img_saved_one": {
+    "message": "$1 gambar disimpan"
+  },
+  "dl_img_saved_other": {
+    "message": "$1 gambar disimpan"
+  },
+  "dl_img_download_failed": {
+    "message": "Unduhan gagal: $1"
+  },
+  "dl_img_unknown_error": {
+    "message": "kesalahan tidak diketahui"
+  },
+  "dl_snap_label": {
+    "message": "Tangkap"
+  },
+  "dl_snap_tip": {
+    "message": "Tangkap frame yang sedang diputar dalam resolusi asli $1×$2"
+  },
+  "dl_scan_system_page": {
+    "message": "Tidak dapat memindai halaman ini (halaman sistem browser)."
+  },
+  "dl_scanning": {
+    "message": "Memindai halaman…"
+  },
+  "dl_scan_failed_file": {
+    "message": "Tidak dapat memindai halaman ini. Aktifkan \"Izinkan akses ke URL file\" untuk ekstensi ini."
+  },
+  "dl_scan_failed": {
+    "message": "Tidak dapat memindai halaman ini."
+  },
+  "full_dl_start_failed": {
+    "message": "Tidak dapat memulai unduhan."
+  },
+  "full_dl_copied": {
+    "message": "Disalin"
+  },
+  "full_dl_thumb_name": {
+    "message": "$1 - thumbnail"
+  },
+  "dl_snap_done": {
+    "message": "Ditangkap $1×$2 · $3"
+  },
+  "dl_snap_failed": {
+    "message": "Tidak dapat menangkap"
+  },
+  "dl_snap_failed_detail": {
+    "message": "Tidak dapat menangkap: $1"
+  },
+  "full_dl_unavailable_page": {
+    "message": "Tidak tersedia di halaman ini."
+  },
+  "full_dl_feed_hint": {
+    "message": "Ini halaman feed / profil dan belum ada video yang ditemukan. Putar video yang diinginkan (atau buka postingan / reel tersebut), lalu klik tombol di bawah."
+  },
+  "full_dl_find_playing": {
+    "message": "Cari video yang diputar"
+  },
+  "full_dl_feed_retry": {
+    "message": "Belum ada video yang ditemukan di halaman ini. Putar video yang diinginkan (atau buka postingan / reel tersebut), lalu coba lagi."
+  },
+  "audio_volume_aria": {
+    "message": "Volume: $1"
+  },
+  "audio_set_failed": {
+    "message": "Tidak dapat mengubah volume tab ini."
+  },
+  "audio_tab_switch_tip": {
+    "message": "$1\nKlik untuk beralih ke tab ini"
+  },
+  "audio_this_tab": {
+    "message": "Tab ini"
+  },
+  "audio_playing": {
+    "message": "Memutar audio"
+  },
+  "audio_pip": {
+    "message": "Tampilkan video tab ini dalam Picture-in-picture"
+  },
+  "audio_pip_failed": {
+    "message": "Tidak dapat membuka Picture-in-picture."
+  },
+  "audio_unmute": {
+    "message": "Bunyikan"
+  },
+  "audio_mute": {
+    "message": "Bisukan"
+  },
+  "audio_boost_current_only": {
+    "message": "Boost di atas 100% hanya berfungsi di tab tempat popup dibuka. Buka popup di tab tersebut, lalu coba lagi."
+  },
+  "bg_file_name_default": {
+    "message": "file"
+  },
+  "full_bg_host_missing": {
+    "message": "Pengunduh video belum dipasang di komputer ini."
+  },
+  "full_bg_host_forbidden": {
+    "message": "Pengunduh belum mengizinkan ekstensi ini (ID-nya berubah). Jalankan install.bat lagi."
+  },
+  "full_bg_host_crash": {
+    "message": "Pengunduh berhenti tiba-tiba. Jalankan install.bat lagi atau periksa native-host\\host.log."
+  },
+  "full_bg_host_unreachable": {
+    "message": "Tidak dapat terhubung ke pengunduh."
+  },
+  "full_bg_host_no_reply": {
+    "message": "Pengunduh tidak merespons."
+  },
+  "full_bg_invalid_url": {
+    "message": "URL tidak valid."
+  },
+  "full_bg_job_interrupted": {
+    "message": "Terputus sebelum selesai."
+  },
+  "full_bg_unknown_error": {
+    "message": "Kesalahan tidak diketahui."
+  },
+  "full_bg_invalid_choice": {
+    "message": "Opsi unduhan tidak valid."
+  },
+  "full_bg_host_stopped": {
+    "message": "Pengunduh berhenti secara tak terduga."
+  },
+  "bg_img_no_url": {
+    "message": "URL gambar tidak ada"
+  },
+  "bg_img_failed": {
+    "message": "Tidak dapat mengunduh gambar"
+  },
+  "bg_img_none_selected": {
+    "message": "Belum ada gambar yang dipilih."
+  },
+  "bg_vol_no_tab": {
+    "message": "Tab tidak ditentukan."
+  },
+  "bg_vol_cannot_set": {
+    "message": "Tidak dapat mengubah volume di halaman ini."
+  },
+  "bg_vol_no_tab_info": {
+    "message": "Informasi tab tidak ada."
+  },
+  "bg_vol_capture_failed": {
+    "message": "Tidak dapat menangkap audio tab."
+  },
+  "bg_shot_bad_mode": {
+    "message": "Mode tangkapan tidak valid."
+  },
+  "bg_shot_busy": {
+    "message": "Sedang menangkap, harap tunggu."
+  },
+  "bg_shot_no_tab": {
+    "message": "Tab tidak ditemukan."
+  },
+  "bg_shot_restricted": {
+    "message": "Tidak dapat menangkap halaman ini (halaman sistem browser)."
+  },
+  "bg_img_private_host": {
+    "message": "Gambar dari alamat jaringan lokal tidak diunduh"
+  },
+  "bg_img_server_status": {
+    "message": "Server mengembalikan kesalahan $1"
+  },
+  "bg_img_too_large": {
+    "message": "Gambar terlalu besar (lebih dari 50 MB)"
+  },
+  "bg_img_not_image": {
+    "message": "URL ini bukan gambar"
+  },
+  "bg_img_bad_size": {
+    "message": "Dimensi gambar tidak valid"
+  },
+  "bg_img_unreadable": {
+    "message": "Tidak dapat membaca gambar"
+  },
+  "page_image_name_default": {
+    "message": "gambar"
+  },
+  "page_image_name_random": {
+    "message": "gambar-$1"
+  },
+  "page_alt_video_poster": {
+    "message": "Poster video"
+  },
+  "page_alt_page_image": {
+    "message": "Gambar pratinjau halaman"
+  },
+  "page_snap_no_video": {
+    "message": "Tidak ada video yang ditampilkan."
+  },
+  "page_snap_failed": {
+    "message": "Tidak dapat membuat gambar"
+  },
+  "page_snap_blocked": {
+    "message": "Halaman ini tidak mengizinkan penangkapan frame video (video berasal dari situs lain atau dilindungi)."
+  },
+  "page_pip_no_video": {
+    "message": "Tidak ada video di halaman ini."
+  },
+  "page_pip_blocked": {
+    "message": "Browser memblokir Picture-in-picture. Klik tombol Picture-in-picture lagi."
+  },
+  "page_pip_failed": {
+    "message": "Tidak dapat membuka Picture-in-picture"
+  },
+  "page_pip_failed_detail": {
+    "message": "Tidak dapat membuka Picture-in-picture: $1"
+  },
+  "page_shot_select_hint": {
+    "message": "Seret untuk memilih area yang akan ditangkap · Esc untuk membatalkan"
+  },
+  "shot_page_title": {
+    "message": "Tangkapan layar halaman"
+  },
+  "shot_stitching": {
+    "message": "Menggabungkan gambar…"
+  },
+  "shot_save_png": {
+    "message": "Unduh PNG"
+  },
+  "shot_save_jpg": {
+    "message": "Unduh JPG"
+  },
+  "shot_copy": {
+    "message": "Salin"
+  },
+  "shot_file_name_default": {
+    "message": "Tangkapan layar"
+  },
+  "shot_file_name_page": {
+    "message": "halaman"
+  },
+  "shot_err_read_image": {
+    "message": "Tidak dapat membaca tangkapan layar"
+  },
+  "shot_err_too_large": {
+    "message": "Gambar terlalu besar untuk disimpan"
+  },
+  "shot_open_folder": {
+    "message": "Buka folder"
+  },
+  "shot_saved": {
+    "message": "$1 disimpan ke folder Unduhan."
+  },
+  "shot_save_failed": {
+    "message": "Tidak dapat menyimpan: $1"
+  },
+  "shot_gone_title": {
+    "message": "Tangkapan layar tidak tersedia lagi"
+  },
+  "shot_expired": {
+    "message": "Tangkapan layar ini sudah kedaluwarsa (browser atau ekstensi baru saja dimulai ulang). Silakan tangkap lagi."
+  },
+  "shot_doc_title": {
+    "message": "Tangkapan layar – $1"
+  },
+  "shot_file_name": {
+    "message": "Tangkapan layar $1 $2"
+  },
+  "shot_stitching_progress": {
+    "message": "Menggabungkan gambar… $1/$2"
+  },
+  "shot_processing": {
+    "message": "Memproses gambar…"
+  },
+  "shot_err_missing_frame": {
+    "message": "Sebagian tangkapan layar hilang. Silakan tangkap lagi."
+  },
+  "shot_img_alt": {
+    "message": "Tangkapan layar $1"
+  },
+  "shot_img_hint": {
+    "message": "Klik untuk beralih antara ukuran asli dan pas layar"
+  },
+  "shot_mode_full": {
+    "message": "Halaman penuh"
+  },
+  "shot_mode_visible": {
+    "message": "Area terlihat"
+  },
+  "shot_mode_region": {
+    "message": "Area pilihan"
+  },
+  "shot_meta_scaled": {
+    "message": "diperkecil karena halaman terlalu panjang"
+  },
+  "shot_meta_truncated": {
+    "message": "hanya $1 px pertama yang ditangkap (halaman gulir tanpa batas)"
+  },
+  "shot_meta_css_size": {
+    "message": "$1 × $2 px di halaman"
+  },
+  "shot_copied": {
+    "message": "Gambar disalin — tempel (Ctrl+V) di mana pun Anda perlukan."
+  },
+  "shot_copy_failed": {
+    "message": "Tidak dapat menyalin (gambar mungkin terlalu besar): $1"
+  },
+  "share_title": {
+    "message": "Pratinjau berbagi"
+  },
+  "share_subtitle": {
+    "message": "Open Graph · Twitter Card · SEO dasar"
+  },
+  "share_url_placeholder": {
+    "message": "https://situs-anda.com/artikel"
+  },
+  "share_url_aria": {
+    "message": "Alamat halaman yang akan diperiksa"
+  },
+  "share_check_btn": {
+    "message": "Periksa"
+  },
+  "share_loading_page": {
+    "message": "Membaca halaman…"
+  },
+  "share_empty_title": {
+    "message": "Seperti apa tampilan halaman Anda saat dibagikan?"
+  },
+  "share_empty_body": {
+    "message": "Masukkan alamat halaman di atas (atau klik **Alat → Periksa halaman ini** di popup) untuk melihat pratinjau tautan di Facebook, Zalo, X, LinkedIn, Discord, Telegram, dan Google, serta mendapatkan skor dan saran perbaikan."
+  },
+  "share_status_pass": {
+    "message": "Lulus:"
+  },
+  "share_status_warn": {
+    "message": "Peringatan:"
+  },
+  "share_status_fail": {
+    "message": "Kesalahan:"
+  },
+  "share_status_info": {
+    "message": "Info:"
+  },
+  "share_platform_pass": {
+    "message": "OK"
+  },
+  "share_platform_warn": {
+    "message": "Perlu diperbaiki"
+  },
+  "share_platform_fail": {
+    "message": "Ada kesalahan"
+  },
+  "share_loading_raw": {
+    "message": "Mengambil HTML mentah seperti crawler media sosial…"
+  },
+  "share_err_unknown": {
+    "message": "Tidak dapat membaca halaman: kesalahan tidak diketahui."
+  },
+  "share_err_read_status": {
+    "message": "Tidak dapat membaca halaman: server mengembalikan status $1."
+  },
+  "share_err_read": {
+    "message": "Tidak dapat membaca halaman: $1."
+  },
+  "share_loading_images": {
+    "message": "Memuat gambar berbagi…"
+  },
+  "share_err_invalid_url": {
+    "message": "Alamat tidak valid. Masukkan alamat halaman web yang diawali http:// atau https://"
+  },
+  "share_doc_title_score": {
+    "message": "$1/100 – Pratinjau berbagi"
+  },
+  "share_score_aria": {
+    "message": "$1 dari 100 poin – $2"
+  },
+  "share_page_untitled": {
+    "message": "(halaman tanpa judul)"
+  },
+  "share_count_fail_one": {
+    "message": "$1 kesalahan"
+  },
+  "share_count_fail_other": {
+    "message": "$1 kesalahan"
+  },
+  "share_count_warn_one": {
+    "message": "$1 peringatan"
+  },
+  "share_count_warn_other": {
+    "message": "$1 peringatan"
+  },
+  "share_count_pass_one": {
+    "message": "$1 lulus"
+  },
+  "share_count_pass_other": {
+    "message": "$1 lulus"
+  },
+  "share_platforms_aria": {
+    "message": "Status per platform"
+  },
+  "share_chip_issues": {
+    "message": "Kesalahan: $1, peringatan: $2"
+  },
+  "share_chip_no_issues": {
+    "message": "Tidak ada masalah"
+  },
+  "share_notice_private": {
+    "message": "Halaman ini berada di alamat lokal (localhost / LAN), sehingga media sosial tidak dapat menjangkaunya. Hasil di bawah membantu memeriksa tag sebelum halaman ditayangkan."
+  },
+  "share_notice_no_raw": {
+    "message": "Tidak dapat membaca HTML mentah (crawler mungkin juga diblokir), sehingga skor maksimal 49. Item di bawah berasal dari halaman yang ditampilkan di tab dan mungkin berbeda dari yang diterima media sosial."
+  },
+  "share_notice_raw_only": {
+    "message": "Hanya HTML mentah yang diperiksa (tidak dibandingkan dengan halaman yang terbuka di tab)."
+  },
+  "share_pv_no_image": {
+    "message": "Tanpa gambar"
+  },
+  "share_pv_svg": {
+    "message": "Gambar SVG: tidak ditampilkan"
+  },
+  "share_pv_bad_image": {
+    "message": "Gambar tidak dapat digunakan"
+  },
+  "share_pv_untitled": {
+    "message": "(tanpa judul)"
+  },
+  "share_x_from": {
+    "message": "Dari $1"
+  },
+  "share_google_no_desc": {
+    "message": "Tidak ada meta description: Google memilih cuplikan dari halaman itu sendiri."
+  },
+  "share_sec_preview": {
+    "message": "Pratinjau"
+  },
+  "share_sec_preview_sub": {
+    "message": "Simulasi perkiraan cara tiap platform menampilkan tautan; tampilan sebenarnya dapat berubah seiring waktu. Cinema Tools tidak berafiliasi dengan platform-platform ini."
+  },
+  "share_fix_label": {
+    "message": "Cara memperbaiki:"
+  },
+  "share_filter_issues": {
+    "message": "Perlu perhatian ($1)"
+  },
+  "share_filter_fail": {
+    "message": "Kesalahan ($1)"
+  },
+  "share_filter_all": {
+    "message": "Semua ($1)"
+  },
+  "share_filter_aria": {
+    "message": "Filter hasil"
+  },
+  "share_sec_checks": {
+    "message": "Hasil pemeriksaan"
+  },
+  "share_checks_none": {
+    "message": "Tidak ada lagi yang perlu diperbaiki. Bagus sekali!"
+  },
+  "share_img_url": {
+    "message": "URL"
+  },
+  "share_img_size": {
+    "message": "Dimensi"
+  },
+  "share_img_ratio": {
+    "message": "Rasio aspek"
+  },
+  "share_img_ratio_value": {
+    "message": "$1 : 1 (standar 1,91 : 1)"
+  },
+  "share_img_bytes": {
+    "message": "Ukuran file"
+  },
+  "share_img_bytes_min": {
+    "message": "$1 atau lebih"
+  },
+  "share_img_format": {
+    "message": "Format"
+  },
+  "share_img_http": {
+    "message": "Status HTTP"
+  },
+  "share_img_status_redirected": {
+    "message": "$1 (dialihkan)"
+  },
+  "share_img_cannot_view": {
+    "message": "Tidak dapat menampilkan gambar"
+  },
+  "share_img_svg": {
+    "message": "Gambar SVG: media sosial tidak menampilkannya, begitu pula halaman ini."
+  },
+  "share_img_too_large": {
+    "message": "Gambar terlalu besar untuk ditampilkan."
+  },
+  "share_img_decode_error": {
+    "message": "Gambar rusak dan tidak dapat didekode."
+  },
+  "share_img_too_many_pixels": {
+    "message": "Gambar memiliki terlalu banyak piksel untuk ditampilkan."
+  },
+  "share_img_crop_title": {
+    "message": "Area yang ditampilkan dalam kartu gambar besar (1,91:1)"
+  },
+  "share_img_crop_caption": {
+    "message": "Bingkai terang: bagian yang tersisa saat dipangkas ke 1,91:1."
+  },
+  "share_sec_image": {
+    "message": "Gambar berbagi (og:image)"
+  },
+  "share_sec_tags": {
+    "message": "Tag yang ditemukan"
+  },
+  "share_tags_none": {
+    "message": "Halaman ini tidak memiliki meta tag berbagi."
+  },
+  "share_src_raw": {
+    "message": "HTML mentah"
+  },
+  "share_src_dom": {
+    "message": "Halaman dirender"
+  },
+  "share_src_js_only": {
+    "message": "Hanya JS"
+  },
+  "share_src_js_changed": {
+    "message": "Diubah oleh JS"
+  },
+  "share_tags_after_js": {
+    "message": "Setelah JS: $1"
+  },
+  "share_sec_tags_sub": {
+    "message": "\"Hanya JS\": tag yang ditambahkan oleh JavaScript, yang tidak terlihat oleh crawler media sosial."
+  },
+  "share_th_tag": {
+    "message": "Tag"
+  },
+  "share_th_value": {
+    "message": "Nilai"
+  },
+  "share_th_source": {
+    "message": "Sumber"
+  },
+  "share_copy": {
+    "message": "Salin"
+  },
+  "share_copied": {
+    "message": "Disalin. Tempelkan ke <head> halaman."
+  },
+  "share_copy_failed": {
+    "message": "Tidak dapat menyalin: $1"
+  },
+  "share_sec_snippet": {
+    "message": "Meta tag yang disarankan"
+  },
+  "share_snippet_changes_one": {
+    "message": "$1 baris untuk ditambahkan (+) atau diperbaiki (~); baris lain tetap memakai nilai saat ini. Ganti teks HURUF KAPITAL dengan konten sebenarnya."
+  },
+  "share_snippet_changes_other": {
+    "message": "$1 baris untuk ditambahkan (+) atau diperbaiki (~); baris lain tetap memakai nilai saat ini. Ganti teks HURUF KAPITAL dengan konten sebenarnya."
+  },
+  "share_snippet_complete": {
+    "message": "Halaman sudah memiliki semua tag dasar."
+  },
+  "share_tools_how": {
+    "message": "Untuk melihat apa yang dilihat crawler, halaman diambil sekali lagi (tanpa cookie), bersama gambar berbagi dan ikon yang dideklarasikan halaman."
+  },
+  "share_tools_caveat": {
+    "message": "Crawler asli tiap platform mungkin menerima konten berbeda (pemblokiran bot, halaman khusus crawler), dan platform menyimpan cache pratinjau. Setelah memperbaiki tag, tempel alamatnya ke alat resmi untuk memastikan dan memperbarui:"
+  },
+  "share_tools_private": {
+    "message": "Alat-alat ini hanya berfungsi setelah halaman online (bukan di localhost)."
+  },
+  "share_tool_fb_note": {
+    "message": "– juga memperbarui pratinjau untuk Messenger dan Instagram"
+  },
+  "share_tool_google_note": {
+    "message": "– memeriksa data terstruktur"
+  },
+  "share_sec_tools": {
+    "message": "Periksa ulang di platform"
+  },
+  "share_err_not_web": {
+    "message": "Hanya halaman web (http / https) yang dapat diperiksa."
+  },
+  "share_err_tab_closed": {
+    "message": "Tab yang akan diperiksa sudah ditutup. Masukkan alamat halaman di atas."
+  },
+  "share_jsonld_invalid": {
+    "message": "(JSON tidak valid)"
+  },
+  "share_err_http_only": {
+    "message": "Hanya alamat http / https yang didukung"
+  },
+  "share_err_redirect_private": {
+    "message": "Dialihkan ke alamat jaringan lokal yang tidak dapat dimuat media sosial"
+  },
+  "share_err_timeout": {
+    "message": "Waktu habis ($1 detik)"
+  },
+  "share_err_connect": {
+    "message": "Tidak dapat terhubung ke server"
+  },
+  "share_err_not_http": {
+    "message": "Bukan alamat http / https"
+  },
+  "share_err_image_private": {
+    "message": "Gambar berada di alamat jaringan lokal / komputer ini, sehingga media sosial tidak dapat memuatnya"
+  },
+  "share_err_http_status": {
+    "message": "Server mengembalikan status $1"
+  },
+  "chk_group_access": {
+    "message": "Crawler dapat membaca halaman"
+  },
+  "chk_group_image": {
+    "message": "Gambar berbagi"
+  },
+  "chk_group_seo": {
+    "message": "Google & SEO dasar"
+  },
+  "chk_bytes_mb": {
+    "message": "$1 MB"
+  },
+  "chk_bytes_kb": {
+    "message": "$1 KB"
+  },
+  "chk_quoted": {
+    "message": "“$1”"
+  },
+  "chk_raw_ok": {
+    "message": "HTML mentah dapat dimuat tanpa login"
+  },
+  "chk_raw_redirected": {
+    "message": "dialihkan ke $1"
+  },
+  "chk_raw_not_html": {
+    "message": "URL ini tidak mengembalikan halaman HTML"
+  },
+  "chk_received": {
+    "message": "Diterima: $1"
+  },
+  "chk_received_empty": {
+    "message": "Diterima: respons kosong"
+  },
+  "chk_raw_not_html_fix": {
+    "message": "Media sosial hanya membaca meta tag dari halaman HTML."
+  },
+  "chk_raw_status": {
+    "message": "Server mengembalikan HTTP $1 ke pengunjung yang belum login"
+  },
+  "chk_raw_status_detail": {
+    "message": "Crawler media sosial mengunjungi halaman sebagai tamu yang belum login, jadi mereka mungkin juga mendapat kesalahan ini. Hasil di bawah berasal dari halaman yang sedang ditampilkan di tab."
+  },
+  "chk_raw_status_fix": {
+    "message": "Izinkan akses publik; periksa apakah firewall / perlindungan bot (Cloudflare…) memblokir crawler."
+  },
+  "chk_raw_failed": {
+    "message": "Tidak dapat memuat HTML mentah"
+  },
+  "chk_raw_failed_fix": {
+    "message": "Pastikan URL halaman dapat diakses dari Internet."
+  },
+  "chk_raw_size": {
+    "message": "HTML mentah lebih besar dari 5 MB"
+  },
+  "chk_raw_size_detail": {
+    "message": "Hanya 5 MB pertama yang dibaca."
+  },
+  "chk_raw_size_fix": {
+    "message": "Letakkan meta tag di bagian atas <head> dan kurangi ukuran HTML."
+  },
+  "chk_js_only_one": {
+    "message": "$1 tag hanya muncul setelah JavaScript berjalan"
+  },
+  "chk_js_only_other": {
+    "message": "$1 tag hanya muncul setelah JavaScript berjalan"
+  },
+  "chk_js_only_fix": {
+    "message": "Facebook, Zalo, X, LinkedIn, Discord, dan Telegram tidak menjalankan JavaScript, jadi tidak dapat melihat tag ini. Buat server mengirim tag di dalam HTML (SSR, halaman statis yang dibuat sebelumnya, atau prerendering). Jika pengunjung yang belum login atau belum menyetujui cookie hanya melihat halaman pemblokir, crawler juga hanya melihat halaman itu."
+  },
+  "chk_js_only_ok": {
+    "message": "Tag berbagi ada di HTML mentah"
+  },
+  "chk_js_only_ok_detail": {
+    "message": "Hanya ditambahkan oleh JavaScript: $1 (tidak memengaruhi tag berbagi)."
+  },
+  "chk_changed": {
+    "message": "HTML mentah berbeda dari halaman yang dirender"
+  },
+  "chk_changed_line": {
+    "message": "$1: “$2” → “$3”"
+  },
+  "chk_changed_fix": {
+    "message": "Media sosial memakai nilai di HTML mentah. Hal ini umum pada aplikasi satu halaman (SPA) yang mengubah tag saat navigasi: server harus mengembalikan tag yang benar untuk setiap URL."
+  },
+  "chk_og_title_missing": {
+    "message": "og:title tidak ada"
+  },
+  "chk_og_title_missing_fallback": {
+    "message": "Platform akan memakai tag <title> sebagai gantinya: “$1”."
+  },
+  "chk_og_title_missing_no_title": {
+    "message": "Halaman juga tidak memiliki <title>."
+  },
+  "chk_og_title_missing_fix": {
+    "message": "Tambahkan <meta property=\"og:title\" content=\"…\"> – judul menarik sekitar 30–65 karakter."
+  },
+  "chk_og_title_long_one": {
+    "message": "og:title panjangnya $1 karakter dan mungkin terpotong"
+  },
+  "chk_og_title_long_other": {
+    "message": "og:title panjangnya $1 karakter dan mungkin terpotong"
+  },
+  "chk_og_title_long_fix": {
+    "message": "Batasi sekitar 30–65 karakter, dengan poin utama di depan."
+  },
+  "chk_og_title_short_one": {
+    "message": "og:title pendek ($1 karakter)"
+  },
+  "chk_og_title_short_other": {
+    "message": "og:title pendek ($1 karakter)"
+  },
+  "chk_og_title_short_fix": {
+    "message": "Usahakan 30–65 karakter agar lengkap dan lebih menarik."
+  },
+  "chk_og_title_ok_one": {
+    "message": "og:title sudah diatur ($1 karakter)"
+  },
+  "chk_og_title_ok_other": {
+    "message": "og:title sudah diatur ($1 karakter)"
+  },
+  "chk_og_desc_missing": {
+    "message": "og:description tidak ada"
+  },
+  "chk_og_desc_missing_fallback": {
+    "message": "Facebook dan Zalo akan memakai meta description sebagai gantinya."
+  },
+  "chk_og_desc_missing_no_desc": {
+    "message": "Halaman juga tidak memiliki meta description: kartu berbagi tidak akan memiliki baris deskripsi."
+  },
+  "chk_og_desc_missing_fix": {
+    "message": "Tambahkan <meta property=\"og:description\" content=\"…\"> – sekitar 60–160 karakter."
+  },
+  "chk_og_desc_long_one": {
+    "message": "og:description panjangnya $1 karakter"
+  },
+  "chk_og_desc_long_other": {
+    "message": "og:description panjangnya $1 karakter"
+  },
+  "chk_og_desc_long_detail": {
+    "message": "Kartu berbagi biasanya hanya menampilkan 1–2 baris; sisanya terpotong."
+  },
+  "chk_og_desc_long_fix": {
+    "message": "Persingkat menjadi sekitar 60–160 karakter, dengan poin utama di depan."
+  },
+  "chk_og_desc_short_one": {
+    "message": "og:description pendek ($1 karakter)"
+  },
+  "chk_og_desc_short_other": {
+    "message": "og:description pendek ($1 karakter)"
+  },
+  "chk_og_desc_short_fix": {
+    "message": "Usahakan sekitar 60–160 karakter agar cukup informatif."
+  },
+  "chk_og_desc_ok_one": {
+    "message": "og:description sudah diatur ($1 karakter)"
+  },
+  "chk_og_desc_ok_other": {
+    "message": "og:description sudah diatur ($1 karakter)"
+  },
+  "chk_og_url_missing": {
+    "message": "og:url tidak ada"
+  },
+  "chk_og_url_missing_detail": {
+    "message": "Suka / bagikan mungkin terpecah ke beberapa URL (dengan ?utm_…, #…)."
+  },
+  "chk_og_url_missing_fix": {
+    "message": "Tambahkan <meta property=\"og:url\" content=\"URL kanonis halaman\">."
+  },
+  "chk_og_url_relative": {
+    "message": "og:url bukan URL absolut"
+  },
+  "chk_og_url_relative_fix": {
+    "message": "Gunakan URL absolut yang diawali https://"
+  },
+  "chk_og_url_mismatch": {
+    "message": "og:url berbeda dari tautan canonical"
+  },
+  "chk_og_url_mismatch_fix": {
+    "message": "Kedua tag harus mengarah ke URL kanonis yang sama."
+  },
+  "chk_og_url_ok": {
+    "message": "og:url sudah diatur"
+  },
+  "chk_og_type_missing": {
+    "message": "og:type tidak ada"
+  },
+  "chk_og_type_missing_detail": {
+    "message": "Facebook menganggapnya \"website\" secara default."
+  },
+  "chk_og_type_missing_fix": {
+    "message": "Tambahkan <meta property=\"og:type\" content=\"website\"> (untuk artikel: \"article\")."
+  },
+  "chk_og_site_missing": {
+    "message": "og:site_name tidak ada"
+  },
+  "chk_og_site_missing_detail": {
+    "message": "Discord dan Telegram menampilkan nama situs di baris pertama kartu; tanpanya, hanya domain yang ditampilkan."
+  },
+  "chk_og_site_missing_fix": {
+    "message": "Tambahkan <meta property=\"og:site_name\" content=\"Nama merek\">."
+  },
+  "chk_og_locale_missing": {
+    "message": "og:locale tidak dideklarasikan"
+  },
+  "chk_og_locale_missing_vi": {
+    "message": "Opsional. Halaman berbahasa Vietnam dapat menetapkan \"vi_VN\"."
+  },
+  "chk_og_locale_optional": {
+    "message": "Opsional."
+  },
+  "chk_dup": {
+    "message": "Tag duplikat dengan nilai berbeda: $1"
+  },
+  "chk_dup_fix": {
+    "message": "Setiap tag sebaiknya hanya muncul sekali; platform bisa memilih yang salah."
+  },
+  "chk_og_image_missing": {
+    "message": "og:image tidak ada"
+  },
+  "chk_og_image_missing_tw": {
+    "message": "Hanya twitter:image yang diatur (Facebook, Zalo, dan LinkedIn tidak memakai tag ini)."
+  },
+  "chk_og_image_missing_detail": {
+    "message": "Postingan yang dibagikan tidak akan memiliki gambar, atau platform akan memilih gambar sembarang dari halaman."
+  },
+  "chk_og_image_missing_fix": {
+    "message": "Tambahkan <meta property=\"og:image\" content=\"https://…/gambar-1200x630.jpg\"> – gambar JPG / PNG 1200×630 px."
+  },
+  "chk_og_image_ok": {
+    "message": "og:image sudah diatur"
+  },
+  "chk_img_abs_scheme": {
+    "message": "og:image tidak memiliki https:"
+  },
+  "chk_img_abs_scheme_fix": {
+    "message": "Tulis URL https://… secara lengkap"
+  },
+  "chk_img_abs_relative": {
+    "message": "og:image harus berupa URL absolut"
+  },
+  "chk_img_abs_relative_detail": {
+    "message": "Saat ini “$1”."
+  },
+  "chk_img_abs_relative_fix": {
+    "message": "Gunakan URL lengkap: $1"
+  },
+  "chk_img_abs_ok": {
+    "message": "og:image adalah URL absolut"
+  },
+  "chk_img_https": {
+    "message": "og:image memakai http (tidak terenkripsi)"
+  },
+  "chk_img_https_fix": {
+    "message": "Gunakan https:// agar semua platform dapat memuatnya."
+  },
+  "chk_tw_image_ok": {
+    "message": "twitter:image dapat dimuat"
+  },
+  "chk_tw_image_failed": {
+    "message": "Tidak dapat memuat twitter:image"
+  },
+  "chk_tw_image_failed_fix": {
+    "message": "Periksa URL gambar."
+  },
+  "chk_tw_card_missing": {
+    "message": "twitter:card tidak ada"
+  },
+  "chk_tw_card_missing_detail": {
+    "message": "X mungkin tidak menampilkan kartu gambar besar untuk tautan."
+  },
+  "chk_tw_card_missing_fix": {
+    "message": "Tambahkan <meta name=\"twitter:card\" content=\"summary_large_image\">."
+  },
+  "chk_tw_card_invalid": {
+    "message": "twitter:card tidak valid: “$1”"
+  },
+  "chk_tw_card_invalid_detail": {
+    "message": "Nilai yang valid: $1."
+  },
+  "chk_tw_card_invalid_fix": {
+    "message": "Gunakan \"summary_large_image\" untuk gambar lanskap besar."
+  },
+  "chk_tw_card_summary": {
+    "message": "Kartu kecil (gambar persegi di samping). Untuk gambar besar, gunakan summary_large_image."
+  },
+  "chk_tw_fallback": {
+    "message": "Tidak ada $1"
+  },
+  "chk_tw_fallback_detail": {
+    "message": "Tidak masalah: X memakai og:title / og:description / og:image sebagai gantinya."
+  },
+  "chk_title_missing": {
+    "message": "Tag <title> tidak ada"
+  },
+  "chk_title_missing_fix": {
+    "message": "Tambahkan <title> yang menggambarkan halaman secara akurat, sekitar 30–60 karakter."
+  },
+  "chk_title_long_one": {
+    "message": "<title> panjangnya $1 karakter"
+  },
+  "chk_title_long_other": {
+    "message": "<title> panjangnya $1 karakter"
+  },
+  "chk_title_long_fix": {
+    "message": "Google biasanya memotong judul yang lebih dari ~60 karakter; persingkat."
+  },
+  "chk_title_short_one": {
+    "message": "<title> pendek ($1 karakter)"
+  },
+  "chk_title_short_other": {
+    "message": "<title> pendek ($1 karakter)"
+  },
+  "chk_title_short_fix": {
+    "message": "Usahakan 30–60 karakter, termasuk kata kunci utama."
+  },
+  "chk_title_ok_one": {
+    "message": "<title> sudah diatur ($1 karakter)"
+  },
+  "chk_title_ok_other": {
+    "message": "<title> sudah diatur ($1 karakter)"
+  },
+  "chk_desc_missing": {
+    "message": "Meta description tidak ada"
+  },
+  "chk_desc_missing_detail": {
+    "message": "Google akan memilih cuplikan sembarang dari halaman sebagai deskripsi."
+  },
+  "chk_desc_missing_fix": {
+    "message": "Tambahkan <meta name=\"description\" content=\"…\"> sekitar 70–160 karakter."
+  },
+  "chk_desc_long_one": {
+    "message": "Meta description panjangnya $1 karakter"
+  },
+  "chk_desc_long_other": {
+    "message": "Meta description panjangnya $1 karakter"
+  },
+  "chk_desc_long_detail": {
+    "message": "Google biasanya memotong di sekitar 160 karakter."
+  },
+  "chk_desc_long_fix": {
+    "message": "Persingkat menjadi 70–160 karakter."
+  },
+  "chk_desc_short_one": {
+    "message": "Meta description pendek ($1 karakter)"
+  },
+  "chk_desc_short_other": {
+    "message": "Meta description pendek ($1 karakter)"
+  },
+  "chk_desc_short_fix": {
+    "message": "Usahakan 70–160 karakter."
+  },
+  "chk_desc_ok_one": {
+    "message": "Meta description sudah diatur ($1 karakter)"
+  },
+  "chk_desc_ok_other": {
+    "message": "Meta description sudah diatur ($1 karakter)"
+  },
+  "chk_canonical_missing": {
+    "message": "Tautan canonical tidak ada"
+  },
+  "chk_canonical_missing_detail": {
+    "message": "Halaman yang dapat diakses dari beberapa URL (parameter, http/https, www) bisa dianggap duplikat."
+  },
+  "chk_canonical_missing_fix": {
+    "message": "Tambahkan <link rel=\"canonical\" href=\"https://…\">."
+  },
+  "chk_canonical_relative": {
+    "message": "Canonical bukan URL absolut"
+  },
+  "chk_canonical_relative_fix": {
+    "message": "Gunakan URL lengkap: $1"
+  },
+  "chk_canonical_ok": {
+    "message": "Tautan canonical sudah diatur"
+  },
+  "chk_robots_noindex": {
+    "message": "Halaman memblokir Google untuk mengindeksnya (noindex)"
+  },
+  "chk_robots_ok": {
+    "message": "Mesin telusur diizinkan mengindeks halaman"
+  },
+  "chk_robots_noindex_fix": {
+    "message": "Hapus \"noindex\" jika ingin halaman muncul di Google."
+  },
+  "chk_lang_ok": {
+    "message": "Bahasa dideklarasikan: lang=\"$1\""
+  },
+  "chk_lang_missing": {
+    "message": "Atribut lang pada <html> tidak ada"
+  },
+  "chk_lang_missing_fix": {
+    "message": "Tambahkan <html lang=\"id\"> (gunakan kode bahasa halaman)."
+  },
+  "chk_viewport_ok": {
+    "message": "Meta viewport sudah diatur (tampil baik di ponsel)"
+  },
+  "chk_viewport_missing": {
+    "message": "Meta viewport tidak ada"
+  },
+  "chk_viewport_missing_fix": {
+    "message": "Tambahkan <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">."
+  },
+  "chk_favicon_ok": {
+    "message": "Ikon situs (favicon) sudah diatur"
+  },
+  "chk_favicon_failed": {
+    "message": "Favicon dideklarasikan tetapi tidak dapat dimuat"
+  },
+  "chk_favicon_failed_fix": {
+    "message": "Periksa URL ikon."
+  },
+  "chk_favicon_ico": {
+    "message": "/favicon.ico ditemukan"
+  },
+  "chk_favicon_missing": {
+    "message": "Tidak ada ikon situs (favicon)"
+  },
+  "chk_favicon_ico_detail": {
+    "message": "Deklarasikan juga <link rel=\"icon\"> (gambar persegi, minimal 48×48)."
+  },
+  "chk_favicon_missing_detail": {
+    "message": "Google menampilkan ikon situs di samping hasil penelusuran."
+  },
+  "chk_favicon_missing_fix": {
+    "message": "Tambahkan <link rel=\"icon\" href=\"/favicon.png\"> (gambar persegi, minimal 48×48)."
+  },
+  "chk_h1_count_one": {
+    "message": "$1 judul H1 ditemukan"
+  },
+  "chk_h1_count_other": {
+    "message": "$1 judul H1 ditemukan"
+  },
+  "chk_h1_missing": {
+    "message": "Tidak ada judul H1"
+  },
+  "chk_h1_missing_fix": {
+    "message": "Setiap halaman sebaiknya memiliki satu judul utama <h1>."
+  },
+  "chk_jsonld_ok": {
+    "message": "Data terstruktur (JSON-LD) ditemukan"
+  },
+  "chk_jsonld_missing": {
+    "message": "Tidak ada data terstruktur (JSON-LD)"
+  },
+  "chk_jsonld_missing_detail": {
+    "message": "Membantu Google menampilkan hasil kaya (rating, harga, FAQ…)."
+  },
+  "chk_jsonld_missing_fix": {
+    "message": "Tambahkan markup schema.org yang sesuai (Organization, Article, Product…)."
+  },
+  "chk_img_load_failed": {
+    "message": "Tidak dapat memuat gambar berbagi"
+  },
+  "chk_img_load_failed_fix": {
+    "message": "Pastikan gambar dapat diakses publik (tanpa perlu login) dan URL-nya benar."
+  },
+  "chk_img_load_ok": {
+    "message": "Gambar berbagi dapat dimuat"
+  },
+  "chk_img_too_large": {
+    "message": "Gambar terlalu besar (lebih dari 20 MB)"
+  },
+  "chk_img_too_large_fix": {
+    "message": "Facebook menerima gambar hingga 8 MB, X hingga 5 MB. Kompres gambar hingga di bawah 1 MB."
+  },
+  "chk_img_redirected": {
+    "message": "dialihkan"
+  },
+  "chk_img_svg": {
+    "message": "Gambar SVG tidak didukung"
+  },
+  "chk_img_svg_detail": {
+    "message": "Facebook, X, LinkedIn… tidak menampilkan gambar SVG."
+  },
+  "chk_img_svg_fix": {
+    "message": "Ekspor gambar sebagai JPG atau PNG."
+  },
+  "chk_img_format_unknown": {
+    "message": "Format gambar tidak dikenali"
+  },
+  "chk_img_format_unknown_detail": {
+    "message": "Server melaporkan $1."
+  },
+  "chk_img_use_jpg_png": {
+    "message": "Gunakan JPG atau PNG agar aman."
+  },
+  "chk_img_not_image": {
+    "message": "URL og:image tidak mengembalikan gambar"
+  },
+  "chk_received_unknown": {
+    "message": "Diterima: jenis tidak diketahui"
+  },
+  "chk_img_not_image_fix": {
+    "message": "Arahkan og:image ke file gambar yang sebenarnya."
+  },
+  "chk_img_corrupt": {
+    "message": "Gambar rusak atau tidak dapat dibaca"
+  },
+  "chk_img_corrupt_fix": {
+    "message": "Ekspor ulang gambar sebagai JPG / PNG."
+  },
+  "chk_img_format_ok": {
+    "message": "Format $1 didukung"
+  },
+  "chk_img_format_partial": {
+    "message": "Format $1 tidak didukung oleh semua platform"
+  },
+  "chk_img_bytes_fb": {
+    "message": "Gambar berukuran $1: Facebook mengabaikannya (maks. 8 MB)"
+  },
+  "chk_img_compress": {
+    "message": "Kompres gambar hingga di bawah 1 MB."
+  },
+  "chk_img_bytes_x": {
+    "message": "Gambar berukuran $1: X tidak akan menampilkannya (maks. 5 MB)"
+  },
+  "chk_img_bytes_heavy": {
+    "message": "Gambar berat ($1)"
+  },
+  "chk_img_bytes_heavy_detail": {
+    "message": "Gambar berat lambat dimuat, dan beberapa aplikasi pesan mungkin melewatinya."
+  },
+  "chk_img_bytes_heavy_fix": {
+    "message": "Kompres hingga di bawah 1 MB (JPG dengan kualitas ~80%)."
+  },
+  "chk_img_bytes_ok": {
+    "message": "Ukuran gambar: $1"
+  },
+  "chk_img_dim_ok": {
+    "message": "Dimensi $1×$2 px"
+  },
+  "chk_img_dim_ok_detail": {
+    "message": "Cukup tajam untuk kartu gambar besar."
+  },
+  "chk_img_dim_low": {
+    "message": "Gambar $1×$2 px, kurang tajam"
+  },
+  "chk_img_dim_low_detail": {
+    "message": "Tetap ditampilkan sebagai gambar besar, tetapi buram di layar beresolusi tinggi."
+  },
+  "chk_img_dim_low_fix": {
+    "message": "Gunakan 1200×630 px."
+  },
+  "chk_img_dim_small": {
+    "message": "Gambar $1×$2 px, kecil"
+  },
+  "chk_img_dim_small_detail": {
+    "message": "Facebook menampilkannya sebagai thumbnail kecil di samping, bukan gambar besar (di bawah 600×315)."
+  },
+  "chk_img_use_1200": {
+    "message": "Gunakan gambar 1200×630 px."
+  },
+  "chk_img_dim_tiny": {
+    "message": "Gambar $1×$2 px, terlalu kecil"
+  },
+  "chk_img_dim_tiny_detail": {
+    "message": "Facebook tidak memakai gambar yang lebih kecil dari 200×200."
+  },
+  "chk_img_ratio": {
+    "message": "Rasio aspek $1:1"
+  },
+  "chk_img_ratio_ok": {
+    "message": "Sesuai dengan bingkai 1,91:1 kartu gambar besar."
+  },
+  "chk_img_ratio_off": {
+    "message": "Kartu gambar besar memakai bingkai sekitar 1,91:1, sehingga gambar akan terpotong (lihat pratinjau)."
+  },
+  "chk_img_ratio_fix": {
+    "message": "Gunakan gambar 1200×630 px dengan konten penting di tengah."
+  },
+  "chk_img_declared_missing": {
+    "message": "og:image:width / og:image:height tidak dideklarasikan"
+  },
+  "chk_img_declared_missing_detail": {
+    "message": "Dengan mendeklarasikannya, Facebook dapat menampilkan gambar sejak pembagian pertama (tanpa menunggu gambar diunduh)."
+  },
+  "chk_img_declared_missing_fix": {
+    "message": "Tambahkan <meta property=\"og:image:width\" content=\"$1\"> dan <meta property=\"og:image:height\" content=\"$2\">."
+  },
+  "chk_img_declared_mismatch": {
+    "message": "Ukuran yang dideklarasikan berbeda dari gambar sebenarnya"
+  },
+  "chk_img_declared_mismatch_detail": {
+    "message": "Dideklarasikan $1×$2, sebenarnya $3×$4."
+  },
+  "chk_img_declared_mismatch_fix": {
+    "message": "Ubah menjadi $1 dan $2."
+  },
+  "chk_img_declared_ok": {
+    "message": "og:image:width / height dideklarasikan dengan benar"
+  },
+  "chk_img_alt_ok": {
+    "message": "Deskripsi gambar (alt) sudah diatur"
+  },
+  "chk_img_alt_missing": {
+    "message": "Deskripsi gambar (og:image:alt) tidak ada"
+  },
+  "chk_img_alt_missing_detail": {
+    "message": "Pengguna pembaca layar tidak akan tahu isi gambar."
+  },
+  "chk_img_alt_missing_fix": {
+    "message": "Tambahkan <meta property=\"og:image:alt\" content=\"…\">."
+  },
+  "chk_grade_great": {
+    "message": "Sangat baik"
+  },
+  "chk_grade_good": {
+    "message": "Baik"
+  },
+  "chk_grade_fair": {
+    "message": "Perlu ditingkatkan"
+  },
+  "chk_grade_poor": {
+    "message": "Buruk"
+  },
+  "chk_suggest_title_placeholder": {
+    "message": "JUDUL HALAMAN (30–65 KARAKTER)"
+  },
+  "chk_suggest_desc_placeholder": {
+    "message": "DESKRIPSI SINGKAT DAN MENARIK (60–160 KARAKTER)"
+  },
+  "chk_suggest_image_url": {
+    "message": "https://$1/gambar-berbagi-1200x630.jpg"
+  },
+  "chk_suggest_domain_placeholder": {
+    "message": "contoh.com"
+  },
+  "chk_suggest_note_basic": {
+    "message": "Dasar (Google)"
+  },
+  "chk_suggest_alt_placeholder": {
+    "message": "DESKRIPSI ISI GAMBAR"
+  },
+  "chk_suggest_site_placeholder": {
+    "message": "NAMA MEREK"
+  },
+  "chk_suggest_note_x": {
+    "message": "X (Twitter): judul, deskripsi, dan gambar diambil dari tag og:* di atas"
+  }
+}

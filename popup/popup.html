@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="vi">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cinema Tools for YouTube</title>
+  <title data-i18n="ext_name"></title>
   <link rel="stylesheet" href="popup.css">
 </head>
 <body>
@@ -12,30 +12,30 @@
     <div class="brand">
       <strong>Cinema Tools</strong>
       <!-- #full-start -->
-      <span>cho YouTube</span>
+      <span data-i18n="full_popup_brand_sub"></span>
       <!-- #full-end -->
       <!-- #store-start
-      <span>công cụ xem video</span>
+      <span data-i18n="popup_brand_sub_store"></span>
       #store-end -->
     </div>
-    <button type="button" class="pip-btn" id="pipBtn" title="Đưa video đang phát ra cửa sổ nổi, nằm trên mọi ứng dụng (Alt+P)">
-      <span data-icon="pip"></span><span id="pipText">Cửa sổ nổi</span>
+    <button type="button" class="pip-btn" id="pipBtn" data-i18n-title="popup_pip_title">
+      <span data-icon="pip"></span><span id="pipText" data-i18n="popup_pip"></span>
     </button>
-    <button type="button" role="tab" class="gear" id="tab-settings" aria-controls="panel-settings" aria-selected="false" tabindex="-1" title="Cài đặt" aria-label="Cài đặt">
+    <button type="button" role="tab" class="gear" id="tab-settings" aria-controls="panel-settings" aria-selected="false" tabindex="-1" data-i18n-title="popup_settings" data-i18n-aria-label="popup_settings">
       <span data-icon="gear"></span>
     </button>
   </header>
 
-  <nav class="tabs" role="tablist" aria-label="Các mục">
-    <button type="button" role="tab" id="tab-control" aria-controls="panel-control" aria-selected="true">Video</button>
-    <button type="button" role="tab" id="tab-audio" aria-controls="panel-audio" aria-selected="false" tabindex="-1">Âm thanh</button>
+  <nav class="tabs" role="tablist" data-i18n-aria-label="popup_sections">
+    <button type="button" role="tab" id="tab-control" aria-controls="panel-control" aria-selected="true" data-i18n="popup_tab_video"></button>
+    <button type="button" role="tab" id="tab-audio" aria-controls="panel-audio" aria-selected="false" tabindex="-1" data-i18n="popup_tab_audio"></button>
     <!-- #full-start -->
-    <button type="button" role="tab" id="tab-download" aria-controls="panel-download" aria-selected="false" tabindex="-1">Tải về</button>
+    <button type="button" role="tab" id="tab-download" aria-controls="panel-download" aria-selected="false" tabindex="-1" data-i18n="full_popup_tab_download"></button>
     <!-- #full-end -->
     <!-- #store-start
-    <button type="button" role="tab" id="tab-download" aria-controls="panel-download" aria-selected="false" tabindex="-1">Ảnh</button>
+    <button type="button" role="tab" id="tab-download" aria-controls="panel-download" aria-selected="false" tabindex="-1" data-i18n="popup_tab_images"></button>
     #store-end -->
-    <button type="button" role="tab" id="tab-tools" aria-controls="panel-tools" aria-selected="false" tabindex="-1">Tiện ích</button>
+    <button type="button" role="tab" id="tab-tools" aria-controls="panel-tools" aria-selected="false" tabindex="-1" data-i18n="popup_tab_tools"></button>
   </nav>
 
   <!-- ===== Thẻ Điều khiển ===== -->
@@ -45,19 +45,17 @@
     <div class="modes">
       <button class="mode" id="lightsBtn" type="button" aria-pressed="false" disabled>
         <span class="mode-icon" data-icon="lights"></span>
-        <strong id="lightsTitle">Tắt đèn</strong>
-        <small id="lightsSub">Trang tối, đèn nền</small>
+        <strong id="lightsTitle" data-i18n="popup_lights_title"></strong>
       </button>
       <button class="mode" id="cinemaBtn" type="button" aria-pressed="false" disabled>
         <span class="mode-icon" data-icon="cinema"></span>
-        <strong id="cinemaTitle">Rạp phim</strong>
-        <small id="cinemaSub">Tràn kín cửa sổ</small>
+        <strong id="cinemaTitle" data-i18n="popup_cinema_title"></strong>
       </button>
     </div>
 
     <section class="card">
       <div class="card-head">
-        <h2>Xoay &amp; lật video</h2>
+        <h2 data-i18n="popup_transform_heading"></h2>
         <span class="state" id="transformState">0°</span>
       </div>
       <div class="grid" id="actions">
@@ -72,20 +70,20 @@
 
     <section class="card" id="zoomCard">
       <div class="card-head">
-        <h2>Phóng to &amp; cắt viền</h2>
+        <h2 data-i18n="popup_zoom_heading"></h2>
         <span class="state" id="zoomState">100%</span>
       </div>
       <div id="zoomActions">
         <div class="zoom-row">
-          <button type="button" class="wide" data-action="autoCrop" data-crop="auto" title="Tự dò và cắt viền đen trong video" disabled><span data-icon="autoCrop"></span>Tự cắt viền</button>
-          <button type="button" class="wide" data-action="fillFrame" data-crop="fill" title="Phóng cho hình lấp kín khung trình phát" disabled><span data-icon="fillFrame"></span>Lấp đầy</button>
-          <button type="button" data-action="crop21x9" data-crop="21:9" title="Phim màn ảnh rộng 21:9" disabled>21:9</button>
-          <button type="button" data-action="crop4x3" data-crop="4:3" title="Video 4:3 đóng khung 16:9" disabled>4:3</button>
+          <button type="button" class="wide" data-action="autoCrop" data-crop="auto" data-i18n-title="popup_autocrop_title" disabled><span data-icon="autoCrop"></span><span data-i18n="popup_autocrop"></span></button>
+          <button type="button" class="wide" data-action="fillFrame" data-crop="fill" data-i18n-title="popup_fill_title" disabled><span data-icon="fillFrame"></span><span data-i18n="popup_fill"></span></button>
+          <button type="button" data-action="crop21x9" data-crop="21:9" data-i18n-title="popup_crop21_title" disabled>21:9</button>
+          <button type="button" data-action="crop4x3" data-crop="4:3" data-i18n-title="popup_crop43_title" disabled>4:3</button>
         </div>
         <div class="zoom-row">
-          <button type="button" data-action="zoomOut" title="Thu nhỏ" aria-label="Thu nhỏ" disabled><span data-icon="zoomOut"></span></button>
-          <button type="button" class="wide" data-action="resetZoom" disabled>Bỏ phóng to</button>
-          <button type="button" data-action="zoomIn" title="Phóng to" aria-label="Phóng to" disabled><span data-icon="zoomIn"></span></button>
+          <button type="button" data-action="zoomOut" data-i18n-title="act_zoom_out" data-i18n-aria-label="act_zoom_out" disabled><span data-icon="zoomOut"></span></button>
+          <button type="button" class="wide" data-action="resetZoom" disabled data-i18n="act_reset_zoom"></button>
+          <button type="button" data-action="zoomIn" data-i18n-title="act_zoom_in" data-i18n-aria-label="act_zoom_in" disabled><span data-icon="zoomIn"></span></button>
         </div>
       </div>
     </section>
@@ -95,12 +93,13 @@
   <div class="panel" id="panel-audio" role="tabpanel" aria-labelledby="tab-audio" hidden>
     <section class="card">
       <div class="card-head">
-        <h2>Âm lượng từng tab</h2>
-        <button type="button" class="link small" id="muteOthers" hidden title="Tắt tiếng mọi tab khác đang phát">Chỉ nghe tab này</button>
+        <h2 data-i18n="popup_audio_heading"></h2>
+        <button type="button" class="link small" id="muteOthers" hidden data-i18n-title="popup_mute_others_title" data-i18n="popup_mute_others"></button>
       </div>
       <ul class="mixer" id="mixer"></ul>
-      <p class="muted small" id="mixerEmpty" hidden>Chưa có tab nào đang phát âm thanh.</p>
-      <p class="setting-note">Kéo để chỉnh 0–100% cho mọi tab. Tab đang mở popup kéo được tới 600% (tăng âm). Bấm tên tab để chuyển tới tab đó.</p>
+      <div class="empty" id="mixerEmpty" hidden>
+        <span data-icon="speakerOff"></span><span data-i18n="popup_mixer_empty"></span>
+      </div>
     </section>
   </div>
 
@@ -108,22 +107,35 @@
   <div class="panel" id="panel-tools" role="tabpanel" aria-labelledby="tab-tools" hidden>
     <section class="card">
       <div class="card-head">
-        <h2>Chụp màn hình</h2>
-        <span class="hint">Alt+S: cả trang</span>
+        <h2 data-i18n="popup_shot_heading"></h2>
       </div>
       <div class="shot-grid" id="shotButtons">
-        <button type="button" class="shot-btn" data-shot="full">
-          <span data-icon="shotFull"></span><strong>Cả trang</strong><small>Tự cuộn và ghép</small>
+        <button type="button" class="shot-btn" data-shot="full" data-i18n-title="popup_shot_full_sub">
+          <kbd class="corner">Alt+S</kbd>
+          <span data-icon="shotFull"></span><strong data-i18n="popup_shot_full"></strong>
         </button>
-        <button type="button" class="shot-btn" data-shot="visible">
-          <span data-icon="shotVisible"></span><strong>Đang thấy</strong><small>Đúng màn hình</small>
+        <button type="button" class="shot-btn" data-shot="visible" data-i18n-title="popup_shot_visible_sub">
+          <span data-icon="shotVisible"></span><strong data-i18n="popup_shot_visible"></strong>
         </button>
-        <button type="button" class="shot-btn" data-shot="region">
-          <span data-icon="shotRegion"></span><strong>Chọn vùng</strong><small>Kéo chuột</small>
+        <button type="button" class="shot-btn" data-shot="region" data-i18n-title="popup_shot_region_sub">
+          <span data-icon="shotRegion"></span><strong data-i18n="popup_shot_region"></strong>
         </button>
       </div>
       <p class="err" id="shotErr" hidden></p>
-      <p class="setting-note">Ảnh mở ở tab mới: xem, tải PNG / JPG hoặc sao chép để dán. Trong lúc chụp cả trang, đừng chuyển tab.</p>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2 data-i18n="popup_share_heading"></h2>
+      </div>
+      <button type="button" class="share-btn" id="shareBtn" data-i18n-title="popup_share_btn_sub">
+        <span data-icon="share"></span>
+        <span class="share-text">
+          <strong data-i18n="popup_share_btn"></strong>
+        </span>
+        <span class="chev" data-icon="chevron"></span>
+      </button>
+      <p class="err" id="shareErr" hidden></p>
     </section>
   </div>
 
@@ -132,31 +144,30 @@
     <!-- #full-start -->
     <section class="card" id="videoCard">
       <div class="card-head">
-        <h2>Video &amp; âm thanh</h2>
+        <h2 data-i18n="full_popup_video_heading"></h2>
         <span class="hint" id="hostState"></span>
       </div>
 
       <div class="setup" id="hostSetup" hidden>
-        <strong id="setupTitle">Chưa cài bộ tải video</strong>
-        <p id="setupText">Tải video cần yt-dlp chạy trên máy (cài một lần, miễn phí):</p>
+        <strong id="setupTitle" data-i18n="full_popup_setup_title"></strong>
+        <p id="setupText" data-i18n="full_popup_setup_text"></p>
         <ol>
-          <li>Thư mục extension → <b>native-host</b> → bấm đúp <b>install.bat</b>.</li>
-          <li>Chờ báo <b>Hoàn tất</b> rồi bấm <b>Kiểm tra lại</b>.</li>
+          <li data-i18n-rich="full_popup_setup_step1"></li>
+          <li data-i18n-rich="full_popup_setup_step2"></li>
         </ol>
         <div class="setup-id">
           <span>ID: <code id="extId"></code></span>
-          <button type="button" class="link" id="copyId">Sao chép</button>
+          <button type="button" class="link" id="copyId" data-i18n="full_popup_copy"></button>
         </div>
-        <button type="button" class="ghost" id="recheckHost">Kiểm tra lại</button>
-        <p class="muted small">Ảnh vẫn tải được mà không cần cài.</p>
+        <button type="button" class="ghost" id="recheckHost" data-i18n="full_popup_recheck"></button>
       </div>
 
       <div id="videoArea">
         <div id="vIdle">
-          <p class="muted" id="vIdleText">Tìm video trên trang bằng yt-dlp (YouTube, Facebook, TikTok, X… hơn 1000 trang).</p>
-          <button type="button" class="primary" id="vAnalyze"><span data-icon="video"></span>Tìm video trên trang này</button>
+          <p class="muted" id="vIdleText"></p>
+          <button type="button" class="primary" id="vAnalyze" data-i18n-title="full_popup_v_idle"><span data-icon="video"></span><span data-i18n="full_popup_v_analyze"></span></button>
         </div>
-        <div class="loading" id="vLoading" hidden><span class="spinner"></span><span id="vLoadingText">Đang phân tích video…</span></div>
+        <div class="loading" id="vLoading" hidden><span class="spinner"></span><span id="vLoadingText" data-i18n="full_popup_v_loading"></span></div>
         <p class="err" id="vError" hidden></p>
 
         <div id="vInfo" hidden>
@@ -167,23 +178,23 @@
               <small id="vSub"></small>
             </div>
           </div>
-          <select id="vEntry" class="full" aria-label="Chọn video trên trang" hidden></select>
+          <select id="vEntry" class="full" data-i18n-aria-label="full_popup_v_entry" hidden></select>
           <div class="dl-row" id="vRow">
-            <select id="vQuality" aria-label="Chất lượng"></select>
-            <select id="vFormat" aria-label="Định dạng"></select>
+            <select id="vQuality" data-i18n-aria-label="full_popup_v_quality"></select>
+            <select id="vFormat" data-i18n-aria-label="full_popup_v_format"></select>
           </div>
           <p class="warn" id="vHint" hidden></p>
-          <button type="button" class="primary" id="vDownload"><span data-icon="download"></span><span id="vDownloadText">Tải về</span></button>
+          <button type="button" class="primary" id="vDownload"><span data-icon="download"></span><span id="vDownloadText" data-i18n="full_popup_v_download"></span></button>
         </div>
       </div>
 
       <ul class="jobs" id="jobs"></ul>
-      <button type="button" class="link small" id="jobsClear" hidden>Xoá các mục đã xong</button>
+      <button type="button" class="link small" id="jobsClear" hidden data-i18n="full_popup_jobs_clear"></button>
     </section>
 
     <section class="card" id="streamsCard" hidden>
       <div class="card-head">
-        <h2>Tệp &amp; luồng video</h2>
+        <h2 data-i18n="full_popup_streams_heading"></h2>
         <span class="hint" id="streamsCount"></span>
       </div>
       <ul class="streams" id="streams"></ul>
@@ -192,28 +203,28 @@
 
     <section class="card" id="imagesCard">
       <div class="card-head">
-        <h2>Ảnh trên trang</h2>
+        <h2 data-i18n="popup_img_heading"></h2>
         <span class="hint" id="imgCount"></span>
       </div>
       <div class="img-tools">
-        <select id="imgFormat" aria-label="Lưu ảnh dạng" title="Lưu ảnh dạng">
-          <option value="original">Gốc</option>
+        <select id="imgFormat" data-i18n-aria-label="popup_img_format" data-i18n-title="popup_img_format">
+          <option value="original" data-i18n="popup_img_format_original"></option>
           <option value="png">PNG</option>
           <option value="jpeg">JPG</option>
           <option value="webp">WebP</option>
         </select>
-        <label class="chk" title="Hiện cả biểu tượng và ảnh nhỏ"><input type="checkbox" id="imgSmall">Ảnh nhỏ</label>
+        <label class="chk" data-i18n-title="popup_img_small_title"><input type="checkbox" id="imgSmall"><span data-i18n="popup_img_small"></span></label>
         <span class="spacer"></span>
         <!-- #full-start -->
-        <button type="button" class="tool" id="thumbBtn" title="Tải ảnh bìa video (bản lớn nhất)" hidden><span data-icon="image"></span>Ảnh bìa</button>
+        <button type="button" class="tool" id="thumbBtn" data-i18n-title="full_popup_thumb_title" hidden><span data-icon="image"></span><span data-i18n="full_popup_thumb"></span></button>
         <!-- #full-end -->
-        <button type="button" class="tool" id="snapBtn" hidden><span data-icon="camera"></span><span id="snapText">Chụp</span></button>
+        <button type="button" class="tool" id="snapBtn" hidden><span data-icon="camera"></span><span id="snapText" data-i18n="popup_snap"></span></button>
       </div>
       <p class="muted" id="imgEmpty" hidden></p>
       <div class="img-grid" id="imgGrid"></div>
       <div class="img-actions">
-        <button type="button" class="ghost" id="imgAll" disabled>Chọn tất cả</button>
-        <button type="button" class="primary" id="imgDownload" disabled><span data-icon="download"></span><span id="imgDownloadText">Tải ảnh</span></button>
+        <button type="button" class="ghost" id="imgAll" disabled data-i18n="popup_img_all"></button>
+        <button type="button" class="primary" id="imgDownload" disabled><span data-icon="download"></span><span id="imgDownloadText" data-i18n="popup_img_download"></span></button>
       </div>
       <p class="status-line" id="imgStatus" hidden></p>
     </section>
@@ -222,76 +233,76 @@
   <!-- ===== Thẻ Cài đặt ===== -->
   <div class="panel" id="panel-settings" role="tabpanel" aria-labelledby="tab-settings" hidden>
     <section class="card">
-      <div class="card-head"><h2>Tắt đèn &amp; đèn nền</h2></div>
+      <div class="card-head"><h2 data-i18n="popup_set_lights_heading"></h2></div>
 
       <label class="field">
-        <span class="field-top"><span>Độ tối màn che</span><output for="dim" id="dimOut"></output></span>
+        <span class="field-top"><span data-i18n="popup_set_dim"></span><output for="dim" id="dimOut"></output></span>
         <input type="range" id="dim" min="50" max="100" step="1">
       </label>
 
       <label class="toggle">
-        <span>Đèn nền phía sau video</span>
+        <span data-i18n="popup_set_glow"></span>
         <input type="checkbox" id="glow" role="switch">
       </label>
 
       <div id="glowFields">
         <label class="field">
-          <span class="field-top"><span>Độ sáng đèn nền</span><output id="glowStrengthOut"></output></span>
+          <span class="field-top"><span data-i18n="popup_set_glow_strength"></span><output id="glowStrengthOut"></output></span>
           <input type="range" id="glowStrength" min="20" max="100" step="1">
         </label>
         <label class="field">
-          <span class="field-top"><span>Độ lan đèn nền</span><output id="glowSizeOut"></output></span>
+          <span class="field-top"><span data-i18n="popup_set_glow_size"></span><output id="glowSizeOut"></output></span>
           <input type="range" id="glowSize" min="0" max="100" step="1">
         </label>
       </div>
     </section>
 
     <section class="card">
-      <div class="card-head"><h2>Tuỳ chọn</h2></div>
+      <div class="card-head"><h2 data-i18n="popup_set_options"></h2></div>
       <label class="toggle">
-        <span>Giữ xoay, lật, phóng to khi chuyển video</span>
+        <span data-i18n="popup_set_keep_transform"></span>
         <input type="checkbox" id="keepTransform" role="switch">
       </label>
       <label class="toggle">
-        <span>Hiện nút trên trình phát</span>
+        <span data-i18n="popup_set_player_buttons"></span>
         <input type="checkbox" id="playerButtons" role="switch">
       </label>
       <label class="toggle">
-        <span>Phím tắt bàn phím</span>
+        <span data-i18n="popup_set_shortcuts"></span>
         <input type="checkbox" id="shortcuts" role="switch">
       </label>
       <label class="toggle">
-        <span>Tự mở cửa sổ nổi khi chuyển tab (YouTube)</span>
+        <span data-i18n="popup_set_auto_pip"></span>
         <input type="checkbox" id="autoPip" role="switch">
       </label>
     </section>
 
     <section class="card" id="shortcutCard">
       <div class="card-head">
-        <h2>Phím tắt</h2>
-        <span class="hint">Alt + Shift + phím</span>
+        <h2 data-i18n="popup_keys_heading"></h2>
+        <span class="hint" data-i18n="popup_keys_hint"></span>
       </div>
       <ul class="keys" id="shortcutList"></ul>
-      <p class="setting-note">Đang phóng to: kéo video bằng chuột để di chuyển khung hình. Đổi phím Alt+P ở chrome://extensions/shortcuts.</p>
+      <button type="button" class="link small" id="editShortcuts" data-i18n="popup_keys_customize"></button>
     </section>
 
     <!-- #full-start -->
     <section class="card">
-      <div class="card-head"><h2>Tải về</h2></div>
-      <label class="toggle">
-        <span>Dùng phiên đăng nhập của trình duyệt khi tải video</span>
+      <div class="card-head"><h2 data-i18n="full_popup_set_download_heading"></h2></div>
+      <label class="toggle" data-i18n-title="full_popup_set_cookies_note">
+        <span data-i18n="full_popup_set_cookies"></span>
         <input type="checkbox" id="dlCookies" role="switch">
       </label>
-      <p class="setting-note">Cần cho Facebook, Instagram, video riêng tư… Cookie chỉ gửi tới bộ tải trên máy bạn, không lưu ra ổ đĩa. Không áp dụng cho YouTube.</p>
     </section>
     <!-- #full-end -->
 
     <footer class="foot">
-      <button type="button" class="link" id="resetSettings">Khôi phục cài đặt mặc định</button>
+      <button type="button" class="link" id="resetSettings" data-i18n="popup_reset"></button>
       <span class="ver" id="version"></span>
     </footer>
   </div>
 
+  <script src="/src/shared/i18n.js"></script>
   <script src="/src/shared/shared.js"></script>
   <script src="popup.js"></script>
   <script src="audio.js"></script>

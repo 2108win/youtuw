@@ -14,6 +14,15 @@ và công cụ tải video / âm thanh / ảnh trên mọi trang web:
 - **Chụp màn hình (mọi trang)** – thẻ **Tiện ích** hoặc `Alt+S`: **Cả trang** (tự cuộn từng màn hình rồi ghép, thanh
   tiêu đề dính chỉ giữ ở đầu ảnh), **Phần đang thấy**, **Chọn vùng** (kéo chuột, Esc để huỷ). Ảnh mở ở tab mới để xem
   (bấm ảnh để xem cỡ thật), **Tải PNG / JPG** hoặc **Sao chép** để dán. Ảnh giữ đúng độ nét màn hình (vd. 125%).
+- **Xem trước khi chia sẻ (mọi trang)** – thẻ **Tiện ích** → **Kiểm tra trang này**: mở trang báo cáo ở tab mới, cho xem
+  liên kết của trang sẽ hiện ra sao trên **Facebook, Zalo, X, LinkedIn, Discord, Telegram** và kết quả **Google**, chấm
+  điểm 0–100 kèm tình trạng từng nền tảng, liệt kê lỗi kèm cách sửa (Open Graph, Twitter Card, ảnh chia sẻ, title,
+  description, canonical, noindex…) và **bộ thẻ meta gợi ý** để chép vào `<head>`.
+  - Đọc **HTML gốc** như máy quét mạng xã hội (tải lại trang không kèm cookie, không chạy JavaScript) rồi so với trang
+    đang hiển thị: báo thẻ **chỉ có sau khi JavaScript chạy** (lỗi hay gặp ở web SPA, mạng xã hội không thấy).
+  - Tải ảnh `og:image` để đo kích thước, tỉ lệ 1,91:1 (vẽ khung cắt), dung lượng (Facebook tối đa 8 MB, X 5 MB), định dạng.
+  - Nhập địa chỉ khác ở ô trên cùng để kiểm tra trang bất kỳ. Trang ở localhost / mạng LAN vẫn kiểm tra được (để thử
+    trước khi đưa lên mạng); khi đó trang báo rõ là mạng xã hội không vào được. Không dùng trong cửa sổ ẩn danh.
 
 - **Xoay & lật video**: lật ngang (soi gương), lật dọc, xoay trái/phải 90°, xoay 180°, đặt lại.
   Khi xoay 90° video tự thu/phóng cho vừa khung, kể cả ở chế độ rạp và toàn màn hình.
@@ -56,6 +65,7 @@ và công cụ tải video / âm thanh / ảnh trên mọi trang web:
 | Xoay/lật/phóng to, tắt đèn, đèn nền, Rạp phim (YouTube) | Có | Có |
 | Cửa sổ nổi, âm lượng từng tab, chụp màn hình, lưu ảnh, chụp khung hình | Có | Có |
 | Tải video / âm thanh (yt-dlp), tệp & luồng video, ảnh bìa YouTube | **Không** | Có (cần cài bộ tải trên máy) |
+| Xem trước khi chia sẻ (Open Graph / SEO) | Có | Có |
 
 Chính sách Chrome Web Store không cho extension tải video YouTube, nên bản Store được build từ cùng mã nguồn nhưng bỏ
 hết phần tải video và các quyền đi kèm (`nativeMessaging`, `cookies`, `webRequest`).
@@ -107,6 +117,7 @@ bật/tắt phím tắt.
 
 ```
 manifest.json            Khai báo extension (MV3)
+_locales/<ngôn ngữ>/     Chuỗi giao diện theo ngôn ngữ (messages.json); en là mặc định
 icons/                   Biểu tượng 16/32/48/128 px
 popup/                   Popup khi bấm biểu tượng extension
   popup.html / .css / .js  Đầu popup (Cửa sổ nổi, ⚙ Cài đặt kèm phím tắt), thẻ Video, thẻ Tiện ích (chụp màn hình)
@@ -114,6 +125,7 @@ popup/                   Popup khi bấm biểu tượng extension
   download.js            Thẻ Tải về (video, luồng, ảnh)
 src/shot/                Trang kết quả chụp màn hình: ghép khung, tải PNG/JPG, sao chép
   shot.html / .css / .js
+src/shared/i18n.js       Lấy chuỗi giao diện theo ngôn ngữ (YTX_I18N: t, tn, rich, num, apply)
 src/shared/shared.js     Dùng chung: cài đặt mặc định, tên thao tác, phím tắt, biểu tượng SVG, mô tả tiến độ tải
 src/background/          Service worker
   background.js          Gọi bộ tải yt-dlp, danh sách tải + huy hiệu %, tải ảnh, dò luồng video (webRequest),
@@ -160,6 +172,14 @@ src/content/             Chạy trong trang YouTube (thứ tự nạp theo manif
 - **YouTube là ứng dụng một trang**: dùng sự kiện `yt-navigate-finish` và kiểm tra định kỳ 1 giây để gắn lại
   nút khi YouTube dựng lại thanh điều khiển.
 - Không dùng `innerHTML` (YouTube bật Trusted Types); tạo phần tử bằng `YTX.h()` và `createIcon()`.
+- **Đa ngôn ngữ**: dùng `chrome.i18n`, giao diện theo ngôn ngữ của Chrome; ngôn ngữ chưa có bản dịch dùng tiếng Anh
+  (`default_locale`). Chuỗi nằm ở `_locales/<ngôn ngữ>/messages.json`; trong mã gọi `t('khoá', …)`, số đếm có danh từ
+  dùng `tn('khoá', n)` (cần `khoá_one` / `khoá_other`), HTML dùng `data-i18n="khoá"` (và `data-i18n-title`,
+  `data-i18n-aria-label`…). Khoá chỉ gồm `a-z0-9_`, viết nguyên trong mã (không ghép chuỗi), khoá của phần chỉ có ở
+  bản đầy đủ bắt đầu bằng `full_` (bản Store tự xoá). Thêm chuỗi mới: thêm khoá vào **mọi** thư mục ngôn ngữ, rồi chạy
+  `node tools/i18n-check.mjs` (báo khoá thiếu, ngôn ngữ thiếu khoá, sai `$1…$9`). Trang offscreen không có
+  `chrome.i18n` nên trả mã lỗi để service worker dịch. Thêm ngôn ngữ: chép `_locales/en` sang thư mục mới
+  (vd. `_locales/it`), dịch `message`, đặt `locale_code` (vd. `it`).
 - **Tải video**: popup / trình phát → service worker → `chrome.runtime.connectNative('com.cinematools.downloader')`
   → `host.bat` → `host.py` (gọi thẳng thư viện `yt_dlp`). Mỗi lượt tải là một tiến trình riêng, gửi tiến độ liên tục; huỷ hoặc
   đóng kết nối thì xoá tệp tải dở. Bộ nối chỉ nhận lựa chọn hợp lệ (chế độ, độ phân giải, MP4/WebM/MKV, MP3/M4A/Opus)
@@ -222,7 +242,8 @@ node tools/build.mjs full --zip     # dist/full/ + ZIP bản đầy đủ (đín
   `chrome.webRequest`…
 - Mỗi lần cập nhật: tăng `version` trong `manifest.json` → build ZIP → Chrome Web Store Developer Dashboard → mục
   extension → **Package** → **Upload new package** → **Submit for review**. Mỗi bản cập nhật đều phải qua duyệt lại.
-- Tên, mô tả và danh sách quyền của bản Store nằm trong `STORE_MANIFEST` / `STORE_DROP_PERMISSIONS` ở `tools/build.mjs`.
+- Tên và mô tả của bản Store là khoá `ext_name_store` / `ext_desc_store` trong `_locales` (build kiểm tra mỗi ngôn ngữ:
+  tên ≤ 75, mô tả ≤ 132 ký tự); danh sách quyền nằm trong `STORE_DROP_PERMISSIONS` ở `tools/build.mjs`.
   Thêm quyền mới thì phải cập nhật phần giải thích quyền và [PRIVACY.md](PRIVACY.md).
 
 ## Giấy phép

@@ -12,6 +12,7 @@
 
   const T = YTX.transform;
   const Z = (YTX.zoom = {});
+  const I18N = globalThis.YTX_I18N;
 
   // Tỉ lệ khung hình thật của phim. "21:9" dùng 2.39 để không còn sót viền mảnh với phim 2.35–2.39.
   const RATIOS = {
@@ -37,7 +38,7 @@
   Z.detectBars = (video) => {
     const vw = video.videoWidth;
     const vh = video.videoHeight;
-    if (!vw || !vh || video.readyState < 2) return { error: 'Video chưa sẵn sàng, thử lại sau giây lát' };
+    if (!vw || !vh || video.readyState < 2) return { error: I18N.t('yt_err_video_not_ready') };
 
     const W = SAMPLE_W;
     const H = Math.max(16, Math.round((W * vh) / vw));
@@ -50,7 +51,7 @@
       g.drawImage(video, 0, 0, W, H);
       data = g.getImageData(0, 0, W, H).data;
     } catch (_) {
-      return { error: 'Không đọc được khung hình của video này' };
+      return { error: I18N.t('yt_err_frame_unreadable') };
     }
 
     const luma = (i) => 0.2126 * data[i] + 0.7152 * data[i + 1] + 0.0722 * data[i + 2];
@@ -77,12 +78,12 @@
     let right = 0;
     while (right < W / 2 && colDark(W - 1 - right)) right++;
 
-    if (top >= H / 2 || left >= W / 2) return { error: 'Cảnh quá tối, hãy thử lại ở cảnh sáng hơn' };
+    if (top >= H / 2 || left >= W / 2) return { error: I18N.t('yt_err_scene_too_dark') };
 
     // Lấy bên nhỏ hơn để không cắt mất hình (phụ đề in trong viền dưới, cảnh tối một phía…).
     let barY = Math.min(top, bottom) / H;
     let barX = Math.min(left, right) / W;
-    if (barY > MAX_BAR || barX > MAX_BAR) return { error: 'Cảnh quá tối, hãy thử lại ở cảnh sáng hơn' };
+    if (barY > MAX_BAR || barX > MAX_BAR) return { error: I18N.t('yt_err_scene_too_dark') };
     barY = barY < MIN_BAR ? 0 : barY + 0.5 / H; // cắt sâu thêm nửa điểm mẫu để không còn vệt xám
     barX = barX < MIN_BAR ? 0 : barX + 0.5 / W;
     return { fw: 1 - 2 * barX, fh: 1 - 2 * barY };
@@ -96,25 +97,25 @@
     if (res.error) return res.error;
     T.setCrop({ id: 'auto', fw: res.fw, fh: res.fh });
     const zoom = T.describe().zoom;
-    if (res.fw === 1 && res.fh === 1) return `Không thấy viền đen trong video · lấp đầy khung ${zoom}%`;
-    return `Đã cắt viền đen · ${zoom}%`;
+    if (res.fw === 1 && res.fh === 1) return I18N.t('yt_toast_no_bars', zoom);
+    return I18N.t('yt_toast_bars_cropped', zoom);
   };
 
   Z.fill = () => {
     T.setCrop({ id: 'fill', fw: 1, fh: 1 });
-    return `Lấp đầy khung · ${T.describe().zoom}%`;
+    return I18N.t('yt_toast_fill', T.describe().zoom);
   };
 
   Z.ratio = (key) => {
     const preset = RATIOS[key];
     const video = YTX.getVideo();
     const fa = video ? frameAspect(video) : 0;
-    if (!preset || !fa) return 'Video chưa sẵn sàng, thử lại sau giây lát';
+    if (!preset || !fa) return I18N.t('yt_err_video_not_ready');
     const crop = preset.ratio >= fa
       ? { id: preset.id, fw: 1, fh: fa / preset.ratio }
       : { id: preset.id, fw: preset.ratio / fa, fh: 1 };
     T.setCrop(crop);
-    return `Cắt theo tỉ lệ ${preset.id} · ${T.describe().zoom}%`;
+    return I18N.t('yt_toast_crop_ratio', preset.id, T.describe().zoom);
   };
 
   // ---- Kéo để di chuyển khi đang phóng to ---------------------------------------------

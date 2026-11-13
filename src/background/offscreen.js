@@ -2,6 +2,8 @@
  * Trang ẩn (offscreen) phục vụ service worker:
  * tải ảnh, kiểm tra bản "lớn hơn" có thật không, đổi định dạng PNG/JPG/WebP,
  * rồi tạo blob URL để chrome.downloads lưu về máy (service worker không tạo được blob URL).
+ * Trang này không có chrome.i18n: lỗi trả về là mã khoá (bg_…, kèm err.args cho $1…),
+ * service worker dịch (offscreenError trong background.js).
  */
 'use strict';
 
@@ -16,21 +18,8 @@ const REVOKE_AFTER = 3 * 60 * 1000;
 const MAX_BYTES = 50 * 1024 * 1024; // ảnh lớn hơn 50 MB: bỏ qua
 const IMAGE_EXTS = new Set(['jpg', 'jfif', 'png', 'gif', 'webp', 'avif', 'bmp', 'svg', 'tif', 'tiff', 'ico', 'heic', 'jxl']);
 
-/** Địa chỉ trong mạng nội bộ / máy này: không tự gửi yêu cầu tới (trang web có thể cài sẵn địa chỉ như vậy). */
-function isPrivateHost(url) {
-  let host;
-  try {
-    host = new URL(url).hostname.toLowerCase().replace(/^\[|\]$/g, '');
-  } catch (_) {
-    return true;
-  }
-  if (host === 'localhost' || host.endsWith('.localhost') || host.endsWith('.local') || host === '0.0.0.0') return true;
-  if (host === '::1' || /^f[cd][0-9a-f]{2}:/.test(host) || /^fe80:/.test(host)) return true;
-  const m = host.match(/^(\d+)\.(\d+)\.\d+\.\d+$/);
-  if (!m) return false;
-  const [a, b] = [+m[1], +m[2]];
-  return a === 10 || a === 127 || a === 0 || (a === 169 && b === 254) || (a === 172 && b >= 16 && b <= 31) || (a === 192 && b === 168);
-}
+/** Địa chỉ trong mạng nội bộ / máy này: không tự gửi yêu cầu tới (src/shared/net.js). */
+const { isPrivateHost } = globalThis.YTX_NET;
 
 function extFromUrl(url) {
   try {
@@ -57,18 +46,18 @@ async function sniff(blob) {
 }
 
 async function fetchImage(url) {
-  if (/^https?:/i.test(url) && isPrivateHost(url)) throw new Error('Không tải ảnh từ địa chỉ mạng nội bộ');
+  if (/^https?:/i.test(url) && isPrivateHost(url)) throw new Error('bg_img_private_host');
   // Lần đầu không gửi cookie; chỉ thử lại kèm phiên đăng nhập khi máy chủ đòi (401/403).
   let res = await fetch(url, { credentials: 'omit', referrerPolicy: 'no-referrer' });
   if (res.status === 401 || res.status === 403) res = await fetch(url, { credentials: 'include', referrerPolicy: 'no-referrer' });
-  if (!res.ok) throw new Error(`Máy chủ trả lỗi ${res.status}`);
-  if (+(res.headers.get('content-length') || 0) > MAX_BYTES) throw new Error('Ảnh quá lớn (trên 50 MB)');
+  if (!res.ok) throw Object.assign(new Error('bg_img_server_status'), { args: [res.status] });
+  if (+(res.headers.get('content-length') || 0) > MAX_BYTES) throw new Error('bg_img_too_large');
   let blob = await res.blob();
-  if (blob.size > MAX_BYTES) throw new Error('Ảnh quá lớn (trên 50 MB)');
+  if (blob.size > MAX_BYTES) throw new Error('bg_img_too_large');
   let type = (blob.type || '').toLowerCase();
   if (!type.startsWith('image/')) {
     type = await sniff(blob);
-    if (!type) throw new Error('Địa chỉ không phải ảnh');
+    if (!type) throw new Error('bg_img_not_image');
     blob = new Blob([blob], { type });
   }
   return blob;
@@ -96,7 +85,7 @@ async function decode(blob) {
 }
 
 async function convert(img, w, h, format, quality) {
-  if (!w || !h || w * h > 16384 * 16384) throw new Error('Kích thước ảnh không hợp lệ');
+  if (!w || !h || w * h > 16384 * 16384) throw new Error('bg_img_bad_size');
   const canvas = new OffscreenCanvas(w, h);
   const ctx = canvas.getContext('2d');
   if (format === 'jpeg') {
@@ -124,7 +113,7 @@ async function processImage({ candidates, format, quality, minW, minH }) {
       try {
         dims = await decode(blob);
       } catch (err) {
-        if (format !== 'original' || isGuess) throw new Error('Không đọc được ảnh');
+        if (format !== 'original' || isGuess) throw new Error('bg_img_unreadable');
       }
       if (isGuess && dims && (dims.w < minW || dims.h < minH)) continue; // bản đoán lại nhỏ hơn -> bỏ
       if (format === 'original' || !OUT_MIME[format]) {
@@ -139,7 +128,11 @@ async function processImage({ candidates, format, quality, minW, minH }) {
       lastError = err;
     }
   }
-  return { ok: false, error: String((lastError && lastError.message) || 'Không tải được ảnh') };
+  return {
+    ok: false,
+    error: String((lastError && lastError.message) || 'bg_img_failed'),
+    args: (lastError && Array.isArray(lastError.args)) ? lastError.args : [],
+  };
 }
 
 // ---- Tăng âm lượng tab: bắt âm thanh tab -> khuếch đại -> phát ra loa ----------------------------

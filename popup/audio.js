@@ -7,6 +7,7 @@
 (() => {
   'use strict';
   const { createIcon, pipInTab } = globalThis.YTX_SHARED;
+  const { t: tr } = globalThis.YTX_I18N; // tr: tránh trùng tên biến t (tab) ở dưới
   const $ = (id) => document.getElementById(id);
 
   let currentTab = null;
@@ -60,7 +61,7 @@
     const note = h('p', { class: 'mix-note', hidden: true });
     const label = h('span', { class: `mix-pct${pct > 100 ? ' boost' : ''}`, text: `${pct}%` });
     const slider = h('input', {
-      type: 'range', min: 0, max, step: 5, value: Math.min(pct, max), 'aria-label': `Âm lượng ${t.title}`,
+      type: 'range', min: 0, max, step: 5, value: Math.min(pct, max), 'aria-label': tr('audio_volume_aria', t.title),
       list: canBoost ? 'mix-ticks' : null,
     });
     paintSlider(slider, pct);
@@ -90,7 +91,7 @@
         res = await send({ type: 'vol:set', tabId: t.id, level });
       }
       dragging = null;
-      if (!res || !res.ok) showNote((res && res.error) || 'Không chỉnh được âm lượng tab này.');
+      if (!res || !res.ok) showNote((res && res.error) || tr('audio_set_failed'));
       else Object.assign(t, { level: res.level, captured: res.captured });
       if (pendingReload) load();
     });
@@ -99,7 +100,7 @@
       load();
     });
 
-    const name = h('button', { class: 'mix-name', type: 'button', title: `${t.title}\nBấm để chuyển tới tab này` }, [
+    const name = h('button', { class: 'mix-name', type: 'button', title: tr('audio_tab_switch_tip', t.title) }, [
       t.favIconUrl ? h('img', { src: t.favIconUrl, alt: '', width: 16, height: 16, referrerpolicy: 'no-referrer' }) : createIcon('speaker'),
       h('span', { class: 'mix-title', text: t.title || hostOf(t.url) }),
     ]);
@@ -111,15 +112,15 @@
     if (img) img.addEventListener('error', () => img.replaceWith(createIcon('speaker')), { once: true });
 
     const tags = [];
-    if (t.current) tags.push(h('span', { class: 'mix-tag', text: 'Tab này' }));
-    if (t.audible && !t.muted) tags.push(h('span', { class: 'mix-live', title: 'Đang phát âm thanh' }));
+    if (t.current) tags.push(h('span', { class: 'mix-tag', text: tr('audio_this_tab') }));
+    if (t.audible && !t.muted) tags.push(h('span', { class: 'mix-live', title: tr('audio_playing') }));
 
-    const pipBtn = iconBtn('pip', 'Đưa video tab này ra cửa sổ nổi', async () => {
+    const pipBtn = iconBtn('pip', tr('audio_pip'), async () => {
       const res = await pipInTab(t.id);
       if (res && res.ok) window.close();
-      else showNote((res && res.error) || 'Không mở được cửa sổ nổi.');
+      else showNote((res && res.error) || tr('audio_pip_failed'));
     });
-    const muteBtn = iconBtn(t.muted ? 'speakerOff' : 'speaker', t.muted ? 'Bật tiếng' : 'Tắt tiếng', async () => {
+    const muteBtn = iconBtn(t.muted ? 'speakerOff' : 'speaker', t.muted ? tr('audio_unmute') : tr('audio_mute'), async () => {
       await send({ type: 'vol:mute', tabId: t.id, muted: !t.muted });
       load();
     }, t.muted ? 'on' : '');
@@ -137,7 +138,7 @@
     try {
       streamId = await chrome.tabCapture.getMediaStreamId({ targetTabId: t.id });
     } catch (err) {
-      return { ok: false, error: 'Chỉ tăng quá 100% được ở tab đang mở popup. Mở popup khi đang ở tab đó rồi thử lại.' };
+      return { ok: false, error: tr('audio_boost_current_only') };
     }
     return send({ type: 'vol:boost', tabId: t.id, streamId, level });
   }

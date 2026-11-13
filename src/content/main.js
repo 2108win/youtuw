@@ -13,6 +13,7 @@
   const C = YTX.cinema;
   const Z = YTX.zoom;
   const UI = YTX.ui;
+  const I18N = globalThis.YTX_I18N;
   const ZOOM_STEP = 1.15;
   let panHintShown = false;
 
@@ -49,15 +50,15 @@
 
   function toastText(action) {
     if (action === 'toggleLights' || action === 'lightsOff' || action === 'lightsOn') {
-      return L.dark ? 'Đã tắt đèn · Esc để bật lại' : 'Đã bật đèn';
+      return L.dark ? I18N.t('yt_toast_lights_off') : I18N.t('yt_toast_lights_on');
     }
     if (action === 'toggleCinema') {
-      return C.on ? 'Rạp phim · Esc để thoát' : 'Đã thoát Rạp phim';
+      return C.on ? I18N.t('yt_toast_cinema_on') : I18N.t('yt_toast_cinema_off');
     }
     const t = T.describe();
     const label = YTX.LABELS[action] || '';
-    if (action === 'resetTransform') return 'Đã đặt lại video';
-    if (action === 'resetZoom') return 'Đã bỏ phóng to';
+    if (action === 'resetTransform') return I18N.t('yt_toast_transform_reset');
+    if (action === 'resetZoom') return I18N.t('yt_toast_zoom_reset');
     if (action === 'zoomIn' || action === 'zoomOut') return `${label} · ${t.zoom}%`;
     return `${label} · ${t.angle}°`;
   }
@@ -66,7 +67,7 @@
   function withPanHint(text) {
     if (panHintShown || !T.isZoomed()) return text;
     panHintShown = true;
-    return `${text} · kéo video để di chuyển`;
+    return I18N.t('yt_toast_pan_hint', text);
   }
 
   YTX.getState = () => ({
@@ -83,7 +84,7 @@
     if (!fn) return YTX.getState();
     if (WATCH_ONLY.has(action)) {
       if (!YTX.isWatchPage() && !L.dark && !C.on) {
-        UI.toast('Chỉ dùng được ở trang xem video');
+        UI.toast(I18N.t('yt_toast_watch_only'));
         return YTX.getState();
       }
     } else if (!YTX.getVideo()) {

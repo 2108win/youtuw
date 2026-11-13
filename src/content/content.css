@@ -295,7 +295,7 @@ html.ytx-cinema ytd-watch-flexy[theater] #player-full-bleed-container {
   bottom: 64px;
   z-index: 75;
   box-sizing: border-box;
-  width: 300px;
+  width: 320px;
   max-width: calc(100% - 24px);
   max-height: calc(100% - 72px);
   overflow: auto;
@@ -384,10 +384,11 @@ html.ytx-cinema ytd-watch-flexy[theater] #player-full-bleed-container {
   flex: none;
 }
 
+/* Tên dài (một số ngôn ngữ) xuống dòng nguyên từ thay vì bị cắt "…". */
 .ytx-panel-btn span {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  min-width: 0;
+  line-height: 1.2;
+  overflow-wrap: normal;
 }
 
 /* Phần "Phóng to & cắt viền" trong bảng chọn */
@@ -455,7 +456,7 @@ html.ytx-cinema ytd-watch-flexy[theater] #player-full-bleed-container {
 /* #full-start */
 /* ---------- Bảng "Tải về" trong trình phát ---------- */
 .ytx-panel.ytx-dl-panel {
-  width: 300px;
+  width: 320px;
   padding: 8px;
   overflow-wrap: anywhere; /* lỗi / địa chỉ dài không tràn khỏi bảng */
 }
@@ -607,12 +608,5 @@ html.ytx-cinema ytd-watch-flexy[theater] #player-full-bleed-container {
 @keyframes ytx-dl-indeterminate {
   from { transform: translateX(-100%); }
   to { transform: translateX(290%); }
-}
-
-.ytx-dl-foot {
-  margin: 7px 2px 0;
-  color: #999;
-  font-size: 11px;
-  line-height: 1.4;
 }
 /* #full-end */
